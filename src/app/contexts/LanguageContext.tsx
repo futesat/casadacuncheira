@@ -87,13 +87,15 @@ const translations: Translations = {
   'booking.note': { es: 'Sin compromiso • Confirmación rápida', gl: 'Sen compromiso • Confirmación rápida', en: 'No commitment • Quick confirmation', fr: 'Sans engagement • Confirmation rapide', de: 'Ohne Verpflichtung • Schnelle Bestätigung' },
 
   // Contact
-  'contact.title': { es: 'Estamos aquí para ayudarte', gl: 'Estamos aquí para axudarche', en: 'We\'re here to help', fr: 'Nous sommes là pour vous aider', de: 'Wir sind für Sie da' },
+  'contact.title': { es: 'Estamos aquí para ayudarte', gl: 'Estamos aquí para axudarche', en: 'We\'re here to help', fr: 'Nous sommes là pour vous aider', de: 'Wir sind für Sie da', it: 'Siamo qui per aiutarti', pt: 'Estamos aqui para ayudar' },
   'contact.description': {
     es: 'Contacta con nosotros para cualquier pregunta. Responderemos lo antes posible.',
     gl: 'Contacta connosco para calquera pregunta. Responderemos o antes posible.',
     en: 'Contact us with any questions. We\'ll respond as soon as possible.',
     fr: 'Contactez-nous pour toute question. Nous vous répondrons dès que possible.',
-    de: 'Kontaktieren Sie uns bei Fragen. Wir antworten so schnell wie möglich.'
+    de: 'Kontaktieren Sie uns bei Fragen. Wir antworten so schnell wie möglich.',
+    it: 'Contattaci per qualsiasi domanda. Ti risponderemo il prima possibile.',
+    pt: 'Contacte-nos para qualquer questão. Responderemos o mais breve possível.'
   },
 
   // Footer
