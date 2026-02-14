@@ -1,6 +1,6 @@
 # 🏡 Casa da Cuncheira
 
-[![Deploy to GitHub Pages](https://github.com/futesat/casadacuncheira.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/futesat/casadacuncheira.github.io/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/futesat/casadacuncheira/actions/workflows/deploy.yml/badge.svg)](https://github.com/futesat/casadacuncheira/actions/workflows/deploy.yml)
 
 **Casa da Cuncheira** es un sitio web de alquiler vacacional diseñado para evocar tranquilidad, conexión con la naturaleza y exclusividad. Ubicado en la espectacular Costa da Morte, Galicia, este proyecto ofrece una experiencia visual sofisticada y moderna.
 
