@@ -12,43 +12,43 @@ export function Plans() {
 
   const plans = [
     {
-      title: 'Senderismo por el Monte Pindo',
-      description: 'Ruta de 3 horas por el monte sagrado celta',
+      title: t('plans.hiking.title'),
+      description: t('plans.hiking.desc'),
       image: 'https://images.unsplash.com/photo-1599823855655-990696275157?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaWtpbmclMjB0cmFpbCUyMGNvYXN0YWwlMjBuYXR1cmV8ZW58MXx8fHwxNzcxMTA0Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'nature' as Category,
       duration: '3-4h',
     },
     {
-      title: 'Surf en la Costa da Morte',
-      description: 'Clases de surf en las mejores olas del Atlántico',
+      title: t('plans.surf.title'),
+      description: t('plans.surf.desc'),
       image: 'https://images.unsplash.com/photo-1644773357253-86decfe52166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXJmaW5nJTIwYXRsYW50aWMlMjBvY2VhbiUyMHdhdmVzfGVufDF8fHx8MTc3MTEwNDc3NXww&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'adventure' as Category,
       duration: '2h',
     },
     {
-      title: 'Ruta Gastronómica',
-      description: 'Degustación de pulpo, percebes y vinos gallegos',
+      title: t('plans.gastro.title'),
+      description: t('plans.gastro.desc'),
       image: 'https://images.unsplash.com/photo-1647511575332-ee27d2a53182?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYWxpY2lhbiUyMHNlYWZvb2QlMjBwdWxwbyUyMG9jdG9wdXN8ZW58MXx8fHwxNzcxMTA0Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'gastronomy' as Category,
       duration: 'Medio día',
     },
     {
-      title: 'Kayak por la Costa',
-      description: 'Explora acantilados y cuevas marinas',
-      image: 'https://images.unsplash.com/photo-1759845564654-694348a5a4af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrYXlha2luZyUyMG9jZWFuJTIwYWR2ZW50dXJlfGVufDF8fHx8MTc3MTEwNDc3NXww&ixlib=rb-4.1.0&q=80&w=1080',
+      title: t('plans.kayak.title'),
+      description: t('plans.kayak.desc'),
+      image: 'https://images.unsplash.com/photo-175845564654-694348a5a4af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrYXlha2luZyUyMG9jZWFuJTIw_c_4_a_d_v_e_n_t_u_r_e_f_e_n_1_f_f_f_1_7_7_1_1_0_4_7_7_5_f_0_a_ixlib=rb-4.1.0&q=80&w=1080',
       category: 'adventure' as Category,
       duration: '3h',
     },
     {
-      title: 'Atardeceres Mágicos',
-      description: 'Observa las mejores puestas de sol de Galicia',
+      title: t('plans.sunset.title'),
+      description: t('plans.sunset.desc'),
       image: 'https://images.unsplash.com/photo-1596733220208-07c16e8c671d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMGRhJTIwbW9ydGUlMjBnYWxpY2lhJTIwb2NlYW4lMjBjbGlmZnN8ZW58MXx8fHwxNzcxMTA0NzcwfDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'relax' as Category,
       duration: '1h',
     },
     {
-      title: 'Pueblos Marineros',
-      description: 'Visita Muros, Cee y otros pueblos con historia',
+      title: t('plans.villages.title'),
+      description: t('plans.villages.desc'),
       image: 'https://images.unsplash.com/photo-1582144103470-08865b44e454?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYWxpY2lhJTIwZm9yZXN0JTIwbmF0dXJlJTIwZ3JlZW58ZW58MXx8fHwxNzcxMTA0NzcxfDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'culture' as Category,
       duration: 'Día completo',
@@ -97,8 +97,8 @@ export function Plans() {
               key={filter.id}
               onClick={() => setActiveFilter(filter.id as Category)}
               className={`flex items-center gap-2 px-6 py-3 rounded-full transition-all ${activeFilter === filter.id
-                  ? 'bg-primary text-white shadow-lg'
-                  : 'bg-secondary hover:bg-secondary/70'
+                ? 'bg-primary text-white shadow-lg'
+                : 'bg-secondary hover:bg-secondary/70'
                 }`}
             >
               <filter.icon className="w-4 h-4" />
