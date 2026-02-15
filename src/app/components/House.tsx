@@ -10,11 +10,11 @@ export function House() {
   const { t } = useLanguage();
 
   const images = [
-    'images/casa.jpg',
-    'images/habitacion1.jpg',
-    'images/habitacion2.jpg',
-    'images/habitacion3.jpg',
-    'images/baño.jpg',
+    `${import.meta.env.BASE_URL}images/casa.jpg`,
+    `${import.meta.env.BASE_URL}images/habitacion1.jpg`,
+    `${import.meta.env.BASE_URL}images/habitacion2.jpg`,
+    `${import.meta.env.BASE_URL}images/habitacion3.jpg`,
+    `${import.meta.env.BASE_URL}images/baño.jpg`,
   ];
 
   const sliderSettings = {

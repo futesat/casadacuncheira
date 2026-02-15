@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
-const homeImage = 'images/home.jpg';
+const homeImage = `${import.meta.env.BASE_URL}images/home.jpg`;
 
 export function Hero() {
   const { t } = useLanguage();
