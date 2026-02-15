@@ -66,7 +66,7 @@ export function Header() {
             <img
               src={`${import.meta.env.BASE_URL}images/logo.svg`}
               alt={STATIC_TEXTS.brand}
-              className={`h-14 w-auto transition-all duration-300 ${isScrolled ? '' : 'brightness-0 invert'
+              className={`h-[62px] w-auto transition-all duration-300 ${isScrolled ? '' : 'brightness-0 invert'
                 }`}
             />
           </button>
