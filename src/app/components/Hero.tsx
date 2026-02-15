@@ -20,7 +20,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           src={homeImage}
-          alt="Costa da Morte"
+          alt="Casa da Cuncheira"
           className="w-full h-full object-cover"
           style={{ filter: 'contrast(1.1) saturate(1.2)' }}
         />

@@ -13,7 +13,7 @@ const translations: Translations = {
   'nav.home': { es: 'Inicio', gl: 'Inicio', en: 'Home', fr: 'Accueil', de: 'Startseite', it: 'Inizio', pt: 'Início' },
   'nav.house': { es: 'La Casa', gl: 'A Casa', en: 'The House', fr: 'La Maison', de: 'Das Haus', it: 'La Casa', pt: 'A Casa' },
   'nav.location': { es: 'El Entorno', gl: 'O Contorno', en: 'Location', fr: 'Le Lieu', de: 'Die Umgebung', it: 'Dintorni', pt: 'O Entorno' },
-  'nav.plans': { es: 'Planes', gl: 'Plans', en: 'Plans', fr: 'Plans', de: 'Pläne', it: 'Piani', pt: 'Planos' },
+  'nav.experiences': { es: 'Experiencias', gl: 'Experiencias', en: 'Experiences', fr: 'Expériences', de: 'Erlebnisse', it: 'Esperienze', pt: 'Experiências' },
   'nav.book': { es: 'Reservar', gl: 'Reservar', en: 'Book', fr: 'Réserver', de: 'Buchen', it: 'Prenota', pt: 'Reservar' },
   'nav.contact': { es: 'Contacto', gl: 'Contacto', en: 'Contact', fr: 'Contact', de: 'Kontakt', it: 'Contatto', pt: 'Contacto' },
 
@@ -70,14 +70,14 @@ const translations: Translations = {
     pt: 'Explore praias selvagens, montanhas místicas e aldeias com alma. A Costa da Morte espera por si.'
   },
 
-  // Plans
-  'plans.title': { es: 'Experiencias únicas', gl: 'Experiencias únicas', en: 'Unique experiences', fr: 'Expériences uniques', de: 'Einzigartige Erlebnisse', it: 'Esperienze uniche', pt: 'Experiências únicas' },
-  'plans.filter.all': { es: 'Todos', gl: 'Todos', en: 'All', fr: 'Tous', de: 'Alle', it: 'Tutti', pt: 'Todos' },
-  'plans.filter.nature': { es: 'Naturaleza', gl: 'Natureza', en: 'Nature', fr: 'Nature', de: 'Natur', it: 'Natura', pt: 'Natureza' },
-  'plans.filter.adventure': { es: 'Aventura', gl: 'Aventura', en: 'Adventure', fr: 'Aventure', de: 'Abenteuer', it: 'Avventura', pt: 'Aventura' },
-  'plans.filter.gastronomy': { es: 'Gastronomía', gl: 'Gastronomía', en: 'Gastronomy', fr: 'Gastronomie', de: 'Gastronomie', it: 'Gastronomia', pt: 'Gastronomia' },
-  'plans.filter.relax': { es: 'Relax', gl: 'Relax', en: 'Relax', fr: 'Détente', de: 'Entspannung', it: 'Relax', pt: 'Relax' },
-  'plans.filter.culture': { es: 'Cultura', gl: 'Cultura', en: 'Culture', fr: 'Culture', de: 'Kultur', it: 'Cultura', pt: 'Cultura' },
+  // Experiences
+  'experiences.title': { es: 'Experiencias únicas', gl: 'Experiencias únicas', en: 'Unique experiences', fr: 'Expériences uniques', de: 'Einzigartige Erlebnisse', it: 'Esperienze uniche', pt: 'Experiências únicas' },
+  'experiences.filter.all': { es: 'Todos', gl: 'Todos', en: 'All', fr: 'Tous', de: 'Alle', it: 'Tutti', pt: 'Todos' },
+  'experiences.filter.nature': { es: 'Naturaleza', gl: 'Natureza', en: 'Nature', fr: 'Nature', de: 'Natur', it: 'Natura', pt: 'Natureza' },
+  'experiences.filter.adventure': { es: 'Aventura', gl: 'Aventura', en: 'Adventure', fr: 'Aventure', de: 'Abenteuer', it: 'Avventura', pt: 'Aventura' },
+  'experiences.filter.gastronomy': { es: 'Gastronomía', gl: 'Gastronomía', en: 'Gastronomy', fr: 'Gastronomie', de: 'Gastronomie', it: 'Gastronomia', pt: 'Gastronomia' },
+  'experiences.filter.relax': { es: 'Relax', gl: 'Relax', en: 'Relax', fr: 'Détente', de: 'Entspannung', it: 'Relax', pt: 'Relax' },
+  'experiences.filter.culture': { es: 'Cultura', gl: 'Cultura', en: 'Culture', fr: 'Culture', de: 'Kultur', it: 'Cultura', pt: 'Cultura' },
 
   // Booking
   'booking.title': { es: 'Reserva tu escapada', gl: 'Reserva a túa fuxida', en: 'Book your escape', fr: 'Réservez votre escapade', de: 'Buchen Sie Ihren Aufenthalt', it: 'Prenota la tua fuga', pt: 'Reserve a sua escapadela' },
@@ -119,18 +119,18 @@ const translations: Translations = {
   'location.villages.title': { es: 'Pueblos Históricos', gl: 'Pobos Históricos', en: 'Historic Villages', fr: 'Villages Historiques', de: 'Historische Dörfer', it: 'Borghi Storici', pt: 'Aldeias Históricas' },
   'location.villages.desc': { es: 'Muros, Cee, pueblos marineros con encanto auténtico', gl: 'Muros, Cee, pobos mariñeiros con encanto auténtico', en: 'Muros, Cee, seafaring villages with authentic charm', fr: 'Muros, Cee, villages de pêcheurs au charme authentique', de: 'Muros, Cee, Seefahrerdörfer mit authentischem Charme', it: 'Muros, Cee, villaggi marinari dal fascino autentico', pt: 'Muros, Cee, aldeias marítimas com charme autêntico' },
 
-  'plans.hiking.title': { es: 'Senderismo por el Monte Pindo', gl: 'Sendeirismo polo Monte Pindo', en: 'Hiking Mount Pindo', fr: 'Randonnée au Mont Pindo', de: 'Wandern auf den Berg Pindo', it: 'Escursionismo sul Monte Pindo', pt: 'Caminhadas pelo Monte Pindo' },
-  'plans.hiking.desc': { es: 'Ruta de 3 horas por el monte sagrado celta', gl: 'Ruta de 3 horas polo monte sagrado celta', en: '3-hour route through the sacred Celtic mountain', fr: 'Itinéraire de 3 heures à travers la montagne sacrée celtique', de: '3-stündige Route durch den heiligen keltischen Berg', it: 'Percorso di 3 ore attraverso la sacra montagna celtica', pt: 'Percurso de 3 horas pela montanha sagrada celta' },
-  'plans.surf.title': { es: 'Surf en la Costa da Morte', gl: 'Surf na Costa da Morte', en: 'Surf in Costa da Morte', fr: 'Surf sur la Costa da Morte', de: 'Surfen an der Costa da Morte', it: 'Surf nella Costa da Morte', pt: 'Surf na Costa da Morte' },
-  'plans.surf.desc': { es: 'Clases de surf en las mejores olas del Atlántico', gl: 'Clases de surf nas mellores ondas do Atlántico', en: 'Surf lessons in the best waves of the Atlantic', fr: 'Cours de surf dans las meilleures vagues de l\'Atlantique', de: 'Surfkurse in den besten Wellen des Atlantiks', it: 'Lezioni di surf nelle migliori onde dell\'Atlantico', pt: 'Aulas de surf nas melhores ondas do Atlântico' },
-  'plans.gastro.title': { es: 'Ruta Gastronómica', gl: 'Ruta Gastronómica', en: 'Gastronomic Route', fr: 'Route Gastronomique', de: 'Gastronomische Route', it: 'Percorso Gastronomico', pt: 'Rota Gastronómica' },
-  'plans.gastro.desc': { es: 'Degustación de pulpo, percebes y vinos gallegos', gl: 'Degustación de polbo, percebes e viños galegos', en: 'Tasting of octopus, barnacles, and Galician wines', fr: 'Dégustation de poulpe, pouces-pieds et vins galiciens', de: 'Verkostung von Oktopus, Entenmuscheln und galizischen Weinen', it: 'Degustazione di polpo, percebes e vini galiziani', pt: 'Degustação de polvo, percebes e vinhos galegos' },
-  'plans.kayak.title': { es: 'Kayak por la Costa', gl: 'Kaiak pola Costa', en: 'Coastal Kayaking', fr: 'Kayak Côtier', de: 'Küsten-Kajakfahren', it: 'Kayak sulla Costa', pt: 'Kayak pela Costa' },
-  'plans.kayak.desc': { es: 'Explora acantilados y cuevas marinas', gl: 'Explora acantilados e covas mariñas', en: 'Explore cliffs and sea caves', fr: 'Explorez les falaises et les grottes marines', de: 'Erkunden Sie Klippen und Meereshöhlen', it: 'Esplora scogliere e grotte marine', pt: 'Explore falésias e cavernas marinhas' },
-  'plans.sunset.title': { es: 'Atardeceres Mágicos', gl: 'Atardeceres Máxicos', en: 'Magical Sunsets', fr: 'Couchers de soleil Magiques', de: 'Magische Sonnenuntergänge', it: 'Tramonti Magici', pt: 'Pôr do sol Mágico' },
-  'plans.sunset.desc': { es: 'Observa las mejores puestas de sol de Galicia', gl: 'Observa as mellores postas de sol de Galicia', en: 'Watch the best sunsets in Galicia', fr: 'Observez les meilleurs couchers de soleil de Galice', de: 'Beobachten Sie die besten Sonnenuntergänge in Galizien', it: 'Guarda i migliori tramonti della Galizia', pt: 'Veja os melhores pores do sol da Galiza' },
-  'plans.villages.title': { es: 'Pueblos Marineros', gl: 'Pobos Mariñeiros', en: 'Seafaring Villages', fr: 'Villages de Pêcheurs', de: 'Seefahrerdörfer', it: 'Villaggi Marinari', pt: 'Aldeias de Pescadores' },
-  'plans.villages.desc': { es: 'Visita Muros, Cee y otros pueblos con historia', gl: 'Visita Muros, Cee e outros pobos con historia', en: 'Visit Muros, Cee, and other historic villages', fr: 'Visitez Muros, Cee et d\'autres villages chargés d\'histoire', de: 'Besuchen Sie Muros, Cee und andere geschichtsträchtige Dörfer', it: 'Visita Muros, Cee e altri borghi storici', pt: 'Visite Muros, Cee e outras aldeias históricas' },
+  'experiences.hiking.title': { es: 'Senderismo por el Monte Pindo', gl: 'Sendeirismo polo Monte Pindo', en: 'Hiking Mount Pindo', fr: 'Randonnée au Mont Pindo', de: 'Wandern auf den Berg Pindo', it: 'Escursionismo sul Monte Pindo', pt: 'Caminhadas pelo Monte Pindo' },
+  'experiences.hiking.desc': { es: 'Ruta de 3 horas por el monte sagrado celta', gl: 'Ruta de 3 horas polo monte sagrado celta', en: '3-hour route through the sacred Celtic mountain', fr: 'Itinéraire de 3 heures à travers la montagne sacrée celtique', de: '3-stündige Route durch den heiligen keltischen Berg', it: 'Percorso di 3 ore attraverso la sacra montagna celtica', pt: 'Percurso de 3 horas pela montanha sagrada celta' },
+  'experiences.surf.title': { es: 'Surf en la Costa da Morte', gl: 'Surf na Costa da Morte', en: 'Surf in Costa da Morte', fr: 'Surf sur la Costa da Morte', de: 'Surfen an der Costa da Morte', it: 'Surf nella Costa da Morte', pt: 'Surf na Costa da Morte' },
+  'experiences.surf.desc': { es: 'Clases de surf en las mejores olas del Atlántico', gl: 'Clases de surf nas mellores ondas do Atlántico', en: 'Surf lessons in the best waves of the Atlantic', fr: 'Cours de surf dans las meilleures vagues de l\'Atlantique', de: 'Surfkurse in den besten Wellen des Atlantiks', it: 'Lezioni di surf nelle migliori onde dell\'Atlantico', pt: 'Aulas de surf nas melhores ondas do Atlântico' },
+  'experiences.gastro.title': { es: 'Ruta Gastronómica', gl: 'Ruta Gastronómica', en: 'Gastronomic Route', fr: 'Route Gastronomique', de: 'Gastronomische Route', it: 'Percorso Gastronomico', pt: 'Rota Gastronómica' },
+  'experiences.gastro.desc': { es: 'Degustación de pulpo, percebes y vinos gallegos', gl: 'Degustación de polbo, percebes e viños galegos', en: 'Tasting of octopus, barnacles, and Galician wines', fr: 'Dégustation de poulpe, pouces-pieds et vins galiciens', de: 'Verkostung von Oktopus, Entenmuscheln und galizischen Weinen', it: 'Degustazione di polpo, percebes e vini galiziani', pt: 'Degustação de polvo, percebes e vinhos galegos' },
+  'experiences.kayak.title': { es: 'Kayak por la Costa', gl: 'Kaiak pola Costa', en: 'Coastal Kayaking', fr: 'Kayak Côtier', de: 'Küsten-Kajakfahren', it: 'Kayak sulla Costa', pt: 'Kayak pela Costa' },
+  'experiences.kayak.desc': { es: 'Explora acantilados y cuevas marinas', gl: 'Explora acantilados e covas mariñas', en: 'Explore cliffs and sea caves', fr: 'Explorez les falaises et les govtes marines', de: 'Erkunden Sie Klippen und Meereshöhlen', it: 'Esplora scogliere e grotte marine', pt: 'Explore falésias e cavernas marinhas' },
+  'experiences.sunset.title': { es: 'Atardeceres Mágicos', gl: 'Atardeceres Máxicos', en: 'Magical Sunsets', fr: 'Couchers de soleil Magiques', de: 'Magische Sonnenuntergänge', it: 'Tramonti Magici', pt: 'Pôr do sol Mágico' },
+  'experiences.sunset.desc': { es: 'Observa las mejores puestas de sol de Galicia', gl: 'Observa as mellores postas de sol de Galicia', en: 'Watch the best sunsets in Galicia', fr: 'Observez les meilleurs couchers de soleil de Galice', de: 'Beobachten Sie die besten Sonnenuntergänge in Galizien', it: 'Guarda i migliori tramonti della Galizia', pt: 'Veja os mejores pores do sol da Galiza' },
+  'experiences.villages.title': { es: 'Pueblos Marineros', gl: 'Pobos Mariñeiros', en: 'Seafaring Villages', fr: 'Villages de Pêcheurs', de: 'Seefahrerdörfer', it: 'Villaggi Marinari', pt: 'Aldeias de Pescadores' },
+  'experiences.villages.desc': { es: 'Visita Muros, Cee y otros pueblos con historia', gl: 'Visita Muros, Cee e outros pobos con historia', en: 'Visit Muros, Cee, and other historic villages', fr: 'Visitez Muros, Cee et d\'autres villages chargés d\'histoire', de: 'Besuchen Sie Muros, Cee und andere geschichtsträchtige Dörfer', it: 'Visita Muros, Cee e altri borghi storici', pt: 'Visite Muros, Cee e outras aldeias históricas' },
 };
 
 interface LanguageContextType {

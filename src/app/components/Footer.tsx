@@ -20,25 +20,25 @@ export function Footer() {
           <div>
             <h4 className="mb-4">Enlaces</h4>
             <div className="space-y-2 text-sm">
-              <button 
+              <button
                 onClick={() => document.getElementById('house')?.scrollIntoView({ behavior: 'smooth' })}
                 className="block text-white/70 hover:text-white transition-colors"
               >
                 {t('nav.house')}
               </button>
-              <button 
+              <button
                 onClick={() => document.getElementById('location')?.scrollIntoView({ behavior: 'smooth' })}
                 className="block text-white/70 hover:text-white transition-colors"
               >
                 {t('nav.location')}
               </button>
-              <button 
+              <button
                 onClick={() => document.getElementById('plans')?.scrollIntoView({ behavior: 'smooth' })}
                 className="block text-white/70 hover:text-white transition-colors"
               >
                 {t('nav.plans')}
               </button>
-              <button 
+              <button
                 onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
                 className="block text-white/70 hover:text-white transition-colors"
               >
@@ -51,16 +51,16 @@ export function Footer() {
           <div>
             <h4 className="mb-4">{t('nav.contact')}</h4>
             <div className="space-y-2 text-sm text-white/70">
-              <p>hola@costadamorte.com</p>
-              <p>+34 981 000 000</p>
-              <p>Costa da Morte, Galicia</p>
+              <p>faroinsua@gmail.com</p>
+              <p>+34 607 952 250</p>
+              <p>Casa da Cuncheira</p>
             </div>
           </div>
         </div>
 
         {/* Bottom */}
         <div className="pt-8 border-t border-white/10 text-center text-sm text-white/60">
-          <p>© {currentYear} Costa da Morte. {t('footer.rights')}.</p>
+          <p>© {currentYear} Casa da Cuncheira. {t('footer.rights')}.</p>
         </div>
       </div>
     </footer>

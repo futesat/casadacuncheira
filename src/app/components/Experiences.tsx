@@ -6,49 +6,49 @@ import { ImageWithFallback } from './ui/ImageWithFallback';
 
 type Category = 'all' | 'nature' | 'adventure' | 'gastronomy' | 'relax' | 'culture';
 
-export function Plans() {
+export function Experiences() {
   const { t } = useLanguage();
   const [activeFilter, setActiveFilter] = useState<Category>('all');
 
-  const plans = [
+  const experiences = [
     {
-      title: t('plans.hiking.title'),
-      description: t('plans.hiking.desc'),
+      title: t('experiences.hiking.title'),
+      description: t('experiences.hiking.desc'),
       image: 'https://images.unsplash.com/photo-1599823855655-990696275157?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaWtpbmclMjB0cmFpbCUyMGNvYXN0YWwlMjBuYXR1cmV8ZW58MXx8fHwxNzcxMTA0Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'nature' as Category,
       duration: '3-4h',
     },
     {
-      title: t('plans.surf.title'),
-      description: t('plans.surf.desc'),
+      title: t('experiences.surf.title'),
+      description: t('experiences.surf.desc'),
       image: 'https://images.unsplash.com/photo-1644773357253-86decfe52166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXJmaW5nJTIwYXRsYW50aWMlMjBvY2VhbiUyMHdhdmVzfGVufDF8fHx8MTc3MTEwNDc3NXww&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'adventure' as Category,
       duration: '2h',
     },
     {
-      title: t('plans.gastro.title'),
-      description: t('plans.gastro.desc'),
+      title: t('experiences.gastro.title'),
+      description: t('experiences.gastro.desc'),
       image: 'https://images.unsplash.com/photo-1647511575332-ee27d2a53182?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYWxpY2lhbiUyMHNlYWZvb2QlMjBwdWxwbyUyMG9jdG9wdXN8ZW58MXx8fHwxNzcxMTA0Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'gastronomy' as Category,
       duration: 'Medio día',
     },
     {
-      title: t('plans.kayak.title'),
-      description: t('plans.kayak.desc'),
+      title: t('experiences.kayak.title'),
+      description: t('experiences.kayak.desc'),
       image: 'https://images.unsplash.com/photo-175845564654-694348a5a4af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrYXlha2luZyUyMG9jZWFuJTIw_c_4_a_d_v_e_n_t_u_r_e_f_e_n_1_f_f_f_1_7_7_1_1_0_4_7_7_5_f_0_a_ixlib=rb-4.1.0&q=80&w=1080',
       category: 'adventure' as Category,
       duration: '3h',
     },
     {
-      title: t('plans.sunset.title'),
-      description: t('plans.sunset.desc'),
+      title: t('experiences.sunset.title'),
+      description: t('experiences.sunset.desc'),
       image: 'https://images.unsplash.com/photo-1596733220208-07c16e8c671d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMGRhJTIwbW9ydGUlMjBnYWxpY2lhJTIwb2NlYW4lMjBjbGlmZnN8ZW58MXx8fHwxNzcxMTA0NzcwfDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'relax' as Category,
       duration: '1h',
     },
     {
-      title: t('plans.villages.title'),
-      description: t('plans.villages.desc'),
+      title: t('experiences.villages.title'),
+      description: t('experiences.villages.desc'),
       image: 'https://images.unsplash.com/photo-1582144103470-08865b44e454?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYWxpY2lhJTIwZm9yZXN0JTIwbmF0dXJlJTIwZ3JlZW58ZW58MXx8fHwxNzcxMTA0NzcxfDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'culture' as Category,
       duration: 'Día completo',
@@ -56,20 +56,20 @@ export function Plans() {
   ];
 
   const filters = [
-    { id: 'all', icon: Sparkles, label: t('plans.filter.all') },
-    { id: 'nature', icon: Mountain, label: t('plans.filter.nature') },
-    { id: 'adventure', icon: Waves, label: t('plans.filter.adventure') },
-    { id: 'gastronomy', icon: UtensilsCrossed, label: t('plans.filter.gastronomy') },
-    { id: 'relax', icon: Sparkles, label: t('plans.filter.relax') },
-    { id: 'culture', icon: Landmark, label: t('plans.filter.culture') },
+    { id: 'all', icon: Sparkles, label: t('experiences.filter.all') },
+    { id: 'nature', icon: Mountain, label: t('experiences.filter.nature') },
+    { id: 'adventure', icon: Waves, label: t('experiences.filter.adventure') },
+    { id: 'gastronomy', icon: UtensilsCrossed, label: t('experiences.filter.gastronomy') },
+    { id: 'relax', icon: Sparkles, label: t('experiences.filter.relax') },
+    { id: 'culture', icon: Landmark, label: t('experiences.filter.culture') },
   ];
 
-  const filteredPlans = activeFilter === 'all'
-    ? plans
-    : plans.filter(plan => plan.category === activeFilter);
+  const filteredExperiences = activeFilter === 'all'
+    ? experiences
+    : experiences.filter(exp => exp.category === activeFilter);
 
   return (
-    <section id="plans" className="py-24 bg-white">
+    <section id="experiences" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -80,7 +80,7 @@ export function Plans() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl mb-6 tracking-tight">
-            {t('plans.title')}
+            {t('experiences.title')}
           </h2>
         </motion.div>
 
@@ -107,7 +107,7 @@ export function Plans() {
           ))}
         </motion.div>
 
-        {/* Plans Grid */}
+        {/* Experiences Grid */}
         <AnimatePresence mode="wait">
           <motion.div
             key={activeFilter}
@@ -117,7 +117,7 @@ export function Plans() {
             transition={{ duration: 0.4 }}
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
-            {filteredPlans.map((plan, index) => (
+            {filteredExperiences.map((experience, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -129,20 +129,20 @@ export function Plans() {
                 {/* Image */}
                 <div className="relative h-56 overflow-hidden">
                   <ImageWithFallback
-                    src={plan.image}
-                    alt={plan.title}
+                    src={experience.image}
+                    alt={experience.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute top-4 right-4 px-3 py-1 bg-white/90 backdrop-blur-sm rounded-full text-sm">
-                    {plan.duration}
+                    {experience.duration}
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 </div>
 
                 {/* Content */}
                 <div className="p-6">
-                  <h3 className="text-xl mb-2">{plan.title}</h3>
-                  <p className="text-muted-foreground mb-4">{plan.description}</p>
+                  <h3 className="text-xl mb-2">{experience.title}</h3>
+                  <p className="text-muted-foreground mb-4">{experience.description}</p>
                   <button
                     onClick={() => {
                       const element = document.getElementById('booking');

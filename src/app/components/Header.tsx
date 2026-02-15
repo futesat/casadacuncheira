@@ -30,8 +30,19 @@ export function Header() {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
       setShowMobileMenu(false);
+
+      // Small delay to allow the menu animation to start and avoid layout conflicts
+      setTimeout(() => {
+        const headerHeight = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }, 50);
     }
   };
 
@@ -71,11 +82,11 @@ export function Header() {
               {t('nav.location')}
             </button>
             <button
-              onClick={() => scrollToSection('plans')}
+              onClick={() => scrollToSection('experiences')}
               className={`hover:text-primary transition-colors ${isScrolled ? 'text-foreground' : 'text-white'
                 }`}
             >
-              {t('nav.plans')}
+              {t('nav.experiences')}
             </button>
             <button
               onClick={() => scrollToSection('booking')}
@@ -168,10 +179,10 @@ export function Header() {
                 {t('nav.location')}
               </button>
               <button
-                onClick={() => scrollToSection('plans')}
+                onClick={() => scrollToSection('experiences')}
                 className="block w-full text-left py-2 hover:text-primary transition-colors"
               >
-                {t('nav.plans')}
+                {t('nav.experiences')}
               </button>
               <button
                 onClick={() => scrollToSection('booking')}
