@@ -10,11 +10,11 @@ export function House() {
   const { t } = useLanguage();
 
   const images = [
-    '/images/casa.jpg',
-    '/images/habitacion1.jpg',
-    '/images/habitacion2.jpg',
-    '/images/habitacion3.jpg',
-    '/images/baño.jpg',
+    'images/casa.jpg',
+    'images/habitacion1.jpg',
+    'images/habitacion2.jpg',
+    'images/habitacion3.jpg',
+    'images/baño.jpg',
   ];
 
   const sliderSettings = {
