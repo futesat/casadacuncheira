@@ -60,10 +60,15 @@ export function Header() {
           {/* Logo */}
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className={`text-xl tracking-wide hover:opacity-70 transition-opacity z-10 ${isScrolled ? 'text-foreground' : 'text-white'
-              }`}
+            className="flex items-center hover:opacity-70 transition-opacity z-10"
+            aria-label={STATIC_TEXTS.brand}
           >
-            {STATIC_TEXTS.brand}
+            <img
+              src={`${import.meta.env.BASE_URL}images/logo.svg`}
+              alt={STATIC_TEXTS.brand}
+              className={`h-14 w-auto transition-all duration-300 ${isScrolled ? '' : 'brightness-0 invert'
+                }`}
+            />
           </button>
 
           {/* Desktop Navigation */}
