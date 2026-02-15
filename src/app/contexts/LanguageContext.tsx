@@ -133,6 +133,15 @@ const translations: Translations = {
   'contact.email': { es: 'Email', gl: 'Email', en: 'Email', fr: 'Email', de: 'E-Mail', it: 'Email', pt: 'E-mail' },
   'contact.phone': { es: 'Teléfono', gl: 'Teléfono', en: 'Phone', fr: 'Téléphone', de: 'Telefon', it: 'Telefono', pt: 'Telefone' },
   'contact.location': { es: 'Ubicación', gl: 'Ubicación', en: 'Location', fr: 'Localisation', de: 'Standort', it: 'Ubicazione', pt: 'Localização' },
+  'contact.mapTitle': {
+    es: 'Ubicación de Casa da Cuncheira',
+    gl: 'Ubicación de Casa da Cuncheira',
+    en: 'Location of Casa da Cuncheira',
+    fr: 'Emplacement de Casa da Cuncheira',
+    de: 'Standort von Casa da Cuncheira',
+    it: 'Posizione di Casa da Cuncheira',
+    pt: 'Localização de Casa da Cuncheira'
+  },
 
   // Footer
   'footer.rights': { es: 'Todos los derechos reservados', gl: 'Todos os dereitos reservados', en: 'All rights reserved', fr: 'Tous droits réservés', de: 'Alle Rechte vorbehalten', it: 'Tutti i diritti riservati', pt: 'Todos os direitos reservados' },

@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { STATIC_TEXTS } from '../constants/static';
 
 const homeImage = `${import.meta.env.BASE_URL}images/home.jpg`;
 
@@ -20,7 +21,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           src={homeImage}
-          alt="Casa da Cuncheira"
+          alt={STATIC_TEXTS.brand}
           className="w-full h-full object-cover"
           style={{ filter: 'contrast(1.1) saturate(1.2)' }}
         />
