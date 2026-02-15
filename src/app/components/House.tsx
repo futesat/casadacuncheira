@@ -36,11 +36,11 @@ export function House() {
   ];
 
   const amenities = [
-    { icon: Wifi, label: 'WiFi' },
-    { icon: Tv, label: 'Smart TV' },
-    { icon: Coffee, label: 'Kitchen' },
-    { icon: Wind, label: 'Heating' },
-    { icon: Waves, label: 'Ocean View' },
+    { icon: Wifi, label: t('house.amenities.wifi') },
+    { icon: Tv, label: t('house.amenities.tv') },
+    { icon: Coffee, label: t('house.amenities.kitchen') },
+    { icon: Wind, label: t('house.amenities.heating') },
+    { icon: Waves, label: t('house.amenities.view') },
   ];
 
   return (
