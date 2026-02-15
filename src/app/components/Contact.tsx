@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, Instagram, Facebook } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { STATIC_TEXTS } from '../constants/static';
 
 export function Contact() {
   const { t } = useLanguage();
@@ -8,20 +9,20 @@ export function Contact() {
   const contactInfo = [
     {
       icon: Mail,
-      label: 'Email',
-      value: 'hola@costadamorte.com',
-      href: 'mailto:hola@costadamorte.com',
+      label: t('contact.email'),
+      value: STATIC_TEXTS.email,
+      href: `mailto:${STATIC_TEXTS.email}`,
     },
     {
       icon: Phone,
-      label: 'Teléfono',
-      value: '+34 981 000 000',
-      href: 'tel:+34981000000',
+      label: t('contact.phone'),
+      value: STATIC_TEXTS.phone,
+      href: `tel:${STATIC_TEXTS.phone.replace(/\s+/g, '')}`,
     },
     {
       icon: MapPin,
-      label: 'Ubicación',
-      value: 'Casa Da Cuncheira - Casa Azul, Ad, Aldea Carballal, 70, 15292 Carnota, A Coruña',
+      label: t('contact.location'),
+      value: STATIC_TEXTS.location,
       href: '#',
     },
   ];

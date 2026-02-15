@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Globe, Menu, X } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { FOOTER_TEXTS } from '../constants/footer';
+import { STATIC_TEXTS } from '../constants/static';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -63,7 +63,7 @@ export function Header() {
             className={`text-xl tracking-wide hover:opacity-70 transition-opacity z-10 ${isScrolled ? 'text-foreground' : 'text-white'
               }`}
           >
-            {FOOTER_TEXTS.brand}
+            {STATIC_TEXTS.brand}
           </button>
 
           {/* Desktop Navigation */}

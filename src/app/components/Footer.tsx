@@ -1,5 +1,5 @@
 import { useLanguage } from '../contexts/LanguageContext';
-import { FOOTER_TEXTS } from '../constants/footer';
+import { STATIC_TEXTS } from '../constants/static';
 
 export function Footer() {
   const { t } = useLanguage();
@@ -11,7 +11,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <div className="text-xl mb-4 tracking-wide">{FOOTER_TEXTS.brand}</div>
+            <div className="text-xl mb-4 tracking-wide">{STATIC_TEXTS.brand}</div>
             <p className="text-white/70 text-sm">
               {t('footer.description')}
             </p>
@@ -19,7 +19,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="mb-4">{FOOTER_TEXTS.linksTitle}</h4>
+            <h4 className="mb-4">{t('footer.linksTitle')}</h4>
             <div className="space-y-2 text-sm">
               <button
                 onClick={() => document.getElementById('house')?.scrollIntoView({ behavior: 'smooth' })}
@@ -52,16 +52,16 @@ export function Footer() {
           <div>
             <h4 className="mb-4">{t('nav.contact')}</h4>
             <div className="space-y-2 text-sm text-white/70">
-              <p>{FOOTER_TEXTS.owner}</p>
-              <p>{FOOTER_TEXTS.phone}</p>
-              <p>{FOOTER_TEXTS.email}</p>
+              <p>{STATIC_TEXTS.owner}</p>
+              <p>{STATIC_TEXTS.phone}</p>
+              <p>{STATIC_TEXTS.email}</p>
             </div>
           </div>
         </div>
 
         {/* Bottom */}
         <div className="pt-8 border-t border-white/10 text-center text-sm text-white/60">
-          <p>© {currentYear} {FOOTER_TEXTS.brand}. {t('footer.rights')}.</p>
+          <p>© {currentYear} {STATIC_TEXTS.brand}. {t('footer.rights')}.</p>
         </div>
       </div>
     </footer>

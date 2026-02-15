@@ -25,6 +25,15 @@ const translations: Translations = {
     it: 'Il tuo rifugio nell\'Atlantico galiziano',
     pt: 'O seu refúgio no Atlântico galego'
   },
+  'footer.linksTitle': {
+    es: 'Enlaces',
+    gl: 'Ligazóns',
+    en: 'Links',
+    fr: 'Liens',
+    de: 'Links',
+    it: 'Link',
+    pt: 'Links'
+  },
 
   // Hero
   'hero.title': {
@@ -121,6 +130,9 @@ const translations: Translations = {
     it: 'Contattaci per qualsiasi domanda. Ti risponderemo il prima possibile.',
     pt: 'Contacte-nos para qualquer questão. Responderemos o mais breve possível.'
   },
+  'contact.email': { es: 'Email', gl: 'Email', en: 'Email', fr: 'Email', de: 'E-Mail', it: 'Email', pt: 'E-mail' },
+  'contact.phone': { es: 'Teléfono', gl: 'Teléfono', en: 'Phone', fr: 'Téléphone', de: 'Telefon', it: 'Telefono', pt: 'Telefone' },
+  'contact.location': { es: 'Ubicación', gl: 'Ubicación', en: 'Location', fr: 'Localisation', de: 'Standort', it: 'Ubicazione', pt: 'Localização' },
 
   // Footer
   'footer.rights': { es: 'Todos los derechos reservados', gl: 'Todos os dereitos reservados', en: 'All rights reserved', fr: 'Tous droits réservés', de: 'Alle Rechte vorbehalten', it: 'Tutti i diritti riservati', pt: 'Todos os direitos reservados' },
