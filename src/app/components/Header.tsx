@@ -19,13 +19,13 @@ export function Header() {
   }, []);
 
   const languages = [
-    { code: 'es', name: 'ES' },
-    { code: 'gl', name: 'GL' },
-    { code: 'en', name: 'EN' },
-    { code: 'fr', name: 'FR' },
-    { code: 'de', name: 'DE' },
-    { code: 'it', name: 'IT' },
-    { code: 'pt', name: 'PT' },
+    { code: 'es', name: 'ES', flag: `${import.meta.env.BASE_URL}images/flags/es.png` },
+    { code: 'gl', name: 'GL', flag: `${import.meta.env.BASE_URL}images/flags/gl.svg` },
+    { code: 'en', name: 'EN', flag: `${import.meta.env.BASE_URL}images/flags/en.png` },
+    { code: 'fr', name: 'FR', flag: `${import.meta.env.BASE_URL}images/flags/fr.png` },
+    { code: 'de', name: 'DE', flag: `${import.meta.env.BASE_URL}images/flags/de.png` },
+    { code: 'it', name: 'IT', flag: `${import.meta.env.BASE_URL}images/flags/it.png` },
+    { code: 'pt', name: 'PT', flag: `${import.meta.env.BASE_URL}images/flags/pt.png` },
   ];
 
   const scrollToSection = (id: string) => {
@@ -117,7 +117,12 @@ export function Header() {
                   }`}
               >
                 <Globe className="w-4 h-4" />
-                <span className="uppercase">{language}</span>
+                <img
+                  src={languages.find(l => l.code === language)?.flag}
+                  alt={language}
+                  className="w-5 h-3.5 object-cover rounded-sm shadow-sm"
+                />
+                <span className="uppercase text-sm font-medium">{language}</span>
               </button>
 
               {showLangMenu && (
@@ -133,10 +138,15 @@ export function Header() {
                         setLanguage(lang.code as any);
                         setShowLangMenu(false);
                       }}
-                      className={`w-full px-4 py-2 text-left hover:bg-secondary transition-colors text-foreground ${language === lang.code ? 'bg-secondary' : ''
+                      className={`w-full px-4 py-2 text-left hover:bg-secondary transition-colors text-foreground flex items-center gap-3 ${language === lang.code ? 'bg-secondary' : ''
                         }`}
                     >
-                      {lang.name}
+                      <img
+                        src={lang.flag}
+                        alt={lang.name}
+                        className="w-5 h-3.5 object-cover rounded-sm shadow-sm"
+                      />
+                      <span className="text-sm font-medium">{lang.name}</span>
                     </button>
                   ))}
                 </motion.div>
