@@ -3,7 +3,7 @@ import { ChevronDown } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { STATIC_TEXTS } from '../constants/static';
 
-const homeImage = `${import.meta.env.BASE_URL}images/home.jpg`;
+const homeImage = `${import.meta.env.BASE_URL}images/house/home.jpg`;
 
 export function Hero() {
   const { t } = useLanguage();
