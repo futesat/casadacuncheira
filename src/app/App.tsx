@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
@@ -13,23 +14,36 @@ import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { FloatingBookButton } from './components/FloatingBookButton';
 import { Toaster } from 'sonner';
+import { Gastronomy } from './pages/Gastronomy';
 
 export default function App() {
+  const [view, setView] = useState<'home' | 'gastronomia'>('home');
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [view]);
+
   return (
     <LanguageProvider>
       <div className="min-h-screen bg-background font-['Inter',sans-serif]">
         <Header />
         <main>
-          <Hero />
-          <Features />
-          <House />
-          <Location />
-          <Experiences />
-          <WeatherWidget />
-          <Testimonials />
-          <FAQ />
-          <Booking />
-          <Contact />
+          {view === 'home' ? (
+            <>
+              <Hero onDiscover={() => setView('home')} />
+              <Features />
+              <House />
+              <Location />
+              <Experiences onNavigateToGastronomy={() => setView('gastronomia')} />
+              <WeatherWidget />
+              <Testimonials />
+              <FAQ />
+              <Booking />
+              <Contact />
+            </>
+          ) : (
+            <Gastronomy onBack={() => setView('home')} />
+          )}
         </main>
         <Footer />
         <FloatingBookButton />

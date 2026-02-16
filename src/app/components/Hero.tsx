@@ -5,7 +5,11 @@ import { STATIC_TEXTS } from '../constants/static';
 
 const homeImage = `${import.meta.env.BASE_URL}images/house/home.jpg`;
 
-export function Hero() {
+interface HeroProps {
+  onDiscover?: () => void;
+}
+
+export function Hero({ onDiscover }: HeroProps) {
   const { t } = useLanguage();
 
   const scrollToNext = () => {

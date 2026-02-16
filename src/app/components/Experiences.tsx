@@ -6,7 +6,11 @@ import { ImageWithFallback } from './ui/ImageWithFallback';
 
 type Category = 'all' | 'nature' | 'adventure' | 'gastronomy' | 'relax' | 'culture';
 
-export function Experiences() {
+interface ExperiencesProps {
+  onNavigateToGastronomy: () => void;
+}
+
+export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
   const { t } = useLanguage();
   const [activeFilter, setActiveFilter] = useState<Category>('all');
 
@@ -143,15 +147,25 @@ export function Experiences() {
                 <div className="p-6">
                   <h3 className="text-xl mb-2">{experience.title}</h3>
                   <p className="text-muted-foreground mb-4">{experience.description}</p>
-                  <button
-                    onClick={() => {
-                      const element = document.getElementById('booking');
-                      if (element) element.scrollIntoView({ behavior: 'smooth' });
-                    }}
-                    className="text-primary hover:text-primary/80 transition-colors"
-                  >
-                    {t('float.book')} →
-                  </button>
+                  {experience.category === 'gastronomy' ? (
+                    <button
+                      onClick={onNavigateToGastronomy}
+                      className="text-primary font-medium hover:gap-2 transition-all flex items-center gap-1 group/btn"
+                    >
+                      {t('experiences.more')}
+                      <span className="group-hover/btn:translate-x-1 transition-transform">→</span>
+                    </button>
+                  ) : (
+                    <button
+                      onClick={() => {
+                        const element = document.getElementById('booking');
+                        if (element) element.scrollIntoView({ behavior: 'smooth' });
+                      }}
+                      className="text-primary hover:text-primary/80 transition-colors"
+                    >
+                      {t('float.book')} →
+                    </button>
+                  )}
                 </div>
               </motion.div>
             ))}
