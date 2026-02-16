@@ -37,7 +37,7 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                             className="mb-8 flex items-center gap-2 text-white/80 hover:text-white transition-colors mx-auto group"
                         >
                             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
-                            {t('gastronomy.back')}
+                            {t('common.back')}
                         </button>
                         <h1 className="text-5xl md:text-7xl font-light text-white mb-6 tracking-tight">
                             {t('gastronomy.pageTitle')}

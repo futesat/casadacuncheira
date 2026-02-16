@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Mountain, Droplets, UtensilsCrossed, MapPin } from 'lucide-react';
+import { Mountain, Droplets, UtensilsCrossed, MapPin, Compass } from 'lucide-react';
 import { useNavigate } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './ui/ImageWithFallback';
@@ -38,6 +38,14 @@ export function Location() {
       slug: 'fervenza-do-ezaro',
       image: `${import.meta.env.BASE_URL}images/ezaro.webp`,
       icon: Droplets,
+      category: 'nature',
+    },
+    {
+      title: t('location.fisterra.title'),
+      description: t('location.fisterra.desc'),
+      slug: 'cabo-finisterre',
+      image: `${import.meta.env.BASE_URL}images/fisterra_optimized.webp`,
+      icon: Compass,
       category: 'nature',
     },
   ];

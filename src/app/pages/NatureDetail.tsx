@@ -14,6 +14,19 @@ export function NatureDetail() {
         window.scrollTo(0, 0);
     }, []);
 
+    const handleBack = () => {
+        navigate('/');
+        setTimeout(() => {
+            const element = document.getElementById('location');
+            if (element) {
+                const headerHeight = 80;
+                const elementPosition = element.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+                window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+            }
+        }, 100);
+    };
+
     const natureData: Record<string, any> = {
         'praia-carnota': {
             title: t('location.carnota.title'),
@@ -59,6 +72,17 @@ export function NatureDetail() {
                 t('nature.ezaro.h3')
             ],
             youtubeId: 'zNO89I471V4'
+        },
+        'cabo-finisterre': {
+            title: t('location.fisterra.title'),
+            description: t('location.fisterra.longDesc'),
+            image: `${import.meta.env.BASE_URL}images/fisterra_optimized.webp`,
+            location: 'Fisterra, A Coruña',
+            highlights: [
+                t('nature.fisterra.h1'),
+                t('nature.fisterra.h2'),
+                t('nature.fisterra.h3')
+            ]
         }
     };
 
@@ -95,11 +119,11 @@ export function NatureDetail() {
                         transition={{ duration: 0.8 }}
                     >
                         <button
-                            onClick={() => navigate('/')}
+                            onClick={handleBack}
                             className="mb-8 flex items-center gap-2 text-white/80 hover:text-white transition-colors mx-auto group"
                         >
                             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
-                            {t('gastronomy.back')}
+                            {t('common.back')}
                         </button>
                         <h1 className="text-5xl md:text-7xl font-light text-white mb-6 tracking-tight">
                             {data.title}
@@ -169,10 +193,10 @@ export function NatureDetail() {
                         <h2 className="text-3xl font-light mb-6">{t('gastronomy.cta.title')}</h2>
                         <p className="text-muted-foreground mb-8">{t('gastronomy.cta.desc')}</p>
                         <button
-                            onClick={() => navigate('/')}
+                            onClick={handleBack}
                             className="px-8 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-all shadow-xl"
                         >
-                            {t('gastronomy.back')}
+                            {t('common.back')}
                         </button>
                     </motion.div>
                 </div>
