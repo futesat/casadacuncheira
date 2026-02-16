@@ -22,11 +22,11 @@ export function Location() {
       category: 'nature',
     },
     {
-      title: t('location.gastronomy.title'),
-      description: t('location.gastronomy.desc'),
-      image: 'https://images.unsplash.com/photo-1647511575332-ee27d2a53182?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYWxpY2lhbiUyMHNlYWZvb2QlMjBwdWxwbyUyMG9jdG9wdXN8ZW58MXx8fHwxNzcxMTA0Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080',
-      icon: UtensilsCrossed,
-      category: 'gastronomy',
+      title: t('location.louro.title'),
+      description: t('location.louro.desc'),
+      image: `${import.meta.env.BASE_URL}images/monte_louro_optimized.webp`,
+      icon: Mountain,
+      category: 'nature',
     },
     {
       title: t('location.villages.title'),

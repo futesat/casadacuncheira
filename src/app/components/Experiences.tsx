@@ -153,7 +153,7 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
                       className="text-primary font-medium hover:gap-2 transition-all flex items-center gap-1 group/btn"
                     >
                       {t('experiences.more')}
-                      <span className="group-hover/btn:translate-x-1 transition-transform">→</span>
+                      <span className="group-hover/btn:translate-x-1 transition-transform">{'->'}</span>
                     </button>
                   ) : (
                     <button
@@ -163,7 +163,7 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
                       }}
                       className="text-primary hover:text-primary/80 transition-colors"
                     >
-                      {t('float.book')} →
+                      {t('experiences.more')} {'->'}
                     </button>
                   )}
                 </div>
