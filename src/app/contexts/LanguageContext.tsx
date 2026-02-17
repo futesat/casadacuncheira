@@ -18,13 +18,13 @@ const translations: Translations = {
   'nav.faq': { es: 'FAQ', gl: 'FAQ', en: 'FAQ', fr: 'FAQ', de: 'FAQ', it: 'FAQ', pt: 'FAQ' },
   'nav.contact': { es: 'Contacto', gl: 'Contacto', en: 'Contact', fr: 'Contact', de: 'Kontakt', it: 'Contatto', pt: 'Contacto' },
   'footer.description': {
-    es: 'Tu refugio en el Atlántico gallego',
-    gl: 'O teu refuxio no Atlántico galego',
-    en: 'Your retreat in the Galician Atlantic',
-    fr: 'Votre refuge dans l\'Atlantique galicien',
-    de: 'Ihr Rückzugsort im galicischen Atlantik',
-    it: 'Il tuo rifugio nell\'Atlantico galiziano',
-    pt: 'O seu refúgio no Atlântico galego'
+    es: 'Tu refugio na Costa da Morte',
+    gl: 'O teu refuxio na Costa da Morte',
+    en: 'Your retreat in Costa da Morte',
+    fr: 'Votre refuge sur la Costa da Morte',
+    de: 'Ihr Rückzugsort an der Costa da Morte',
+    it: 'Il tuo rifugio nella Costa da Morte',
+    pt: 'O seu refúgio na Costa da Morte'
   },
   'footer.linksTitle': {
     es: 'Enlaces',
