@@ -40,10 +40,10 @@ jobs:
       - name: Verify Secret Presence
         run: |
           if [ -z "${{ secrets.DEPLOY_TOKEN }}" ]; then
-            echo "❌ ERROR: DEPLOY_TOKEN no encontrado en los secretos del repositorio."
+            echo "❌ ERROR: DEPLOY_TOKEN not found in repository secrets."
             exit 1
           else
-            echo "✅ DEPLOY_TOKEN detectado, procediendo..."
+            echo "✅ DEPLOY_TOKEN detected, proceeding..."
           fi
 
       - name: Download artifact
