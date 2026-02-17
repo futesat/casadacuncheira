@@ -20,42 +20,36 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
       description: t('experiences.hiking.desc'),
       image: 'https://images.unsplash.com/photo-1599823855655-990696275157?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaWtpbmclMjB0cmFpbCUyMGNvYXN0YWwlMjBuYXR1cmV8ZW58MXx8fHwxNzcxMTA0Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'nature' as Category,
-      duration: '3-4h',
+      duration: t('experiences.hiking.duration'),
     },
     {
       title: t('experiences.surf.title'),
       description: t('experiences.surf.desc'),
-      image: 'https://images.unsplash.com/photo-1644773357253-86decfe52166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXJmaW5nJTIwYXRsYW50aWMlMjBvY2VhbiUyMHdhdmVzfGVufDF8fHx8MTc3MTEwNDc3NXww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://images.unsplash.com/photo-1644773357253-86decfe52166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXJmaW5nJTIwYXRsYXRpYyUyMG9jZWFuJTIwd2F2ZXN8ZW58MXx8fHwxNzcxMTA0Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'adventure' as Category,
-      duration: '2h',
+      duration: t('experiences.surf.duration'),
+      externalLink: 'https://areasurf.es/',
     },
     {
       title: t('experiences.gastro.title'),
       description: t('experiences.gastro.desc'),
       image: 'https://images.unsplash.com/photo-1647511575332-ee27d2a53182?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYWxpY2lhbiUyMHNlYWZvb2QlMjBwdWxwbyUyMG9jdG9wdXN8ZW58MXx8fHwxNzcxMTA0Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'gastronomy' as Category,
-      duration: 'Medio día',
-    },
-    {
-      title: t('experiences.kayak.title'),
-      description: t('experiences.kayak.desc'),
-      image: 'https://images.unsplash.com/photo-175845564654-694348a5a4af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrYXlha2luZyUyMG9jZWFuJTIw_c_4_a_d_v_e_n_t_u_r_e_f_e_n_1_f_f_f_1_7_7_1_1_0_4_7_7_5_f_0_a_ixlib=rb-4.1.0&q=80&w=1080',
-      category: 'adventure' as Category,
-      duration: '3h',
+      duration: t('experiences.gastro.duration'),
     },
     {
       title: t('experiences.sunset.title'),
       description: t('experiences.sunset.desc'),
-      image: 'https://images.unsplash.com/photo-1596733220208-07c16e8c671d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMGRhJTIwbW9ydGUlMjBnYWxpY2lhJTIwb2NlYW4lMjBjbGlmZnN8ZW58MXx8fHwxNzcxMTA0NzcwfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://images.unsplash.com/photo-1596733220208-07c16e8c671d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMGRhJTIwbW9ydGUlMjBnYWxpY2lhJTIwb2NlYW4lMjBjbGlmZnN8ZW58MXx8fHwxNzcxMTA0Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'relax' as Category,
-      duration: '1h',
+      duration: t('experiences.sunset.duration'),
     },
     {
       title: t('experiences.villages.title'),
       description: t('experiences.villages.desc'),
       image: 'https://images.unsplash.com/photo-1582144103470-08865b44e454?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYWxpY2lhJTIwZm9yZXN0JTIwbmF0dXJlJTIwZ3JlZW58ZW58MXx8fHwxNzcxMTA0NzcxfDA&ixlib=rb-4.1.0&q=80&w=1080',
       category: 'culture' as Category,
-      duration: 'Día completo',
+      duration: t('experiences.villages.duration'),
     },
   ];
 
@@ -147,7 +141,17 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
                 <div className="p-6">
                   <h3 className="text-xl mb-2">{experience.title}</h3>
                   <p className="text-muted-foreground mb-4">{experience.description}</p>
-                  {experience.category === 'gastronomy' ? (
+                  {experience.externalLink ? (
+                    <a
+                      href={experience.externalLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary font-medium hover:gap-2 transition-all flex items-center gap-1 group/btn"
+                    >
+                      {t('experiences.more')}
+                      <span className="group-hover/btn:translate-x-1 transition-transform">{'->'}</span>
+                    </a>
+                  ) : experience.category === 'gastronomy' ? (
                     <button
                       onClick={onNavigateToGastronomy}
                       className="text-primary font-medium hover:gap-2 transition-all flex items-center gap-1 group/btn"
