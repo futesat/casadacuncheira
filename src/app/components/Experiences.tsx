@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Waves, Mountain, UtensilsCrossed, Sparkles, Landmark } from 'lucide-react';
+import { useNavigate } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './ui/ImageWithFallback';
 
@@ -12,15 +13,17 @@ interface ExperiencesProps {
 
 export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
   const { t } = useLanguage();
+  const navigate = useNavigate();
   const [activeFilter, setActiveFilter] = useState<Category>('all');
 
   const experiences = [
     {
       title: t('experiences.hiking.title'),
       description: t('experiences.hiking.desc'),
-      image: 'https://images.unsplash.com/photo-1599823855655-990696275157?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaWtpbmclMjB0cmFpbCUyMGNvYXN0YWwlMjBuYXR1cmV8ZW58MXx8fHwxNzcxMTA0Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: `${(import.meta as any).env.BASE_URL}images/moa_view_optimized.webp`,
       category: 'nature' as Category,
       duration: t('experiences.hiking.duration'),
+      slug: 'monte-pindo',
     },
     {
       title: t('experiences.surf.title'),
@@ -35,19 +38,20 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
       description: t('experiences.rentals.desc'),
       image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80',
       category: 'adventure' as Category,
+      duration: t('experiences.rentals.duration'),
       externalLink: 'https://abellago.com/alquiler',
     },
     {
       title: t('experiences.gastro.title'),
       description: t('experiences.gastro.desc'),
-      image: 'https://images.unsplash.com/photo-1647511575332-ee27d2a53182?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYWxpY2lhbiUyMHNlYWZvb2QlMjBwdWxwbyUyMG9jdG9wdXN8ZW58MXx8fHwxNzcxMTA0Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: `${(import.meta as any).env.BASE_URL}images/gastronomy_hero.png`,
       category: 'gastronomy' as Category,
       duration: t('experiences.gastro.duration'),
     },
     {
       title: t('experiences.sunset.title'),
       description: t('experiences.sunset.desc'),
-      image: 'https://images.unsplash.com/photo-1596733220208-07c16e8c671d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3N0YSUyMGRhJTIwbW9ydGUlMjBnYWxpY2lhJTIwb2NlYW4lMjBjbGlmZnN8ZW58MXx8fHwxNzcxMTA0Nzc0fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: `${(import.meta as any).env.BASE_URL}images/fisterra_sunset_optimized.webp`,
       category: 'relax' as Category,
       duration: t('experiences.sunset.duration'),
     },
@@ -138,9 +142,11 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
                     alt={experience.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
-                  <div className="absolute top-4 right-4 px-3 py-1 bg-white/90 backdrop-blur-sm rounded-full text-sm">
-                    {experience.duration}
-                  </div>
+                  {experience.duration && (
+                    <div className="absolute top-4 right-4 px-3 py-1 bg-white/90 backdrop-blur-sm rounded-full text-sm">
+                      {experience.duration}
+                    </div>
+                  )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                 </div>
 
@@ -161,6 +167,14 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
                   ) : experience.category === 'gastronomy' ? (
                     <button
                       onClick={onNavigateToGastronomy}
+                      className="text-primary font-medium hover:gap-2 transition-all flex items-center gap-1 group/btn"
+                    >
+                      {t('experiences.more')}
+                      <span className="group-hover/btn:translate-x-1 transition-transform">{'->'}</span>
+                    </button>
+                  ) : experience.slug ? (
+                    <button
+                      onClick={() => navigate(`/nature/${experience.slug}`)}
                       className="text-primary font-medium hover:gap-2 transition-all flex items-center gap-1 group/btn"
                     >
                       {t('experiences.more')}

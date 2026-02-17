@@ -1,33 +1,25 @@
+import React from 'react';
 import { motion } from 'motion/react';
 import { Bed, Bath, Users, Wifi, Tv, Coffee, Wind, Waves } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './ui/ImageWithFallback';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import { Carousel, CarouselContent, CarouselItem, CarouselDots } from './ui/carousel';
+import Autoplay from 'embla-carousel-autoplay';
 
 export function House() {
   const { t } = useLanguage();
 
-  const images = [
-    `${import.meta.env.BASE_URL}images/house/casa.jpg`,
-    `${import.meta.env.BASE_URL}images/house/habitacion1.jpg`,
-    `${import.meta.env.BASE_URL}images/house/habitacion2.jpg`,
-    `${import.meta.env.BASE_URL}images/house/habitacion3.jpg`,
-    `${import.meta.env.BASE_URL}images/house/baño.jpg`,
-  ];
+  const plugin = React.useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: true })
+  );
 
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 800,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    fade: true,
-    pauseOnHover: true,
-  };
+  const images = [
+    `${(import.meta as any).env.BASE_URL}images/house/casa.jpg`,
+    `${(import.meta as any).env.BASE_URL}images/house/habitacion1.jpg`,
+    `${(import.meta as any).env.BASE_URL}images/house/habitacion2.jpg`,
+    `${(import.meta as any).env.BASE_URL}images/house/habitacion3.jpg`,
+    `${(import.meta as any).env.BASE_URL}images/house/baño.jpg`,
+  ];
 
   const features = [
     { icon: Bed, label: '4', subtitle: t('house.bedrooms') },
@@ -70,17 +62,31 @@ export function House() {
           transition={{ duration: 0.8 }}
           className="mb-16 rounded-2xl overflow-hidden shadow-2xl"
         >
-          <Slider {...sliderSettings}>
-            {images.map((image, index) => (
-              <div key={index} className="relative h-[500px] md:h-[600px] overflow-hidden bg-black">
-                <img
-                  src={image}
-                  alt={`Interior ${index + 1}`}
-                  className="w-full h-full object-cover scale-[1.02]"
-                />
-              </div>
-            ))}
-          </Slider>
+          <Carousel
+            plugins={[plugin.current]}
+            className="w-full"
+            onMouseEnter={plugin.current.stop}
+            onMouseLeave={plugin.current.reset}
+            opts={{
+              loop: true,
+              align: "start",
+            }}
+          >
+            <CarouselContent>
+              {images.map((image, index) => (
+                <CarouselItem key={index}>
+                  <div className="relative h-[500px] md:h-[600px] overflow-hidden bg-black">
+                    <ImageWithFallback
+                      src={image}
+                      alt={`Interior ${index + 1}`}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselDots className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 [&_button]:bg-white/30 [&_button.bg-primary]:bg-white [&_button.bg-primary]:w-6" />
+          </Carousel>
         </motion.div>
 
         {/* Features Grid */}
