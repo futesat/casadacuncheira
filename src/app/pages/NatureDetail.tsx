@@ -4,6 +4,7 @@ import { ArrowLeft, MapPin, Info, Camera, Compass } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from '../components/ui/ImageWithFallback';
 import { useEffect } from 'react';
+import { RouteMap } from '../components/RouteMap';
 
 export function NatureDetail() {
     const { slug } = useParams();
@@ -32,7 +33,7 @@ export function NatureDetail() {
             title: t('location.carnota.title'),
             summary: t('location.carnota.desc'),
             description: t('location.carnota.longDesc'),
-            image: `${import.meta.env.BASE_URL}images/carnota_beach_optimized.webp`,
+            image: `${(import.meta as any).env.BASE_URL}images/carnota_beach_optimized.webp`,
             location: 'Carnota, A Coruña',
             highlights: [
                 t('nature.carnota.h1'),
@@ -44,8 +45,9 @@ export function NatureDetail() {
             title: t('location.pindo.title'),
             summary: t('location.pindo.desc'),
             description: t('location.pindo.longDesc'),
-            image: `${import.meta.env.BASE_URL}images/moa_view_optimized.webp`,
+            image: `${(import.meta as any).env.BASE_URL}images/moa_view_optimized.webp`,
             location: 'Carnota, A Coruña',
+            gpxPath: `${(import.meta as any).env.BASE_URL}gpx/a-moa.gpx`,
             highlights: [
                 t('nature.pindo.h1'),
                 t('nature.pindo.h2'),
@@ -56,7 +58,7 @@ export function NatureDetail() {
             title: t('location.louro.title'),
             summary: t('location.louro.desc'),
             description: t('location.louro.longDesc'),
-            image: `${import.meta.env.BASE_URL}images/monte_louro_optimized.webp`,
+            image: `${(import.meta as any).env.BASE_URL}images/monte_louro_optimized.webp`,
             location: 'Louro, Muros',
             highlights: [
                 t('nature.louro.h1'),
@@ -68,7 +70,7 @@ export function NatureDetail() {
             title: t('location.ezaro.title'),
             summary: t('location.ezaro.desc'),
             description: t('location.ezaro.longDesc'),
-            image: `${import.meta.env.BASE_URL}images/ezaro.webp`,
+            image: `${(import.meta as any).env.BASE_URL}images/ezaro.webp`,
             location: 'Ézaro, Dumbría',
             highlights: [
                 t('nature.ezaro.h1'),
@@ -81,7 +83,7 @@ export function NatureDetail() {
             title: t('location.fisterra.title'),
             summary: t('location.fisterra.desc'),
             description: t('location.fisterra.longDesc'),
-            image: `${import.meta.env.BASE_URL}images/fisterra_optimized.webp`,
+            image: `${(import.meta as any).env.BASE_URL}images/fisterra_optimized.webp`,
             location: 'Fisterra, A Coruña',
             highlights: [
                 t('nature.fisterra.h1'),
@@ -249,6 +251,20 @@ export function NatureDetail() {
                             return elements;
                         })()}
                     </motion.div>
+
+                    {data.gpxPath && (
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            className="mt-20"
+                        >
+                            <h3 className="text-2xl font-medium text-foreground mb-8 text-center">
+                                {t('nature.pindo.route_title')}
+                            </h3>
+                            <RouteMap gpxPath={data.gpxPath} title={data.title} />
+                        </motion.div>
+                    )}
 
                     {data.youtubeId && (
                         <motion.div
