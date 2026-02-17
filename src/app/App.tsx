@@ -29,13 +29,17 @@ function HomePage() {
       <Location />
       <Experiences onNavigateToGastronomy={() => navigate('/gastronomy')} />
       <WeatherWidget />
-      <Testimonials />
-      <FAQ />
-      <Booking />
-      <Contact />
+
     </>
   );
 }
+
+/*
+    <Testimonials />
+      <FAQ />
+      <Booking />
+      <Contact />
+*/
 
 function GastronomyPage() {
   const navigate = useNavigate();
@@ -68,11 +72,14 @@ function AppContent() {
         </Routes>
       </main>
       <Footer />
-      <FloatingBookButton />
       <Toaster position="top-center" richColors />
     </div>
   );
 }
+
+/*
+      <FloatingBookButton />
+*/
 
 export default function App() {
   return (
