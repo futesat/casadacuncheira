@@ -34,17 +34,6 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
         googleMaps: 'https://www.google.com/maps/place/A+Chalana+de+Rucho/@42.8027754,-9.12331,631m/data=!3m2!1e3!4b1!4m9!3m8!1s0xd2f2a0d0aedf16d:0x7ffa9556780b43de!5m2!4m1!1i2!8m2!3d42.8027715!4d-9.1207351!16s%2Fg%2F11df0fy80k?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D'
     },
     {
-        name: 'O Moncho Burguer',
-        description: t('gastronomy.moncho.desc'),
-        image: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80',
-        location: 'Rúa Lira S/N, 15292 Carnota, A Coruña',
-        type: t('gastronomy.type.burger'),
-        rating: 4.6,
-        website: 'https://omonchoburguer.com',
-        phone: '+34 680 280 812',
-        googleMaps: 'https://www.google.com/maps/place/O%E2%80%99Moncho+burguer/@42.8028893,-9.1286953,631m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2f2a6daefb85b5:0xa417f7b282aff2fb!8m2!3d42.8028893!4d-9.1286953!16s%2Fg%2F119vwc9dt?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D'
-    },
-    {
         name: 'O Cuberto',
         description: t('gastronomy.ocuberto.desc'),
         image: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80',
@@ -54,5 +43,16 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
         website: 'https://ocubertocarnota.com',
         phone: '+34 664 392 010',
         googleMaps: 'https://www.google.com/maps/place/O+Cuberto/@42.8234723,-9.0925967,631m/data=!3m1!1e3!4m6!3m5!1s0xd2ed6100195ce07:0x52d8013a9ca2eb5c!8m2!3d42.8234684!4d-9.0900218!16s%2Fg%2F11c0py_fhl?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D'
+    },
+    {
+        name: 'O Moncho Burguer',
+        description: t('gastronomy.moncho.desc'),
+        image: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80',
+        location: 'Rúa Lira S/N, 15292 Carnota, A Coruña',
+        type: t('gastronomy.type.burger'),
+        rating: 4.6,
+        website: 'https://omonchoburguer.com',
+        phone: '+34 680 280 812',
+        googleMaps: 'https://www.google.com/maps/place/O%E2%80%99Moncho+burguer/@42.8028893,-9.1286953,631m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2f2a6daefb85b5:0xa417f7b282aff2fb!8m2!3d42.8028893!4d-9.1286953!16s%2Fg%2F119vwc9dt?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D'
     }
 ];
