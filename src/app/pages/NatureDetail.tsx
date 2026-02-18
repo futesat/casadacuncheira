@@ -74,7 +74,21 @@ export function NatureDetail() {
                         </h1>
                         <div className="flex items-center justify-center gap-2 text-white/90 font-light">
                             <MapPin className="w-5 h-5 text-primary" />
-                            {data.location}
+                            {data.googleMaps ? (
+                                <a
+                                    href={data.googleMaps}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:text-primary transition-colors flex items-center gap-1 group/loc"
+                                >
+                                    {data.location}
+                                    <span className="text-xs opacity-0 group-hover/loc:opacity-100 transition-opacity translate-y-px">
+                                        ↗
+                                    </span>
+                                </a>
+                            ) : (
+                                data.location
+                            )}
                         </div>
                     </motion.div>
                 </div>
