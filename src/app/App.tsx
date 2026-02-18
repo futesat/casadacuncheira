@@ -15,8 +15,10 @@ import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { FloatingBookButton } from './components/FloatingBookButton';
 import { Toaster } from 'sonner';
-import { Gastronomy } from './pages/Gastronomy';
-import { NatureDetail } from './pages/NatureDetail';
+import { Suspense, lazy } from 'react';
+
+const Gastronomy = lazy(() => import('./pages/Gastronomy').then(m => ({ default: m.Gastronomy })));
+const NatureDetail = lazy(() => import('./pages/NatureDetail').then(m => ({ default: m.NatureDetail })));
 
 function HomePage() {
   const navigate = useNavigate();
@@ -64,11 +66,17 @@ function AppContent() {
     <div className="min-h-screen bg-background font-['Inter',sans-serif]">
       <Header onNavigateHome={() => navigate('/')} currentView={currentView} />
       <main>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/gastronomy" element={<GastronomyPage />} />
-          <Route path="/nature/:slug" element={<NaturePage />} />
-        </Routes>
+        <Suspense fallback={
+          <div className="min-h-[50vh] flex items-center justify-center">
+            <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+          </div>
+        }>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/gastronomy" element={<GastronomyPage />} />
+            <Route path="/nature/:slug" element={<NaturePage />} />
+          </Routes>
+        </Suspense>
       </main>
       <Footer />
       <FloatingBookButton />

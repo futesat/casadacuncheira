@@ -20,4 +20,17 @@ export default defineConfig({
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-react': ['react', 'react-dom', 'react-router'],
+          'vendor-ui': ['lucide-react', 'motion', 'clsx', 'tailwind-merge', 'embla-carousel-react', 'embla-carousel-autoplay'],
+          'vendor-charts': ['recharts'],
+          'vendor-maps': ['leaflet', 'react-leaflet', 'gpxparser'],
+        },
+      },
+    },
+    chunkSizeWarningLimit: 800,
+  },
 })

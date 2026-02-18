@@ -45,6 +45,7 @@
     "clsx": "2.1.1",
     "cmdk": "1.1.1",
     "date-fns": "3.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "8.6.0",
     "gpxparser": "^3.0.8",
     "input-otp": "1.4.2",
@@ -74,6 +75,7 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.12",
+    "@types/node": "^25.2.3",
     "@types/react": "18.3.1",
     "@types/react-dom": "18.3.1",
     "@vitejs/plugin-react": "4.7.0",
