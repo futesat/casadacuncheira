@@ -156,13 +156,78 @@ const translations: Translations = {
   'location.carnota.title': { es: 'Playa de Carnota', gl: 'Praia de Carnota', en: 'Carnota Beach', fr: 'Plage de Carnota', de: 'Strand von Carnota', it: 'Spiaggia di Carnota', pt: 'Praia de Carnota' },
   'location.carnota.desc': { es: 'Una de las playas más largas de Galicia, perfecta para paseos infinitos', gl: 'Unha das praias máis longas de Galicia, perfecta para paseos infinitos', en: 'One of the longest beaches in Galicia, perfect for infinite walks', fr: 'L\'une des plus longues plages de Galice, parfaite pour des promenades infinies', de: 'Einer der längsten Strände Galiziens, perfekt für endlose Spaziergänge', it: 'Una delle spiagge più lunghe della Galizia, perfetta per passeggiate infinite', pt: 'Uma das praias mais longas da Galiza, perfeita para passeios infinitos' },
   'location.carnota.longDesc': {
-    es: 'Con sus más de 7 kilómetros de extensión, la playa de Carnota no solo es la más grande de Galicia, sino también un ecosistema virgen de dunas y marismas de valor incalculable.',
-    gl: 'Con máis de 7 quilómetros de extensión, a praia de Carnota non só é a máis grande de Galicia, senón tamén un ecosistema virxe de dunas e marismas de valor incalculable.',
-    en: 'With over 7 kilometers in length, Carnota Beach is not only the largest in Galicia but also an invaluable pristine ecosystem of dunes and marshes.',
-    fr: 'Avec plus de 7 kilomètres de long, la plage de Carnota n\'est pas seulement la plus grande de Galice, mais aussi un écosistema vierge de dunes et de marais inestimable.',
-    de: 'Mit einer Länge von über 7 Kilometern ist der Strand von Carnota nicht nur der größte Galiciens, sondern auch ein unschätzbares, unberührtes Ökosystem aus Dünen und Sümpfen.',
-    it: 'Con i suoi oltre 7 chilometri di lunghezza, la spiaggia di Carnota non è solo la più grande della Galizia, ma anche un inestimabile ecosistema incontaminato di dune e paludi.',
-    pt: 'Com mais de 7 quilómetros de extensão, a praia de Carnota não é apenas a maior da Galiza, mas também um ecossistema virgem de dunas e pântanos de valor incalculável.'
+    es: `Con sus más de 7 kilómetros de extensión, la playa de Carnota no solo es la más grande de Galicia, sino también un ecosistema virgen de dunas y marismas de valor incalculable.
+
+El ecosistema
+Este espacio natural forma parte de la Red Natura 2000 y destaca por su biodiversidad. Las marismas de Caldebarcos albergan numerosas especies de aves migratorias, convirtiéndose en un lugar privilegiado para la ornitología.
+
+Boca do Río
+Uno de los puntos más espectaculares es la desembocadura del río Valdebois, conocida como Boca do Río. Aquí, la marea crea piscinas naturales de agua templada y cristalina, rodeadas de una arena blanca finísima, perfectas para el baño en un entorno idílico.
+
+Patrimonio cultural
+Muy cerca de la playa, en el pueblo de Carnota, se pueden visitar sus famosos hórreos, entre los más largos de Galicia, que son testimonio de la rica historia agrícola y marinera de la zona.`,
+    gl: `Cos seus máis de 7 quilómetros de extensión, a praia de Carnota non só é a máis grande de Galicia, senón tamén un ecosistema virxe de dunas e marismas de valor incalculable.
+
+O ecosistema
+Este espazo natural forma parte da Rede Natura 2000 e destaca pola súa biodiversidade. As marismas de Caldebarcos albergan numerosas especies de aves migratorias, converténdose nun lugar privilexiado para a ornitoloxía.
+
+Boca do Río
+Un dos puntos máis espectaculares é a desembocadura do río Valdebois, coñecida como Boca do Río. Aquí, a marea crea piscinas naturais de auga tépeda e cristalina, rodeadas dunha area branca finísima, perfectas para o baño nun contorno idílico.
+
+Patrimonio cultural
+Moi preto da praia, no pobo de Carnota, pódense visitar os seus famosos hórreos, entre os máis longos de Galicia, que son testemuña da rica historia agrícola e mariñeira da zona.`,
+    en: `With its more than 7 kilometers in length, Carnota Beach is not only the largest in Galicia but also an invaluable pristine ecosystem of dunes and marshes.
+
+The ecosystem
+This natural space is part of the Natura 2000 Network and stands out for its biodiversity. The Caldebarcos marshes host numerous species of migratory birds, making it a privileged spot for birdwatching.
+
+Boca do Río
+One of the most spectacular points is the mouth of the Valdebois River, known as Boca do Río. Here, the tide creates natural pools of warm and crystalline water, surrounded by very fine white sand, perfect for swimming in an idyllic environment.
+
+Cultural heritage
+Very close to the beach, in the town of Carnota, you can visit its famous granaries (hórreos), among the longest in Galicia, which bear witness to the region's rich agricultural and seafaring history.`,
+    fr: `Avec ses plus de 7 kilomètres de long, la plage de Carnota n'est pas seulement la plus grande de Galice, mais aussi un écosystème vierge de dunes et de marais inestimable.
+
+L'écosystème
+Cet espace naturel fait partie du réseau Natura 2000 et se distingue par sa biodiversité. Les marais de Caldebarcos abritent de nombreuses espèces d'oiseaux migrateurs, ce qui en fait un lieu privilégié pour l'ornithologie.
+
+Boca do Río
+L'un des points les plus spectaculaires est l'embouchure de la rivière Valdebois, connue sous le nom de Boca do Río. Ici, la marée crée des piscines naturelles d'eau tiède et cristalline, entourées d'un sable blanc très fin, parfaites pour la baignade dans un cadre idyllique.
+
+Patrimoine culturel
+Tout près de la plage, dans le village de Carnota, vous pourrez visiter ses célèbres hórreos, parmi les plus longs de Galice, qui témoignent de la riche histoire agricole et maritime de la région.`,
+    de: `Mit einer Länge von über 7 Kilometern ist der Strand von Carnota nicht nur der größte Galiciens, sondern auch ein unschätzbares, unberührtes Ökosystem aus Dünen und Sümpfen.
+
+Das Ökosystem
+Dieser Naturraum ist Teil des Natura-2000-Netzwerks und zeichnet sich durch seine biologische Vielfalt aus. Die Sümpfe von Caldebarcos beherbergen zahlreiche Zugvogelarten und sind somit ein privilegierter Ort für die Vogelbeobachtung.
+
+Boca do Río
+Einer der spektakulärsten Punkte ist die Mündung des Flusses Valdebois, bekannt als Boca do Río. Hier entstehen bei Ebbe natürliche Pools mit warmem, kristallklarem Wasser, umgeben von feinstem weißen Sand - ideal zum Baden in einer idyllischen Umgebung.
+
+Kulturelles Erbe
+Ganz in der Nähe des Strandes, im Dorf Carnota, können Sie die berühmten Hórreos (Speicher) besichtigen, die zu den längsten Galiciens gehören und von der reichen landwirtschaftlichen und maritimen Geschichte der Region zeugen.`,
+    it: `Con i suoi oltre 7 chilometri di lunghezza, la spiaggia di Carnota non è solo la più grande della Galizia, ma anche un inestimabile ecosistema incontaminato di dune e paludi.
+
+L'ecosistema
+Questo spazio naturale fa parte della Rete Natura 2000 e si distingue per la sua biodiversità. Le paludi di Caldebarcos ospitano numerose specie di uccelli migratori, rendendole un luogo privilegiato per l'ornitologia.
+
+Boca do Río
+Uno dei punti più spettacolari è la foce del fiume Valdebois, nota come Boca do Río. Qui, la marea crea piscine naturali di acqua tiepida e cristallina, circondate da una finissima sabbia bianca, perfette per nuotare in un ambiente idilliaco.
+
+Patrimonio culturale
+Molto vicino alla spiaggia, nel comune di Carnota, si possono visitare i suoi famosi hórreos, tra i più lunghi della Galizia, che testimoniano la ricca storia agricola e marinara della zona.`,
+    pt: `Com os seus mais de 7 quilómetros de extensão, a praia de Carnota não é apenas a maior da Galiza, mas também um ecossistema virgem de dunas e pântanos de valor incalculável.
+
+O ecossistema
+Este espaço natural faz parte da Rede Natura 2000 e destaca-se pela sua biodiversidade. Os pântanos de Caldebarcos abrigam numerosas espécies de aves migratorias, tornando-se um local privilegiado para a ornitologia.
+
+Boca do Río
+Um dos pontos mais espetaculares é a foz do rio Valdebois, conhecida como Boca do Río. Aqui, a maré cria piscinas naturais de água morna e cristalina, rodeadas de areia branca finíssima, perfeitas para banhos num ambiente idílico.
+
+Património cultural
+Muito perto da praia, na vila de Carnota, pode visitar os seus famosos hórreos, entre os mais longos da Galiza, que são testemunho da rica história agrícola e marítima da zona.`
+
+
   },
   'nature.carnota.h1': { es: '7km de arena blanca', gl: '7km de area branca', en: '7km of white sand', fr: '7km de sable blanc', de: '7km weißer Sand', it: '7km di sabbia bianca', pt: '7km de areia branca' },
   'nature.carnota.h2': { es: 'Marismas de Caldebarcos', gl: 'Marismas de Caldebarcos', en: 'Caldebarcos Marshes', fr: 'Marais de Caldebarcos', de: 'Caldebarcos-Sümpfe', it: 'Paludi di Caldebarcos', pt: 'Pântanos de Caldebarcos' },
@@ -379,11 +444,67 @@ Puntos de interese
 
 Actividades recomendadas
 A subida ao monte, aínda que require calzado axeitado para terreo rochoso, compensa con creces polas vistas. Tamén é moi recomendable o paseo circular que rodea a lagoa e atravesa o sistema dunar, permitindo apreciar a biodiversidade deste enclave privilexiado.`,
-    en: `Mount Louro, with its iconic twin-peak silhouette, stands majestic at the mouth of the Muros and Noia Estuary. A unique natural space where the mountain meets a freshwater lagoon and wild dunes.`,
-    fr: `Le Mont Louro, avec son icónica silueta de deux picos, se dresse majestueusement à l'embouchure de l'estuaire de Muros et Noia.`,
-    de: `Der Berg Louro mit seiner ikonischen Zwillingsspitzen-Silhouette erhebt sich majestätisch an der Mündung der Ría de Muros und Noia.`,
-    it: `Il Monte Louro, con la sua iconica silhouette a due cime, si erge maestoso alla foce dell'estuario di Muros e Noia.`,
-    pt: `O Monte Louro, com a sua icónica silhueta de dois picos, ergue-se majestoso na foz da Ria de Muros e Noia.`
+    en: `Mount Louro, with its iconic twin-peak silhouette, stands majestic at the mouth of the Muros and Noia Estuary. It is a protected natural space of singular beauty, where granite, freshwater, and Atlantic sand coexist in perfect harmony.
+
+The surroundings
+At its feet lies the Xalfas Lagoon, a coastal freshwater lagoon separated from the sea by an imposing dune complex. This ecosystem is a vital refuge for numerous species of migratory birds and endemic flora, creating a landscape of unique contrasts between the blue of the sea and the green of the lacustrine vegetation.
+
+Points of interest
+• The summit: The two granite peaks offer one of the best panoramic views of the Rías Baixas and the entrance to the Muros and Noia Estuary.
+• Xalfas Lagoon: A protected lagoon ecosystem of great ecological value that invites contemplation and birdwatching.
+• Area Maior Beach: A wild beach with white sand and crystal-clear waters stretching at the foot of the mountain, ideal for lovers of pure nature.
+
+Recommended activities
+The climb to the mountain, although requiring suitable footwear for rocky terrain, is more than rewarded by the views. The circular walk around the lagoon and through the dune system is also highly recommended, allowing you to appreciate the biodiversity of this privileged enclave.`,
+    fr: `Le Mont Louro, avec son iconique silhouette à deux pics, se dresse majestueusement à l'embouchure de l'estuaire de Muros et Noia. C'est un espace naturel protégé d'une beauté singulière, où le granit, l'eau douce et le sable de l'Atlantique cohabitent en parfaite harmonie.
+
+L'environnement
+À ses pieds se trouve la lagune de Xalfas, une lagune côtière d'eau douce séparée de la mer par un imposant complexe de dunes. Cet écosystème est un refuge vital pour de nombreuses espèces d'oiseaux migrateurs et de flore endémique, créant un paysage de contrastes uniques entre le bleu de la mer et le vert de l'environnement lacustre.
+
+Points d'intérêt
+• Le sommet : Les deux pics granitiques offrent l'un des meilleurs panoramas des Rías Baixas et de l'entrée de l'estuaire de Muros et Noia.
+• Lagune de Xalfas : Un écosystème lagunaire protégé d'une grande valeur écologique qui invite à la contemplation et à l'observation des oiseaux.
+• Plage d'Area Maior : Une plage sauvage de sable blanc et d'eaux cristallines qui s'étende au pied de la montagne, idéale pour les amoureux de la nature à l'état pur.
+
+Activités recommandées
+La montée de la montagne, bien qu'elle nécessite des chaussures adaptées aux terrains rocheux, est largement récompensée par la vue. La promenade circulaire qui entoure la lagune et traverse le système dunaire est également vivement recommandée, permettant d'apprécier la biodiversité de cette enclave privilégiée.`,
+    de: `Der Monte Louro mit seiner ikonischen Silhouette aus zwei Gipfeln erhebt sich majestätisch an der Mündung der Ría de Muros und Noia. Er ist ein geschützter Naturraum von einzigartiger Schönheit, in dem Granit, Süßwasser und der Sand des Atlantiks in perfekter Harmonie koexistieren.
+
+Die Umgebung
+Zu seinen Füßen liegt die Lagoa de Xalfas, eine Küsten-Süßwasserlagune, die durch einen imposanten Dünenkomplex vom Meer getrennt ist. Dieses Ökosystem ist ein lebenswichtiger Rückzugsort für zahlreiche Zugvogelarten und endemische Flora und schafft eine Landschaft voller einzigartiger Kontraste zwischen dem Blau des Meeres und dem Grün der Seervegetation.
+
+Sehenswürdigkeiten
+• Der Gipfel: Die beiden Granitgipfel bieten eines der besten Panoramen der Rías Baixas und des Eingangs der Ría de Muros und Noia.
+• Lagoa de Xalfas: Ein geschütztes Lagunenökosystem von hohem ökologischem Wert, das zur Kontemplation und Vogelbeobachtung einlädt.
+• Praia de Area Maior: Ein wilder Strand mit weißem Sand und kristallklarem Wasser, der sich am Fuße des Berges erstreckt, ideal für Liebhaber der reinen Natur.
+
+Empfohlene Aktivitäten
+Der Aufstieg auf den Berg erfordert zwar geeignetes Schuhwerk für felsiges Gelände, wird aber durch die Aussicht mehr als belohnt. Sehr empfehlenswert ist auch der Rundweg um die Lagune und durch das Dünensystem, auf dem man die Artenvielfalt dieser privilegierten Enklave bewundern kann.`,
+    it: `Il Monte Louro, con la sua iconica silhouette a due cime, si erge maestoso alla foce dell'estuario di Muros e Noia. È uno spazio naturale protetto di singolare bellezza, dove il granito, l'acqua dolce e la sabbia dell'Atlantico convivono in perfetta armonia.
+
+L'ambiente
+Ai suoi piedi si trova la Lagoa de Xalfas, una laguna costiera d'acqua dolce separata dal mare da un imponente complesso di dune. Questo ecosistema è un rifugio vitale per numerose specie di uccelli migratori e flora endemica, creando un paesaggio di contrasti unici tra il blu del mare e il verde della vegetazione lacustre.
+
+Punti di interesse
+• La cima: Le due cime granitiche offrono uno dei migliori panorami delle Rías Baixas e dell'ingresso dell'estuario di Muros e Noia.
+• Lagoa de Xalfas: Un ecosistema lagunare protetto di grande valore ecologico che invita alla contemplazione e al birdwatching.
+• Praia de Area Maior: Una spiaggia selvaggia di sabbia bianca e acque cristalline che si estende ai piedi del monte, ideale per gli amanti della natura allo stato puro.
+
+Attività consigliate
+La salita al monte, pur richiedendo calzature adeguate per il terreno roccioso, ripaga ampiamente con i suoi panorami. È inoltre molto consigliata la passeggiata circolare che circonda la laguna e attraversa il sistema dunale, permettendo di apprezzare la biodiversità di questa enclave privilegiata.`,
+    pt: `O Monte Louro, com a sua icónica silhueta de dois picos, ergue-se majestoso na foz da Ria de Muros e Noia. É um espaço natural protegido de uma beleza singular, onde o granito, a água doce e a areia do Atlântico convivem em perfeita harmonia.
+
+O entorno
+Aos seus pés encontra-se a Lagoa de Xalfas, uma lagoa costeira de água doce separada do mar por um imponente complexo de dunas. Este ecossistema é um refúgio vital para numerosas espécies de aves migratórias e flora endémica, criando uma paisagem de contrastes únicos entre o azul do mar e o verde da vegetação lacustre.
+
+Pontos de interesse
+• O cume: Os dois picos graníticos oferecem uma das melhores panorâmicas das Rias Baixas e da entrada da Ria de Muros e Noia.
+• Lagoa de Xalfas: Um ecossistema lagunar protegido de grande valor ecológico que convida à contemplação e à observação de aves.
+• Praia de Area Maior: Uma praia selvagem de areia branca e águas cristalinas que se estende aos pés do monte, ideal para os amantes da natureza em estado puro.
+
+Atividades recomendadas
+A subida ao monte, embora exija calçado adequado para terreno rochoso, compensa em grande medida pelas vistas. Também é muito recomendável o passeio circular que rodeia a lagoa e atravessa o sistema dunar, permitindo apreciar a biodiversidade deste enclave privilegiado.`
+
   },
   'nature.louro.h1': { es: 'Lagoa de Louro', gl: 'Lagoa de Louro', en: 'Louro Lagoon', fr: 'Lagune de Louro', de: 'Louro-Lagune', it: 'Laguna di Louro', pt: 'Lagoa do Louro' },
   'nature.louro.h2': { es: 'Vistas de la Ría', gl: 'Vistas da Ría', en: 'Estuary Views', fr: 'Vues sur l\'Estuaire', de: 'Blick auf die Mündung', it: 'Viste dell\'Estuario', pt: 'Vistas da Ria' },
@@ -418,11 +539,72 @@ Puntos de interese
 
 Actividades recomendadas
 Unha das experiencias máis populares é alugar un kaiak para remontar a ensenada e ver a fervenza desde o mar, permitíndoche sentir os salpicos de auga doce mentres navegas polo Atlántico.`,
-    en: `The Ézaro waterfall is the only one in continental Europe that flows directly into the Atlantic Ocean.`,
-    fr: `La cascade d'Ézaro est unique en Europe continentale.`,
-    de: `Der Ézaro-Wasserfall ist einzigartig in Kontinentaleuropa.`,
-    it: `La cascata dell'Ézaro è unica nell'Europa continentale.`,
-    pt: `A cascata do Ézaro é única na Europa continental.`
+    en: `The Ézaro waterfall, located in the municipality of Dumbría, is one of the most stunning natural treasures in Galicia. Its uniqueness lies in being the only waterfall in continental Europe that flows directly into the Atlantic Ocean in the form of a cataract.
+
+The surroundings
+The Xallas River, after flowing through the lands of A Coruña, plunges into the sea at the Ézaro inlet. The fall, over 40 meters high, hits the granite walls of Mount Pindo before mixing with salt water. The roar of the water and the rising mist create a magical atmosphere, especially during periods of heavy rain.
+
+Points of interest
+• The Viewpoint: Located above the waterfall, it offers an unparalleled aerial view of the mouth and the vastness of the ocean.
+• Wooden walkways: A comfortable walking route allows you to get close to the base of the waterfall with total safety, enjoying the power of the water from nearby.
+• Night lighting: During the summer months and on special dates, the waterfall is illuminated with colored light shows, turning the place into a movie-like setting.
+• Electricity Museum: Next to the waterfall is an old hydroelectric plant that now houses an interpretation center about energy and water.
+
+Recommended activities
+One of the most popular experiences is renting a kayak to head up the inlet and see the waterfall from the sea, allowing you to feel the freshwater splashes while sailing through the Atlantic.`,
+    fr: `La cascade d'Ézaro, située dans la commune de Dumbría, est l'un des trésors naturels les plus impressionnants de Galice. Sa singularité réside dans le fait qu'elle est la seule cascade d'Europe continentale qui se jette directement dans l'océan Atlantique sous forme de cataracte.
+
+L'environnement
+Le fleuve Xallas, après avoir parcouru les terres de La Corogne, se précipite dans la mer dans l'anse d'Ézaro. La chute, de plus de 40 mètres de haut, frappe les parois granitiques du mont Pindo avant de se mélanger à l'eau salée. Le fracas de l'eau et la vapeur qui s'élève créent une atmosphère magique, surtout en période de pluies abondantes.
+
+Points d'intérêt
+• Le Belvédère : Situé au-dessus de la cascade, il offre une vue aérienne inégalée sur l'embouchure et l'immensité de l'océan.
+• Passerelles en bois : Un parcours à pied confortable permet de s'approcher de la base de la cascade en toute sécurité, en profitant de la force de l'eau de près.
+• Éclairage nocturne : Pendant les mois d'été et lors de dates spéciales, la cascade est illuminée par des jeux de lumières colorées, transformant le lieu en un décor de film.
+• Musée de l'Électricité : À côté de la cascade se trouve une ancienne centrale hydroélectrique qui abrite aujourd'hui un centre d'interprétation sur l'énergie et l'eau.
+
+Activités recommandées
+L'une des expériences les plus populaires consiste à louer un kayak pour remonter l'anse et voir la cascade depuis la mer, vous permettant de sentir les éclaboussures d'eau douce tout en naviguant sur l'Atlantique.`,
+    de: `Der Ézaro-Wasserfall in der Gemeinde Dumbría ist einer der beeindruckendsten Naturschätze Galiciens. Seine Einzigartigkeit liegt darin, dass er der einzige Wasserfall in Kontinentaleuropa ist, der direkt in Form eines Katarakts in den Atlantischen Ozean mündet.
+
+Die Umgebung
+Der Fluss Xallas stürzt, nachdem er die Ländereien von A Coruña durchquert hat, in der Bucht von Ézaro ins Meer. Der über 40 Meter hohe Fall trifft auf die Granitwände des Monte Pindo, bevor er sich mit dem Salzwasser vermischt. Das Getöse des Wassers und der aufsteigende Nebel erzeugen eine magische Atmosphäre, besonders in Zeiten starker Regenfälle.
+
+Sehenswürdigkeiten
+• Der Aussichtspunkt: Er befindet sich oberhalb des Wasserfalls und bietet einen unvergleichlichen Blick aus der Vogelperspektive auf die Mündung und die Unendlichkeit des Ozeans.
+• Holzstege: Ein bequemer Rundweg ermöglicht es, sich dem Fuß des Wasserfalls in aller Sicherheit zu nähern und die Kraft des Wassers aus nächster Nähe zu genießen.
+• Nachtbeleuchtung: In den Sommermonaten und an besonderen Terminen wird der Wasserfall mit farbigen Lichtspielen beleuchtet, was den Ort in eine filmreife Kulisse verwandelt.
+• Elektrizitätsmuseum: Neben dem Wasserfall befindet sich ein altes Wasserkraftwerk, das heute ein Informationszentrum über Energie und Wasser beherbergt.
+
+Empfohlene Aktivitäten
+Eine der beliebtesten Erfahrungen ist es, ein Kajak zu mieten, um die Bucht zu befahren und den Wasserfall vom Meer aus zu sehen, sodass Sie die Spritzer des Süßwassers spüren können, während Sie durch den Atlantik navigieren.`,
+    it: `La cascata dell'Ézaro, situata nel comune di Dumbría, è uno dei tesori naturali più impressionanti della Galizia. La sua particolarità risiede nell'essere l'unica cascata dell'Europa continentale che sfocia direttamente nell'oceano Atlantico sotto forma di cascata.
+
+L'ambiente
+Il fiume Xallas, dopo aver attraversato le terre di La Coruña, precipita in mare nell'insenatura di Ézaro. La caduta, alta più di 40 metri, colpisce le pareti granitiche del monte Pindo prima di mescolarsi con l'acqua salata. Il fragore dell'acqua e il vapore che si alza creano un'atmosfera magica, specialmente nei periodi di piogge abbondanti.
+
+Punti di interesse
+• Il Belvedere: Situato sopra la cascata, offre una vista aerea impareggiabile della foce e dell'immensità dell'oceano.
+• Passerelle in legno: Un comodo percorso a piedi permette di avvicinarsi alla base della cascata in totale sicurezza, godendo della forza dell'acqua da vicino.
+• Illuminazione notturna: Durante i mesi estivi e in date speciali, la cascata si illumina con giochi di luci colorate, trasformando il luogo in uno scenario da film.
+• Museo dell'Elettricità: Accanto alla cascata si trova un'antica centrale idroelettrica che oggi ospita un centro di interpretazione sull'energia e l'acqua.
+
+Attività consigliate
+Una delle esperienze più popolari è noleggiare un kayak per risalire l'insenatura e vedere la cascata dal mare, sentendo gli spruzzi d'acqua dolce mentre si naviga nell'Atlantico.`,
+    pt: `A cascata do Ézaro, situada no município de Dumbría, é um dos tesouros naturais mais impactantes da Galiza. A sua singularidade reside em ser a única cascata da Europa continental que desagua diretamente no Oceano Atlântico em forma de catarata.
+
+O entorno
+O rio Xallas, após percorrer as terras da Corunha, precipita-se no mar na enseada do Ézaro. A queda, de mais de 40 metros de altura, atinge as paredes graníticas do monte Pindo antes de se misturar com a água salgada. O estrondo da água e o vapor que se levanta criam uma atmosfera mágica, especialmente em épocas de chuvas abundantes.
+
+Pontos de interesse
+• O Miradouro: Situado sobre a cascata, oferece uma vista aérea inigualável da foz e da imensidão do oceano.
+• Passadeiras de madeira: Um percurso a pé confortável permite aproximar-se da base da cascata com total segurança, desfrutando da força da água de perto.
+• Iluminação noturna: Durante os meses de verão e em datas especiais, a cascata ilumina-se com jogos de luzes coloridas, transformando o lugar num cenário de filme.
+• Museu da Eletricidade: Junto à cascata encontra-se uma antiga central hidroelétrica que hoje abriga um centro de interpretação sobre energia e água.
+
+Atividades recomendadas
+Uma das experiências mais populares é alugar um kayak para remontar a enseada e ver a cascata a partir do mar, permitindo sentir os salpicos de água doce enquanto navega pelo Atlântico.`
+
   },
   'nature.ezaro.h1': { es: 'Río Xallas', gl: 'Río Xallas', en: 'Xallas River', fr: 'Fleuve Xallas', de: 'Fluss Xallas', it: 'Fiume Xallas', pt: 'Rio Xallas' },
   'nature.ezaro.h2': { es: 'Única en Europa', gl: 'Única en Europa', en: 'Unique in Europe', fr: 'Unique in Europe', de: 'Einzigartig in Europa', it: 'Unica in Europa', pt: 'Única na Europa' },
@@ -487,11 +669,57 @@ Non existe un só punto para gozar deste espectáculo, senón toda unha xeograf�
 
 O ritual
 O momento do "raio verde", a gama de púrpuras e laranxas que tinguen o ceo, e o silencio que se apodera da costa cando o sol desaparece, fan deste momento o peche perfecto para calquera día de exploración. Recoméndase chegar polo menos 30 minutos antes da hora prevista para gozar de toda a transición lumínica.`,
-    en: `Watching the sunset in Costa da Morte is a magical experience.`,
-    fr: `Regarder le coucher du soleil est magique.`,
-    de: `Den Sonnenuntergang zu beobachten ist magisch.`,
-    it: `Guardare il tramonto è magico.`,
-    pt: `Ver o pôr do sol é mágico.`
+    en: `Watching the sunset in A Costa da Morte is an experience that transcends the visual. For the ancients, this was the "Finis Terrae," the place where the sun died each day in the ocean, marking the boundary of the known world.
+
+Magical places
+There isn't just one spot to enjoy this spectacle, but an entire geography of light and color:
+• Cape Finisterre: The most emblematic place. Sitting on the rocks next to the lighthouse while the solar disk sinks into the Atlantic is a ritual shared by thousands of travelers and pilgrims.
+• Carnota Beach: With its 7 kilometers of sand, the sunset here is a display of golden reflections over the infinite shore.
+• Lira Lighthouse: Much quieter and closer to Casa da Cuncheira, it offers an intimate setting with the sound of the waves breaking against the granite.
+
+The ritual
+The moment of the "green flash," the range of purples and oranges that tint the sky, and the silence that takes over the coast when the sun disappears, make this moment the perfect closure for any day of exploration. It is recommended to arrive at least 30 minutes before the scheduled time to enjoy the entire lighting transition.`,
+    fr: `Contempler le coucher du soleil sur la Costa da Morte est une expérience qui transcende le visuel. Pour les anciens, c'était le "Finis Terrae", l'endroit où le soleil mourait chaque jour dans l'océan, marquant la limite du monde connu.
+
+Lieux magiques
+Il n'existe pas un seul point pour profiter de ce spectacle, mais toute une géographie de lumière et de couleurs :
+• Cap Finisterre : Le lieu le plus emblématique. S'asseoir sur les rochers près du phare pendant que le disque solaire s'immerge dans l'Atlantique est un rite partagé par des milliers de voyageurs et de pèlerins.
+• Plage de Carnota : Avec ses 7 kilomètres de sable, le coucher du soleil est ici un déploiement de reflets dorés sur le rivage infini.
+• Phare de Lira : Beaucoup plus calme et proche de Casa da Cuncheira, il offre un cadre intime avec le son des vagues s'écrasant contre le granit.
+
+Le rituel
+Le moment du "rayon vert", la gamme de pourpres et d'oranges qui teintent le ciel, et le silence qui s'empare de la côte lorsque le soleil disparaît, font de ce moment la clôture parfaite de toute journée d'exploration. Il est recommandé d'arriver au moins 30 minutes à l'avance pour profiter de toute la transition lumineuse.`,
+    de: `Den Sonnenuntergang an der Costa da Morte zu betrachten, ist ein Erlebnis, das über das Visuelle hinausgeht. Für die Vorfahren war dies das "Finis Terrae", der Ort, an dem die Sonne jeden Tag im Ozean starb und die Grenze der bekannten Welt markierte.
+
+Magische Orte
+Es gibt nicht nur einen einzigen Ort, um dieses Spektakel zu genießen, sondern eine ganze Geografie aus Licht und Farbe:
+• Kap Finisterre: Der emblematischste Ort. Auf den Felsen neben dem Leuchtturm zu sitzen, während die Sonnenscheibe im Atlantik versinkt, ist ein Ritual, das von Tausenden von Reisenden und Pilgern geteilt wird.
+• Strand von Carnota: Mit seinen 7 Kilometern Sand ist der Sonnenuntergang hier ein Schauspiel aus goldenen Reflexen am unendlichen Ufer.
+• Leuchtturm von Lira: Viel ruhiger und näher an der Casa da Cuncheira gelegen, bietet er einen intimen Rahmen mit dem Rauschen der Wellen, die gegen den Granit brechen.
+
+Das Ritual
+Der Moment des "grünen Blitzes", die Palette von Purpur und Orange, die den Himmel färbt, und die Stille, die sich über die Küste legt, wenn die Sonne verschwindet, machen diesen Moment zum perfekten Abschluss eines jeden Erkundungstages. Es wird empfohlen, mindestens 30 Minuten vor der geplanten Zeit einzutreffen, um den gesamten Lichtübergang zu genießen.`,
+    it: `Contemplare il tramonto nella Costa da Morte è un'esperienza che trascende il visivo. Per gli antichi, questo era il "Finis Terrae", il luogo in cui il sole moriva ogni giorno nell'oceano, segnando il confine del mondo conosciuto.
+
+Luoghi magici
+Non esiste un solo punto per godere di questo spettacolo, ma un'intera geografia di luce e colore:
+• Capo Finisterre: Il luogo più emblematico. Sedersi sulle rocce vicino al faro mentre il disco solare si immerge nell'Atlantico è un rito condiviso da migliaia di viaggiatori e pellegrini.
+• Spiaggia di Carnota: Con i suoi 7 chilometri di sabbia, il tramonto qui è un'esposizione di riflessi dorati sulla riva infinita.
+• Faro di Lira: Molto più tranquillo e vicino a Casa da Cuncheira, offre un ambiente intimo con il suono delle onde che si infrangono contro il granito.
+
+Il rituale
+Il momento del "raggio verde", la gamma di viola e arancioni che tingono il cielo e il silenzio che si impossessa della costa quando il sole scompare, rendono questo momento la chiusura perfetta per ogni giornata di esplorazione. Si consiglia di arrivare almeno 30 minuti prima dell'ora prevista per godersi l'intera transizione luminosa.`,
+    pt: `Contemplar o pôr do sol na Costa da Morte é uma experiência que transcende o visual. Para os antigos, este era o "Finis Terrae", o lugar onde o sol morria cada dia no oceano, marcando o limite do mundo conhecido.
+
+Lugares mágicos
+Não existe apenas um ponto para desfrutar deste esáculo, mas toda uma geografia de luz e cor:
+• Cabo Finisterra: O lugar mais emblemático. Sentar-se nas rochas junto ao farol enquanto o disco solar mergulha no Atlântico é um rito partilhado por milhares de viajantes e peregrinos.
+• Praia de Carnota: Com os seus 7 quilómetros de areia, o pôr do sol aqui é um desfile de reflexos dourados sobre a margem infinita.
+• Farol de Lira: Muito mais tranquilo e próximo da Casa da Cuncheira, oferece um ambiente íntimo com o som das ondas a quebrar contra o granito.
+
+O ritual
+O momento do "raio verde", a gama de púrpuras e laranjas que tingem o céu, e o silêncio que se apodera da costa quando o sol desaparece, fazem deste momento o encerramento perfeito para qualquer dia de exploração. Recomenda-se chegar pelo menos 30 minutos antes da hora prevista para desfrutar de toda a transição lumínica.`
+
   },
   'experiences.villages.title': { es: 'Pueblos Marineros', gl: 'Pobos Mariñeiros', en: 'Seafaring Villages', fr: 'Villages de Pêcheurs', de: 'Seefahrerdörfer', it: 'Villaggi Marinari', pt: 'Aldeias de Pescadores' },
   'experiences.villages.desc': { es: 'Visita Muros y otros pueblos con historia', gl: 'Visita Muros e outros pobos con historia', en: 'Visit Muros and other historic villages', fr: 'Visitez Muros et d\'autres villages chargés d\'histoire', de: 'Besuchen Sie Muros und andere geschichtsträchtige Dörfer', it: 'Visita Muros e altri borghi storici', pt: 'Visite Muros e outras aldeias históricas' },
@@ -551,13 +779,77 @@ O momento do "raio verde", a gama de púrpuras e laranxas que tinguen o ceo, e o
   'location.fisterra.title': { es: 'Cabo Finisterre', gl: 'Cabo Fisterra', en: 'Cape Finisterre', fr: 'Cap Finisterre', de: 'Kap Finisterre', it: 'Capo Finisterre', pt: 'Cabo Finisterra' },
   'location.fisterra.desc': { es: 'El legendario "Fin del Mundo", un lugar de belleza sublime y atardeceres infinitos.', gl: 'O lendario "Fin do Mundo", un lugar de beleza sublime e atardeceres infinitos.', en: 'The legendary "End of the World", a place of sublime beauty and infinite sunsets.', fr: 'Le légendaire "Fin du Monde", un lieu d\'une beauté sublime et de couchers de soleil infinis.', de: 'Das legendäre "Ende der Welt", ein Ort von erhabener Schönheit und unendlichen Sonnenuntergängen.', it: 'Il leggendario "Fine del Mondo", un luogo di sublime bellezza e tramonti infiniti.', pt: 'O lendário "Fim do Mundo", um lugar de beleza sublime e pores do sol infinitos.' },
   'location.fisterra.longDesc': {
-    es: 'Cabo Finisterre, el punto más occidental de la España peninsular para los romanos, sigue siendo hoy un lugar de peregrinación y asombro, donde el faro guía a los barcos a través de la mítica Costa da Morte.',
-    gl: 'Cabo Fisterra, o punto máis occidental da España peninsular para os romanos, segue a ser hoxe un lugar de peregrinación e asombro, onde o faro guía aos barcos a través da mítica Costa da Morte.',
-    en: 'Cape Finisterre, the westernmost point of peninsular Spain for the Romans, remains today a place of pilgrimage and awe, where the lighthouse guides ships through the mythical Costa da Morte.',
-    fr: 'Le Cap Finisterre, le point le plus à l\'ouest de l\'Espagne péninsulaire pour les Romains, reste aujourd\'hui un lieu de pèlerinage et d\'émerveillement, où le phare guide les navires à través de la mythique Costa da Morte.',
-    de: 'Kap Finisterre, für die Römer der westlichste Punkt des spanischen Festlandes, ist auch heute noch ein Ort der Pilgerfahrt und des Staunens, an dem der Leuchtturm die Schiffe durch die mystische Costa da Morte leitet.',
-    it: 'Capo Finisterre, il punto più occidentale della Spagna peninsulare per i romani, rimane ancora oggi un luogo di pellegrinaggio e meraviglia, dove il faro guida le navi attraverso la mitica Costa da Morte.',
-    pt: 'O Cabo Finisterra, o ponto mais ocidental da Espanha peninsular para os romanos, continua hoje a ser um lugar de peregrinação e asombro, onde o farol guia os navios através da mítica Costa da Morte.'
+    es: `Cabo Finisterre, el punto más occidental de la España peninsular para los romanos, sigue siendo hoy un lugar de peregrinación y asombro, donde el faro guía a los barcos a través de la mítica Costa da Morte.
+
+El Fin del Mundo
+Desde la antigüedad, este lugar ha sido considerado el "Finis Terrae", el límite del mundo conocido. Caminar hasta el faro es seguir los pasos de miles de peregrinos que terminan aquí su viaje después de Santiago de Compostela.
+
+El Faro de Fisterra
+El faro, construido en 1853, es el más emblemático de la costa. Su luz alcanza más de 65 kilómetros mar adentro, siendo un guardián incansable para los navegantes del Atlántico.
+
+Atardeceres infinitos
+La puesta de sol desde el acantilado, con la inmensidad del océano abriéndose ante tus ojos, es un espectáculo que invita a la reflexión y la calma, capturando la esencia indomable de A Costa da Morte.`,
+    gl: `Cabo Fisterra, o punto máis occidental da España peninsular para os romanos, segue a ser hoxe un lugar de peregrinación e asombro, onde o faro guía aos barcos a través da mítica Costa da Morte.
+
+O Fin do Mundo
+Desde a antigüidade, este lugar foi considerado o "Finis Terrae", o límite do mundo coñecido. Camiñar ata o faro é seguir os pasos de miles de peregrinos que rematan aquí a súa viaxe despois de Santiago de Compostela.
+
+O Faro de Fisterra
+O faro, construído en 1853, é o máis emblemático da costa. A súa luz acada máis de 65 quilómetros mar adentro, sendo un gardián incansable para os navegantes do Atlántico.
+
+Atardeceres infinitos
+A posta de sol desde o acantilado, coa inmensidade do océano abríndose ante os teus ollos, é un espectáculo que convida á reflexión e á calma, capturando a esencia indomable da Costa da Morte.`,
+    en: `Cape Finisterre, the westernmost point of peninsular Spain for the Romans, remains today a place of pilgrimage and awe, where the lighthouse guides ships through the mythical Costa da Morte.
+
+The End of the World
+Since ancient times, this place has been considered the "Finis Terrae", the boundary of the known world. Walking to the lighthouse is following the steps of thousands of pilgrims who end their journey here after Santiago de Compostela.
+
+The Finisterre Lighthouse
+Built in 1853, the lighthouse is the most iconic on the coast. Its light reaches more than 65 kilometers out to sea, serving as a tireless guardian for Atlantic sailors.
+
+Infinite sunsets
+The sunset from the cliff, with the vastness of the ocean opening before your eyes, is a spectacle that invites reflection and calm, capturing the untameable essence of A Costa da Morte.`,
+    fr: `Le Cap Finisterre, le point le plus à l'ouest de l'Espagne péninsulaire pour les Romains, reste aujourd'hui un lieu de pèlerinage et d'émerveillement, où le phare guide les navires à travers la mythique Costa da Morte.
+
+Le Bout du Monde
+Depuis l'Antiquité, ce lieu est considéré comme le "Finis Terrae", la limite du monde connu. Marcher jusqu'au phare, c'est suivre les traces de milliers de pèlerins qui terminent ici leur voyage après Saint-Jacques-de-Compostelle.
+
+Le Phare de Finisterre
+Le phare, construit en 1853, est le plus emblématique de la côte. Sa lumière porte à plus de 65 kilomètres en mer, constituant un gardien infatigable pour les navigateurs de l'Atlantique.
+
+Couchers de soleil infinis
+Le coucher de soleil depuis la falaise, avec l'immensité de l'océan s'ouvrant devant vos yeux, est un spectacle qui invite à la réflexion et au calme, capturant l'essence indomptable de la Costa da Morte.`,
+    de: `Kap Finisterre, für die Römer der westlichste Punkt des spanischen Festlandes, ist auch heute noch ein Ort der Pilgerfahrt und des Staunens, an dem der Leuchtturm die Schiffe durch die mystische Costa da Morte leitet.
+
+Das Ende der Welt
+Seit der Antike gilt dieser Ort als das "Finis Terrae", die Grenze der bekannten Welt. Der Weg zum Leuchtturm bedeutet, in die Fußstapfen Tausender Pilger zu treten, die hier ihre Reise nach dem Jakobsweg beenden.
+
+Der Leuchtturm von Finisterre
+Der 1853 errichtete Leuchtturm ist der wohl bekannteste an der Küste. Sein Licht reicht mehr als 65 Kilometer weit auf das Meer hinaus und dient den Seefahrern auf dem Atlantik als unermüdlicher Wächter.
+
+Unendliche Sonnenuntergänge
+Der Sonnenuntergang von den Klippen aus, während sich die Unermesslichkeit des Ozeans vor Ihren Augen öffnet, ist ein Schauspiel, das zum Nachdenken und zur Ruhe einlädt und die unzähmbare Essenz der Costa da Morte einfängt.`,
+    it: `Capo Finisterre, il punto più occidentale della Spagna peninsulare per i romani, rimane ancora oggi un luogo di pellegrinaggio e meraviglia, dove il faro guida le navi attraverso la mitica Costa da Morte.
+
+La Fine del Mondo
+Fin dall'antichità, questo luogo è stato considerato il "Finis Terrae", il limite del mondo conosciuto. Camminare fino al faro significa seguire le orme di migliaia di pellegrini che terminano qui il loro viaggio dopo Santiago de Compostela.
+
+Il Faro di Finisterre
+Il faro, costruito nel 1853, è il più emblematico della costa. La sua luce raggiunge oltre 65 chilometri in mare aperto, fungendo da guardiano instancabile per i navigatori dell'Atlantico.
+
+Tramonti infiniti
+Il tramonto dalla scogliera, con l'immensità dell'oceano che si apre davanti ai tuoi occhi, è uno spettacolo che invita alla riflessione e alla calma, catturando l'essenza indomabile della Costa da Morte.`,
+    pt: `O Cabo Finisterra, o ponto mais ocidental da Espanha peninsular para os romanos, continua hoje a ser um lugar de peregrinação e assombro, onde o farol guia os navios através da mítica Costa da Morte.
+
+O Fim do Mundo
+Desde a antiguidade, este lugar tem sido considerado o "Finis Terrae", o limite do mundo conhecido. Caminhar até ao farol é seguir os passos de milhares de peregrinos que terminam aqui a sua viagem depois de Santiago de Compostela.
+
+O Farol de Finisterra
+O farol, construído em 1853, é o mais emblemático da costa. A sua luz alcança mais de 65 quilómetros mar adentro, sendo um guardião incansável para os navegantes do Atlântico.
+
+Pôr do sol infinito
+O pôr do sol do alto das arribas, com a imensidão do oceano a abrir-se diante dos seus olhos, é um espetáculo que convida à reflexão e à calma, capturando a essência indomável da Costa da Morte.`
+
   },
   'nature.fisterra.h1': { es: 'Faro de Finisterre', gl: 'Faro de Fisterra', en: 'Finisterre Lighthouse', fr: 'Phare du Finisterre', de: 'Leuchtturm von Finisterre', it: 'Faro di Finisterre', pt: 'Farol de Finisterra' },
   'nature.fisterra.h2': { es: 'Kilómetro 0 Camino Santiago', gl: 'Kilómetro 0 Camiño Santiago', en: 'Kilometer 0 Way of St. James', fr: 'Kilomètre 0 Chemin de Compostelle', de: 'Kilometer 0 Jakobsweg', it: 'Chilometro 0 Cammino di Santiago', pt: 'Quilómetro 0 Caminho de Santiago' },
@@ -582,6 +874,132 @@ O momento do "raio verde", a gama de púrpuras e laranxas que tinguen o ceo, e o
     de: 'Echtzeit-Radar und Wettervorhersage zur Planung Ihres Aufenthalts.',
     it: 'Radar in tempo reale e previsioni del tempo para pianificare il tuo soggiorno.',
     pt: 'Radar em tempo real e previsão meteorológica para planejar a sua estadia.'
+  },
+  'faq.title': {
+    es: 'Preguntas frecuentes',
+    gl: 'Preguntas frecuentes',
+    en: 'Frequently Asked Questions',
+    fr: 'Foire aux questions',
+    de: 'Häufig gestellte Fragen',
+    it: 'Domande frequenti',
+    pt: 'Perguntas frequentes'
+  },
+  'faq.subtitle': {
+    es: 'Todo lo que necesitas saber antes de reservar',
+    gl: 'Todo o que precisas saber antes de reservar',
+    en: 'Everything you need to know before booking',
+    fr: 'Tout ce que vous devez savoir avant de réserver',
+    de: 'Alles, was Sie vor der Buchung wissen müssen',
+    it: 'Tutto quello che c\'è da sapere prima di prenotare',
+    pt: 'Tudo o que precisa de saber antes de reservar'
+  },
+  'faq.q1': {
+    es: '¿Cuál es la política de cancelación?',
+    gl: 'Cal é a política de cancelación?',
+    en: 'What is the cancellation policy?',
+    fr: 'Quelle est la politique d\'annulation?',
+    de: 'Wie sehen die Stornierungsbedingungen aus?',
+    it: 'Qual è la politica di cancellazione?',
+    pt: 'Qual é a política de cancelamento?'
+  },
+  'faq.a1': {
+    es: 'Cancelación gratuita hasta 7 días antes de la llegada. Entre 7 y 3 días antes, se cobra el 50% del total. Menos de 3 días, no hay reembolso.',
+    gl: 'Cancelación de balde ata 7 días antes da chegada. Entre 7 e 3 días antes, cóbrase o 50% do total. Menos de 3 días, non hai reembolso.',
+    en: 'Free cancellation up to 7 days before arrival. Between 7 and 3 days before, 50% of the total is charged. Less than 3 days, there is no refund.',
+    fr: 'Annulation gratuite jusqu\'à 7 jours avant l\'arrivée. Entre 7 et 3 jours avant, 50% du total est facturé. Moins de 3 jours, il n\'y a pas de remboursement.',
+    de: 'Kostenlose Stornierung bis zu 7 Tage vor der Anreise. Bei 7 bis 3 Tagen vorher werden 50% des Gesamtbetrags berechnet. Weniger als 3 Tage vorher erfolgt keine Rückerstattung.',
+    it: 'Cancellazione gratuita fino a 7 giorni prima dell\'arrivo. Tra 7 e 3 giorni prima, viene addebitato il 50% del totale. Meno di 3 giorni, non è previsto alcun rimborso.',
+    pt: 'Cancelamento gratuito até 7 dias antes da chegada. Entre 7 e 3 dias antes, é cobrado 50% do total. Menos de 3 dias, não há reembolso.'
+  },
+  'faq.q2': {
+    es: '¿Se admiten mascotas?',
+    gl: 'Admítense mascotas?',
+    en: 'Are pets allowed?',
+    fr: 'Les animaux sont-ils acceptés?',
+    de: 'Sind Haustiere erlaubt?',
+    it: 'Sono ammessi animali domestici?',
+    pt: 'Animais de estimação são permitidos?'
+  },
+  'faq.a2': {
+    es: 'Sí, admitimos mascotas pequeñas y medianas con un cargo adicional de 20€ por estancia. Por favor, indícalo en tu reserva.',
+    gl: 'Si, admitimos mascotas pequenas e medianas cun cargo adicional de 20€ por estancia. Por favor, indícao na túa reserva.',
+    en: 'Yes, we allow small and medium-sized pets with an additional charge of €20 per stay. Please indicate it in your reservation.',
+    fr: 'Oui, nous acceptons les animaux de petite et moyenne taille avec un supplément de 20 € par séjour. Veuillez l\'indiquer lors de votre réservation.',
+    de: 'Ja, wir erlauben kleine und mittelgroße Haustiere gegen einen Aufpreis von 20 € pro Aufenthalt. Bitte geben Sie dies bei Ihrer Buchung an.',
+    it: 'Sì, ammettiamo animali di piccola e media taglia con un supplemento di 20€ per soggiorno. Si prega di indicarlo nella prenotazione.',
+    pt: 'Sim, admitimos animais de pequeno e médio porte com um custo adicional de 20€ por estadia. Por favor, indique-o na sua reserva.'
+  },
+  'faq.q3': {
+    es: '¿Hay WiFi y qué velocidad tiene?',
+    gl: 'Hai WiFi e que velocidade ten?',
+    en: 'Is there WiFi and what is the speed?',
+    fr: 'Y a-t-il du WiFi et quelle est sa vitesse?',
+    de: 'Gibt es WLAN und wie schnell ist es?',
+    it: 'C\'è il WiFi e che velocità ha?',
+    pt: 'Existe WiFi e qual é a velocidade?'
+  },
+  'faq.a3': {
+    es: 'Sí, la casa tiene WiFi de fibra óptica de alta velocidad (100 Mbps), perfecto para trabajar en remoto o disfrutar de entretenimiento.',
+    gl: 'Si, a casa ten WiFi de fibra óptica de alta velocidade (100 Mbps), perfecto para traballar en remoto ou gozar de entretemento.',
+    en: 'Yes, the house has high-speed fiber optic WiFi (100 Mbps), perfect for remote work or enjoying entertainment.',
+    fr: 'Oui, la maison dispose d\'une connexion WiFi par fibre optique haut débit (100 Mbps), parfaite pour le télétravail ou les loisirs.',
+    de: 'Ja, das Haus verfügt über Hochgeschwindigkeits-Glasfaser-WLAN (100 Mbit/s), perfekt für Remote-Arbeit oder Unterhaltung.',
+    it: 'Sì, la casa dispone di WiFi in fibra ottica ad alta velocità (100 Mbps), perfetto per il lavoro a distanza o per il tempo libero.',
+    pt: 'Sim, a casa tem WiFi de fibra ótica de alta velocidade (100 Mbps), perfeito para trabalho remoto ou lazer.'
+  },
+  'faq.q4': {
+    es: '¿A qué distancia está la playa?',
+    gl: 'A que distancia está a praia?',
+    en: 'How far is the beach?',
+    fr: 'À quelle distance se trouve la plage?',
+    de: 'Wie weit ist der Strand entfernt?',
+    it: 'Quanto dista la spiaggia?',
+    pt: 'A que distância fica a praia?'
+  },
+  'faq.a4': {
+    es: 'La Playa de Carnota está a solo 10 minutos en coche. También hay otras playas preciosas a 15-20 minutos.',
+    gl: 'A Praia de Carnota está a só 10 minutos en coche. Tamén hai outras praias preciosas a 15-20 minutos.',
+    en: 'Carnota Beach is just 10 minutes away by car. There are also other beautiful beaches 15-20 minutes away.',
+    fr: 'La plage de Carnota est à seulement 10 minutes en voiture. Il y a aussi d\'autres belles plages à 15-20 minutes.',
+    de: 'Der Strand von Carnota ist nur 10 Autominuten entfernt. Es gibt auch andere schöne Strände in 15-20 Minuten Entfernung.',
+    it: 'La spiaggia di Carnota si trova a soli 10 minuti di auto. Ci sono anche altre bellissime spiagge a 15-20 minuti.',
+    pt: 'A Praia de Carnota fica a apenas 10 minutos de carro. Também existem outras praias bonitas a 15-20 minutos.'
+  },
+  'faq.q5': {
+    es: '¿Hay supermercados cerca?',
+    gl: 'Hai supermercados preto?',
+    en: 'Are there supermarkets nearby?',
+    fr: 'Y a-t-il des supermarchés à proximité?',
+    de: 'Gibt es Supermärkte in der Nähe?',
+    it: 'Ci sono supermercati nelle vicinanze?',
+    pt: 'Existen supermercados por perto?'
+  },
+  'faq.a5': {
+    es: 'Sí, en Cee y Muros (a 10 minutos) hay supermercados, farmacias y todo lo necesario. También hay panaderías locales.',
+    gl: 'Si, en Cee e Muros (a 10 minutos) hai supermercados, farmacias e todo o necesario. Tamén hai panadarías locais.',
+    en: 'Yes, in Cee and Muros (10 minutes away) there are supermarkets, pharmacies, and everything you need. There are also local bakeries.',
+    fr: 'Oui, à Cee et Muros (à 10 minutes), il y a des supermarchés, des pharmacies et tout le nécessaire. Il y a aussi des boulangeries locales.',
+    de: 'Ja, in Cee und Muros (10 Minuten entfernt) gibt es Supermärkte, Apotheken und alles, was man braucht. Es gibt auch örtliche Bäckereien.',
+    it: 'Sì, a Cee e Muros (a 10 minuti) ci sono supermercati, farmacie e tutto il necessario. Ci sono anche panetterie locali.',
+    pt: 'Sim, em Cee e Muros (a 10 minutos) existem supermercados, farmácias e tudo o que é necessário. Também existem padarias locais.'
+  },
+  'faq.q6': {
+    es: '¿Es necesario coche?',
+    gl: 'É necesario coche?',
+    en: 'Is a car necessary?',
+    fr: 'Une voiture est-elle nécessaire?',
+    de: 'Ist ein Auto notwendig?',
+    it: 'È necessaria l\'auto?',
+    pt: 'É necessário carro?'
+  },
+  'faq.a6': {
+    es: 'Sí, recomendamos tener coche para explorar la zona cómodamente, aunque también hay opciones de transporte local.',
+    gl: 'Si, recomendamos ter coche para explorar a zona comodamente, aínda que tamén hai opcións de transporte local.',
+    en: 'Yes, we recommend having a car to explore the area comfortably, although there are also local transport options.',
+    fr: 'Oui, nous recommandons d\'avoir une voiture pour explorer la région confortablement, bien qu\'il existe également des options de transport local.',
+    de: 'Ja, wir empfehlen ein Auto, um die Gegend bequem zu erkunden, obwohl es auch lokale Verkehrsmittel gibt.',
+    it: 'Sì, consigliamo di avere un\'auto per esplorare comodamente la zona, anche se ci sono opzioni di trasporto locale.',
+    pt: 'Sim, recomendamos ter um carro para explorar a área confortavelmente, embora também existam opções de transporte local.'
   },
 };
 

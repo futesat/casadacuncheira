@@ -1,34 +1,36 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronDown } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export function FAQ() {
+  const { t } = useLanguage();
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const faqs = [
     {
-      question: '¿Cuál es la política de cancelación?',
-      answer: 'Cancelación gratuita hasta 7 días antes de la llegada. Entre 7 y 3 días antes, se cobra el 50% del total. Menos de 3 días, no hay reembolso.',
+      question: t('faq.q1'),
+      answer: t('faq.a1'),
     },
     {
-      question: '¿Se admiten mascotas?',
-      answer: 'Sí, admitimos mascotas pequeñas y medianas con un cargo adicional de 20€ por estancia. Por favor, indícalo en tu reserva.',
+      question: t('faq.q2'),
+      answer: t('faq.a2'),
     },
     {
-      question: '¿Hay WiFi y qué velocidad tiene?',
-      answer: 'Sí, la casa tiene WiFi de fibra óptica de alta velocidad (100 Mbps), perfecto para trabajar en remoto o disfrutar de entretenimiento.',
+      question: t('faq.q3'),
+      answer: t('faq.a3'),
     },
     {
-      question: '¿A qué distancia está la playa?',
-      answer: 'La Playa de Carnota está a solo 10 minutos en coche. También hay otras playas preciosas a 15-20 minutos.',
+      question: t('faq.q4'),
+      answer: t('faq.a4'),
     },
     {
-      question: '¿Hay supermercados cerca?',
-      answer: 'Sí, en Cee y Muros (a 10 minutos) hay supermercados, farmacias y todo lo necesario. También hay panaderías locales.',
+      question: t('faq.q5'),
+      answer: t('faq.a5'),
     },
     {
-      question: '¿Es necesario coche?',
-      answer: 'Sí, recomendamos tener coche para explorar la zona cómodamente, aunque también hay opciones de transporte local.',
+      question: t('faq.q6'),
+      answer: t('faq.a6'),
     },
   ];
 
@@ -43,12 +45,13 @@ export function FAQ() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl mb-6 tracking-tight">
-            Preguntas frecuentes
+            {t('faq.title')}
           </h2>
           <p className="text-muted-foreground">
-            Todo lo que necesitas saber antes de reservar
+            {t('faq.subtitle')}
           </p>
         </motion.div>
+
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (
