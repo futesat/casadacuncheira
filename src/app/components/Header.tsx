@@ -6,7 +6,7 @@ import { STATIC_TEXTS } from '../constants/static';
 
 interface HeaderProps {
   onNavigateHome?: () => void;
-  currentView?: 'home' | 'gastronomy';
+  currentView?: 'home' | 'gastronomy' | 'other';
 }
 
 export function Header({ onNavigateHome, currentView }: HeaderProps) {
@@ -24,13 +24,13 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
   }, []);
 
   const languages = [
-    { code: 'es', name: 'ES', flag: `${import.meta.env.BASE_URL}images/flags/es.png` },
-    { code: 'gl', name: 'GL', flag: `${import.meta.env.BASE_URL}images/flags/gl.svg` },
-    { code: 'en', name: 'EN', flag: `${import.meta.env.BASE_URL}images/flags/en.png` },
-    { code: 'fr', name: 'FR', flag: `${import.meta.env.BASE_URL}images/flags/fr.png` },
-    { code: 'de', name: 'DE', flag: `${import.meta.env.BASE_URL}images/flags/de.png` },
-    { code: 'it', name: 'IT', flag: `${import.meta.env.BASE_URL}images/flags/it.png` },
-    { code: 'pt', name: 'PT', flag: `${import.meta.env.BASE_URL}images/flags/pt.png` },
+    { code: 'es', name: 'ES', flag: `${(import.meta as any).env.BASE_URL}images/flags/es.png` },
+    { code: 'gl', name: 'GL', flag: `${(import.meta as any).env.BASE_URL}images/flags/gl.svg` },
+    { code: 'en', name: 'EN', flag: `${(import.meta as any).env.BASE_URL}images/flags/en.png` },
+    { code: 'fr', name: 'FR', flag: `${(import.meta as any).env.BASE_URL}images/flags/fr.png` },
+    { code: 'de', name: 'DE', flag: `${(import.meta as any).env.BASE_URL}images/flags/de.png` },
+    { code: 'it', name: 'IT', flag: `${(import.meta as any).env.BASE_URL}images/flags/it.png` },
+    { code: 'pt', name: 'PT', flag: `${(import.meta as any).env.BASE_URL}images/flags/pt.png` },
   ];
 
   const scrollToSection = (id: string) => {
@@ -98,7 +98,7 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
             aria-label={STATIC_TEXTS.brand}
           >
             <img
-              src={`${import.meta.env.BASE_URL}images/logo.svg`}
+              src={`${(import.meta as any).env.BASE_URL}images/logo.svg`}
               alt={STATIC_TEXTS.brand}
               className={`h-[62px] w-auto transition-all duration-300 ${isScrolled ? '' : 'brightness-0 invert'
                 }`}

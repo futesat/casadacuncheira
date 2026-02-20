@@ -60,7 +60,7 @@ function AppContent() {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
-  const currentView = location.pathname === '/gastronomy' ? 'gastronomy' : 'home';
+  const currentView = location.pathname === '/' ? 'home' : 'other';
 
   return (
     <div className="min-h-screen bg-background font-['Inter',sans-serif]">
@@ -88,7 +88,7 @@ function AppContent() {
 export default function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <BrowserRouter basename={(import.meta as any).env.BASE_URL}>
         <AppContent />
       </BrowserRouter>
     </LanguageProvider>
