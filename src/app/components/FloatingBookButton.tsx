@@ -31,7 +31,7 @@ export function FloatingBookButton() {
       exit={{ opacity: 0, scale: 0.8 }}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}
-      className="fixed bottom-8 right-8 z-50 flex items-center gap-3 px-6 py-4 bg-primary text-white rounded-full shadow-2xl hover:shadow-3xl transition-all"
+      className="fixed bottom-8 right-8 z-[1000] flex items-center gap-3 px-6 py-4 bg-primary text-white rounded-full shadow-2xl hover:shadow-3xl transition-all"
     >
       <Calendar className="w-5 h-5" />
       <span className="hidden sm:inline">{t('float.book')}</span>
