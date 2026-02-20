@@ -69,10 +69,10 @@ export function NatureDetail() {
                             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
                             {t('common.back')}
                         </button>
-                        <h1 className="text-5xl md:text-7xl font-light text-white mb-6 tracking-tight">
+                        <h1 className="text-3xl sm:text-5xl md:text-7xl font-light text-white mb-6 tracking-tight break-words">
                             {data.title}
                         </h1>
-                        <div className="flex items-center justify-center gap-2 text-white/90 font-light">
+                        <div className="flex items-center justify-center gap-2 text-white/90 font-light flex-wrap text-sm sm:text-base">
                             <MapPin className="w-5 h-5 text-primary" />
                             {data.googleMaps ? (
                                 <a

@@ -39,10 +39,10 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
                             {t('common.back')}
                         </button>
-                        <h1 className="text-5xl md:text-7xl font-light text-white mb-6 tracking-tight">
+                        <h1 className="text-3xl sm:text-5xl md:text-7xl font-light text-white mb-6 tracking-tight break-words">
                             {t('gastronomy.pageTitle')}
                         </h1>
-                        <p className="text-xl text-white/90 font-light max-w-2xl mx-auto leading-relaxed">
+                        <p className="text-lg sm:text-xl text-white/90 font-light max-w-2xl mx-auto leading-relaxed">
                             {t('gastronomy.pageSubtitle')}
                         </p>
                     </motion.div>
