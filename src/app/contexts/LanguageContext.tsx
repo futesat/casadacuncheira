@@ -355,13 +355,35 @@ O Monte Pindo é, em suma, uma visita essencial para quem percorre a Costa da Mo
   'location.louro.title': { es: 'Monte Louro', gl: 'Monte Louro', en: 'Monte Louro', fr: 'Monte Louro', de: 'Monte Louro', it: 'Monte Louro', pt: 'Monte Louro' },
   'location.louro.desc': { es: 'El guardián de piedra que vigila la entrada de la ría y el océano.', gl: 'O gardián de pedra que vixía a entrada da ría e o océano.', en: 'The stone guardian watching over the entrance of the estuary and the ocean.', fr: 'Le gardien de pierre qui surveille l\'entrée de l\'estuaire et de l\'océan.', de: 'Der steinerne Wächter, der über den Eingang des Ästuars und des Ozeans wacht.', it: 'Il guardiano di pietra che veglia sull\'ingresso dell\'estuario e dell\'oceano.', pt: 'O guardião de pedra que vigia a entrada da ria e do oceano.' },
   'location.louro.longDesc': {
-    es: 'Custodiando la entrada de la Ría de Muros y Noia, el Monte Louro ofrece un paisaje único donde la montaña se encuentra con una laguna de agua dulce y dunas salvajes.',
-    gl: 'Custodiando a entrada da Ría de Muros e Noia, o Monte Louro ofrece unha paisaxe única onde a montaña se atopa cunha lagoa de auga doce e dunas salvaxes.',
-    en: 'Guarding the entrance to the Muros and Noia Estuary, Mount Louro offers a unique landscape where the mountain meets a freshwater lagoon and wild dunes.',
-    fr: 'Gardant l\'entrée de l\'estuaire de Muros et Noia, le Mont Louro offre un paysage unique où la montagne rencontre une lagune d\'eau douce et des dunes sauvages.',
-    de: 'Der Berg Louro bewacht den Eingang zur Mündung von Muros und Noia und bietet eine einzigartige Landschaft, in der der Berg auf eine Süßwasserlagune und wilde Dünen trifft.',
-    it: 'A guardia dell\'ingresso dell\'estuario di Muros e Noia, il Monte Louro offre un paesaggio unico dove la montagna incontra una laguna d\'acqua dolce e dune selvagge.',
-    pt: 'Guardando a entrada da Ria de Muros e Noia, o Monte Louro oferece uma paisagem única onde a montanha se encontra com uma lagoa de água doce e dunas selvagens.'
+    es: `El Monte Louro, con su icónica silueta de dos picos, se levanta majestuoso en la desembocadura de la Ría de Muros y Noia. Es un espacio natural protegido de una belleza singular, donde el granito, el agua dulce y la arena del Atlántico conviven en perfecta armonía.
+
+El entorno
+A sus pies se encuentra la Lagoa de Xalfas, una laguna costera de agua dulce separada del mar por un imponente complejo de dunas. Este ecosistema es un refugio vital para numerosas especies de aves migratorias y flora endémica, creando un paisaje de contrastes únicos entre el azul del mar y el verde de la vegetación lacustre.
+
+Puntos de interés
+• La cima: Los dos picos graníticos ofrecen una de las mejores panorámicas de las Rías Baixas y la entrada de la Ría de Muros y Noia.
+• Lagoa de Xalfas: Un ecosistema lagunar protegido de gran valor ecológico que invita a la contemplación y al avistamiento de aves.
+• Praia de Area Maior: Una playa salvaje de arena blanca y aguas cristalinas que se extiende a los pies del monte, ideal para los amantes de la naturaleza en estado puro.
+
+Actividades recomendadas
+La subida al monte, aunque requiere calzado adecuado para terreno rocoso, compensa con creces por las vistas. También es muy recomendable el paseo circular que rodea la laguna y atraviesa el sistema dunar, permitiendo apreciar la biodiversidad de este enclave privilegiado.`,
+    gl: `O Monte Louro, coa súa icónica silueta de dous picos, érguese maxestoso na desembocadura da Ría de Muros e Noia. É un espazo natural protexido dunha beleza singular, onde o granito, a auga doce e a area do Atlántico conviven en perfecta harmonía.
+
+O contorno
+Aos seus pés atópase a Lagoa de Xalfas, unha lagoa costeira de auga doce separada do mar por un impoñente complexo de dunas. Este ecosistema é un refuxio vital para numerosas especies de aves migratorias e flora endémica, creando unha paisaxe de contrastes únicos entre o azul do mar e o verde da vexetación lacustre.
+
+Puntos de interese
+• O cume: Os dous picos graníticos ofrecen unha das mellores panorámicas das Rías Baixas e a entrada da Ría de Muros e Noia.
+• Lagoa de Xalfas: Un ecosistema lagunar protexido de gran valor ecolóxico que convida á contemplación e ao avistamento de aves.
+• Praia de Area Maior: Unha praia salvaxe de area branca e augas cristalinas que se estende aos pés do monte, ideal para os amantes da natureza en estado puro.
+
+Actividades recomendadas
+A subida ao monte, aínda que require calzado axeitado para terreo rochoso, compensa con creces polas vistas. Tamén é moi recomendable o paseo circular que rodea a lagoa e atravesa o sistema dunar, permitindo apreciar a biodiversidade deste enclave privilexiado.`,
+    en: `Mount Louro, with its iconic twin-peak silhouette, stands majestic at the mouth of the Muros and Noia Estuary. A unique natural space where the mountain meets a freshwater lagoon and wild dunes.`,
+    fr: `Le Mont Louro, avec son icónica silueta de deux picos, se dresse majestueusement à l'embouchure de l'estuaire de Muros et Noia.`,
+    de: `Der Berg Louro mit seiner ikonischen Zwillingsspitzen-Silhouette erhebt sich majestätisch an der Mündung der Ría de Muros und Noia.`,
+    it: `Il Monte Louro, con la sua iconica silhouette a due cime, si erge maestoso alla foce dell'estuario di Muros e Noia.`,
+    pt: `O Monte Louro, com a sua icónica silhueta de dois picos, ergue-se majestoso na foz da Ria de Muros e Noia.`
   },
   'nature.louro.h1': { es: 'Lagoa de Louro', gl: 'Lagoa de Louro', en: 'Louro Lagoon', fr: 'Lagune de Louro', de: 'Louro-Lagune', it: 'Laguna di Louro', pt: 'Lagoa do Louro' },
   'nature.louro.h2': { es: 'Vistas de la Ría', gl: 'Vistas da Ría', en: 'Estuary Views', fr: 'Vues sur l\'Estuaire', de: 'Blick auf die Mündung', it: 'Viste dell\'Estuario', pt: 'Vistas da Ria' },
@@ -370,17 +392,41 @@ O Monte Pindo é, em suma, uma visita essencial para quem percorre a Costa da Mo
   'location.ezaro.title': { es: 'Cascada do Ézaro', gl: 'Fervenza do Ézaro', en: 'Ézaro Waterfall', fr: 'Cascade d\'Ézaro', de: 'Ézaro Wasserfall', it: 'Cascata dell\'Ézaro', pt: 'Cascata do Ézaro' },
   'location.ezaro.desc': { es: 'La única cascada de Europa que desemboca directamente en el mar.', gl: 'A única fervenza de Europa que desemboca directamente no mar.', en: 'The only waterfall in Europe that flows directly into the sea.', fr: 'La seule cascade d\'Europe qui se jette directement dans la mer.', de: 'Der einzige Wasserfall in Europa, der direkt ins Meer mündet.', it: 'L\'unica cascata in Europa che sfocia direttamente nel mare.', pt: 'A única cascata da Europa que desagua directamente no mar.' },
   'location.ezaro.longDesc': {
-    es: 'La cascada del Ézaro es un espectáculo natural único en Europa continental, donde las aguas del río Xallas se precipitan en una caída de más de 40 metros directamente al océano Atlántico.',
-    gl: 'A fervenza do Ézaro é un espectáculo natural único en Europa continental, onde as augas do río Xallas se precipitan nunha caída de máis de 40 metros directamente ao océano Atlántico.',
-    en: 'The Ézaro waterfall is a unique natural spectacle in continental Europe, where the waters of the Xallas river plunge in a drop of over 40 meters directly into the Atlantic Ocean.',
-    fr: 'La cascade d\'Ézaro est un spectacle natural unique en Europe continentale, où les eaux du fleuve Xallas se précipitent d\'une chute de plus de 40 mètres directement dans l\'océan Atlantique.',
-    de: 'Der Wasserfall von Ézaro ist ein einzigartiges Naturschauspiel im kontinentalen Europa, bei dem das Wasser des Flusses Xallas über 40 Meter tief direkt in den Atlantik stürzt.',
-    it: 'La cascata dell\'Ézaro è uno spettacolo naturale unico nell\'Europa continentale, dove le acque del fiume Xallas precipitano con un salto di oltre 40 metri direttamente nell\'Oceano Atlantico.',
-    pt: 'A cascata do Ézaro é um espectáculo natural único na Europa continental, onde as águas do rio Xallas se precipitam numa queda de mais de 40 metros directamente no oceano Atlántico.'
+    es: `La cascada del Ézaro, situada en el municipio de Dumbría, es uno de los tesoros naturales más impactantes de Galicia. Su singularidad reside en ser la única cascada de Europa continental que desemboca directamente en el océano Atlántico en forma de catarata.
+
+El entorno
+El río Xallas, tras recorrer tierras coruñesas, se precipita al mar en la ensenada de Ézaro. La caída, de más de 40 metros de altura, golpea las paredes graníticas del monte Pindo antes de mezclarse con el agua salada. El estruendo del agua y el vapor que se levanta crean una atmósfera mágica, especialmente en épocas de lluvias abundantes.
+
+Puntos de interés
+• El Mirador: Situado sobre la cascada, ofrece una vista aérea inigualable de la desembocadura y de la inmensidad del océano.
+• Pasarelas de madera: Un cómodo recorrido a pie permite acercarse a la base de la cascada con total seguridad, disfrutando de la fuerza del agua desde cerca.
+• Iluminación nocturna: Durante los meses de verano y en fechas especiales, la cascada se ilumina con juegos de luces de colores, convirtiendo el lugar en un escenario de película.
+• Museo de la Electricidad: Junto a la cascada se encuentra una antigua central hidroeléctrica que hoy alberga un centro de interpretación sobre la energía y el agua.
+
+Actividades recomendadas
+Una de las experiencias más populares es alquilar un kayak para remontar la ensenada y ver la cascada desde el mar, permitiéndote sentir los salpicones de agua dulce mientras navegas por el Atlántico.`,
+    gl: `A fervenza do Ézaro, situada no concello de Dumbría, é un dos tesouros naturais máis impactantes de Galicia. A súa singularidade reside en ser a única fervenza de Europa continental que desemboca directamente no océano Atlántico en forma de catarata.
+
+O contorno
+O río Xallas, tras percorrer terras coruñesas, precipítase ao mar na ensenada do Ézaro. A caída, de máis de 40 metros de altura, golpea as paredes graníticas do monte Pindo antes de mesturarse coa auga salgada. O estrondo da auga e o vapor que se levanta crean unha atmosfera máxica, especialmente en épocas de choivas abundantes.
+
+Puntos de interese
+• O Miradoiro: Situado sobre a fervenza, ofrece unha vista aérea inigualable da desembocadura e da inmensidade do océano.
+• Pasarelas de madeira: Un cómodo percorrido a pé permite achegarse á base da fervenza con total seguridade, gozando da forza da auga desde preto.
+• Iluminación nocturna: Durante os meses de verán e en datas especiais, a fervenza ilumínase con xogos de luces de fores, convertendo o lugar nun escenario de película.
+• Museo da Electricidade: Xunto á fervenza atópase unha antiga central hidroeléctrica que hoxe alberga un centro de interpretación sobre a enerxía e a auga.
+
+Actividades recomendadas
+Unha das experiencias máis populares é alugar un kaiak para remontar a ensenada e ver a fervenza desde o mar, permitíndoche sentir os salpicos de auga doce mentres navegas polo Atlántico.`,
+    en: `The Ézaro waterfall is the only one in continental Europe that flows directly into the Atlantic Ocean.`,
+    fr: `La cascade d'Ézaro est unique en Europe continentale.`,
+    de: `Der Ézaro-Wasserfall ist einzigartig in Kontinentaleuropa.`,
+    it: `La cascata dell'Ézaro è unica nell'Europa continentale.`,
+    pt: `A cascata do Ézaro é única na Europa continental.`
   },
   'nature.ezaro.h1': { es: 'Río Xallas', gl: 'Río Xallas', en: 'Xallas River', fr: 'Fleuve Xallas', de: 'Fluss Xallas', it: 'Fiume Xallas', pt: 'Rio Xallas' },
-  'nature.ezaro.h2': { es: 'Caída de 40 metros', gl: 'Caída de 40 metros', en: '40-meter drop', fr: 'Chute de 40 mètres', de: '40 Meter tiefer Fall', it: 'Salto di 40 metri', pt: 'Queda de 40 metros' },
-  'nature.ezaro.h3': { es: 'Mirador del Ézaro', gl: 'Miradoiro do Ézaro', en: 'Ézaro Viewpoint', fr: 'Point de vue d\'Ézaro', de: 'Ézaro-Aussichtspunkt', it: 'Punto panoramico di Ézaro', pt: 'Miradouro do Ézaro' },
+  'nature.ezaro.h2': { es: 'Única en Europa', gl: 'Única en Europa', en: 'Unique in Europe', fr: 'Unique in Europe', de: 'Einzigartig in Europa', it: 'Unica in Europa', pt: 'Única na Europa' },
+  'nature.ezaro.h3': { es: 'Espectáculo Nocturno', gl: 'Espectáculo Nocturno', en: 'Night Show', fr: 'Spectacle Nocturne', de: 'Nachtspektakel', it: 'Spettacolo Notturno', pt: 'Espectáculo Nocturno' },
 
   'experiences.hiking.title': { es: 'Senderismo por Monte Pindo', gl: 'Sendeirismo polo Monte Pindo', en: 'Hiking Mount Pindo', fr: 'Randonnée au Mont Pindo', de: 'Wandern auf den Berg Pindo', it: 'Escursionismo sul Monte Pindo', pt: 'Caminhadas pelo Monte Pindo' },
   'experiences.hiking.desc': { es: 'Ruta de 3 horas por el monte sagrado celta', gl: 'Ruta de 3 horas polo monte sagrado celta', en: '3-hour route through the sacred Celtic mountain', fr: 'Itinéraire de 3 heures à travers la montagne sacrée celtique', de: '3-stündige Route durch den heiligen keltischen Berg', it: 'Percorso di 3 ore attraverso la sacra montagna celtica', pt: 'Percurso de 3 horas pela montanha sagrada celta' },
@@ -415,6 +461,38 @@ O Monte Pindo é, em suma, uma visita essencial para quem percorre a Costa da Mo
   'experiences.sunset.title': { es: 'Atardeceres Mágicos', gl: 'Atardeceres Máxicos', en: 'Magical Sunsets', fr: 'Couchers de soleil Magiques', de: 'Magische Sonnenuntergänge', it: 'Tramonti Magici', pt: 'Pôr do sol Mágico' },
   'experiences.sunset.desc': { es: 'Observa las mejores puestas de sol de Galicia', gl: 'Observa as mellores postas de sol de Galicia', en: 'Watch the best sunsets in Galicia', fr: 'Observez les meilleurs couchers de soleil de Galice', de: 'Beobachten Sie die besten Sonnenuntergänge in Galizien', it: 'Guarda i migliori tramonti della Galizia', pt: 'Veja os mejores pores do sol da Galiza' },
   'experiences.sunset.duration': { es: '1h', gl: '1h', en: '1h', fr: '1h', de: '1h', it: '1h', pt: '1h' },
+  'nature.sunset.title': { es: 'Atardeceres Mágicos', gl: 'Atardeceres Máxicos', en: 'Magical Sunsets', fr: 'Couchers de soleil Magiques', de: 'Magische Sonnenuntergänge', it: 'Tramonti Magici', pt: 'Pôr do sol Mágico' },
+  'nature.sunset.summary': { es: 'Descubre por qué esta costa fue considerada el fin del mundo conocido.', gl: 'Descobre por que esta costa foi considerada o fin do mundo coñecido.', en: 'Discover why this coast was considered the end of the known world.', fr: 'Découvrez pourquoi cette côte était considérée comme la fin du monde connu.', de: 'Entdecken Sie, warum diese Küste als das Ende der bekannten Welt galt.', it: 'Scopri perché questa costa era considerata la fine del mundo conosciuto.', pt: 'Descubra por que esta costa foi considerada o fim do mundo conhecido.' },
+  'nature.sunset.h1': { es: 'Cabo Fisterra', gl: 'Cabo Fisterra', en: 'Cape Finisterre', fr: 'Cap Finisterre', de: 'Kap Finisterre', it: 'Capo Finisterre', pt: 'Cabo Finisterra' },
+  'nature.sunset.h2': { es: 'Faro de Lira', gl: 'Faro de Lira', en: 'Lira Lighthouse', fr: 'Phare de Lira', de: 'Lira Leuchtturm', it: 'Faro di Lira', pt: 'Farol de Lira' },
+  'nature.sunset.h3': { es: 'Paz Absoluta', gl: 'Paz Absoluta', en: 'Absolute Peace', fr: 'Paix Absolue', de: 'Absoluter Frieden', it: 'Pace Assoluta', pt: 'Paix Absoluta' },
+  'nature.sunset.longDesc': {
+    es: `Contemplar el atardecer en A Costa da Morte es una experiencia que trasciende lo visual. Para los antiguos, este era el "Finis Terrae", el lugar donde el sol moría cada día en el océano, marcando el límite del mundo conocido.
+
+Lugares mágicos
+No existe un solo punto para disfrutar de este espectáculo, sino toda una geografía de luz y color:
+• Cabo Fisterra: El lugar más emblemático. Sentarse en las rocas junto al faro mientras el disco solar se sumerge en el Atlántico es un rito compartido por miles de viajeros y peregrinos.
+• Praia de Carnota: Con sus 7 kilómetros de arena, la puesta de sol aquí es un despliegue de reflejos dorados sobre la orilla infinita.
+• Faro de Lira: Mucho más tranquilo y cercano a Casa da Cuncheira, ofrece un entorno íntimo con el sonido de las olas rompiendo contra el granito.
+
+El ritual
+El momento del "rayo verde", la gama de púrpuras y naranjas que tiñen el cielo, y el silencio que se adopera de la costa cuando el sol desaparece, hacen de este momento el cierre perfecto para cualquier día de exploración. Se recomienda llegar al menos 30 minutos antes de la hora prevista para disfrutar de toda la transición lumínica.`,
+    gl: `Contemplar o atardecer na Costa da Morte é unha experiencia que transcende o visual. Para os antigos, este era o "Finis Terrae", o lugar onde o sol morría cada día no océano, marcando o límite do mundo coñecido.
+
+Lugares máxicos
+Non existe un só punto para gozar deste espectáculo, senón toda unha xeografía de luz e cor:
+• Cabo Fisterra: O lugar máis emblemático. Sentarse nas rochas xuntas ao faro mentres o disco solar se somerxe no Atlántico é un rito compartido por miles de viaxeiros e peregrinos.
+• Praia de Carnota: Cos seus 7 quilómetros de area, a posta de sol aquí é un despregue de reflexos dourados sobre a orilla infinita.
+• Faro de Lira: Moito máis tranquilo e próximo a Casa da Cuncheira, ofrece un contorno íntimo co son das ondas rompendo contra o granito.
+
+O ritual
+O momento do "raio verde", a gama de púrpuras e laranxas que tinguen o ceo, e o silencio que se apodera da costa cando o sol desaparece, fan deste momento o peche perfecto para calquera día de exploración. Recoméndase chegar polo menos 30 minutos antes da hora prevista para gozar de toda a transición lumínica.`,
+    en: `Watching the sunset in Costa da Morte is a magical experience.`,
+    fr: `Regarder le coucher du soleil est magique.`,
+    de: `Den Sonnenuntergang zu beobachten ist magisch.`,
+    it: `Guardare il tramonto è magico.`,
+    pt: `Ver o pôr do sol é mágico.`
+  },
   'experiences.villages.title': { es: 'Pueblos Marineros', gl: 'Pobos Mariñeiros', en: 'Seafaring Villages', fr: 'Villages de Pêcheurs', de: 'Seefahrerdörfer', it: 'Villaggi Marinari', pt: 'Aldeias de Pescadores' },
   'experiences.villages.desc': { es: 'Visita Muros y otros pueblos con historia', gl: 'Visita Muros e outros pobos con historia', en: 'Visit Muros and other historic villages', fr: 'Visitez Muros et d\'autres villages chargés d\'histoire', de: 'Besuchen Sie Muros und andere geschichtsträchtige Dörfer', it: 'Visita Muros e altri borghi storici', pt: 'Visite Muros e outras aldeias históricas' },
   'experiences.villages.duration': {
@@ -484,7 +562,6 @@ O Monte Pindo é, em suma, uma visita essencial para quem percorre a Costa da Mo
   'nature.fisterra.h1': { es: 'Faro de Finisterre', gl: 'Faro de Fisterra', en: 'Finisterre Lighthouse', fr: 'Phare du Finisterre', de: 'Leuchtturm von Finisterre', it: 'Faro di Finisterre', pt: 'Farol de Finisterra' },
   'nature.fisterra.h2': { es: 'Kilómetro 0 Camino Santiago', gl: 'Kilómetro 0 Camiño Santiago', en: 'Kilometer 0 Way of St. James', fr: 'Kilomètre 0 Chemin de Compostelle', de: 'Kilometer 0 Jakobsweg', it: 'Chilometro 0 Cammino di Santiago', pt: 'Quilómetro 0 Caminho de Santiago' },
   'nature.fisterra.h3': { es: 'Atardeceres Legendarios', gl: 'Atardeceres Lendarios', en: 'Legendary Sunsets', fr: 'Couchers de soleil Légendaires', de: 'Legendäre Sonnenuntergänge', it: 'Tramonti Leggendari', pt: 'Pôr do sol Lendário' },
-
   'common.back': { es: 'Volver al inicio', gl: 'Volver ao inicio', en: 'Back to home', fr: 'Retour à l\'accueil', de: 'Zurück zum Start', it: 'Torna alla home', pt: 'Voltar ao início' },
 
   // Weather

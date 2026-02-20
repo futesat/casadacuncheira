@@ -77,5 +77,17 @@ export const getNatureData = (t: (key: string) => any): Record<string, NatureLoc
             t('nature.fisterra.h2'),
             t('nature.fisterra.h3')
         ]
+    },
+    'atardeceres-magicos': {
+        title: t('nature.sunset.title'),
+        summary: t('nature.sunset.summary'),
+        description: t('nature.sunset.longDesc'),
+        image: `${(import.meta as any).env.BASE_URL}images/fisterra_sunset_optimized.webp`,
+        location: 'A Costa da Morte',
+        highlights: [
+            t('nature.sunset.h1'),
+            t('nature.sunset.h2'),
+            t('nature.sunset.h3')
+        ]
     }
 });

@@ -53,6 +53,7 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
       image: `${(import.meta as any).env.BASE_URL}images/fisterra_sunset_optimized.webp`,
       category: 'relax' as Category,
       duration: t('experiences.sunset.duration'),
+      slug: 'atardeceres-magicos',
     },
     {
       title: t('experiences.villages.title'),
