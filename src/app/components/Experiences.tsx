@@ -36,7 +36,7 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
     {
       title: t('experiences.rentals.title'),
       description: t('experiences.rentals.desc'),
-      image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80',
+      image: `${(import.meta as any).env.BASE_URL}images/water_rentals_optimized.webp?v=1`,
       category: 'adventure' as Category,
       externalLink: 'https://abellago.com/alquiler',
     },
