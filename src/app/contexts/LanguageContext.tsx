@@ -1029,6 +1029,24 @@ O pôr do sol do alto das arribas, com a imensidão do oceano a abrir-se diante 
     it: 'Sì, consigliamo di avere un\'auto per esplorare comodamente la zona, anche se ci sono opzioni di trasporto locale.',
     pt: 'Sim, recomendamos ter um carro para explorar a área confortavelmente, embora também existam opções de transporte local.'
   },
+  'faq.q7': {
+    es: '¿La casa tiene aire acondicionado?',
+    gl: 'A casa ten aire acondicionado?',
+    en: 'Does the house have air conditioning?',
+    fr: 'La maison dispose-t-elle de la climatisation?',
+    de: 'Verfügt das Haus über eine Klimaanlage?',
+    it: 'La casa dispone di aria condizionata?',
+    pt: 'A casa tem ar condicionado?'
+  },
+  'faq.a7': {
+    es: 'Sí, la casa cuenta con aire acondicionado de última generación en todas las estancias principales para garantizar tu confort total.',
+    gl: 'Si, a casa conta con aire acondicionado de última xeración en todas as estancias principais para garantir o teu confort total.',
+    en: 'Yes, the house has state-of-the-art air conditioning in all main rooms to ensure your total comfort.',
+    fr: 'Oui, la maison dispose d\'une climatisation de pointe dans toutes les pièces principales pour assurer votre confort total.',
+    de: 'Ja, das Haus verfügt über eine hochmoderne Klimaanlage in allen Haupträumen, um Ihren absoluten Komfort zu gewährleisten.',
+    it: 'Sì, la casa dispone di aria condizionata all\'avanguardia in tutte le stanze principali per garantire il massimo comfort.',
+    pt: 'Sim, a casa dispõe de ar condicionado de última geração em todas as divisões principais para garantir o seu conforto total.'
+  },
 };
 
 interface LanguageContextType {

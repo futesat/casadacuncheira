@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Bed, Bath, Users, Wifi, Tv, Coffee, Thermometer, Waves, AirVent, Trees } from 'lucide-react';
+import { Bed, Bath, Users, Wifi, Tv, Coffee, Thermometer, Waves, Snowflake, Trees } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './ui/ImageWithFallback';
 import { Carousel, CarouselContent, CarouselItem, CarouselDots } from './ui/carousel';
@@ -33,7 +33,7 @@ export function House() {
     { icon: Coffee, label: t('house.amenities.kitchen') },
     { icon: Thermometer, label: t('house.amenities.heating') },
     { icon: Waves, label: t('house.amenities.view') },
-    { icon: AirVent, label: t('house.amenities.ac') },
+    { icon: Snowflake, label: t('house.amenities.ac') },
     { icon: Trees, label: t('house.amenities.garden') },
   ];
 
