@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Globe, Menu, X } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -32,6 +32,19 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
     { code: 'it', name: 'IT', flag: `${(import.meta as any).env.BASE_URL}images/flags/it.png` },
     { code: 'pt', name: 'PT', flag: `${(import.meta as any).env.BASE_URL}images/flags/pt.png` },
   ];
+
+  const bookingUrl = useMemo(() => {
+    const urlMap: Record<string, string> = {
+      es: 'https://puntainsua.com/es/casa-da-cuncheira',
+      gl: 'https://puntainsua.com/gl/casa-da-cuncheira',
+      en: 'https://puntainsua.com/en/casa-da-cuncheira',
+      fr: 'https://puntainsua.com/fr/casa-da-cuncheira',
+      de: 'https://puntainsua.com/de/casa-da-cuncheira',
+      it: 'https://puntainsua.com/it/casa-da-cuncheira',
+      pt: 'https://puntainsua.com/pt/casa-da-cuncheira',
+    };
+    return urlMap[language] || urlMap['en'];
+  }, [language]);
 
   const scrollToSection = (id: string) => {
     if (currentView !== 'home' && onNavigateHome) {
@@ -129,7 +142,7 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
               {t('nav.experiences')}
             </button>
             <a
-              href="https://puntainsua.com/en/casa-da-cuncheira"
+              href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
               className={`hover:text-primary transition-colors ${isScrolled ? 'text-foreground' : 'text-white'
@@ -243,14 +256,14 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
               >
                 {t('nav.experiences')}
               </button>
-              <a
-                href="https://puntainsua.com/en/casa-da-cuncheira"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full text-left py-2 hover:text-primary transition-colors"
-              >
-                {t('nav.book')}
-              </a>
+            <a
+              href={bookingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-left py-2 hover:text-primary transition-colors"
+            >
+              {t('nav.book')}
+            </a>
               {/* <button
                 onClick={() => scrollToSection('faq')}
                 className="block w-full text-left py-2 hover:text-primary transition-colors"

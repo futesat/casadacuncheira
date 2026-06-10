@@ -18,7 +18,7 @@ export function Booking() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success('¡Solicitud enviada! Te contactaremos pronto.');
+    toast.success(t('booking.toast.success'));
     setFormData({
       checkin: '',
       checkout: '',
@@ -128,7 +128,7 @@ export function Booking() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  placeholder="Juan Pérez"
+                  placeholder={t('booking.placeholder.name')}
                   className="w-full px-4 py-3 bg-muted rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
@@ -144,7 +144,7 @@ export function Booking() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="tu@email.com"
+                  placeholder={t('booking.placeholder.email')}
                   className="w-full px-4 py-3 bg-muted rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                 />
               </div>
@@ -161,7 +161,7 @@ export function Booking() {
                 value={formData.phone}
                 onChange={handleChange}
                 required
-                placeholder="+34 600 000 000"
+                placeholder={t('booking.placeholder.phone')}
                 className="w-full px-4 py-3 bg-muted rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
               />
             </div>

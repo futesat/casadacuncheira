@@ -1,0 +1,30 @@
+schema: spec-driven
+
+context: |
+  Tech stack: React 18 + Vite 6 + TypeScript + Tailwind CSS 4 + MUI 7 + Radix UI
+  Architecture: Component-based SPA with lazy-loaded routes, LanguageContext for i18n, constants for data
+  Testing: No test runner installed (no vitest, jest, or playwright)
+  Style: src/app/ with components/, pages/, contexts/, constants/, ui/ primitives
+
+rules:
+  proposal:
+    - Include rollback plan for risky changes
+  specs:
+    - Use Given/When/Then for scenarios
+    - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
+  design:
+    - Include sequence diagrams for complex flows
+    - Document architecture decisions with rationale
+  tasks:
+    - Group by phase, use hierarchical numbering
+    - Keep tasks completable in one session
+  apply:
+    - Follow existing code patterns
+    tdd: false
+    test_command: ""
+  verify:
+    test_command: ""
+    build_command: "npm run build"
+    coverage_threshold: 0
+  archive:
+    - Warn before merging destructive deltas

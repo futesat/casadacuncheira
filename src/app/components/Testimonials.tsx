@@ -1,26 +1,28 @@
 import { motion } from 'motion/react';
 import { Star } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export function Testimonials() {
+  const { t } = useLanguage();
   const testimonials = [
     {
-      name: 'Sophie Laurent',
-      location: 'París, Francia',
-      text: 'Un lugar mágico donde desconectar del mundo. La casa es preciosa y la Costa da Morte nos ha enamorado.',
+      name: t('testimonials[0].author'),
+      location: t('testimonials[0].location'),
+      text: t('testimonials[0].text'),
       rating: 5,
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop',
     },
     {
-      name: 'Marco Rossi',
-      location: 'Milán, Italia',
-      text: 'Perfecto para familias. Los niños disfrutaron de la playa y nosotros de la tranquilidad. Volveremos seguro.',
+      name: t('testimonials[1].author'),
+      location: t('testimonials[1].location'),
+      text: t('testimonials[1].text'),
       rating: 5,
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
     },
     {
-      name: 'Anna Schmidt',
-      location: 'Berlín, Alemania',
-      text: 'La casa tiene todo lo necesario y más. Las vistas son increíbles y la zona es pura naturaleza.',
+      name: t('testimonials[2].author'),
+      location: t('testimonials[2].location'),
+      text: t('testimonials[2].text'),
       rating: 5,
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop',
     },
@@ -37,7 +39,7 @@ export function Testimonials() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl mb-6 tracking-tight">
-            Lo que dicen nuestros huéspedes
+            {t('testimonials.title')}
           </h2>
         </motion.div>
 

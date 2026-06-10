@@ -148,6 +148,123 @@ const translations: Translations = {
     pt: 'Conte-nos algo sobre a sua viagem...'
   },
   'booking.note': { es: 'Sin compromiso • Confirmación rápida', gl: 'Sen compromiso • Confirmación rápida', en: 'No commitment • Quick confirmation', fr: 'Sans engagement • Confirmation rapide', de: 'Ohne Verpflichtung • Schnelle Bestätigung', it: 'Senza impegno • Conferma rapida', pt: 'Sem compromisso • Confirmação rápida' },
+  'booking.toast.success': {
+    es: '¡Solicitud enviada! Te contactaremos pronto.',
+    gl: 'Solicitude enviada! Contactaremos contigo pronto.',
+    en: 'Request sent! We will contact you soon.',
+    fr: 'Demande envoyée ! Nous vous contacterons bientôt.',
+    de: 'Anfrage gesendet! Wir werden Sie bald kontaktieren.',
+    it: 'Richiesta inviata! Ti contatteremo presto.',
+    pt: 'Pedido enviado! Contactaremos em breve.'
+  },
+  'booking.placeholder.email': {
+    es: 'Tu email',
+    gl: 'O teu email',
+    en: 'Your email',
+    fr: 'Votre email',
+    de: 'Ihre E-Mail',
+    it: 'La tua email',
+    pt: 'Seu email'
+  },
+  'booking.placeholder.phone': {
+    es: '+34 600 000 000',
+    gl: '+34 600 000 000',
+    en: '+34 600 000 000',
+    fr: '+34 600 000 000',
+    de: '+34 600 000 000',
+    it: '+34 600 000 000',
+    pt: '+34 600 000 000'
+  },
+  'testimonials.title': {
+    es: 'Lo que dicen nuestros huéspedes',
+    gl: 'O que din os nosos hóspedes',
+    en: 'What our guests say',
+    fr: 'Ce que disent nos invités',
+    de: 'Was unsere Gäste sagen',
+    it: 'Cosa dicono i nostri ospiti',
+    pt: 'O que dizem os nossos hóspedes'
+  },
+  'testimonials[0].text': {
+    es: 'Un lugar mágico donde desconectar del mundo. La casa es preciosa y la Costa da Morte nos ha enamorado.',
+    gl: 'Un lugar máxico onde desconectar do mundo. A casa é preciosa e a Costa da Morte encantounos.',
+    en: 'A magical place to disconnect from the world. The house is beautiful and Costa da Morte has stolen our hearts.',
+    fr: 'Un lieu magique pour se déconnecter du monde. La maison est magnifique et la Costa da Morte nous a conquis.',
+    de: 'Ein magischer Ort zum Abschalten von der Welt. Das Haus ist wunderschön und die Costa da Morte hat uns verzaubert.',
+    it: 'Un luogo magico dove staccare dal mondo. La casa è bellissima e la Costa da Morte ci ha conquistati.',
+    pt: 'Um lugar mágico para desconectar do mundo. A casa é linda e a Costa da Morte nos conquistou.'
+  },
+  'testimonials[0].author': {
+    es: 'Sophie Laurent',
+    gl: 'Sophie Laurent',
+    en: 'Sophie Laurent',
+    fr: 'Sophie Laurent',
+    de: 'Sophie Laurent',
+    it: 'Sophie Laurent',
+    pt: 'Sophie Laurent'
+  },
+  'testimonials[0].location': {
+    es: 'París, Francia',
+    gl: 'París, Francia',
+    en: 'Paris, France',
+    fr: 'Paris, France',
+    de: 'Paris, Frankreich',
+    it: 'Parigi, Francia',
+    pt: 'Paris, França'
+  },
+  'testimonials[1].text': {
+    es: 'Perfecto para familias. Los niños disfrutaron de la playa y nosotros de la tranquilidad. Volveremos seguro.',
+    gl: 'Perfecto para familias. Os nenos gozaron da praia e nós da tranquilidade. Volveremos seguro.',
+    en: 'Perfect for families. The kids loved the beach and we loved the tranquility. We will definitely be back.',
+    fr: 'Parfait pour les familles. Les enfants ont adoré la plage et nous la tranquillité. Nous reviendrons.',
+    de: 'Perfekt für Familien. Die Kinder liebten den Strand und wir die Ruhe. Wir kommen definitiv wieder.',
+    it: 'Perfetto per le famiglie. I bambini hanno amato la spiaggia e noi la tranquillità. Torneremo sicuramente.',
+    pt: 'Perfeito para famílias. As crianças amaram a praia e nós a tranquilidade. Com certeza voltaremos.'
+  },
+  'testimonials[1].author': {
+    es: 'Marco Rossi',
+    gl: 'Marco Rossi',
+    en: 'Marco Rossi',
+    fr: 'Marco Rossi',
+    de: 'Marco Rossi',
+    it: 'Marco Rossi',
+    pt: 'Marco Rossi'
+  },
+  'testimonials[1].location': {
+    es: 'Milán, Italia',
+    gl: 'Milán, Italia',
+    en: 'Milan, Italy',
+    fr: 'Milán, Italie',
+    de: 'Mailand, Italien',
+    it: 'Milano, Italia',
+    pt: 'Milão, Itália'
+  },
+  'testimonials[2].text': {
+    es: 'La casa tiene todo lo necesario y más. Las vistas son increíbles y la zona es pura naturaleza.',
+    gl: 'A casa ten todo o necesario e máis. As vistas son increíbles e a zona é pura natureza.',
+    en: 'The house has everything you need and more. The views are incredible and the area is pure nature.',
+    fr: 'La maison a tout ce qu\'il faut et plus encore. Les vues sont incroyables et la zone est pure nature.',
+    de: 'Das Haus hat alles was man braucht und mehr. Die Aussichten sind unglaublich und die Gegend ist reine Natur.',
+    it: 'La casa ha tutto ciò che serve e anche di più. Le viste sono incredibili e la zona è pura natura.',
+    pt: 'A casa tem tudo o que precisa e mais. As vistas são incríveis e a área é pura natureza.'
+  },
+  'testimonials[2].author': {
+    es: 'Anna Schmidt',
+    gl: 'Anna Schmidt',
+    en: 'Anna Schmidt',
+    fr: 'Anna Schmidt',
+    de: 'Anna Schmidt',
+    it: 'Anna Schmidt',
+    pt: 'Anna Schmidt'
+  },
+  'testimonials[2].location': {
+    es: 'Berlín, Alemania',
+    gl: 'Berlín, Alemaña',
+    en: 'Berlin, Germany',
+    fr: 'Berlin, Allemagne',
+    de: 'Berlin, Deutschland',
+    it: 'Berlino, Germania',
+    pt: 'Berlim, Alemanha'
+  },
 
   // Contact
   'contact.title': { es: 'Estamos aquí para ayudarte', gl: 'Estamos aquí para axudarche', en: 'We\'re here to help', fr: 'Nous sommes là pour vous aider', de: 'Wir sind für Sie da', it: 'Siamo qui per aiutarti', pt: 'Estamos aqui para ayudar' },
@@ -246,7 +363,7 @@ Molto vicino alla spiaggia, nel comune di Carnota, si possono visitare i suoi fa
     pt: `Com os seus mais de 7 quilómetros de extensão, a praia de Carnota não é apenas a maior da Galiza, mas também um ecossistema virgem de dunas e pântanos de valor incalculável.
 
 O ecossistema
-Este espaço natural faz parte da Rede Natura 2000 e destaca-se pela sua biodiversidade. Os pântanos de Caldebarcos abrigam numerosas espécies de aves migratorias, tornando-se um local privilegiado para a ornitologia.
+Este espaço natural faz parte da Rede Natura 2000 e destaca-se pela sua biodiversidade. Os pântanos de Caldebarcos abrigam numerosas espécies de aves migratórias, tornando-se um local privilegiado para a ornitologia.
 
 Boca do Río
 Um dos pontos mais espetaculares é a foz do rio Valdebois, conhecida como Boca do Río. Aqui, a maré cria piscinas naturais de água morna e cristalina, rodeadas de areia branca finíssima, perfeitas para banhos num ambiente idílico.
@@ -409,7 +526,7 @@ A forma mais fácil de aceder é pola estrada AC-550 (Cee–Carnota) ata á loca
 A subida à Moa
 A rota mais conhecida leva à Moa (627 m), o cume do monte. É de dificuldade média, com trechos de declive acentuado desde o nível do mar. A subida dura entre 2 e 2,5 horas (a descida, cerca de 1,5 horas). O percurso está sinalizado com balizas brancas e verdes. Como referência, se houver nevoeiro ou dúvidas, convém manter o mar à esquerda.
 
-Recomenda-se levar calzado adecuado, água, proteção solar e roupa confortável. O primeiro trecho atraviesa unha zona más húmida e con vexetación; depois predominam as encostas abertas e as formações rochosas.
+Recomenda-se levar calçado adequado, água, proteção solar e roupa confortável. O primeiro trecho atravessa uma zona mais húmida e com vegetação; depois predominam as encostas abertas e as formações rochosas.
 
 Paisagem e pontos de interesse
 Do cume obtêm-se vistas panorámicas da ria de Cee e Corcubión, do cabo Fisterra e da praia de Carnota, a mais extensa da Galiza. O granito, moldado pela erosão, forma figuras singulares como O Xigante.
@@ -641,7 +758,7 @@ Uma das experiências mais populares é alugar um kayak para remontar a enseada 
   'experiences.hiking.desc': { es: 'Ruta de 3 horas por el monte sagrado celta', gl: 'Ruta de 3 horas polo monte sagrado celta', en: '3-hour route through the sacred Celtic mountain', fr: 'Itinéraire de 3 heures à travers la montagne sacrée celtique', de: '3-stündige Route durch den heiligen keltischen Berg', it: 'Percorso di 3 ore attraverso la sacra montagna celtica', pt: 'Percurso de 3 horas pela montanha sagrada celta' },
   'experiences.hiking.duration': { es: '3h', gl: '3h', en: '3h', fr: '3h', de: '3h', it: '3h', pt: '3h' },
   'experiences.surf.title': { es: 'Surf na Costa da Morte', gl: 'Surf na Costa da Morte', en: 'Surf in Costa da Morte', fr: 'Surf sur la Costa da Morte', de: 'Surfen an der Costa da Morte', it: 'Surf nella Costa da Morte', pt: 'Surf na Costa da Morte' },
-  'experiences.surf.desc': { es: 'Clases de surf en las mejores olas del Atlántico', gl: 'Clases de surf nas mellores ondas do Atlántico', en: 'Surf lessons in the best waves of the Atlantic', fr: 'Cours de surf dans las meilleures vagues de l\'Atlantique', de: 'Surfkurse in den besten Wellen des Atlantiks', it: 'Lezioni di surf nelle migliori onde dell\'Atlântico', pt: 'Aulas de surf nas mellores ondas do Atlántico' },
+  'experiences.surf.desc': { es: 'Clases de surf en las mejores olas del Atlántico', gl: 'Clases de surf nas mellores ondas do Atlántico', en: 'Surf lessons in the best waves of the Atlantic', fr: 'Cours de surf dans las mejores vagues de l\'Atlantique', de: 'Surfkurse in den besten Wellen des Atlantiks', it: 'Lezioni di surf nelle migliori onde dell\'Atlântico', pt: 'Aulas de surf nas melhores ondas do Atlântico' },
   'experiences.surf.duration': { es: '2-4h', gl: '2-4h', en: '2-4h', fr: '2-4h', de: '2-4h', it: '2-4h', pt: '2-4h' },
   'experiences.gastro.title': { es: 'Restaurantes recomendados', gl: 'Restaurantes recomendados', en: 'Recommended Restaurants', fr: 'Restaurants recommandés', de: 'Empfohlene Restaurants', it: 'Ristoranti consigliati', pt: 'Restaurantes recomendados' },
   'experiences.gastro.desc': { es: 'Descubre los mejores sabores de la Costa da Morte', gl: 'Descobre os mellores sabores da Costa da Morte', en: 'Discover the best flavors of Costa da Morte', fr: 'Découvrez les meilleures saveurs de la Costa da Morte', de: 'Entdecken Sie die besten Aromen der Costa da Morte', it: 'Scopri i migliori sapori della Costa da Morte', pt: 'Descubra os melhores sabores da Costa da Morte' },
@@ -668,7 +785,7 @@ Uma das experiências mais populares é alugar um kayak para remontar a enseada 
   },
   'experiences.rentals.duration': { es: '1h - Full day', gl: '1h - Día completo', en: '1h - Full day', fr: '1h - Journée complète', de: '1h - Ganztägig', it: '1h - Giorno intero', pt: '1h - Dia completo' },
   'experiences.sunset.title': { es: 'Atardeceres Mágicos', gl: 'Atardeceres Máxicos', en: 'Magical Sunsets', fr: 'Couchers de soleil Magiques', de: 'Magische Sonnenuntergänge', it: 'Tramonti Magici', pt: 'Pôr do sol Mágico' },
-  'experiences.sunset.desc': { es: 'Observa las mejores puestas de sol de Galicia', gl: 'Observa as mellores postas de sol de Galicia', en: 'Watch the best sunsets in Galicia', fr: 'Observez les meilleurs couchers de soleil de Galice', de: 'Beobachten Sie die besten Sonnenuntergänge in Galizien', it: 'Guarda i migliori tramonti della Galizia', pt: 'Veja os mejores pores do sol da Galiza' },
+  'experiences.sunset.desc': { es: 'Observa las mejores puestas de sol de Galicia', gl: 'Observa as mellores postas de sol de Galicia', en: 'Watch the best sunsets in Galicia', fr: 'Observez les meilleurs couchers de soleil de Galice', de: 'Beobachten Sie die besten Sonnenuntergänge in Galizien', it: 'Guarda i migliori tramonti della Galizia', pt: 'Veja os melhores pores do sol da Galiza' },
   'experiences.sunset.duration': { es: '1h', gl: '1h', en: '1h', fr: '1h', de: '1h', it: '1h', pt: '1h' },
   'nature.sunset.title': { es: 'Atardeceres Mágicos', gl: 'Atardeceres Máxicos', en: 'Magical Sunsets', fr: 'Couchers de soleil Magiques', de: 'Magische Sonnenuntergänge', it: 'Tramonti Magici', pt: 'Pôr do sol Mágico' },
   'nature.sunset.summary': { es: 'Descubre por qué esta costa fue considerada el fin del mundo conocido.', gl: 'Descobre por que esta costa foi considerada o fin do mundo coñecido.', en: 'Discover why this coast was considered the end of the known world.', fr: 'Découvrez pourquoi cette côte était considérée comme la fin du monde connu.', de: 'Entdecken Sie, warum diese Küste als das Ende der bekannten Welt galt.', it: 'Scopri perché questa costa era considerata la fine del mundo conosciuto.', pt: 'Descubra por que esta costa foi considerada o fim do mundo conhecido.' },
@@ -739,7 +856,7 @@ Il momento del "raggio verde", la gamma di viola e arancioni che tingono il ciel
     pt: `Contemplar o pôr do sol na Costa da Morte é uma experiência que transcende o visual. Para os antigos, este era o "Finis Terrae", o lugar onde o sol morria cada dia no oceano, marcando o limite do mundo conhecido.
 
 Lugares mágicos
-Não existe apenas um ponto para desfrutar deste esáculo, mas toda uma geografia de luz e cor:
+Não existe apenas um ponto para desfrutar deste espectáculo, mas toda uma geografia de luz e cor:
 • Cabo Finisterra: O lugar mais emblemático. Sentar-se nas rochas junto ao farol enquanto o disco solar mergulha no Atlântico é um rito partilhado por milhares de viajantes e peregrinos.
 • Praia de Carnota: Com os seus 7 quilómetros de areia, o pôr do sol aqui é um desfile de reflexos dourados sobre a margem infinita.
 • Farol de Lira: Muito mais tranquilo e próximo da Casa da Cuncheira, oferece um ambiente íntimo com o som das ondas a quebrar contra o granito.
@@ -883,6 +1000,7 @@ O pôr do sol do alto das arribas, com a imensidão do oceano a abrir-se diante 
   'nature.fisterra.h2': { es: 'Kilómetro 0 Camino Santiago', gl: 'Kilómetro 0 Camiño Santiago', en: 'Kilometer 0 Way of St. James', fr: 'Kilomètre 0 Chemin de Compostelle', de: 'Kilometer 0 Jakobsweg', it: 'Chilometro 0 Cammino di Santiago', pt: 'Quilómetro 0 Caminho de Santiago' },
   'nature.fisterra.h3': { es: 'Atardeceres Legendarios', gl: 'Atardeceres Lendarios', en: 'Legendary Sunsets', fr: 'Couchers de soleil Légendaires', de: 'Legendäre Sonnenuntergänge', it: 'Tramonti Leggendari', pt: 'Pôr do sol Lendário' },
   'common.back': { es: 'Volver al inicio', gl: 'Volver ao inicio', en: 'Back to home', fr: 'Retour à l\'accueil', de: 'Zurück zum Start', it: 'Torna alla home', pt: 'Voltar ao início' },
+  'gastronomy.back': { es: 'Volver al inicio', gl: 'Volver ao inicio', en: 'Back to home', fr: 'Retour à l\'accueil', de: 'Zurück zum Start', it: 'Torna alla home', pt: 'Voltar ao início' },
 
   // Weather
   'weather.title': {
