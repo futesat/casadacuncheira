@@ -33,7 +33,7 @@ export function Location() {
       title: t('location.carnota_guide.title'),
       description: t('location.carnota_guide.desc'),
       slug: 'que-ver-en-carnota',
-      image: `${(import.meta as any).env.BASE_URL}images/carnota_hórreo_optimized.webp`,
+      image: `${(import.meta as any).env.BASE_URL}images/carnota_horreo.webp`,
       icon: Sparkles,
     },
     {

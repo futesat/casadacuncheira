@@ -69,7 +69,7 @@ export const getNatureData = (t: (key: string) => any): Record<string, NatureLoc
         description: t('location.carnota_guide.longDesc'),
         metaTitle: t('seo.carnotaGuideTitle'),
         metaDescription: t('seo.carnotaGuideDescription'),
-        image: `${(import.meta as any).env.BASE_URL}images/carnota_beach_optimized.webp`,
+        image: `${(import.meta as any).env.BASE_URL}images/carnota_horreo.webp`,
         location: 'Carnota, Costa da Morte',
         googleMaps: 'https://www.google.com/maps/place/Carnota,+A+Coru%C3%B1a/',
         highlights: [
