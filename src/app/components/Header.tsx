@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Globe, Menu, X } from 'lucide-react';
+import { Link, useLocation } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { STATIC_TEXTS } from '../constants/static';
 
@@ -14,6 +15,11 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
   const [showLangMenu, setShowLangMenu] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const { language, setLanguage, t } = useLanguage();
+  const location = useLocation();
+
+  // Check if current page has a dark hero background image
+  const hasDarkHero = location.pathname === '/' || location.pathname === '/gastronomy' || location.pathname.startsWith('/nature');
+  const isLightHeader = isScrolled || !hasDarkHero;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -99,8 +105,9 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
 
   return (
     <motion.header
-      className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-md shadow-sm' : 'bg-transparent'
-        }`}
+      className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-300 ${
+        isLightHeader ? 'bg-white/95 backdrop-blur-md shadow-sm border-b border-border/40' : 'bg-transparent'
+      }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6 }}
@@ -110,14 +117,15 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
           {/* Logo */}
           <button
             onClick={handleLogoClick}
-            className="flex items-center hover:opacity-70 transition-opacity z-10"
+            className="flex items-center hover:opacity-70 transition-opacity z-10 cursor-pointer"
             aria-label={STATIC_TEXTS.brand}
           >
             <img
               src={`${(import.meta as any).env.BASE_URL}images/logo.svg`}
               alt={STATIC_TEXTS.brand}
-              className={`h-[62px] w-auto transition-all duration-300 ${isScrolled ? '' : 'brightness-0 invert'
-                }`}
+              className={`h-[62px] w-auto transition-all duration-300 ${
+                isLightHeader ? '' : 'brightness-0 invert'
+              }`}
             />
           </button>
 
@@ -125,22 +133,25 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
           <nav className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection('house')}
-              className={`hover:text-primary transition-colors ${isScrolled ? 'text-foreground' : 'text-white'
-                }`}
+              className={`hover:text-primary transition-colors cursor-pointer ${
+                isLightHeader ? 'text-foreground' : 'text-white'
+              }`}
             >
               {t('nav.house')}
             </button>
             <button
               onClick={() => scrollToSection('location')}
-              className={`hover:text-primary transition-colors ${isScrolled ? 'text-foreground' : 'text-white'
-                }`}
+              className={`hover:text-primary transition-colors cursor-pointer ${
+                isLightHeader ? 'text-foreground' : 'text-white'
+              }`}
             >
               {t('nav.location')}
             </button>
             <button
               onClick={() => scrollToSection('experiences')}
-              className={`hover:text-primary transition-colors ${isScrolled ? 'text-foreground' : 'text-white'
-                }`}
+              className={`hover:text-primary transition-colors cursor-pointer ${
+                isLightHeader ? 'text-foreground' : 'text-white'
+              }`}
             >
               {t('nav.experiences')}
             </button>
@@ -148,25 +159,28 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
               href={bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className={`hover:text-primary transition-colors ${isScrolled ? 'text-foreground' : 'text-white'
-                }`}
+              className={`hover:text-primary transition-colors ${
+                isLightHeader ? 'text-foreground' : 'text-white'
+              }`}
             >
               {t('nav.book')}
             </a>
-            {/* <button
-              onClick={() => scrollToSection('faq')}
-              className={`hover:text-primary transition-colors ${isScrolled ? 'text-foreground' : 'text-white'
-                }`}
-            >
-              {t('nav.faq')}
-            </button> */}
             <button
               onClick={() => scrollToSection('contact')}
-              className={`hover:text-primary transition-colors ${isScrolled ? 'text-foreground' : 'text-white'
-                }`}
+              className={`hover:text-primary transition-colors cursor-pointer ${
+                isLightHeader ? 'text-foreground' : 'text-white'
+              }`}
             >
               {t('nav.contact')}
             </button>
+            <Link
+              to="/aviso-legal"
+              className={`hover:text-primary transition-colors ${
+                isLightHeader ? 'text-foreground' : 'text-white'
+              }`}
+            >
+              {t('nav.legal')}
+            </Link>
           </nav>
 
           {/* Right Side - Language & Mobile Menu */}
@@ -175,10 +189,11 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
             <div className="relative">
               <button
                 onClick={() => setShowLangMenu(!showLangMenu)}
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg transition-colors ${isScrolled
-                  ? 'hover:bg-secondary/50'
-                  : 'hover:bg-white/20 text-white'
-                  }`}
+                className={`flex items-center gap-2 px-3 py-2 rounded-lg transition-colors cursor-pointer ${
+                  isLightHeader
+                    ? 'text-foreground hover:bg-secondary/50'
+                    : 'hover:bg-white/20 text-white'
+                }`}
               >
                 <Globe className="w-4 h-4" />
                 <img
@@ -193,7 +208,7 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
                 <motion.div
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="absolute right-0 mt-2 bg-white rounded-lg shadow-lg py-2 min-w-[100px]"
+                  className="absolute right-0 mt-2 bg-white rounded-lg shadow-lg py-2 min-w-[100px] z-50 border border-border/60"
                 >
                   {languages.map((lang) => (
                     <button
@@ -202,8 +217,9 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
                         setLanguage(lang.code as any);
                         setShowLangMenu(false);
                       }}
-                      className={`w-full px-4 py-2 text-left hover:bg-secondary transition-colors text-foreground flex items-center gap-3 ${language === lang.code ? 'bg-secondary' : ''
-                        }`}
+                      className={`w-full px-4 py-2 text-left hover:bg-secondary transition-colors text-foreground flex items-center gap-3 cursor-pointer ${
+                        language === lang.code ? 'bg-secondary' : ''
+                      }`}
                     >
                       <img
                         src={lang.flag}
@@ -220,10 +236,12 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setShowMobileMenu(!showMobileMenu)}
-              className={`md:hidden p-2 rounded-lg transition-colors ${isScrolled
-                ? 'hover:bg-secondary/50'
-                : 'hover:bg-white/20 text-white'
-                }`}
+              className={`md:hidden p-2 rounded-lg transition-colors cursor-pointer ${
+                isLightHeader
+                  ? 'text-foreground hover:bg-secondary/50'
+                  : 'hover:bg-white/20 text-white'
+              }`}
+              aria-label="Menu"
             >
               {showMobileMenu ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -238,47 +256,48 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-white border-t border-border overflow-hidden"
+            className="md:hidden bg-white border-t border-border overflow-hidden shadow-lg"
           >
             <nav className="px-4 py-6 space-y-4">
               <button
                 onClick={() => scrollToSection('house')}
-                className="block w-full text-left py-2 hover:text-primary transition-colors"
+                className="block w-full text-left py-2 hover:text-primary transition-colors text-foreground"
               >
                 {t('nav.house')}
               </button>
               <button
                 onClick={() => scrollToSection('location')}
-                className="block w-full text-left py-2 hover:text-primary transition-colors"
+                className="block w-full text-left py-2 hover:text-primary transition-colors text-foreground"
               >
                 {t('nav.location')}
               </button>
               <button
                 onClick={() => scrollToSection('experiences')}
-                className="block w-full text-left py-2 hover:text-primary transition-colors"
+                className="block w-full text-left py-2 hover:text-primary transition-colors text-foreground"
               >
                 {t('nav.experiences')}
               </button>
-            <a
-              href={bookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full text-left py-2 hover:text-primary transition-colors"
-            >
-              {t('nav.book')}
-            </a>
-              {/* <button
-                onClick={() => scrollToSection('faq')}
-                className="block w-full text-left py-2 hover:text-primary transition-colors"
+              <a
+                href={bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-left py-2 hover:text-primary transition-colors text-foreground"
               >
-                {t('nav.faq')}
-              </button> */}
+                {t('nav.book')}
+              </a>
               <button
                 onClick={() => scrollToSection('contact')}
-                className="block w-full text-left py-2 hover:text-primary transition-colors"
+                className="block w-full text-left py-2 hover:text-primary transition-colors text-foreground"
               >
                 {t('nav.contact')}
               </button>
+              <Link
+                to="/aviso-legal"
+                onClick={() => setShowMobileMenu(false)}
+                className="block w-full text-left py-2 hover:text-primary transition-colors text-foreground font-medium"
+              >
+                {t('nav.legal')}
+              </Link>
             </nav>
           </motion.div>
         )}

@@ -52,11 +52,12 @@ export function Legal() {
             </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-1">
               <li><strong>Denominación comercial:</strong> {STATIC_TEXTS.brand}</li>
-              <li><strong>Titular responsable:</strong> César Caamaño Beiro</li>
+              <li><strong>Titular responsable:</strong> {STATIC_TEXTS.owner}</li>
+              <li><strong>Gestión y Explotación:</strong> {STATIC_TEXTS.manager}</li>
               <li><strong>Registro Turístico Oficial (Xunta de Galicia):</strong> {STATIC_TEXTS.license} (Vivienda de Uso Turístico)</li>
               <li><strong>Ubicación de la vivienda:</strong> {STATIC_TEXTS.location}</li>
-              <li><strong>Correo electrónico de contacto:</strong> <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary underline">{STATIC_TEXTS.email}</a></li>
               <li><strong>Teléfono de atención al cliente:</strong> <a href={`tel:${STATIC_TEXTS.phone.replace(/\s+/g, '')}`} className="text-primary underline">{STATIC_TEXTS.phone}</a></li>
+              <li><strong>Correo electrónico de atención al cliente:</strong> <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary underline">{STATIC_TEXTS.email}</a></li>
             </ul>
           </section>
 

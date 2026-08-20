@@ -17,6 +17,15 @@ const translations: Translations = {
   'nav.book': { es: 'Reservar', gl: 'Reservar', en: 'Book', fr: 'Réserver', de: 'Buchen', it: 'Prenota', pt: 'Reservar' },
   'nav.faq': { es: 'FAQ', gl: 'FAQ', en: 'FAQ', fr: 'FAQ', de: 'FAQ', it: 'FAQ', pt: 'FAQ' },
   'nav.contact': { es: 'Contacto', gl: 'Contacto', en: 'Contact', fr: 'Contact', de: 'Kontakt', it: 'Contatto', pt: 'Contacto' },
+  'nav.legal': {
+    es: 'Aviso Legal y Privacidad',
+    gl: 'Aviso Legal e Privacidade',
+    en: 'Legal Notice & Privacy',
+    fr: 'Mentions légales & Confidentialité',
+    de: 'Impressum & Datenschutz',
+    it: 'Note Legali e Privacy',
+    pt: 'Aviso Legal e Privacidade'
+  },
   'footer.description': {
     es: 'Tu refugio en la Costa da Morte',
     gl: 'O teu refuxio na Costa da Morte',
