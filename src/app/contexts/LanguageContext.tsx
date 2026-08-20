@@ -863,8 +863,154 @@ Não existe apenas um ponto para desfrutar deste espectáculo, mas toda uma geog
 
 O ritual
 O momento do "raio verde", a gama de púrpuras e laranjas que tingem o céu, e o silêncio que se apodera da costa quando o sol desaparece, fazem deste momento o encerramento perfeito para qualquer dia de exploração. Recomenda-se chegar pelo menos 30 minutos antes da hora prevista para desfrutar de toda a transição lumínica.`
-
   },
+
+  'nature.villages.title': {
+    es: 'Pueblos Marineros y Península de O Barbanza',
+    gl: 'Pobos Mariñeiros e Península do Barbanza',
+    en: 'Seafaring Villages & O Barbanza Peninsula',
+    fr: 'Villages de Pêcheurs et Péninsule d\'O Barbanza',
+    de: 'Seefahrerdörfer & Halbinsel O Barbanza',
+    it: 'Villaggi Marinari e Penisola di O Barbanza',
+    pt: 'Aldeias de Pescadores e Península de O Barbanza'
+  },
+  'nature.villages.summary': {
+    es: 'Villas señoriales, puertos de tradición viva, miradores sobre las rías y arenales salvajes entre Noia, Muros y Ribeira.',
+    gl: 'Vilas señoriais, portos de tradición viva, miradores sobre as rías e areais salvaxes entre Noia, Muros e Ribeira.',
+    en: 'Stately coastal towns, vibrant fishing ports, sweeping viewpoints, and untamed beaches between Noia, Muros, and Ribeira.',
+    fr: 'Villas côtières chargées d\'histoire, ports vivants, belvédères panoramiques et plages sauvages entre Noia, Muros et Ribeira.',
+    de: 'Historische Küstenstädtchen, lebendige Fischerhäfen, spektakuläre Aussichtspunkte und wilde Strände zwischen Noia, Muros und Ribeira.',
+    it: 'Borghi storici, porti di antica tradizione, belvedere panoramici e spiagge selvagge tra Noia, Muros e Ribeira.',
+    pt: 'Vilas senhoriais, portos de tradição viva, miradouros sobre as rias e areais selvagens entre Noia, Muros e Ribeira.'
+  },
+  'nature.villages.h1': {
+    es: 'Villas con Historia',
+    gl: 'Vilas con Historia',
+    en: 'Historic Towns',
+    fr: 'Villes Historiques',
+    de: 'Historische Städte',
+    it: 'Borghi Storici',
+    pt: 'Vilas Históricas'
+  },
+  'nature.villages.h2': {
+    es: 'Miradores y Dunas',
+    gl: 'Miradores e Dunas',
+    en: 'Viewpoints & Dunes',
+    fr: 'Belvédères et Dunes',
+    de: 'Aussichtspunkte & Dünen',
+    it: 'Belvedere e Dune',
+    pt: 'Miradouros e Dunas'
+  },
+  'nature.villages.h3': {
+    es: 'Esencia y Sabor de Ría',
+    gl: 'Esencia e Sabor de Ría',
+    en: 'Seafood & Living Tradition',
+    fr: 'Saveurs et Traditions de la Mer',
+    de: 'Meeresgeschmack & Tradition',
+    it: 'Sapori e Tradizione di Mare',
+    pt: 'Essência e Sabor da Ria'
+  },
+  'nature.villages.longDesc': {
+    es: `La Península de O Barbanza y la Ría de Muros e Noia forman uno de los rincones más genuinos y cautivadores de Galicia. Flanqueada al norte por las aguas mansas de Muros y Noia y al sur por la Ría de Arousa, esta tierra fusiona cumbres de granito, pueblos volcados en el mar, dunas milenarias y una gastronomía que nace en las lonjas locales.
+
+Villas marineras y puertos con alma
+Un itinerario que invita a detener el reloj y caminar sin prisas por calles empedradas y muelles tradicionales:
+• Muros: Joya arquitectónica declarada conjunto histórico-artístico. Pasear bajo sus característicos soportales marineros, donde antiguamente se salaba el pescado y se reparaban las redes, es viajar en el tiempo.
+• Noia: La villa medieval por excelencia de la ría. Con su iglesia gótica de Santa María A Nova, su laberinto de plazas y su reconocida fama por el marisqueo de berberechos en los arenales de Testal.
+• Palmeira y Portosín: Puertos donde las dornas de madera tradicionales conviven con terrazas vivas y modernas marinas deportivas, conservando intacta la memoria de las antiguas fábricas de salazón.
+• Porto do Son: Pueblo marinero enmarcado entre calas secretas, con el emblemático mirador de A Garita vigilando el horizonte oceánico.
+
+Miradores y naturaleza salvaje
+La Sierra de O Barbanza se eleva a casi 700 metros sobre el mar, regalando balcones naturales irrepetibles:
+• Mirador da Pedra da Rá: Una panorámica vertiginosa que alcanza la mítica Isla de Sálvora, el archipiélago de Cíes y la entrada de las rías.
+• Monte Tahume: Una atalaya privilegiada de 360 grados. Hacia el norte la silueta de Monte Louro y Costa da Morte; hacia el oeste, la inmensidad del océano Atlántico.
+• Parque Natural de Corrubedo y As Furnas: Las lagunas de Vixán y Carregal dan cobijo a garzas y aves migratorias junto a la gran duna móvil. Más al norte, las piscinas naturales de As Furnas esculpidas por el oleaje en la roca viva completan una costa de belleza sobrecogedora.`,
+    gl: `A Península do Barbanza e a Ría de Muros e Noia forman un dos recunchos máis xenuínos e engaiolantes de Galicia. Flanqueada ao norte polas augas mansas de Muros e Noia e ao sur pola Ría de Arousa, esta terra fusiona cumios de granito, vilas envorcadas no mar, dunas milenarias e unha gastronomía que nace nas lonxas locais.
+
+Vilas mariñeiras e portos con alma
+Un itinerario que convida a deter o reloxo e camiñar sen présas por rúas empedradas e peiraos tradicionais:
+• Muros: Xoia arquitectónica declarada conxunto histórico-artístico. Pasear baixo os seus característicos soportais mariñeiros, onde antigamente se salgaba o peixe e se reparaban as redes, é viaxar no tempo.
+• Noia: A vila medieval por excelencia da ría. Coa súa igrexa gótica de Santa María A Nova, o seu labirinto de prazas e a súa recoñecida sona polo marisqueo do berberecho nos areais de Testal.
+• Palmeira e Portosín: Portos onde as dornas de madeira tradicionais conviven con terrazas vivas e modernas mariñas deportivas, conservando intacta a memoria das antigas fábricas de salgadura.
+• Porto do Son: Pobo mariñeiro enmarcado entre calas secretas, co emblemático mirador da Garita vixiando o horizonte oceánico.
+
+Miradores e natureza salvaxe
+A Serra do Barbanza elévase a case 700 metros sobre o mar, regalando balcóns naturais irrepetibles:
+• Mirador da Pedra da Rá: Unha panorámica vertixinosa que abrangue a mítica Illa de Sálvora, o arquipélago das Cíes e a entrada das rías.
+• Monte Tahume: Unha atalaia privilexiada de 360 graos. Cara ao norte a silueta do Monte Louro e a Costa da Morte; cara ao oeste, a inmensidade do océano Atlántico.
+• Parque Natural de Corrubedo e As Furnas: As lagoas de Vixán e Carregal dan acubillo a garzas e aves migratorias xunto á gran duna móbil. Máis ao norte, as piscinas naturais das Furnas esculpidas pola ondaxe na rocha viva completan unha costa de beleza abraiante.`,
+    en: `The Barbanza Peninsula and the Ría de Muros e Noia comprise one of Galicia's most authentic and enchanting coastal routes. Sheltered between peaceful estuaries and the open ocean, this region blends granite peaks, historic fishing villages, ancestral sand dunes, and fresh culinary traditions born straight from local fish markets.
+
+Historic Fishing Villages and Ports
+A journey that invites you to slow down and wander through stone-paved alleys and traditional harbors:
+• Muros: An architectural gem declared a historic-artistic site. Walking beneath its iconic seafaring arcades—where fishermen once salted their catch and mended nets—is like stepping back in time.
+• Noia: The quintessential medieval town of the estuary. Featuring the Gothic church of Santa María A Nova, lively historic squares, and its world-famous cockle harvesting along the Testal shores.
+• Palmeira and Portosín: Coastal towns where traditional handcrafted wooden boats (dornas) share harbor waters with vibrant seafood terraces and modern marinas, honoring a rich canning heritage.
+• Porto do Son: A picturesque village tucked between secluded coves, crowned by the panoramic A Garita viewpoint overlooking the Atlantic horizon.
+
+Panoramic Viewpoints and Untamed Nature
+The Barbanza mountain range rises nearly 700 meters above sea level, offering dramatic natural balconies:
+• Pedra da Rá Viewpoint: A breathtaking lookout gazing over the legendary Sálvora Island, the Cíes archipelago, and the entrance to the southern estuaries.
+• Mount Tahume: A 360-degree observation peak. To the north, the striking silhouette of Mount Louro and Costa da Morte; to the west, the infinite Atlantic Ocean.
+• Corrubedo Natural Park and As Furnas: The freshwater and saline lagoons of Vixán and Carregal shelter diverse birdlife beside the immense mobile dune. Further north, the natural rock pools of As Furnas—sculpted by the ocean swells—complete an awe-inspiring coastline.`,
+    fr: `La péninsule d'O Barbanza et la Ría de Muros e Noia constituent l'un des territoires les plus authentiques et captivants de Galice. Bordée par des eaux paisibles et le vaste océan, cette région allie sommets granitiques, villages de pêcheurs historiques, dunes préservées et une gastronomie issue directement des criées locales.
+
+Villages maritimes et ports de tradition
+Un parcours invitant à flâner sans hâte dans des ruelles pavées et des quais traditionnels :
+• Muros : Joyau architectural classé site historico-artistique. Se promener sous ses arcades marines emblématiques, où l'on salait autrefois le poisson, offre un voyage dans le temps.
+• Noia : Cité médiévale par excellence avec son église gothique Santa María A Nova, ses places pittoresques et sa réputation renommée pour la récolte des coques sur les grèves de Testal.
+• Palmeira et Portosín : Ports où les barques en bois traditionnelles (dornas) côtoient terrasses animées et ports de plaisance modernes, préservant la mémoire des anciennes conserveries de salaison.
+• Porto do Son : Charmant village de pêcheurs bordé de criques secrètes, veillé par le point de vue d'A Garita dominant l'océan.
+
+Belvédères et nature sauvage
+La chaîne d'O Barbanza culmine à près de 700 mètres au-dessus des flots, offrant des panoramas spectaculaires :
+• Belvédère de Pedra da Rá : Vue imprenable sur l'île mythique de Sálvora, les îles Cíes et l'entrée des rías.
+• Mont Tahume : Un observatoire à 360 degrés dominant la silhouette du mont Louro, la Costa da Morte et l'immensité atlantique.
+• Parc naturel de Corrubedo et As Furnas : Les lagunes de Vixán et Carregal abritent hérons et oiseaux migrateurs auprès de la grande dune mobile. Plus au nord, les piscines naturelles d'As Furnas sculptées par les vagues complètent ce littoral d'une beauté saisissante.`,
+    de: `Die Halbinsel O Barbanza und die Ría de Muros e Noia gehören zu den authentischsten und faszinierendsten Küstenlandschaften Galiciens. Umrahmt von ruhigen Meeresarmen und dem tosenden Ozean vereint diese Region Granitgipfel, traditionsreiche Fischerdörfer, uralte Dünen und fangfrische Meeresküche.
+
+Historische Fischerdörfer und Häfen
+Eine Entdeckungsreise, die dazu einlädt, gemütlich durch gepflasterte Gassen und alte Häfen zu schlendern:
+• Muros: Ein denkmalgeschütztes Juwel galicischer Architektur. Der Spaziergang unter den typischen Bogengängen der Fischerhäuser versetzt Sie direkt in vergangene Jahrhunderte.
+• Noia: Das mittelalterliche Herz der Ría mit der gotischen Kirche Santa María A Nova, verwinkelten Plätzen und weltberühmten Herzmuschelbänken am Strand von Testal.
+• Palmeira und Portosín: Küstenorte, in denen traditionelle Holzboote (Dornas) neben lebhaften Terrassen und modernen Yachthäfen liegen und die Geschichte historischer Salzkonservenfabriken lebendig halten.
+• Porto do Son: Ein malerisches Seefahrerdorf zwischen versteckten Buchten, überragt vom Aussichtspunkt A Garita.
+
+Aussichtspunkte und wilde Natur
+Die Sierra de O Barbanza erhebt sich bis zu 700 Meter über das Meer und bietet atemberaubende Panoramablicke:
+• Mirador da Pedra da Rá: Ein herrlicher Weitblick über die sagenumwobene Insel Sálvora, das Cíes-Archipel und die Buchten.
+• Monte Tahume: Ein 360-Grad-Rundumblick auf die Silhouette des Monte Louro, die Costa da Morte und die Weite des Atlantiks.
+• Naturpark Corrubedo und As Furnas: Die Lagunen von Vixán und Carregal bieten Lebensraum für Reiher und Zugvögel neben der großen Wanderdüne. Weiter nördlich faszinieren die vom Meer in den Fels gewaschenen Naturpools von As Furnas.`,
+    it: `La Penisola di O Barbanza e la Ría de Muros e Noia costituiscono uno degli angoli più autentici e affascinanti della Galizia. Incastonata tra tranquille insenature e l'oceano aperto, questa terra unisce vette granitiche, villaggi marinari ricchi di storia, dune incontaminate e una gastronomia d'eccellenza.
+
+Borghi marinari e porti storici
+Un itinerario per passeggiare senza fretta tra vicoli lastricati e banchine tradizionali:
+• Muros: Gioiello architettonico dichiarato complesso storico-artistico. Passeggiare sotto i suoi caratteristici portici marinari è un autentico viaggio nel tempo.
+• Noia: Splendida cittadina medievale con la chiesa gotica di Santa María A Nova, suggestive piazzette e i rinomati banchi di vongole e cannolicchi di Testal.
+• Palmeira e Portosín: Porti dove le imbarcazioni tradizionali in legno (dorne) convivono con terrazze vivaci e moderni porti turistici, preservando la memoria della salagione del pesce.
+• Porto do Son: Borgo peschereccio tra calette segrete, dominato dal panoramico belvedere di A Garita aperto sull'orizzonte atlantico.
+
+Belvedere panoramici e natura selvaggia
+La Sierra di O Barbanza si innalza per quasi 700 metri sul livello del mare, offrendo balconi naturali unici:
+• Belvedere da Pedra da Rá: Vista spettacolare sull'isola mitica di Sálvora, sull'arcipelago delle Cíes e sulle rías.
+• Monte Tahume: Veduta a 360 gradi verso il Monte Louro, la Costa da Morte e l'immensità dell'oceano.
+• Parco Naturale di Corrubedo e As Furnas: Le lagune di Vixán e Carregal accolgono aironi e uccelli migratori accanto alla grande duna mobile. Più a nord, le piscine naturali di As Furnas scavate dalle onde nella roccia completano una costa di straordinaria bellezza.`,
+    pt: `A Península de O Barbanza e a Ria de Muros e Noia formam um dos recantos mais genuínos e cativantes da Galiza. Flanqueada por águas calmas e pelo oceano aberto, esta terra funde picos de granito, vilas marinheiras históricas, dunas milenares e uma gastronomia fresca nascida nas lotas locais.
+
+Vilas marinheiras e portos com história
+Um roteiro que convida a passear sem pressa por ruas empedradas e cais tradicionais:
+• Muros: Joia arquitetónica declarada conjunto histórico-artístico. Caminhar sob os seus alpendres marinheiros característicos é uma verdadeira viagem no tempo.
+• Noia: A vila medieval por excelência da ria, com a igreja gótica de Santa María A Nova, praças acolhedoras e a fama dos berbigões dos areais de Testal.
+• Palmeira e Portosín: Portos onde as embarcações tradicionais de madeira (dornas) convivem com esplanadas animadas e marinhas de recreio modernas.
+• Porto do Son: Povoado de pescadores aninhado entre enseadas secretas, vigiado pelo miradouro da Garita.
+
+Miradouros e natureza intocada
+A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varandas panorâmicas inesquecíveis:
+• Miradouro da Pedra da Rá: Panorâmica deslumbrante sobre a mítica Ilha de Sálvora, as Ilhas Cíes e a entrada das rias.
+• Monte Tahume: Miradouro de 360 graus virado para o Monte Louro, a Costa da Morte e o oceano Atlântico.
+• Parque Natural de Corrubedo e As Furnas: As lagoas de Vixán e Carregal acolhem garças e aves migratórias junto à grande duna móvel. Mais a norte, as piscinas naturais de As Furnas esculpidas pela ondulação completam uma costa de beleza arrebatadora.`
+  },
+
   'experiences.villages.title': { es: 'Pueblos Marineros', gl: 'Pobos Mariñeiros', en: 'Seafaring Villages', fr: 'Villages de Pêcheurs', de: 'Seefahrerdörfer', it: 'Villaggi Marinari', pt: 'Aldeias de Pescadores' },
   'experiences.villages.desc': { es: 'Visita Muros y otros pueblos con historia', gl: 'Visita Muros e outros pobos con historia', en: 'Visit Muros and other historic villages', fr: 'Visitez Muros et d\'autres villages chargés d\'histoire', de: 'Besuchen Sie Muros und andere geschichtsträchtige Dörfer', it: 'Visita Muros e altri borghi storici', pt: 'Visite Muros e outras aldeias históricas' },
   'experiences.villages.duration': {

@@ -62,6 +62,7 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
       image: `${(import.meta as any).env.BASE_URL}images/muros_villages_optimized.webp`,
       category: 'culture' as Category,
       duration: t('experiences.villages.duration'),
+      slug: 'pueblos-marineros',
     },
   ];
 

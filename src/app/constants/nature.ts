@@ -89,5 +89,17 @@ export const getNatureData = (t: (key: string) => any): Record<string, NatureLoc
             t('nature.sunset.h2'),
             t('nature.sunset.h3')
         ]
+    },
+    'pueblos-marineros': {
+        title: t('nature.villages.title'),
+        summary: t('nature.villages.summary'),
+        description: t('nature.villages.longDesc'),
+        image: `${(import.meta as any).env.BASE_URL}images/muros_villages_optimized.webp`,
+        location: 'Península de O Barbanza & Ría de Muros e Noia',
+        highlights: [
+            t('nature.villages.h1'),
+            t('nature.villages.h2'),
+            t('nature.villages.h3')
+        ]
     }
 });
