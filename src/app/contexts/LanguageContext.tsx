@@ -278,7 +278,7 @@ const translations: Translations = {
   'features.badge.wifi': { es: 'Wi-Fi 5G', gl: 'Wi-Fi 5G', en: '5G Wi-Fi', fr: 'Wi-Fi 5G', de: '5G-WLAN', it: 'Wi-Fi 5G', pt: 'Wi-Fi 5G' },
   'features.badge.views': { es: 'Vistas al mar', gl: 'Vistas ao mar', en: 'Ocean views', fr: 'Vue sur la mer', de: 'Meerblick', it: 'Vista mare', pt: 'Vista para o mar' },
   'features.badge.terrace': { es: 'Terraza y jardín', gl: 'Terraza e xardín', en: 'Terrace & garden', fr: 'Terrasse et jardin', de: 'Terrasse & Garten', it: 'Terrazza e giardino', pt: 'Terraço e jardim' },
-  'features.badge.pets': { es: 'Mascotas', gl: 'Mascotas', en: 'Pets welcome', fr: 'Animaux admis', de: 'Haustiere', it: 'Animali ammessi', pt: 'Animais aceites' },
+  'features.badge.ac': { es: 'Climatización', gl: 'Climatización', en: 'Air conditioning', fr: 'Climatisation', de: 'Klimaanlage', it: 'Aria condizionata', pt: 'Ar condicionado' },
 
   'features.lira.title': { es: 'Lira y sus calas', gl: 'Lira e as súas calas', en: 'Lira & its coves', fr: 'Lira et ses criques', de: 'Lira und seine Buchten', it: 'Lira e le sue calette', pt: 'Lira e as suas enseadas' },
   'features.lira.desc': { es: 'Praia de Cons, Praia do Cancelo y el puerto pesquero de Portocubelo a pocos minutos a pie', gl: 'Praia de Cons, Praia do Cancelo e o porto pesqueiro de Portocubelo a poucos minutos a pé', en: 'Praia de Cons, Praia do Cancelo and Portocubelo fishing harbor just minutes away', fr: 'Praia de Cons, Praia do Cancelo et le port de Portocubelo à quelques minutes', de: 'Praia de Cons, Praia do Cancelo und der Fischerhafen Portocubelo wenige Gehminuten entfernt', it: 'Praia de Cons, Praia do Cancelo e il porto di Portocubelo a pochi minuti', pt: 'Praia de Cons, Praia do Cancelo e o porto de Portocubelo a poucos minutos a pé' },
@@ -1585,13 +1585,13 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     pt: 'Animais de estimação são permitidos?'
   },
   'faq.a2': {
-    es: 'Sí, admitimos mascotas pequeñas y medianas con un cargo adicional de 20€ por estancia. Por favor, indícalo en tu reserva.',
-    gl: 'Si, admitimos mascotas pequenas e medianas cun cargo adicional de 20€ por estancia. Por favor, indícao na túa reserva.',
-    en: 'Yes, we allow small and medium-sized pets with an additional charge of €20 per stay. Please indicate it in your reservation.',
-    fr: 'Oui, nous acceptons les animaux de petite et moyenne taille avec un supplément de 20 € par séjour. Veuillez l\'indiquer lors de votre réservation.',
-    de: 'Ja, wir erlauben kleine und mittelgroße Haustiere gegen einen Aufpreis von 20 € pro Aufenthalt. Bitte geben Sie dies bei Ihrer Buchung an.',
-    it: 'Sì, ammettiamo animali di piccola e media taglia con un supplemento di 20€ per soggiorno. Si prega di indicarlo nella prenotazione.',
-    pt: 'Sim, admitimos animais de pequeno e médio porte com um custo adicional de 20€ por estadia. Por favor, indique-o na sua reserva.'
+    es: 'No admitimos mascotas en el alojamiento.',
+    gl: 'Non admitimos mascotas no aloxamento.',
+    en: 'Pets are not allowed in the accommodation.',
+    fr: 'Les animaux ne sont pas admis dans l\'établissement.',
+    de: 'Haustiere sind in der Unterkunft nicht gestattet.',
+    it: 'Non sono ammessi animali domestici nella struttura.',
+    pt: 'Não são permitidos animais de estimação no alojamento.'
   },
   'faq.q3': {
     es: '¿Hay WiFi y qué velocidad tiene?',
