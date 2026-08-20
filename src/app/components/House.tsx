@@ -16,6 +16,7 @@ import {
   X,
   ChevronLeft,
   ChevronRight,
+  KeyRound,
 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './ui/ImageWithFallback';
@@ -222,6 +223,7 @@ export function House() {
     { icon: Waves, label: t('house.amenities.view') },
     { icon: Snowflake, label: t('house.amenities.ac') },
     { icon: Trees, label: t('house.amenities.garden') },
+    { icon: KeyRound, label: t('house.amenities.checkin') },
   ];
 
   return (

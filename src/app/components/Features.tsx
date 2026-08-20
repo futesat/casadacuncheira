@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Waves, Mountain, Sun, Compass, Users, Bed, Bath, Wifi, Wind } from 'lucide-react';
+import { Waves, Mountain, Sun, Compass, Users, Bed, Bath, Wifi, Wind, KeyRound } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function Features() {
@@ -13,6 +13,7 @@ export function Features() {
     { icon: Waves, label: t('features.badge.views') },
     { icon: Sun, label: t('features.badge.terrace') },
     { icon: Wind, label: t('features.badge.ac') },
+    { icon: KeyRound, label: t('features.badge.checkin') },
   ];
 
   const highlights = [
