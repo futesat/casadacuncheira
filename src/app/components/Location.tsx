@@ -26,7 +26,7 @@ export function Location() {
       title: t('location.lira.title'),
       description: t('location.lira.desc'),
       slug: 'lira-carnota',
-      image: `${(import.meta as any).env.BASE_URL}images/lira_beach_optimized.webp`,
+      image: `${(import.meta as any).env.BASE_URL}images/house/moa_beach.webp`,
       icon: Anchor,
     },
     {

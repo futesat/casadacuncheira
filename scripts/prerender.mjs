@@ -44,7 +44,7 @@ const routes = [
       <p>Con casi 37 metros de largo y 22 pares de pies de piedra, rivaliza históricamente en tamaño y belleza con el hórreo de Carnota.</p>
       <p><a href="/">Casa da Cuncheira: Tu casa en Lira</a> | <a href="https://bookonline.pro/es/property/350327">Reservar online</a></p>
     `,
-    image: 'https://www.casadacuncheira.com/images/lira_beach_optimized.webp'
+    image: 'https://www.casadacuncheira.com/images/house/moa_beach.webp'
   },
   {
     path: '/gastronomy',

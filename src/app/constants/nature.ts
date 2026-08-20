@@ -53,7 +53,7 @@ export const getNatureData = (t: (key: string) => any): Record<string, NatureLoc
         description: t('location.lira.longDesc'),
         metaTitle: t('seo.liraTitle'),
         metaDescription: t('seo.liraDescription'),
-        image: `${(import.meta as any).env.BASE_URL}images/hero_optimized.webp`,
+        image: `${(import.meta as any).env.BASE_URL}images/house/moa_beach.webp`,
         location: 'Lira, Carnota (A Coruña)',
         googleMaps: 'https://www.google.com/maps/place/Lira,+15292+Carnota,+A+Coru%C3%B1a/',
         highlights: [
