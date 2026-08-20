@@ -20,6 +20,7 @@ import { SEOHead } from './components/SEOHead';
 
 const Gastronomy = lazy(() => import('./pages/Gastronomy').then(m => ({ default: m.Gastronomy })));
 const NatureDetail = lazy(() => import('./pages/NatureDetail').then(m => ({ default: m.NatureDetail })));
+const Legal = lazy(() => import('./pages/Legal').then(m => ({ default: m.Legal })));
 
 function HomePage() {
   const navigate = useNavigate();
@@ -42,12 +43,6 @@ function HomePage() {
   );
 }
 
-/*
-     <Testimonials />
-      <FAQ />
-      <Booking />
-*/
-
 function GastronomyPage() {
   const navigate = useNavigate();
 
@@ -56,6 +51,10 @@ function GastronomyPage() {
 
 function NaturePage() {
   return <NatureDetail />;
+}
+
+function LegalPage() {
+  return <Legal />;
 }
 
 function AppContent() {
@@ -81,6 +80,7 @@ function AppContent() {
             <Route path="/" element={<HomePage />} />
             <Route path="/gastronomy" element={<GastronomyPage />} />
             <Route path="/nature/:slug" element={<NaturePage />} />
+            <Route path="/aviso-legal" element={<LegalPage />} />
           </Routes>
         </Suspense>
       </main>

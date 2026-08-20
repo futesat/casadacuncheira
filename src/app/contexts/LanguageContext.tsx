@@ -18,7 +18,7 @@ const translations: Translations = {
   'nav.faq': { es: 'FAQ', gl: 'FAQ', en: 'FAQ', fr: 'FAQ', de: 'FAQ', it: 'FAQ', pt: 'FAQ' },
   'nav.contact': { es: 'Contacto', gl: 'Contacto', en: 'Contact', fr: 'Contact', de: 'Kontakt', it: 'Contatto', pt: 'Contacto' },
   'footer.description': {
-    es: 'Tu refugio na Costa da Morte',
+    es: 'Tu refugio en la Costa da Morte',
     gl: 'O teu refuxio na Costa da Morte',
     en: 'Your retreat in Costa da Morte',
     fr: 'Votre refuge sur la Costa da Morte',
@@ -35,6 +35,24 @@ const translations: Translations = {
     it: 'Link',
     pt: 'Links'
   },
+  'footer.license': {
+    es: 'Vivienda de uso turístico: VUT-CO-002236',
+    gl: 'Vivenda de uso turístico: VUT-CO-002236',
+    en: 'Tourist Accommodation License: VUT-CO-002236',
+    fr: 'Hébergement touristique : VUT-CO-002236',
+    de: 'Lizenz für Ferienunterkunft: VUT-CO-002236',
+    it: 'Alloggio turistico: VUT-CO-002236',
+    pt: 'Alojamento turístico: VUT-CO-002236'
+  },
+  'footer.legal': {
+    es: 'Aviso Legal y Privacidad',
+    gl: 'Aviso Legal e Privacidade',
+    en: 'Legal Notice & Privacy',
+    fr: 'Mentions légales & Confidentialité',
+    de: 'Impressum & Datenschutz',
+    it: 'Note Legali e Privacy',
+    pt: 'Aviso Legal e Privacidade'
+  },
 
   // SEO Metadata
   'seo.defaultTitle': {
@@ -47,13 +65,13 @@ const translations: Translations = {
     pt: 'Casa da Cuncheira | Alojamento de férias em Lira, Carnota (Costa da Morte)'
   },
   'seo.defaultDescription': {
-    es: 'Reserva Casa da Cuncheira, alojamiento vacacional en Lira (Carnota). Casa completa para 6 personas con 4 dormitorios, 2 baños, vistas al mar y wifi fibra en plena Costa da Morte.',
-    gl: 'Reserva Casa da Cuncheira, aloxamento vacacional en Lira (Carnota). Casa completa para 6 persoas con 4 dormitorios, 2 baños, vistas ao mar e wifi fibra na Costa da Morte.',
-    en: 'Book Casa da Cuncheira, holiday home in Lira (Carnota). Whole house for 6 guests with 4 bedrooms, 2 bathrooms, sea views, and fiber wifi in Costa da Morte.',
-    fr: 'Réservez Casa da Cuncheira, hébergement de vacances à Lira (Carnota). Maison pour 6 personnes avec 4 chambres, 2 salles de bain, vue mer et wifi fibre.',
-    de: 'Buchen Sie Casa da Cuncheira, Ferienunterkunft in Lira (Carnota). Ganzes Haus für 6 Personen mit 4 Schlafzimmern, 2 Bädern, Meerblick und Glasfaser-WLAN.',
-    it: 'Prenota Casa da Cuncheira, alloggio vacanze a Lira (Carnota). Casa per 6 persone con 4 camere, 2 bagni, vista mare e wifi in fibra sulla Costa da Morte.',
-    pt: 'Reserve a Casa da Cuncheira, alojamento de férias em Lira (Carnota). Casa para 6 pessoas com 4 quartos, 2 casas de banho, vista para o mar e wifi fibra.'
+    es: 'Descubre Casa da Cuncheira, alojamiento vacacional en Lira, Carnota, en plena Costa da Morte. Conoce la casa, sus playas y todo lo que puedes disfrutar durante tu estancia.',
+    gl: 'Descobre Casa da Cuncheira, aloxamento vacacional en Lira, Carnota, en plena Costa da Morte. Coñece a casa, as súas praias e todo o que podes gozar na túa estadía.',
+    en: 'Discover Casa da Cuncheira, holiday accommodation in Lira, Carnota, right in Costa da Morte. Explore the house, nearby beaches and local experiences.',
+    fr: 'Découvrez Casa da Cuncheira, hébergement de vacances à Lira, Carnota, au cœur de la Costa da Morte. Maison, plages et expériences inoubliables.',
+    de: 'Entdecken Sie Casa da Cuncheira, Ferienunterkunft in Lira, Carnota, an der Costa da Morte. Erleben Sie das Haus, Strände und unvergessliche Momente.',
+    it: 'Scopri Casa da Cuncheira, alloggio vacanze a Lira, Carnota, nel cuore della Costa da Morte. Casa, spiagge ed esperienze autentiche.',
+    pt: 'Descubra a Casa da Cuncheira, alojamento de férias em Lira, Carnota, em plena Costa da Morte. Conheça a casa, as praias e tudo o que pode desfrutar.'
   },
   'seo.gastronomyTitle': {
     es: 'Dónde comer en Carnota y Lira: Restaurantes y Gastronomía | Casa da Cuncheira',
@@ -76,34 +94,61 @@ const translations: Translations = {
 
   // Hero
   'hero.title': {
-    es: 'Casa da Cuncheira: Alojamiento vacacional en Lira, Carnota',
-    gl: 'Casa da Cuncheira: Aloxamento vacacional en Lira, Carnota',
-    en: 'Casa da Cuncheira: Holiday Rental in Lira, Carnota',
-    fr: 'Casa da Cuncheira : Location de vacances à Lira, Carnota',
+    es: 'Casa da Cuncheira: alojamiento vacacional en Lira, Carnota',
+    gl: 'Casa da Cuncheira: aloxamento vacacional en Lira, Carnota',
+    en: 'Casa da Cuncheira: holiday rental in Lira, Carnota',
+    fr: 'Casa da Cuncheira : hébergement de vacances à Lira, Carnota',
     de: 'Casa da Cuncheira: Ferienhaus in Lira, Carnota',
-    it: 'Casa da Cuncheira: Alloggio vacanze a Lira, Carnota',
-    pt: 'Casa da Cuncheira: Alojamento de férias em Lira, Carnota'
+    it: 'Casa da Cuncheira: alloggio vacanze a Lira, Carnota',
+    pt: 'Casa da Cuncheira: alojamento de férias em Lira, Carnota'
   },
   'hero.subtitle': {
-    es: 'Tu refugio frente al Atlántico en la Costa da Morte • Casa completa para 6 personas con vistas al mar',
-    gl: 'O teu refuxio fronte ao Atlántico na Costa da Morte • Casa completa para 6 persoas con vistas ao mar',
-    en: 'Your retreat facing the Atlantic in Costa da Morte • Whole house for 6 guests with ocean views',
-    fr: 'Votre refuge face à l\'Atlantique sur la Costa da Morte • Maison pour 6 personnes avec vue mer',
-    de: 'Ihr Rückzugsort am Atlantik an der Costa da Morte • Ganzes Haus für 6 Personen mit Meerblick',
-    it: 'Il tuo rifugio sull\'Atlantico nella Costa da Morte • Casa completa per 6 persone con vista mare',
-    pt: 'O seu refúgio em frente ao Atlântico na Costa da Morte • Casa para 6 pessoas com vista para o mar'
+    es: 'Tu refugio junto al Atlántico, en plena Costa da Morte',
+    gl: 'O teu refuxio xunto ao Atlántico, en plena Costa da Morte',
+    en: 'Your retreat by the Atlantic, in the heart of Costa da Morte',
+    fr: 'Votre refuge au bord de l\'Atlantique, au cœur de la Costa da Morte',
+    de: 'Ihr Rückzugsort am Atlantik, mitten an der Costa da Morte',
+    it: 'Il tuo rifugio vicino all\'Atlantico, nel cuore della Costa da Morte',
+    pt: 'O seu refúgio junto ao Atlântico, no coração da Costa da Morte'
   },
-  'hero.cta': { es: 'Descubrir la casa', gl: 'Descubrir a casa', en: 'Discover the house', fr: 'Découvrir la maison', de: 'Das Haus entdecken', it: 'Scopri la casa', pt: 'Descobrir a casa' },
+  'hero.cta': { es: 'Conocer la casa', gl: 'Coñecer a casa', en: 'Explore the house', fr: 'Découvrir la maison', de: 'Das Haus entdecken', it: 'Scopri la casa', pt: 'Conhecer a casa' },
+  'hero.bookDirect': { es: 'Consultar disponibilidad', gl: 'Consultar dispoñibilidade', en: 'Check availability', fr: 'Consulter la disponibilité', de: 'Verfügbarkeit prüfen', it: 'Verifica disponibilità', pt: 'Consultar disponibilidade' },
 
-  // Features
-  'features.atlantic.title': { es: 'Costa Atlántica', gl: 'Costa Atlántica', en: 'Atlantic Coast', fr: 'Côte Atlantique', de: 'Atlantikküste', it: 'Costa Atlantica', pt: 'Costa Atlântica' },
-  'features.atlantic.desc': { es: 'Playas salvajes y horizontes infinitos', gl: 'Praias salvaxes e horizontes infinitos', en: 'Wild beaches and infinite horizons', fr: 'Plages sauvages et horizons infinis', de: 'Wilde Strände und unendliche Horizonte', it: 'Spiagge selvagge e orizzonti infiniti', pt: 'Praias selvagens e horizontes infinitos' },
-  'features.pindo.title': { es: 'Monte Pindo', gl: 'Monte Pindo', en: 'Monte Pindo', fr: 'Monte Pindo', de: 'Monte Pindo', it: 'Monte Pindo', pt: 'Monte Pindo' },
-  'features.pindo.desc': { es: 'El Olimpo celta con vistas únicas', gl: 'O Olimpo celta con vistas únicas', en: 'The Celtic Olympus with unique views', fr: 'L\'Olympe celtique avec des vues uniques', de: 'Der keltische Olymp mit einzigartigen Aussichten', it: 'L\'Olimpo celtico con viste uniche', pt: 'O Olimpo celta com vistas únicas' },
-  'features.sunset.title': { es: 'Atardeceres Mágicos', gl: 'Atardeceres Máxicos', en: 'Magical Sunsets', fr: 'Couchers de soleil magiques', de: 'Magische Sonnenuntergänge', it: 'Tramonti magici', pt: 'Pôr do sol mágico' },
-  'features.sunset.desc': { es: 'Las mejores puestas de sol de Galicia', gl: 'As mellores postas de sol de Galicia', en: 'The best sunsets in Galicia', fr: 'Les meilleurs couchers de soleil de Galice', de: 'Die besten Sonnenuntergänge in Galizien', it: 'I migliori tramonti della Galizia', pt: 'O melhor pôr do sol da Galiza' },
-  'features.air.title': { es: 'Naturaleza en estado puro', gl: 'Natureza en estado puro', en: 'Pure nature', fr: 'La nature à l\'état pur', de: 'Natur in ihrer reinsten Form', it: 'Natura allo stato puro', pt: 'Natureza em estado puro' },
-  'features.air.desc': { es: 'Un destino esculpido por el mar', gl: 'Un destino esculpido polo mar', en: 'A destination sculpted by the sea', fr: 'Une destination sculptée par la mer', de: 'Ein vom Meer geformtes Reiseziel', it: 'Una destinazione scolpita dal mare', pt: 'Um destino esculpido pelo mar' },
+  // Features & Intro Section
+  'features.intro.title': {
+    es: 'Una casa junto al mar en Lira, Carnota',
+    gl: 'Unha casa xunto ao mar en Lira, Carnota',
+    en: 'A home by the sea in Lira, Carnota',
+    fr: 'Une maison au bord de la mer à Lira, Carnota',
+    de: 'Ein Haus am Meer in Lira, Carnota',
+    it: 'Una casa sul mare a Lira, Carnota',
+    pt: 'Uma casa junto ao mar em Lira, Carnota'
+  },
+  'features.intro.desc': {
+    es: 'Casa da Cuncheira es un alojamiento vacacional situado en Lira, en el municipio de Carnota, en plena Costa da Morte. Un lugar desde el que disfrutar del mar, las calas tranquilas como Praia de Cons y el impresionante arenal de la Playa de Carnota.',
+    gl: 'Casa da Cuncheira é un acolledor aloxamento vacacional situado en Lira, no concello de Carnota, en plena Costa da Morte. Un enclave privilexiado dende o que gozar do mar, calas como a Praia de Cons e o impresionante areal da Praia de Carnota.',
+    en: 'Casa da Cuncheira is a welcoming holiday home in Lira, in the municipality of Carnota, in the heart of Costa da Morte. An ideal place to enjoy the ocean, secluded coves like Praia de Cons, and the vast sands of Carnota Beach.',
+    fr: 'Casa da Cuncheira est un hébergement de vacances situé à Lira, dans la commune de Carnota, au cœur de la Costa da Morte. Un lieu idéal pour profiter de la mer, des criques comme Praia de Cons et de l\'immense plage de Carnota.',
+    de: 'Casa da Cuncheira ist eine Ferienunterkunft in Lira, in der Gemeinde Carnota, an der Costa da Morte. Ein herrlicher Ort, um das Meer, ruhige Buchten wie Praia de Cons und den weiten Strand von Carnota zu genießen.',
+    it: 'Casa da Cuncheira è un alloggio vacanze situato a Lira, nel comune di Carnota, nella Costa da Morte. Un luogo ideale per godersi il mare, calette come Praia de Cons e la grande spiaggia di Carnota.',
+    pt: 'A Casa da Cuncheira é um alojamento de férias situado em Lira, no município de Carnota, em plena Costa da Morte. Um local ideal para desfrutar do mar, enseadas como a Praia de Cons e o extenso areal da Praia de Carnota.'
+  },
+  'features.badge.guests': { es: '6 huéspedes', gl: '6 hóspedes', en: '6 guests', fr: '6 personnes', de: '6 Gäste', it: '6 ospiti', pt: '6 hóspedes' },
+  'features.badge.bedrooms': { es: '4 dormitorios', gl: '4 dormitorios', en: '4 bedrooms', fr: '4 chambres', de: '4 Schlafzimmer', it: '4 camere', pt: '4 quartos' },
+  'features.badge.bathrooms': { es: '2 baños', gl: '2 baños', en: '2 bathrooms', fr: '2 salles de bain', de: '2 Bäder', it: '2 bagni', pt: '2 casas de banho' },
+  'features.badge.wifi': { es: 'Wi-Fi fibra', gl: 'Wi-Fi fibra', en: 'Fiber Wi-Fi', fr: 'Wi-Fi fibre', de: 'Glasfaser-WLAN', it: 'Wi-Fi fibra', pt: 'Wi-Fi fibra' },
+  'features.badge.views': { es: 'Vistas al mar', gl: 'Vistas ao mar', en: 'Ocean views', fr: 'Vue sur la mer', de: 'Meerblick', it: 'Vista mare', pt: 'Vista para o mar' },
+  'features.badge.terrace': { es: 'Terraza y jardín', gl: 'Terraza e xardín', en: 'Terrace & garden', fr: 'Terrasse et jardin', de: 'Terrasse & Garten', it: 'Terrazza e giardino', pt: 'Terraço e jardim' },
+  'features.badge.pets': { es: 'Mascotas', gl: 'Mascotas', en: 'Pets welcome', fr: 'Animaux admis', de: 'Haustiere', it: 'Animali ammessi', pt: 'Animais aceites' },
+
+  'features.lira.title': { es: 'Lira y sus calas', gl: 'Lira e as súas calas', en: 'Lira & its coves', fr: 'Lira et ses criques', de: 'Lira und seine Buchten', it: 'Lira e le sue calette', pt: 'Lira e as suas enseadas' },
+  'features.lira.desc': { es: 'Praia de Cons, Praia do Cancelo y el puerto pesquero de Portocubelo a pocos minutos a pie', gl: 'Praia de Cons, Praia do Cancelo e o porto pesqueiro de Portocubelo a poucos minutos a pé', en: 'Praia de Cons, Praia do Cancelo and Portocubelo fishing harbor just minutes away', fr: 'Praia de Cons, Praia do Cancelo et le port de Portocubelo à quelques minutes', de: 'Praia de Cons, Praia do Cancelo und der Fischerhafen Portocubelo wenige Gehminuten entfernt', it: 'Praia de Cons, Praia do Cancelo e il porto di Portocubelo a pochi minuti', pt: 'Praia de Cons, Praia do Cancelo e o porto de Portocubelo a poucos minutos a pé' },
+  'features.carnota.title': { es: 'Playa de Carnota', gl: 'Praia de Carnota', en: 'Carnota Beach', fr: 'Plage de Carnota', de: 'Strand von Carnota', it: 'Spiaggia di Carnota', pt: 'Praia de Carnota' },
+  'features.carnota.desc': { es: 'Más de 7 km de arenal virgen, dunas y las piscinas naturales de Boca do Río a 10 min', gl: 'Máis de 7 km de areal virxe, dunas e as piscinas naturais de Boca do Río a 10 min', en: 'Over 7 km of pristine sand, dunes and the natural pools of Boca do Río 10 min away', fr: 'Plus de 7 km de sable vierge, dunes et piscines naturelles de Boca do Río à 10 min', de: 'Über 7 km unberührter Sand, Dünen und die Naturpools von Boca do Río in 10 Min.', it: 'Oltre 7 km di sabbia incontaminata, dune e le piscine naturali di Boca do Río a 10 min', pt: 'Mais de 7 km de areal virgem, dunas e as piscinas naturais de Boca do Río a 10 min' },
+  'features.pindo.title': { es: 'Monte Pindo y A Moa', gl: 'Monte Pindo e A Moa', en: 'Mount Pindo & A Moa', fr: 'Mont Pindo & A Moa', de: 'Monte Pindo & A Moa', it: 'Monte Pindo e A Moa', pt: 'Monte Pindo e A Moa' },
+  'features.pindo.desc': { es: 'El Olimpo celta con rutas de senderismo y vistas panorámicas sobre la costa', gl: 'O Olimpo celta con rutas de sendeirismo e vistas panorámicas sobre a costa', en: 'The Celtic Olympus with hiking trails and panoramic coastal views', fr: 'L\'Olympe celtique avec sentiers de randonnée et vues panoramiques côtières', de: 'Der keltische Olymp mit Wanderwegen und Panoramablick auf die Küste', it: 'L\'Olimpo celtico con sentieri escursionistici e viste panoramiche', pt: 'O Olimpo celta com trilhas de caminhada e vistas panorâmicas sobre a costa' },
+  'features.sunset.title': { es: 'Atardeceres Atlánticos', gl: 'Atardeceres Atlánticos', en: 'Atlantic Sunsets', fr: 'Couchers de soleil Atlantiques', de: 'Atlantik-Sonnenuntergänge', it: 'Tramonti Atlantici', pt: 'Pôr do sol no Atlântico' },
+  'features.sunset.desc': { es: 'Puestas de sol sobre el océano que tiñen de dorado el horizonte de Galicia', gl: 'Postas de sol sobre o océano que tinguen de dourado o horizonte de Galicia', en: 'Sunsets over the ocean that bathe the Galician horizon in golden light', fr: 'Couchers de soleil sur l\'océan baignant l\'horizon galicien de lumière dorée', de: 'Sonnenuntergänge über dem Ozean, die den Horizont in goldenes Licht tauchen', it: 'Tramonti sull\'oceano che colorano di luce dorata l\'orizzonte galiziano', pt: 'Pôr do sol sobre o oceano banhando o horizonte galego de luz dourada' },
 
   // House
   'house.title': { es: 'Un hogar lejos de casa', gl: 'Un fogar lonxe da casa', en: 'A home away from home', fr: 'Une maison loin de chez soi', de: 'Ein Zuhause fern von Zuhause', it: 'Una casa lontano da casa', pt: 'Um lar longe de casa' },
@@ -795,7 +840,7 @@ Uma das experiências mais populares é alugar um kayak para remontar a enseada 
   'experiences.hiking.title': { es: 'Senderismo por Monte Pindo', gl: 'Sendeirismo polo Monte Pindo', en: 'Hiking Mount Pindo', fr: 'Randonnée au Mont Pindo', de: 'Wandern auf den Berg Pindo', it: 'Escursionismo sul Monte Pindo', pt: 'Caminhadas pelo Monte Pindo' },
   'experiences.hiking.desc': { es: 'Ruta de 3 horas por el monte sagrado celta', gl: 'Ruta de 3 horas polo monte sagrado celta', en: '3-hour route through the sacred Celtic mountain', fr: 'Itinéraire de 3 heures à travers la montagne sacrée celtique', de: '3-stündige Route durch den heiligen keltischen Berg', it: 'Percorso di 3 ore attraverso la sacra montagna celtica', pt: 'Percurso de 3 horas pela montanha sagrada celta' },
   'experiences.hiking.duration': { es: '3h', gl: '3h', en: '3h', fr: '3h', de: '3h', it: '3h', pt: '3h' },
-  'experiences.surf.title': { es: 'Surf na Costa da Morte', gl: 'Surf na Costa da Morte', en: 'Surf in Costa da Morte', fr: 'Surf sur la Costa da Morte', de: 'Surfen an der Costa da Morte', it: 'Surf nella Costa da Morte', pt: 'Surf na Costa da Morte' },
+  'experiences.surf.title': { es: 'Surf en la Costa da Morte', gl: 'Surf na Costa da Morte', en: 'Surf in Costa da Morte', fr: 'Surf sur la Costa da Morte', de: 'Surfen an der Costa da Morte', it: 'Surf nella Costa da Morte', pt: 'Surf na Costa da Morte' },
   'experiences.surf.desc': { es: 'Clases de surf en las mejores olas del Atlántico', gl: 'Clases de surf nas mellores ondas do Atlántico', en: 'Surf lessons in the best waves of the Atlantic', fr: 'Cours de surf dans las mejores vagues de l\'Atlantique', de: 'Surfkurse in den besten Wellen des Atlantiks', it: 'Lezioni di surf nelle migliori onde dell\'Atlântico', pt: 'Aulas de surf nas melhores ondas do Atlântico' },
   'experiences.surf.duration': { es: '2-4h', gl: '2-4h', en: '2-4h', fr: '2-4h', de: '2-4h', it: '2-4h', pt: '2-4h' },
   'experiences.gastro.title': { es: 'Restaurantes recomendados', gl: 'Restaurantes recomendados', en: 'Recommended Restaurants', fr: 'Restaurants recommandés', de: 'Empfohlene Restaurants', it: 'Ristoranti consigliati', pt: 'Restaurantes recomendados' },
@@ -1060,7 +1105,7 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
     it: 'Giorno intero',
     pt: 'Dia completo'
   },
-  'experiences.more': { es: 'Conocer mas', gl: 'Coñecer máis', en: 'Learn more', fr: 'En savoir plus', de: 'Mehr erfahren', it: 'Saperne di más', pt: 'Saiba mais' },
+  'experiences.more': { es: 'Conocer más', gl: 'Coñecer máis', en: 'Learn more', fr: 'En savoir plus', de: 'Mehr erfahren', it: 'Saperne di più', pt: 'Saiba mais' },
 
   'gastronomy.pageTitle': { es: 'Recomendaciones Gastronómicas', gl: 'Recomendacións Gastronómicas', en: 'Gastronomic Recommendations', fr: 'Recommandations Gastronomiques', de: 'Gastronomische Empfehlungen', it: 'Raccomandazioni Gastronomiche', pt: 'Recomendações Gastronómicas' },
   'gastronomy.pageSubtitle': { es: 'Descubre los mejores sabores de la Costa da Morte, desde mariscos frescos hasta platos tradicionales en un entorno único.', gl: 'Descobre os mellores sabores da Costa da Morte, dende mariscos frescos ata pratos tradicionais nun contorno único.', en: 'Discover the best flavors of Costa da Morte, from fresh seafood to traditional dishes in a unique setting.', fr: 'Découvrez les mejores saveurs de la Costa da Morte, des fruits de mer frais aux plats traditionnels dans un cadre unique.', de: 'Entdecken Sie die besten Aromen der Costa da Morte, von frischen Meeresfrüchten bis hin zu traditionellen Gerichten in einer einzigartigen Umgebung.', it: 'Scopri i migliori sapori della Costa da Morte, dai frutti di mare freschi ai piatti tradizionali in un ambiente unico.', pt: 'Descubra os melhores sabores da Costa da Morte, desde marisco fresco a pratos tradicionais num ambiente único.' },
@@ -1207,7 +1252,7 @@ O pôr do sol do alto das arribas, com a imensidão do oceano a abrir-se diante 
 
   // Weather
   'weather.title': {
-    es: 'El tiempo na Costa da Morte',
+    es: 'El tiempo en la Costa da Morte',
     gl: 'O tempo na Costa da Morte',
     en: 'Weather in Costa da Morte',
     fr: 'Le temps sur la Costa da Morte',

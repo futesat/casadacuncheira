@@ -235,10 +235,13 @@ export function House() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary/80 text-xs font-semibold text-primary mb-4 tracking-wide uppercase">
+            Vivienda de uso turístico · VUT-CO-002236
+          </div>
           <h2 className="text-4xl md:text-5xl mb-6 tracking-tight">
             {t('house.title')}
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-light">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-light leading-relaxed">
             {t('house.description')}
           </p>
         </motion.div>

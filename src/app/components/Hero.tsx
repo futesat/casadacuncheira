@@ -47,25 +47,37 @@ export function Hero({ onDiscover }: HeroProps) {
             transition={{ duration: 1, delay: 0.3 }}
           >
             <h1
-              className="text-5xl md:text-7xl mb-6 text-white tracking-tight font-bold"
+              className="text-4xl sm:text-6xl md:text-7xl mb-6 text-white tracking-tight font-bold leading-tight"
               style={{ textShadow: '0 4px 12px rgba(0,0,0,0.5)' }}
             >
               {t('hero.title')}
             </h1>
             <p
-              className="text-xl md:text-2xl text-white mb-12 font-medium"
+              className="text-lg sm:text-xl md:text-2xl text-white/95 mb-10 font-medium max-w-2xl mx-auto leading-relaxed"
               style={{ textShadow: '0 2px 8px rgba(0,0,0,0.6)' }}
             >
               {t('hero.subtitle')}
             </p>
-            <motion.button
-              onClick={scrollToNext}
-              className="px-8 py-4 bg-white text-foreground rounded-full hover:bg-white/90 transition-all shadow-lg hover:shadow-xl"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              {t('hero.cta')}
-            </motion.button>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <motion.button
+                onClick={scrollToNext}
+                className="w-full sm:w-auto px-8 py-4 bg-white text-foreground font-semibold rounded-full hover:bg-white/90 transition-all shadow-lg hover:shadow-xl cursor-pointer"
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
+              >
+                {t('hero.cta')}
+              </motion.button>
+              <motion.a
+                href="https://bookonline.pro/es/property/350327"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto px-8 py-4 bg-primary text-white font-semibold rounded-full hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2"
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
+              >
+                {t('hero.bookDirect')}
+              </motion.a>
+            </div>
           </motion.div>
         </div>
       </div>

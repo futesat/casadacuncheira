@@ -115,6 +115,18 @@ const routes = [
       <p><a href="/">Casa da Cuncheira</a> | <a href="https://bookonline.pro/es/property/350327">Reservar</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/muros_villages_optimized.webp'
+  },
+  {
+    path: '/aviso-legal',
+    title: 'Aviso Legal, Privacidad y Cookies | Casa da Cuncheira',
+    description: 'Información legal, política de privacidad, términos de uso y registro turístico oficial VUT-CO-002236 de Casa da Cuncheira (Lira, Carnota).',
+    h1: 'Aviso Legal y Política de Privacidad',
+    content: `
+      <h2>Datos Identificativos del Titular y Registro Oficial</h2>
+      <p>En cumplimiento de la LSSI-CE y el RGPD, se informa de que Casa da Cuncheira es una vivienda de uso turístico con registro oficial <strong>VUT-CO-002236</strong>, situada en Aldea Carballal 70, Lira (Carnota, A Coruña).</p>
+      <p>Contacto: <a href="mailto:faroinsua@gmail.com">faroinsua@gmail.com</a> | Teléfono: +34 607 952 250</p>
+      <p><a href="/">Volver a la página principal de Casa da Cuncheira</a></p>
+    `
   }
 ];
 
