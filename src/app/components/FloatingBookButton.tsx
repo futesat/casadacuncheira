@@ -4,7 +4,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 import { useEffect, useState } from 'react';
 
 export function FloatingBookButton() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -18,7 +18,8 @@ export function FloatingBookButton() {
   }, []);
 
   const handleClick = () => {
-    window.open('https://puntainsua.com/en/casa-da-cuncheira', '_blank', 'noopener,noreferrer');
+    const lang = language === 'gl' ? 'es' : (language || 'es');
+    window.open(`https://bookonline.pro/${lang}/property/350327`, '_blank', 'noopener,noreferrer');
   };
 
   if (!isVisible) return null;

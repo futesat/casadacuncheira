@@ -35,15 +35,15 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
 
   const bookingUrl = useMemo(() => {
     const urlMap: Record<string, string> = {
-      es: 'https://puntainsua.com/es/casa-da-cuncheira',
-      gl: 'https://puntainsua.com/gl/casa-da-cuncheira',
-      en: 'https://puntainsua.com/en/casa-da-cuncheira',
-      fr: 'https://puntainsua.com/fr/casa-da-cuncheira',
-      de: 'https://puntainsua.com/de/casa-da-cuncheira',
-      it: 'https://puntainsua.com/it/casa-da-cuncheira',
-      pt: 'https://puntainsua.com/pt/casa-da-cuncheira',
+      es: 'https://bookonline.pro/es/property/350327',
+      gl: 'https://bookonline.pro/es/property/350327',
+      en: 'https://bookonline.pro/en/property/350327',
+      fr: 'https://bookonline.pro/fr/property/350327',
+      de: 'https://bookonline.pro/de/property/350327',
+      it: 'https://bookonline.pro/it/property/350327',
+      pt: 'https://bookonline.pro/pt/property/350327',
     };
-    return urlMap[language] || urlMap['en'];
+    return urlMap[language] || urlMap['es'];
   }, [language]);
 
   const scrollToSection = (id: string) => {
