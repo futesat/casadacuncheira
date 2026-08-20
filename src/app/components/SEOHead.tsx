@@ -22,7 +22,7 @@ export function SEOHead({
   const { language, t } = useLanguage();
 
   const finalTitle = title || t('seo.defaultTitle') || `${STATIC_TEXTS.brand} | Alojamiento vacacional en Lira, Carnota`;
-  const finalDescription = description || t('seo.defaultDescription') || 'Descubre Casa da Cuncheira, alojamiento vacacional en Lira, Carnota. Casa completa para 6 personas con vistas al mar, wifi fibra y terraza en plena Costa da Morte.';
+  const finalDescription = description || t('seo.defaultDescription') || 'Descubre Casa da Cuncheira, alojamiento vacacional en Lira, Carnota. Casa completa para 6 personas con vistas al mar, wifi 5G y terraza en plena Costa da Morte.';
 
   useEffect(() => {
     // 1. Update Document Title

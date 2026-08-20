@@ -1052,13 +1052,13 @@ Cascata vs Miradouro
     pt: 'A planear a sua estadia em Carnota e na Costa da Morte?'
   },
   'nature.cta.desc': {
-    es: 'Casa da Cuncheira es una acogedora vivienda vacacional en Lira (Carnota) con capacidad para 6 personas, vistas al mar y wifi fibra. La base ideal para descubrir estos parajes con total comodidad y tranquilidad.',
-    gl: 'Casa da Cuncheira é unha acolledora vivenda vacacional en Lira (Carnota) con capacidade para 6 persoas, vistas ao mar e wifi fibra. A base ideal para descubrir estas paraxes con comodidade.',
-    en: 'Casa da Cuncheira is a welcoming holiday rental in Lira (Carnota) for up to 6 guests, with sea views and fiber Wi-Fi. The perfect base to explore these landscapes with comfort and serenity.',
-    fr: 'Casa da Cuncheira est une maison de vacances chaleureuse à Lira (Carnota) pour 6 personnes, avec vue sur la mer et fibre Wi-Fi. Le point de départ parfait pour explorer ces paysages.',
-    de: 'Casa da Cuncheira ist ein gemütliches Ferienhaus in Lira (Carnota) für bis zu 6 Personen mit Meerblick und Glasfaser-WLAN. Die ideale Basis für Ihre Entdeckungen.',
-    it: 'Casa da Cuncheira è un accogliente alloggio vacanze a Lira (Carnota) per 6 persone, con vista mare e Wi-Fi in fibra. La base perfetta per esplorare questi paesaggi.',
-    pt: 'Casa da Cuncheira é um acolhedor alojamento de férias em Lira (Carnota) para 6 pessoas, com vista para o mar e Wi-Fi de fibra. A base ideal para explorar estas paisagens.'
+    es: 'Casa da Cuncheira es una acogedora vivienda vacacional en Lira (Carnota) con capacidad para 6 personas, vistas al mar y wifi 5G. La base ideal para descubrir estos parajes con total comodidad y tranquilidad.',
+    gl: 'Casa da Cuncheira é unha acolledora vivenda vacacional en Lira (Carnota) con capacidade para 6 persoas, vistas ao mar e wifi 5G. A base ideal para descubrir estas paraxes con comodidade.',
+    en: 'Casa da Cuncheira is a welcoming holiday rental in Lira (Carnota) for up to 6 guests, with sea views and 5G Wi-Fi. The perfect base to explore these landscapes with comfort and serenity.',
+    fr: 'Casa da Cuncheira est une maison de vacances chaleureuse à Lira (Carnota) pour 6 personnes, avec vue sur la mer et Wi-Fi 5G. Le point de départ parfait pour explorer ces paysages.',
+    de: 'Casa da Cuncheira ist ein gemütliches Ferienhaus in Lira (Carnota) für bis zu 6 Personen mit Meerblick und 5G-WLAN. Die ideale Basis für Ihre Entdeckungen.',
+    it: 'Casa da Cuncheira è un accogliente alloggio vacanze a Lira (Carnota) per 6 persone, con vista mare e Wi-Fi 5G. La base perfetta per esplorare questi paesaggi.',
+    pt: 'Casa da Cuncheira é um acolhedor alojamento de férias em Lira (Carnota) para 6 pessoas, com vista para o mar e Wi-Fi 5G. A base ideal para explorar estas paisagens.'
   },
   'nature.cta.house': { es: 'Conocer Casa da Cuncheira', gl: 'Coñecer Casa da Cuncheira', en: 'Discover Casa da Cuncheira', fr: 'Découvrir Casa da Cuncheira', de: 'Casa da Cuncheira entdecken', it: 'Scopri Casa da Cuncheira', pt: 'Conhecer Casa da Cuncheira' },
   'nature.cta.book': { es: 'Consultar disponibilidad', gl: 'Consultar dispoñibilidade', en: 'Check availability', fr: 'Consulter la disponibilité', de: 'Verfügbarkeit prüfen', it: 'Verifica disponibilità', pt: 'Consultar disponibilidade' },
