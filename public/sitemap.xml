@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.casadacuncheira.com/</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.casadacuncheira.com/"/>
+    <xhtml:link rel="alternate" hreflang="gl" href="https://www.casadacuncheira.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.casadacuncheira.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.casadacuncheira.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.casadacuncheira.com/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.casadacuncheira.com/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.casadacuncheira.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.casadacuncheira.com/"/>
+  </url>
+
+  <!-- Gastronomy Page -->
+  <url>
+    <loc>https://www.casadacuncheira.com/gastronomy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Nature & Surroundings Pages -->
+  <url>
+    <loc>https://www.casadacuncheira.com/nature/praia-carnota</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.casadacuncheira.com/nature/monte-pindo</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.casadacuncheira.com/nature/monte-louro</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casadacuncheira.com/nature/fervenza-do-ezaro</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casadacuncheira.com/nature/cabo-finisterre</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.casadacuncheira.com/nature/atardeceres-magicos</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.casadacuncheira.com/nature/pueblos-marineros</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

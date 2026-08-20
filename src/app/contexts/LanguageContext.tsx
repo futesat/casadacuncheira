@@ -36,26 +36,64 @@ const translations: Translations = {
     pt: 'Links'
   },
 
+  // SEO Metadata
+  'seo.defaultTitle': {
+    es: 'Casa da Cuncheira | Alojamiento vacacional en Lira, Carnota (Costa da Morte)',
+    gl: 'Casa da Cuncheira | Aloxamento vacacional en Lira, Carnota (Costa da Morte)',
+    en: 'Casa da Cuncheira | Holiday Rental in Lira, Carnota (Costa da Morte)',
+    fr: 'Casa da Cuncheira | Location de vacances à Lira, Carnota (Costa da Morte)',
+    de: 'Casa da Cuncheira | Ferienhaus in Lira, Carnota (Costa da Morte)',
+    it: 'Casa da Cuncheira | Casa vacanze a Lira, Carnota (Costa da Morte)',
+    pt: 'Casa da Cuncheira | Alojamento de férias em Lira, Carnota (Costa da Morte)'
+  },
+  'seo.defaultDescription': {
+    es: 'Reserva Casa da Cuncheira, alojamiento vacacional en Lira (Carnota). Casa completa para 6 personas con 4 dormitorios, 2 baños, vistas al mar y wifi fibra en plena Costa da Morte.',
+    gl: 'Reserva Casa da Cuncheira, aloxamento vacacional en Lira (Carnota). Casa completa para 6 persoas con 4 dormitorios, 2 baños, vistas ao mar e wifi fibra na Costa da Morte.',
+    en: 'Book Casa da Cuncheira, holiday home in Lira (Carnota). Whole house for 6 guests with 4 bedrooms, 2 bathrooms, sea views, and fiber wifi in Costa da Morte.',
+    fr: 'Réservez Casa da Cuncheira, hébergement de vacances à Lira (Carnota). Maison pour 6 personnes avec 4 chambres, 2 salles de bain, vue mer et wifi fibre.',
+    de: 'Buchen Sie Casa da Cuncheira, Ferienunterkunft in Lira (Carnota). Ganzes Haus für 6 Personen mit 4 Schlafzimmern, 2 Bädern, Meerblick und Glasfaser-WLAN.',
+    it: 'Prenota Casa da Cuncheira, alloggio vacanze a Lira (Carnota). Casa per 6 persone con 4 camere, 2 bagni, vista mare e wifi in fibra sulla Costa da Morte.',
+    pt: 'Reserve a Casa da Cuncheira, alojamento de férias em Lira (Carnota). Casa para 6 pessoas com 4 quartos, 2 casas de banho, vista para o mar e wifi fibra.'
+  },
+  'seo.gastronomyTitle': {
+    es: 'Dónde comer en Carnota y Lira: Restaurantes y Gastronomía | Casa da Cuncheira',
+    gl: 'Onde comer en Carnota e Lira: Restaurantes e Gastronomía | Casa da Cuncheira',
+    en: 'Where to eat in Carnota & Lira: Restaurants & Gastronomy | Casa da Cuncheira',
+    fr: 'Où manger à Carnota et Lira : Restaurants et Gastronomie | Casa da Cuncheira',
+    de: 'Essen in Carnota & Lira: Restaurants & Gastronomie | Casa da Cuncheira',
+    it: 'Dove mangiare a Carnota e Lira: Ristoranti e Gastronomia | Casa da Cuncheira',
+    pt: 'Onde comer em Carnota e Lira: Restaurantes e Gastronomia | Casa da Cuncheira'
+  },
+  'seo.gastronomyDescription': {
+    es: 'Descubre los mejores restaurantes y marisquerías de Lira, Carnota y la ría de Muros. Guía gastronómica local recomendada por Casa da Cuncheira.',
+    gl: 'Descobre os mellores restaurantes e marisquerías de Lira, Carnota e a ría de Muros. Guía gastronómica local recomendada por Casa da Cuncheira.',
+    en: 'Discover the best seafood restaurants in Lira, Carnota and Muros bay. Local gastronomic guide recommended by Casa da Cuncheira.',
+    fr: 'Découvrez les meilleurs restaurants de fruits de mer à Lira, Carnota et la ria de Muros. Guide gastronomique local par Casa da Cuncheira.',
+    de: 'Entdecken Sie die besten Fisch- und Meeresfrüchterestaurants in Lira, Carnota und Muros. Lokaler Gastronomieführer von Casa da Cuncheira.',
+    it: 'Scopri i migliori ristoranti di pesce a Lira, Carnota e la baia di Muros. Guida gastronomica locale consigliata da Casa da Cuncheira.',
+    pt: 'Descubra os melhores restaurantes de marisco em Lira, Carnota e na ria de Muros. Guia gastronómico local recomendado pela Casa da Cuncheira.'
+  },
+
   // Hero
   'hero.title': {
-    es: 'Tu refugio na Costa da Morte',
-    gl: 'O teu refuxio na Costa da Morte',
-    en: 'Your retreat in Costa da Morte',
-    fr: 'Votre refuge sur la Costa da Morte',
-    de: 'Ihr Rückzugsort an der Costa da Morte',
-    it: 'Il tuo rifugio nella Costa da Morte',
-    pt: 'O seu refúgio na Costa da Morte'
+    es: 'Casa da Cuncheira: Alojamiento vacacional en Lira, Carnota',
+    gl: 'Casa da Cuncheira: Aloxamento vacacional en Lira, Carnota',
+    en: 'Casa da Cuncheira: Holiday Rental in Lira, Carnota',
+    fr: 'Casa da Cuncheira : Location de vacances à Lira, Carnota',
+    de: 'Casa da Cuncheira: Ferienhaus in Lira, Carnota',
+    it: 'Casa da Cuncheira: Alloggio vacanze a Lira, Carnota',
+    pt: 'Casa da Cuncheira: Alojamento de férias em Lira, Carnota'
   },
   'hero.subtitle': {
-    es: 'Donde el Atlántico se encuentra con la tranquilidad',
-    gl: 'Onde o Atlántico atopa a tranquilidade',
-    en: 'Where the Atlantic meets tranquility',
-    fr: 'Où l\'Atlantique rencontre la tranquillité',
-    de: 'Wo der Atlantik auf Ruhe trifft',
-    it: 'Dove l\'Atlantico incontra la tranquillità',
-    pt: 'Onde o Atlântico encontra a tranquilidade'
+    es: 'Tu refugio frente al Atlántico en la Costa da Morte • Casa completa para 6 personas con vistas al mar',
+    gl: 'O teu refuxio fronte ao Atlántico na Costa da Morte • Casa completa para 6 persoas con vistas ao mar',
+    en: 'Your retreat facing the Atlantic in Costa da Morte • Whole house for 6 guests with ocean views',
+    fr: 'Votre refuge face à l\'Atlantique sur la Costa da Morte • Maison pour 6 personnes avec vue mer',
+    de: 'Ihr Rückzugsort am Atlantik an der Costa da Morte • Ganzes Haus für 6 Personen mit Meerblick',
+    it: 'Il tuo rifugio sull\'Atlantico nella Costa da Morte • Casa completa per 6 persone con vista mare',
+    pt: 'O seu refúgio em frente ao Atlântico na Costa da Morte • Casa para 6 pessoas com vista para o mar'
   },
-  'hero.cta': { es: 'Descubrir', gl: 'Descubrir', en: 'Discover', fr: 'Découvrir', de: 'Entdecken', it: 'Scopri', pt: 'Descobrir' },
+  'hero.cta': { es: 'Descubrir la casa', gl: 'Descubrir a casa', en: 'Discover the house', fr: 'Découvrir la maison', de: 'Das Haus entdecken', it: 'Scopri la casa', pt: 'Descobrir a casa' },
 
   // Features
   'features.atlantic.title': { es: 'Costa Atlántica', gl: 'Costa Atlántica', en: 'Atlantic Coast', fr: 'Côte Atlantique', de: 'Atlantikküste', it: 'Costa Atlantica', pt: 'Costa Atlântica' },

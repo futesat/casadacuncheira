@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Mountain, Droplets, UtensilsCrossed, MapPin, Compass } from 'lucide-react';
-import { useNavigate } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './ui/ImageWithFallback';
 
@@ -100,13 +100,14 @@ export function Location() {
               <div className="p-6">
                 <h3 className="text-2xl mb-3">{place.title}</h3>
                 <p className="text-muted-foreground mb-6">{place.description}</p>
-                <button
-                  onClick={() => navigate(`/nature/${place.slug}`)}
-                  className="text-primary font-medium hover:gap-2 transition-all flex items-center gap-1 group/btn"
+                <Link
+                  to={`/nature/${place.slug}`}
+                  aria-label={`${t('experiences.more')}: ${place.title}`}
+                  className="text-primary font-medium hover:gap-2 transition-all inline-flex items-center gap-1 group/btn"
                 >
                   {t('experiences.more')}
                   <span className="group-hover/btn:translate-x-1 transition-transform">{'->'}</span>
-                </button>
+                </Link>
               </div>
             </motion.div>
           ))}

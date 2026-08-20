@@ -16,6 +16,7 @@ import { Footer } from './components/Footer';
 import { FloatingBookButton } from './components/FloatingBookButton';
 import { Toaster } from 'sonner';
 import { Suspense, lazy } from 'react';
+import { SEOHead } from './components/SEOHead';
 
 const Gastronomy = lazy(() => import('./pages/Gastronomy').then(m => ({ default: m.Gastronomy })));
 const NatureDetail = lazy(() => import('./pages/NatureDetail').then(m => ({ default: m.NatureDetail })));
@@ -25,11 +26,16 @@ function HomePage() {
 
   return (
     <>
+      <SEOHead
+        canonicalUrl="https://www.casadacuncheira.com/"
+        ogType="website"
+      />
       <Hero onDiscover={() => { }} />
       <Features />
       <House />
       <Location />
       <Experiences onNavigateToGastronomy={() => navigate('/gastronomy')} />
+      <FAQ />
       <Contact />
       <WeatherWidget />
     </>

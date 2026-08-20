@@ -99,6 +99,52 @@ export function House() {
     'location.webp',
   ];
 
+  const imageAltMap: Record<string, string> = {
+    'house_1.webp': 'Fachada exterior de Casa da Cuncheira en Lira, Carnota',
+    'dron_house.webp': 'Vista aérea con dron de Casa da Cuncheira y el litoral de Lira',
+    'living_room_1.webp': 'Salón principal de Casa da Cuncheira con sofás confortables y vistas al mar',
+    'living_room_4.webp': 'Zona de estar y lectura luminosa en Casa da Cuncheira',
+    'living_dining_stairs_2.webp': 'Espacio abierto de salón comedor y escaleras de diseño',
+    'dining_kitchen_2.webp': 'Comedor con mesa familiar para 6 personas y luz natural',
+    'dining_kitchen_3.webp': 'Zona de comedor conectada con la cocina equipada',
+    'kitchen_1.webp': 'Cocina moderna y espaciosa de Casa da Cuncheira',
+    'kitchen_3.webp': 'Cocina completa con vitrocerámica, horno y electrodomésticos',
+    'kitchen_6.webp': 'Detalle de menaje y equipamiento de cocina en Casa da Cuncheira',
+    'stairs_3.webp': 'Escalera interior de madera de acceso a la planta alta',
+    'stairs_4.webp': 'Detalle arquitectónico interior de la casa',
+    'stairs_6.webp': 'Distribuidor y escalera de madera natural',
+    'laundry_room_2.webp': 'Zona de lavandería con lavadora y espacio de plancha',
+    'bedroom_downstairs_3.webp': 'Dormitorio acogedor en planta baja con cama doble',
+    'bathroom_downstairs_0.webp': 'Cuarto de baño completo con ducha en planta baja',
+    'bedroom_central_1.webp': 'Dormitorio principal con cama de matrimonio y luz exterior',
+    'bedroom_central_2.webp': 'Cama doble espaciosa en dormitorio principal',
+    'bedroom_central_3.webp': 'Vistas al paisaje gallego desde la habitación',
+    'bedroom_central_4.webp': 'Decoración cálida y ropa de cama en dormitorio',
+    'bedroom_central_7.webp': 'Habitación luminosa con mobiliario confortable',
+    'bedroom_central_8.webp': 'Detalle de confort y descanso en Casa da Cuncheira',
+    'bedroom_left_1.webp': 'Segundo dormitorio con cama de matrimonio y armario',
+    'bedroom_left_2.webp': 'Espacio de descanso y almacenaje en habitación',
+    'bedroom_left_4.webp': 'Dormitorio con ventana exterior y luz natural',
+    'bedroom_right_2.webp': 'Tercer dormitorio con camas individuales confortables',
+    'bedroom_right_3.webp': 'Habitación doble ideal para familias o amigos',
+    'bedroom_right_5.webp': 'Detalle de lámpara y mesita en dormitorio',
+    'bedroom_right_6.webp': 'Ambiente tranquilo y acogedor en dormitorio',
+    'terrace_2.webp': 'Terraza exterior con mesa y vistas panorámicas al océano Atlántico',
+    'terrace_6.webp': 'Zona exterior para disfrutar de los atardeceres en Carnota',
+    'terrace_8.webp': 'Terraza y jardín de Casa da Cuncheira con vistas al mar',
+    'finisterre_from_house_2.webp': 'Vistas lejanas hacia el Cabo Finisterre desde la propiedad',
+    'finisterre_drone_1.webp': 'Panorámica de la Costa da Morte y el horizonte atlántico',
+    'moa_from_house_1.webp': 'Vistas hacia el Monte Pindo y pico de A Moa desde Casa da Cuncheira',
+    'carnota_beach.webp': 'Arenal virgen de la Playa de Carnota en la Costa da Morte',
+    'moa_beach.webp': 'Playa y entorno costero entre Carnota y Monte Pindo',
+    'monte_louro.webp': 'Vistas al Monte Louro y la entrada de la ría de Muros e Noia',
+    'location.webp': 'Mapa y entorno geográfico de Lira, Carnota en Galicia',
+  };
+
+  const getImageAlt = (name: string, index: number) => {
+    return imageAltMap[name] || `Fotografía ${index + 1} de Casa da Cuncheira en Carnota`;
+  };
+
   const carouselImages = carouselImageNames.map(
     (name) => `${(import.meta as any).env.BASE_URL}images/house/${name}`
   );
@@ -233,7 +279,7 @@ export function House() {
                   >
                     <ImageWithFallback
                       src={image}
-                      alt={`Interior ${index + 1}`}
+                      alt={getImageAlt(carouselImageNames[index], index)}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/25 transition-colors flex items-center justify-center pointer-events-none">
@@ -340,7 +386,7 @@ export function House() {
                 >
                   <ImageWithFallback
                     src={allImages[fullscreenIndex]}
-                    alt={`Interior ${fullscreenIndex + 1}`}
+                    alt={getImageAlt(allImageNames[fullscreenIndex], fullscreenIndex)}
                     className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
                   />
                 </motion.div>

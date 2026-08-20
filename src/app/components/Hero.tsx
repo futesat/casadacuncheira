@@ -25,7 +25,11 @@ export function Hero({ onDiscover }: HeroProps) {
       <div className="absolute inset-0">
         <img
           src={homeImage}
-          alt={STATIC_TEXTS.brand}
+          alt="Casa da Cuncheira - Alojamiento vacacional en Lira, Carnota con vistas al mar"
+          width="1920"
+          height="1080"
+          // @ts-ignore
+          fetchpriority="high"
           className="w-full h-full object-cover"
           style={{ filter: 'contrast(1.1) saturate(1.2)' }}
         />

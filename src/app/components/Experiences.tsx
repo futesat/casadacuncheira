@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Waves, Mountain, UtensilsCrossed, Sparkles, Landmark } from 'lucide-react';
-import { useNavigate } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './ui/ImageWithFallback';
 
@@ -167,31 +167,32 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
                       <span className="group-hover/btn:translate-x-1 transition-transform">{'->'}</span>
                     </a>
                   ) : experience.category === 'gastronomy' ? (
-                    <button
-                      onClick={onNavigateToGastronomy}
-                      className="text-primary font-medium hover:gap-2 transition-all flex items-center gap-1 group/btn"
+                    <Link
+                      to="/gastronomy"
+                      aria-label={`${t('experiences.more')}: ${experience.title}`}
+                      className="text-primary font-medium hover:gap-2 transition-all inline-flex items-center gap-1 group/btn"
                     >
                       {t('experiences.more')}
                       <span className="group-hover/btn:translate-x-1 transition-transform">{'->'}</span>
-                    </button>
+                    </Link>
                   ) : experience.slug ? (
-                    <button
-                      onClick={() => navigate(`/nature/${experience.slug}`)}
-                      className="text-primary font-medium hover:gap-2 transition-all flex items-center gap-1 group/btn"
+                    <Link
+                      to={`/nature/${experience.slug}`}
+                      aria-label={`${t('experiences.more')}: ${experience.title}`}
+                      className="text-primary font-medium hover:gap-2 transition-all inline-flex items-center gap-1 group/btn"
                     >
                       {t('experiences.more')}
                       <span className="group-hover/btn:translate-x-1 transition-transform">{'->'}</span>
-                    </button>
+                    </Link>
                   ) : (
-                    <button
-                      onClick={() => {
-                        const element = document.getElementById('booking');
-                        if (element) element.scrollIntoView({ behavior: 'smooth' });
-                      }}
-                      className="text-primary hover:text-primary/80 transition-colors"
+                    <a
+                      href="https://bookonline.pro/es/property/350327"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
                     >
                       {t('experiences.more')} {'->'}
-                    </button>
+                    </a>
                   )}
                 </div>
               </motion.div>

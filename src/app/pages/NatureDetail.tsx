@@ -6,6 +6,7 @@ import { ImageWithFallback } from '../components/ui/ImageWithFallback';
 import { useEffect } from 'react';
 import { RouteMap } from '../components/RouteMap';
 import { getNatureData } from '../constants/nature';
+import { SEOHead } from '../components/SEOHead';
 
 export function NatureDetail() {
     const { slug } = useParams();
@@ -43,8 +44,35 @@ export function NatureDetail() {
         );
     }
 
+    const breadcrumbsSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Casa da Cuncheira',
+                'item': 'https://www.casadacuncheira.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': data.title,
+                'item': `https://www.casadacuncheira.com/nature/${slug}`
+            }
+        ]
+    };
+
     return (
         <div className="min-h-screen bg-background">
+            <SEOHead
+                title={`${data.title} | Entorno de Casa da Cuncheira (Carnota)`}
+                description={data.summary || `${data.title} en Carnota, Costa da Morte. Descubre este lugar imprescindible alojándote en Casa da Cuncheira.`}
+                canonicalUrl={`https://www.casadacuncheira.com/nature/${slug}`}
+                ogImage={data.image ? `https://www.casadacuncheira.com${data.image}` : undefined}
+                ogType="article"
+                structuredData={breadcrumbsSchema}
+            />
             {/* Hero Section */}
             <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 z-0">

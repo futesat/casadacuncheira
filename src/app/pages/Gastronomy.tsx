@@ -3,6 +3,7 @@ import { UtensilsCrossed, ArrowLeft, Star, MapPin, Globe, Phone, Map } from 'luc
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from '../components/ui/ImageWithFallback';
 import { getRestaurants, Restaurant } from '../constants/restaurants';
+import { SEOHead } from '../components/SEOHead';
 
 interface GastronomyProps {
     onBack: () => void;
@@ -13,8 +14,35 @@ export function Gastronomy({ onBack }: GastronomyProps) {
 
     const restaurants: Restaurant[] = getRestaurants(t);
 
+    const breadcrumbsSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+            {
+                '@type': 'ListItem',
+                'position': 1,
+                'name': 'Casa da Cuncheira',
+                'item': 'https://www.casadacuncheira.com/'
+            },
+            {
+                '@type': 'ListItem',
+                'position': 2,
+                'name': t('seo.gastronomyTitle') || 'Gastronomía en Carnota y Lira',
+                'item': 'https://www.casadacuncheira.com/gastronomy'
+            }
+        ]
+    };
+
     return (
         <div className="min-h-screen bg-background">
+            <SEOHead
+                title={t('seo.gastronomyTitle')}
+                description={t('seo.gastronomyDescription')}
+                canonicalUrl="https://www.casadacuncheira.com/gastronomy"
+                ogImage="https://www.casadacuncheira.com/images/gastronomy_hero.png"
+                ogType="article"
+                structuredData={breadcrumbsSchema}
+            />
             {/* Hero Section */}
             <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 z-0">
