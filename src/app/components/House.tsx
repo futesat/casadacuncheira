@@ -1,4 +1,5 @@
 import React from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   Bed,
@@ -133,13 +134,16 @@ export function House() {
   React.useEffect(() => {
     if (fullscreenIndex !== null) {
       document.body.style.overflow = 'hidden';
+      document.documentElement.style.overflow = 'hidden';
       window.addEventListener('keydown', handleKeyDown);
     } else {
       document.body.style.overflow = '';
+      document.documentElement.style.overflow = '';
     }
 
     return () => {
       document.body.style.overflow = '';
+      document.documentElement.style.overflow = '';
       window.removeEventListener('keydown', handleKeyDown);
     };
   }, [fullscreenIndex, handleKeyDown]);
@@ -289,67 +293,71 @@ export function House() {
       </div>
 
       {/* Fullscreen Lightbox Modal */}
-      <AnimatePresence>
-        {fullscreenIndex !== null && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-50 bg-black/95 backdrop-blur-md flex items-center justify-center p-2 sm:p-4 select-none"
-            onClick={() => setFullscreenIndex(null)}
-          >
-            {/* Close button */}
-            <button
-              onClick={() => setFullscreenIndex(null)}
-              className="absolute top-4 right-4 z-50 p-2.5 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors backdrop-blur-sm cursor-pointer"
-              aria-label="Cerrar pantalla completa"
-            >
-              <X className="w-6 h-6" />
-            </button>
+      {typeof document !== 'undefined' &&
+        createPortal(
+          <AnimatePresence>
+            {fullscreenIndex !== null && (
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.2 }}
+                className="fixed inset-0 z-[99999] bg-black/95 backdrop-blur-md flex items-center justify-center p-2 sm:p-4 select-none"
+                onClick={() => setFullscreenIndex(null)}
+              >
+                {/* Close button */}
+                <button
+                  onClick={() => setFullscreenIndex(null)}
+                  className="absolute top-4 right-4 z-50 p-2.5 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors backdrop-blur-sm cursor-pointer"
+                  aria-label="Cerrar pantalla completa"
+                >
+                  <X className="w-6 h-6" />
+                </button>
 
-            {/* Counter */}
-            <div className="absolute top-4 left-4 z-50 px-3.5 py-1.5 rounded-full bg-white/10 text-white/90 text-sm font-medium backdrop-blur-sm">
-              {fullscreenIndex + 1} / {allImages.length}
-            </div>
+                {/* Counter */}
+                <div className="absolute top-4 left-4 z-50 px-3.5 py-1.5 rounded-full bg-white/10 text-white/90 text-sm font-medium backdrop-blur-sm">
+                  {fullscreenIndex + 1} / {allImages.length}
+                </div>
 
-            {/* Previous button */}
-            <button
-              onClick={showPrev}
-              className="absolute left-2 sm:left-6 z-50 p-2.5 sm:p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors backdrop-blur-sm cursor-pointer"
-              aria-label="Imagen anterior"
-            >
-              <ChevronLeft className="w-6 h-6 sm:w-8 sm:h-8" />
-            </button>
+                {/* Previous button */}
+                <button
+                  onClick={showPrev}
+                  className="absolute left-2 sm:left-6 z-50 p-2.5 sm:p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors backdrop-blur-sm cursor-pointer"
+                  aria-label="Imagen anterior"
+                >
+                  <ChevronLeft className="w-6 h-6 sm:w-8 sm:h-8" />
+                </button>
 
-            {/* Image display */}
-            <motion.div
-              key={fullscreenIndex}
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.95 }}
-              transition={{ duration: 0.2 }}
-              className="relative max-w-7xl max-h-[85vh] w-full h-full flex items-center justify-center"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <ImageWithFallback
-                src={allImages[fullscreenIndex]}
-                alt={`Interior ${fullscreenIndex + 1}`}
-                className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
-              />
-            </motion.div>
+                {/* Image display */}
+                <motion.div
+                  key={fullscreenIndex}
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.95 }}
+                  transition={{ duration: 0.2 }}
+                  className="relative max-w-7xl max-h-[85vh] w-full h-full flex items-center justify-center"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <ImageWithFallback
+                    src={allImages[fullscreenIndex]}
+                    alt={`Interior ${fullscreenIndex + 1}`}
+                    className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
+                  />
+                </motion.div>
 
-            {/* Next button */}
-            <button
-              onClick={showNext}
-              className="absolute right-2 sm:right-6 z-50 p-2.5 sm:p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors backdrop-blur-sm cursor-pointer"
-              aria-label="Imagen siguiente"
-            >
-              <ChevronRight className="w-6 h-6 sm:w-8 sm:h-8" />
-            </button>
-          </motion.div>
+                {/* Next button */}
+                <button
+                  onClick={showNext}
+                  className="absolute right-2 sm:right-6 z-50 p-2.5 sm:p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors backdrop-blur-sm cursor-pointer"
+                  aria-label="Imagen siguiente"
+                >
+                  <ChevronRight className="w-6 h-6 sm:w-8 sm:h-8" />
+                </button>
+              </motion.div>
+            )}
+          </AnimatePresence>,
+          document.body
         )}
-      </AnimatePresence>
     </section>
   );
 }

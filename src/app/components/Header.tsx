@@ -47,6 +47,9 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
   }, [language]);
 
   const scrollToSection = (id: string) => {
+    document.body.style.overflow = '';
+    document.documentElement.style.overflow = '';
+
     if (currentView !== 'home' && onNavigateHome) {
       onNavigateHome();
       // Wait for Home to mount, then scroll
