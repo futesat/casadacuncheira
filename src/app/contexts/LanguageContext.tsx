@@ -890,7 +890,8 @@ Os 8 locais imperdíveis em Carnota e arredores
 5. Monte Pindo e cume da Moa (627 m): O Olimpo Celta com vista de 360° sobre o Atlântico.
 6. Cascata do Ézaro: Única cascata da Europa continental que desagua diretamente no mar.
 7. Monte Louro e praia de Area Maior: Espaço dunar protegido e lagoa costeira.
-8. Centro histórico de Muros: Vila medieval marinheira com ruas de arcadas em pedra.`,
+8. Centro histórico de Muros: Vila medieval marinheira com ruas de arcadas em pedra.`
+  },
   'nature.carnota_guide.h1': { es: '8 Visitas Esenciales', gl: '8 Visitas Esenciais', en: 'Top 8 Highlights', fr: 'Top 8 Incontournables', de: '8 Top-Highlights', it: '8 Luoghi Imperdibili', pt: '8 Visitas Essenciais' },
   'nature.carnota_guide.h2': { es: 'Patrimonio y Naturaleza', gl: 'Patrimonio e Natureza', en: 'Heritage & Nature', fr: 'Patrimoine et Nature', de: 'Kultur & Natur', it: 'Patrimonio e Natura', pt: 'Património e Natureza' },
   'nature.carnota_guide.h3': { es: 'Itinerarios Recomendados', gl: 'Itinerarios Recomendados', en: 'Suggested Itineraries', fr: 'Itinéraires conseillés', de: 'Routenvorschläge', it: 'Itinerari consigliati', pt: 'Roteiros sugeridos' },
