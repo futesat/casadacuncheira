@@ -29,31 +29,88 @@ export function House() {
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
 
-  const imageNames = [
-    'house_1.jpg',
-    'living_room_1.jpg',
-    'living_room_4.jpg',
-    'living_dining_stairs_2.jpg',
-    'dining_kitchen_2.jpg',
-    'dining_kitchen_3.jpg',
-    'kitchen_3.jpg',
-    'kitchen_6.jpg',
-    'bedroom_downstairs_3.jpg',
-    'bedroom_left_4.jpg',
-    'bedroom_right_3.jpg',
-    'terrace_2.jpg',
-    'terrace_6.jpg',
-    'terrace_8.jpg',
-    'finisterre_from_house_2.jpg',
-    'finisterre_drone_1.jpg',
-    'moa_from_house_1.jpg',
-    'monte_louro.jpg',
-    'location.jpg',
+  // Fotos horizontales optimizadas para el carrusel en la página
+  const carouselImageNames = [
+    'house_1.webp',
+    'living_room_1.webp',
+    'living_room_4.webp',
+    'living_dining_stairs_2.webp',
+    'dining_kitchen_2.webp',
+    'dining_kitchen_3.webp',
+    'kitchen_3.webp',
+    'kitchen_6.webp',
+    'bedroom_downstairs_3.webp',
+    'bedroom_left_4.webp',
+    'bedroom_right_3.webp',
+    'terrace_2.webp',
+    'terrace_6.webp',
+    'terrace_8.webp',
+    'finisterre_from_house_2.webp',
+    'finisterre_drone_1.webp',
+    'moa_from_house_1.webp',
+    'carnota_beach.webp',
+    'moa_beach.webp',
+    'monte_louro.webp',
+    'location.webp',
+    'dron_house.webp',
   ];
 
-  const images = imageNames.map(
+  // Listado completo y ampliado de fotos (verticales y horizontales) para pantalla completa
+  const allImageNames = [
+    'house_1.webp',
+    'dron_house.webp',
+    'living_room_1.webp',
+    'living_room_4.webp',
+    'living_dining_stairs_2.webp',
+    'dining_kitchen_2.webp',
+    'dining_kitchen_3.webp',
+    'kitchen_1.webp',
+    'kitchen_3.webp',
+    'kitchen_6.webp',
+    'stairs_3.webp',
+    'stairs_4.webp',
+    'stairs_6.webp',
+    'laundry_room_2.webp',
+    'bedroom_downstairs_3.webp',
+    'bathroom_downstairs_0.webp',
+    'bedroom_central_1.webp',
+    'bedroom_central_2.webp',
+    'bedroom_central_3.webp',
+    'bedroom_central_4.webp',
+    'bedroom_central_7.webp',
+    'bedroom_central_8.webp',
+    'bedroom_left_1.webp',
+    'bedroom_left_2.webp',
+    'bedroom_left_4.webp',
+    'bedroom_right_2.webp',
+    'bedroom_right_3.webp',
+    'bedroom_right_5.webp',
+    'bedroom_right_6.webp',
+    'terrace_2.webp',
+    'terrace_6.webp',
+    'terrace_8.webp',
+    'finisterre_from_house_2.webp',
+    'finisterre_drone_1.webp',
+    'moa_from_house_1.webp',
+    'carnota_beach.webp',
+    'moa_beach.webp',
+    'monte_louro.webp',
+    'location.webp',
+  ];
+
+  const carouselImages = carouselImageNames.map(
     (name) => `${(import.meta as any).env.BASE_URL}images/house/${name}`
   );
+
+  const allImages = allImageNames.map(
+    (name) => `${(import.meta as any).env.BASE_URL}images/house/${name}`
+  );
+
+  const openFullscreen = (carouselIndex: number) => {
+    const targetName = carouselImageNames[carouselIndex];
+    const fullIdx = allImageNames.indexOf(targetName);
+    setFullscreenIndex(fullIdx !== -1 ? fullIdx : 0);
+  };
 
   const handleKeyDown = React.useCallback(
     (e: KeyboardEvent) => {
@@ -62,15 +119,15 @@ export function House() {
         setFullscreenIndex(null);
       } else if (e.key === 'ArrowLeft') {
         setFullscreenIndex((prev) =>
-          prev !== null ? (prev - 1 + images.length) % images.length : null
+          prev !== null ? (prev - 1 + allImages.length) % allImages.length : null
         );
       } else if (e.key === 'ArrowRight') {
         setFullscreenIndex((prev) =>
-          prev !== null ? (prev + 1) % images.length : null
+          prev !== null ? (prev + 1) % allImages.length : null
         );
       }
     },
-    [fullscreenIndex, images.length]
+    [fullscreenIndex, allImages.length]
   );
 
   React.useEffect(() => {
@@ -90,14 +147,14 @@ export function House() {
   const showPrev = (e?: React.MouseEvent) => {
     e?.stopPropagation();
     setFullscreenIndex((prev) =>
-      prev !== null ? (prev - 1 + images.length) % images.length : null
+      prev !== null ? (prev - 1 + allImages.length) % allImages.length : null
     );
   };
 
   const showNext = (e?: React.MouseEvent) => {
     e?.stopPropagation();
     setFullscreenIndex((prev) =>
-      prev !== null ? (prev + 1) % images.length : null
+      prev !== null ? (prev + 1) % allImages.length : null
     );
   };
 
@@ -155,10 +212,10 @@ export function House() {
             }}
           >
             <CarouselContent>
-              {images.map((image, index) => (
+              {carouselImages.map((image, index) => (
                 <CarouselItem key={index}>
                   <div
-                    onClick={() => setFullscreenIndex(index)}
+                    onClick={() => openFullscreen(index)}
                     className="relative aspect-[4/3] sm:aspect-[16/10] md:aspect-auto md:h-[600px] overflow-hidden bg-black cursor-pointer group"
                     role="button"
                     tabIndex={0}
@@ -166,7 +223,7 @@ export function House() {
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
-                        setFullscreenIndex(index);
+                        openFullscreen(index);
                       }
                     }}
                   >
@@ -253,7 +310,7 @@ export function House() {
 
             {/* Counter */}
             <div className="absolute top-4 left-4 z-50 px-3.5 py-1.5 rounded-full bg-white/10 text-white/90 text-sm font-medium backdrop-blur-sm">
-              {fullscreenIndex + 1} / {images.length}
+              {fullscreenIndex + 1} / {allImages.length}
             </div>
 
             {/* Previous button */}
@@ -276,7 +333,7 @@ export function House() {
               onClick={(e) => e.stopPropagation()}
             >
               <ImageWithFallback
-                src={images[fullscreenIndex]}
+                src={allImages[fullscreenIndex]}
                 alt={`Interior ${fullscreenIndex + 1}`}
                 className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
               />
