@@ -13,13 +13,48 @@ export function House() {
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
 
-  const images = [
-    `${(import.meta as any).env.BASE_URL}images/house/casa.jpg`,
-    `${(import.meta as any).env.BASE_URL}images/house/habitacion1.jpg`,
-    `${(import.meta as any).env.BASE_URL}images/house/habitacion2.jpg`,
-    `${(import.meta as any).env.BASE_URL}images/house/habitacion3.jpg`,
-    `${(import.meta as any).env.BASE_URL}images/house/baño.jpg`,
+  const imageNames = [
+    'house_1.jpg',
+    'living_room_1.jpg',
+    'living_room_4.jpg',
+    'living_dining_stairs_2.jpg',
+    'dining_kitchen_2.jpg',
+    'dining_kitchen_3.jpg',
+    'kitchen_1.jpg',
+    'kitchen_3.jpg',
+    'kitchen_6.jpg',
+    'bedroom_downstairs_3.jpg',
+    'bedroom_central_1.jpg',
+    'bedroom_central_2.jpg',
+    'bedroom_central_3.jpg',
+    'bedroom_central_4.jpg',
+    'bedroom_central_7.jpg',
+    'bedroom_central_8.jpg',
+    'bedroom_right_2.jpg',
+    'bedroom_right_3.jpg',
+    'bedroom_right_5.jpg',
+    'bedroom_right_6.jpg',
+    'bedroom_left_1.jpg',
+    'bedroom_left_2.jpg',
+    'bedroom_left_4.jpg',
+    'bathroom_downstairs_0.jpg',
+    'laundry_room_2.jpg',
+    'stairs_3.jpg',
+    'stairs_4.jpg',
+    'stairs_6.jpg',
+    'terrace_2.jpg',
+    'terrace_6.jpg',
+    'terrace_8.jpg',
+    'finisterre_from_house_2.jpg',
+    'finisterre_drone_1.jpg',
+    'moa_from_house_1.jpg',
+    'monte_louro.jpg',
+    'location.jpg',
   ];
+
+  const images = imageNames.map(
+    (name) => `${(import.meta as any).env.BASE_URL}images/house/${name}`
+  );
 
   const features = [
     { icon: Bed, label: '4', subtitle: t('house.bedrooms') },
