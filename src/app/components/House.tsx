@@ -1,6 +1,21 @@
 import React from 'react';
-import { motion } from 'motion/react';
-import { Bed, Bath, Users, Wifi, Tv, Coffee, Thermometer, Waves, Snowflake, Trees } from 'lucide-react';
+import { motion, AnimatePresence } from 'motion/react';
+import {
+  Bed,
+  Bath,
+  Users,
+  Wifi,
+  Tv,
+  Coffee,
+  Thermometer,
+  Waves,
+  Snowflake,
+  Trees,
+  Maximize2,
+  X,
+  ChevronLeft,
+  ChevronRight,
+} from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './ui/ImageWithFallback';
 import { Carousel, CarouselContent, CarouselItem, CarouselDots } from './ui/carousel';
@@ -8,6 +23,7 @@ import Autoplay from 'embla-carousel-autoplay';
 
 export function House() {
   const { t } = useLanguage();
+  const [fullscreenIndex, setFullscreenIndex] = React.useState<number | null>(null);
 
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: true })
@@ -38,6 +54,52 @@ export function House() {
   const images = imageNames.map(
     (name) => `${(import.meta as any).env.BASE_URL}images/house/${name}`
   );
+
+  const handleKeyDown = React.useCallback(
+    (e: KeyboardEvent) => {
+      if (fullscreenIndex === null) return;
+      if (e.key === 'Escape') {
+        setFullscreenIndex(null);
+      } else if (e.key === 'ArrowLeft') {
+        setFullscreenIndex((prev) =>
+          prev !== null ? (prev - 1 + images.length) % images.length : null
+        );
+      } else if (e.key === 'ArrowRight') {
+        setFullscreenIndex((prev) =>
+          prev !== null ? (prev + 1) % images.length : null
+        );
+      }
+    },
+    [fullscreenIndex, images.length]
+  );
+
+  React.useEffect(() => {
+    if (fullscreenIndex !== null) {
+      document.body.style.overflow = 'hidden';
+      window.addEventListener('keydown', handleKeyDown);
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [fullscreenIndex, handleKeyDown]);
+
+  const showPrev = (e?: React.MouseEvent) => {
+    e?.stopPropagation();
+    setFullscreenIndex((prev) =>
+      prev !== null ? (prev - 1 + images.length) % images.length : null
+    );
+  };
+
+  const showNext = (e?: React.MouseEvent) => {
+    e?.stopPropagation();
+    setFullscreenIndex((prev) =>
+      prev !== null ? (prev + 1) % images.length : null
+    );
+  };
 
   const features = [
     { icon: Bed, label: '4', subtitle: t('house.bedrooms') },
@@ -95,12 +157,29 @@ export function House() {
             <CarouselContent>
               {images.map((image, index) => (
                 <CarouselItem key={index}>
-                  <div className="relative aspect-[4/3] sm:aspect-[16/10] md:aspect-auto md:h-[600px] overflow-hidden bg-black">
+                  <div
+                    onClick={() => setFullscreenIndex(index)}
+                    className="relative aspect-[4/3] sm:aspect-[16/10] md:aspect-auto md:h-[600px] overflow-hidden bg-black cursor-pointer group"
+                    role="button"
+                    tabIndex={0}
+                    aria-label={`Ver foto ${index + 1} a pantalla completa`}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        setFullscreenIndex(index);
+                      }
+                    }}
+                  >
                     <ImageWithFallback
                       src={image}
                       alt={`Interior ${index + 1}`}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/25 transition-colors flex items-center justify-center pointer-events-none">
+                      <div className="opacity-0 group-hover:opacity-100 transition-opacity bg-black/60 text-white p-3 rounded-full backdrop-blur-sm shadow-lg">
+                        <Maximize2 className="w-6 h-6" />
+                      </div>
+                    </div>
                   </div>
                 </CarouselItem>
               ))}
@@ -151,6 +230,69 @@ export function House() {
           </motion.div>
         </div>
       </div>
+
+      {/* Fullscreen Lightbox Modal */}
+      <AnimatePresence>
+        {fullscreenIndex !== null && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 z-50 bg-black/95 backdrop-blur-md flex items-center justify-center p-2 sm:p-4 select-none"
+            onClick={() => setFullscreenIndex(null)}
+          >
+            {/* Close button */}
+            <button
+              onClick={() => setFullscreenIndex(null)}
+              className="absolute top-4 right-4 z-50 p-2.5 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors backdrop-blur-sm cursor-pointer"
+              aria-label="Cerrar pantalla completa"
+            >
+              <X className="w-6 h-6" />
+            </button>
+
+            {/* Counter */}
+            <div className="absolute top-4 left-4 z-50 px-3.5 py-1.5 rounded-full bg-white/10 text-white/90 text-sm font-medium backdrop-blur-sm">
+              {fullscreenIndex + 1} / {images.length}
+            </div>
+
+            {/* Previous button */}
+            <button
+              onClick={showPrev}
+              className="absolute left-2 sm:left-6 z-50 p-2.5 sm:p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors backdrop-blur-sm cursor-pointer"
+              aria-label="Imagen anterior"
+            >
+              <ChevronLeft className="w-6 h-6 sm:w-8 sm:h-8" />
+            </button>
+
+            {/* Image display */}
+            <motion.div
+              key={fullscreenIndex}
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              transition={{ duration: 0.2 }}
+              className="relative max-w-7xl max-h-[85vh] w-full h-full flex items-center justify-center"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <ImageWithFallback
+                src={images[fullscreenIndex]}
+                alt={`Interior ${fullscreenIndex + 1}`}
+                className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
+              />
+            </motion.div>
+
+            {/* Next button */}
+            <button
+              onClick={showNext}
+              className="absolute right-2 sm:right-6 z-50 p-2.5 sm:p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors backdrop-blur-sm cursor-pointer"
+              aria-label="Imagen siguiente"
+            >
+              <ChevronRight className="w-6 h-6 sm:w-8 sm:h-8" />
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }
