@@ -83,22 +83,148 @@ const translations: Translations = {
     pt: 'Descubra a Casa da Cuncheira, alojamento de férias em Lira, Carnota, em plena Costa da Morte. Conheça a casa, as praias e tudo o que pode desfrutar.'
   },
   'seo.gastronomyTitle': {
-    es: 'Dónde comer en Carnota y Lira: Restaurantes y Gastronomía | Casa da Cuncheira',
-    gl: 'Onde comer en Carnota e Lira: Restaurantes e Gastronomía | Casa da Cuncheira',
-    en: 'Where to eat in Carnota & Lira: Restaurants & Gastronomy | Casa da Cuncheira',
-    fr: 'Où manger à Carnota et Lira : Restaurants et Gastronomie | Casa da Cuncheira',
-    de: 'Essen in Carnota & Lira: Restaurants & Gastronomie | Casa da Cuncheira',
-    it: 'Dove mangiare a Carnota e Lira: Ristoranti e Gastronomia | Casa da Cuncheira',
-    pt: 'Onde comer em Carnota e Lira: Restaurantes e Gastronomia | Casa da Cuncheira'
+    es: 'Dónde comer en Carnota y Lira: Restaurantes y marisquerías | Casa da Cuncheira',
+    gl: 'Onde comer en Carnota e Lira: Restaurantes e marisquerías | Casa da Cuncheira',
+    en: 'Where to eat in Carnota & Lira: Seafood & Restaurants | Casa da Cuncheira',
+    fr: 'Où manger à Carnota et Lira : Restaurants et fruits de mer | Casa da Cuncheira',
+    de: 'Essen in Carnota & Lira: Restaurants & Meeresfrüchte | Casa da Cuncheira',
+    it: 'Dove mangiare a Carnota e Lira: Ristoranti e frutti di mare | Casa da Cuncheira',
+    pt: 'Onde comer em Carnota e Lira: Restaurantes e marisqueiras | Casa da Cuncheira'
   },
   'seo.gastronomyDescription': {
-    es: 'Descubre los mejores restaurantes y marisquerías de Lira, Carnota y la ría de Muros. Guía gastronómica local recomendada por Casa da Cuncheira.',
-    gl: 'Descobre os mellores restaurantes e marisquerías de Lira, Carnota e a ría de Muros. Guía gastronómica local recomendada por Casa da Cuncheira.',
-    en: 'Discover the best seafood restaurants in Lira, Carnota and Muros bay. Local gastronomic guide recommended by Casa da Cuncheira.',
-    fr: 'Découvrez les meilleurs restaurants de fruits de mer à Lira, Carnota et la ria de Muros. Guide gastronomique local par Casa da Cuncheira.',
-    de: 'Entdecken Sie die besten Fisch- und Meeresfrüchterestaurants in Lira, Carnota und Muros. Lokaler Gastronomieführer von Casa da Cuncheira.',
-    it: 'Scopri i migliori ristoranti di pesce a Lira, Carnota e la baia di Muros. Guida gastronomica locale consigliata da Casa da Cuncheira.',
-    pt: 'Descubra os melhores restaurantes de marisco em Lira, Carnota e na ria de Muros. Guia gastronómico local recomendado pela Casa da Cuncheira.'
+    es: 'Guía gastronómica local de Carnota y Lira: pescados frescos de lonja, marisquerías de Portocubelo, tabernas gallegas y los mejores restaurantes.',
+    gl: 'Guía gastronómica local de Carnota e Lira: peixes frescos de lonxa, marisquerías de Portocubelo, tabernas galegas e os mellores restaurantes.',
+    en: 'Local gastronomy guide for Carnota & Lira: fresh fish from local auctions, Portocubelo seafood taverns, and traditional Galician restaurants.',
+    fr: 'Guide gastronomique local de Carnota et Lira : poissons frais, restaurants de fruits de mer à Portocubelo et cuisine traditionnelle galicienne.',
+    de: 'Lokaler Gastronomieführer für Carnota & Lira: frischer Fisch von der Auktion, Meeresfrüchterestaurants in Portocubelo und galicische Tavernen.',
+    it: 'Guida gastronomica locale di Carnota e Lira: pesce fresco di mercato, ristoranti di frutti di mare a Portocubelo e taverne galiziane.',
+    pt: 'Guia gastronómico local de Carnota e Lira: peixe fresco da lota, marisqueiras de Portocubelo, tabernas galegas e os melhores restaurantes.'
+  },
+  'seo.carnotaTitle': {
+    es: 'Playa de Carnota y Boca do Río: Guía, mareas y accesos | Casa da Cuncheira',
+    gl: 'Praia de Carnota e Boca do Río: Guía, mareas e accesos | Casa da Cuncheira',
+    en: 'Carnota Beach & Boca do Río: Guide, tides & access | Casa da Cuncheira',
+    fr: 'Plage de Carnota & Boca do Río : Guide, marées et accès | Casa da Cuncheira',
+    de: 'Strand von Carnota & Boca do Río: Reiseführer, Gezeiten & Anfahrt | Casa da Cuncheira',
+    it: 'Spiaggia di Carnota e Boca do Río: Guida, maree e accessi | Casa da Cuncheira',
+    pt: 'Praia de Carnota e Boca do Río: Guia, marés e acessos | Casa da Cuncheira'
+  },
+  'seo.carnotaDescription': {
+    es: 'Guía completa de la Playa de Carnota y Boca do Río: más de 7 km de arena blanca virgen, piscinas naturales, zonas de aparcamiento, mareas y consejos prácticos.',
+    gl: 'Guía completa da Praia de Carnota e Boca do Río: máis de 7 km de areal virxe, piscinas naturais, aparcadoiros, mareas e consellos prácticos.',
+    en: 'Complete guide to Carnota Beach & Boca do Río: over 7 km of pristine white sand, natural tidal pools, parking areas, tides, and practical visitor tips.',
+    fr: 'Guide complet de la plage de Carnota et Boca do Río : plus de 7 km de sable blanc vierge, piscines naturelles, parkings et conseils pratiques.',
+    de: 'Vollständiger Reiseführer zum Strand von Carnota und Boca do Río: über 7 km unberührter Sand, Naturpools bei Ebbe, Parkplätze und Tipps.',
+    it: 'Guida completa alla spiaggia di Carnota e Boca do Río: oltre 7 km di sabbia bianca incontaminata, piscine naturali, parcheggi e consigli.',
+    pt: 'Guia completo da Praia de Carnota e Boca do Río: mais de 7 km de areia branca virgem, piscinas naturais, estacionamento, marés e dicas.'
+  },
+  'seo.pindoTitle': {
+    es: 'Monte Pindo y cumbre de A Moa: Ruta, desnivel y consejos | Casa da Cuncheira',
+    gl: 'Monte Pindo e cumio da Moa: Ruta, desnivel e consellos | Casa da Cuncheira',
+    en: 'Mount Pindo & A Moa Peak: Trail route, elevation & tips | Casa da Cuncheira',
+    fr: 'Mont Pindo et sommet d\'A Moa : Itinéraire, dénivelé et conseils | Casa da Cuncheira',
+    de: 'Monte Pindo & A Moa Gipfel: Wanderroute, Höhenmeter & Tipps | Casa da Cuncheira',
+    it: 'Monte Pindo e cima di A Moa: Percorso, dislivello e consigli | Casa da Cuncheira',
+    pt: 'Monte Pindo e cume da Moa: Rota, desnível e conselhos | Casa da Cuncheira'
+  },
+  'seo.pindoDescription': {
+    es: 'Ruta de senderismo al Monte Pindo y subida a la cumbre de A Moa (627 m), el Olimpo Celta. Dificultad, puntos de inicio (O Pindo y O Fieiro), agua y consejos de seguridad.',
+    gl: 'Ruta de sendeirismo ao Monte Pindo e subida ao cumio da Moa (627 m), o Olimpo Celta. Dificultade, puntos de saída (O Pindo e O Fieiro) e seguridade.',
+    en: 'Hiking guide to Mount Pindo and the peak of A Moa (627 m), the Celtic Olympus. Trail difficulty, starting points (O Pindo & O Fieiro), water and safety tips.',
+    fr: 'Randonnée au Mont Pindo et ascension du sommet d\'A Moa (627 m), l\'Olympe celtique. Difficulté, points de départ, eau et conseils de sécurité.',
+    de: 'Wanderung auf den Monte Pindo und Gipfel A Moa (627 m), den keltischen Olymp. Schwierigkeitsgrad, Startpunkte (O Pindo & O Fieiro) und Sicherheit.',
+    it: 'Escursione al Monte Pindo e salita alla cima di A Moa (627 m), l\'Olimpo Celtico. Difficoltà, punti di partenza (O Pindo e O Fieiro) e consigli di sicurezza.',
+    pt: 'Caminhada ao Monte Pindo e subida ao cume da Moa (627 m), o Olimpo Celta. Dificuldade, pontos de partida (O Pindo e O Fieiro) e segurança.'
+  },
+  'seo.liraTitle': {
+    es: 'Lira (Carnota): Puerto de Portocubelo, calas y qué ver | Casa da Cuncheira',
+    gl: 'Lira (Carnota): Porto de Portocubelo, calas e que ver | Casa da Cuncheira',
+    en: 'Lira (Carnota): Portocubelo Harbor, coves & sights | Casa da Cuncheira',
+    fr: 'Lira (Carnota) : Port de Portocubelo, criques et visites | Casa da Cuncheira',
+    de: 'Lira (Carnota): Hafen Portocubelo, Buchten & Sehenswertes | Casa da Cuncheira',
+    it: 'Lira (Carnota): Porto di Portocubelo, calette e cosa vedere | Casa da Cuncheira',
+    pt: 'Lira (Carnota): Porto de Portocubelo, enseadas e o que ver | Casa da Cuncheira'
+  },
+  'seo.liraDescription': {
+    es: 'Descubre la parroquia marinera de Lira en Carnota: puerto pesquero de Portocubelo, reserva marina Os Miñarzos, calas tranquilas como Praia de Cons y su hórreo monumental.',
+    gl: 'Descobre a parroquia mariñeira de Lira en Carnota: porto pesqueiro de Portocubelo, reserva mariña Os Miñarzos, calas como Praia de Cons e o seu hórreo.',
+    en: 'Explore the traditional fishing village of Lira in Carnota: Portocubelo harbor, Os Miñarzos marine reserve, sheltered coves like Praia de Cons and its granary.',
+    fr: 'Découvrez le village de pêcheurs de Lira à Carnota : port de Portocubelo, réserve marine Os Miñarzos, criques calmes comme Praia de Cons et hórreo.',
+    de: 'Entdecken Sie das Fischerdorf Lira in Carnota: Hafen Portocubelo, Meeresschutzgebiet Os Miñarzos, ruhige Buchten wie Praia de Cons und der Hórreo.',
+    it: 'Scopri il borgo marinaro di Lira a Carnota: porto peschereccio di Portocubelo, riserva marina Os Miñarzos, calette tranquille come Praia de Cons e l\'hórreo.',
+    pt: 'Descubra a vila piscatória de Lira em Carnota: porto de Portocubelo, reserva marinha Os Miñarzos, enseadas calmas como Praia de Cons e o seu hórreo.'
+  },
+  'seo.carnotaGuideTitle': {
+    es: 'Qué ver en Carnota: 8 lugares imprescindibles y guía local | Casa da Cuncheira',
+    gl: 'Que ver en Carnota: 8 lugares imprescindibles e guía local | Casa da Cuncheira',
+    en: 'What to see in Carnota: 8 essential sights & local guide | Casa da Cuncheira',
+    fr: 'Que voir à Carnota : 8 lieux incontournables et guide local | Casa da Cuncheira',
+    de: 'Sehenswürdigkeiten in Carnota: 8 Highlights & Lokaler Guide | Casa da Cuncheira',
+    it: 'Cosa vedere a Carnota: 8 luoghi imperdibili e guida locale | Casa da Cuncheira',
+    pt: 'O que ver em Carnota: 8 locais imperdíveis e guia local | Casa da Cuncheira'
+  },
+  'seo.carnotaGuideDescription': {
+    es: 'Descubre los 8 lugares que no te puedes perder en Carnota y Costa da Morte: Playa de Carnota, hórreos monumentales, Monte Pindo, Lira, Fervenza do Ézaro y Muros.',
+    gl: 'Descobre os 8 lugares que non podes perder en Carnota e Costa da Morte: Praia de Carnota, hórreos monumentais, Monte Pindo, Lira, Fervenza do Ézaro e Muros.',
+    en: 'Discover the top 8 must-see places in Carnota and Costa da Morte: Carnota Beach, monumental granaries, Mount Pindo, Lira, Ézaro Waterfall, and Muros.',
+    fr: 'Découvrez les 8 lieux incontournables de Carnota et de la Costa da Morte : Plage de Carnota, hórreos géants, Mont Pindo, Lira, Cascade d\'Ézaro et Muros.',
+    de: 'Entdecken Sie die 8 wichtigsten Highlights in Carnota und an der Costa da Morte: Strand von Carnota, riesige Hórreos, Monte Pindo, Lira, Ézaro-Wasserfall und Muros.',
+    it: 'Scopri gli 8 luoghi imperdibili a Carnota e nella Costa da Morte: Spiaggia di Carnota, grandi hórreos, Monte Pindo, Lira, Cascata dell\'Ézaro e Muros.',
+    pt: 'Descubra os 8 locais a não perder em Carnota e na Costa da Morte: Praia de Carnota, hórreos monumentais, Monte Pindo, Lira, Cascata do Ézaro e Muros.'
+  },
+  'seo.louroTitle': {
+    es: 'Monte Louro, Area Maior y Laguna de Xarfas: Guía | Casa da Cuncheira',
+    gl: 'Monte Louro, Area Maior e Lagoa de Xarfas: Guía | Casa da Cuncheira',
+    en: 'Mount Louro, Area Maior & Xarfas Lagoon: Guide | Casa da Cuncheira',
+    fr: 'Mont Louro, Area Maior et Lagune de Xarfas : Guide | Casa da Cuncheira',
+    de: 'Monte Louro, Area Maior & Xarfas-Lagune: Reiseführer | Casa da Cuncheira',
+    it: 'Monte Louro, Area Maior e Laguna di Xarfas: Guida | Casa da Cuncheira',
+    pt: 'Monte Louro, Area Maior e Lagoa de Xarfas: Guia | Casa da Cuncheira'
+  },
+  'seo.louroDescription': {
+    es: 'Descubre el espacio natural protegido de Monte Louro, la salvaje Playa de Area Maior y la Laguna de As Xarfas en la entrada de la Ría de Muros e Noia.',
+    gl: 'Descobre o espazo natural protexido de Monte Louro, a salvaxe Praia de Area Maior e a Lagoa de As Xarfas na entrada da Ría de Muros e Noia.',
+    en: 'Explore the protected nature area of Mount Louro, wild Area Maior Beach, and As Xarfas coastal lagoon at the entrance of the Muros & Noia Estuary.',
+    fr: 'Découvrez l\'espace naturel protégé du Mont Louro, la plage sauvage d\'Area Maior et la lagune d\'As Xarfas à l\'entrée de l\'estuaire de Muros.',
+    de: 'Entdecken Sie das Naturschutzgebiet Monte Louro, den wilden Strand Area Maior und die Küstenlagune As Xarfas an der Mündung von Muros.',
+    it: 'Scopri l\'area naturale protetta del Monte Louro, la spiaggia selvaggia di Area Maior e la laguna di As Xarfas all\'ingresso dell\'estuario di Muros.',
+    pt: 'Descubra o espaço natural protegido do Monte Louro, a praia selvagem de Area Maior e a Lagoa de As Xarfas na entrada da Ria de Muros e Noia.'
+  },
+  'seo.ezaroTitle': {
+    es: 'Fervenza do Ézaro: Cascada del río Xallas y mirador | Casa da Cuncheira',
+    gl: 'Fervenza do Ézaro: Salto do río Xallas e miradoiro | Casa da Cuncheira',
+    en: 'Ézaro Waterfall: River Xallas fall & panoramic viewpoint | Casa da Cuncheira',
+    fr: 'Cascade d\'Ézaro : Chute du fleuve Xallas et belvédère | Casa da Cuncheira',
+    de: 'Ézaro-Wasserfall: Fluss Xallas & Aussichtspunkt | Casa da Cuncheira',
+    it: 'Cascata dell\'Ézaro: Fiume Xallas e punto panoramico | Casa da Cuncheira',
+    pt: 'Cascata do Ézaro: Queda do rio Xallas e miradouro | Casa da Cuncheira'
+  },
+  'seo.ezaroDescription': {
+    es: 'Visita la Fervenza do Ézaro, la única cascada de Europa continental que desemboca en el océano Atlántico. Información sobre pasarelas, mirador y aparcamiento.',
+    gl: 'Visita a Fervenza do Ézaro, a única fervenza da Europa continental que desemboca no océano Atlántico. Información de pasarelas, miradoiro e aparcadoiro.',
+    en: 'Visit the Ézaro Waterfall, the only waterfall in continental Europe cascading directly into the Atlantic Ocean. Boardwalk access, viewpoint, and parking info.',
+    fr: 'Visitez la cascade d\'Ézaro, la seule cascade d\'Europe continentale se jetant directement dans l\'océan Atlantique. Accès, passerelles et belvédère.',
+    de: 'Besuchen Sie den Ézaro-Wasserfall, den einzigen Wasserfall Kontinentaleuropas, der direkt in den Atlantik mündet. Holzstege, Aussichtspunkt und Parktipps.',
+    it: 'Visita la cascata dell\'Ézaro, l\'unica cascata dell\'Europa continentale che sfocia direttamente nell\'oceano Atlantico. Passerelle e punto panoramico.',
+    pt: 'Visite a Cascata do Ézaro, a única cascata da Europa continental que desagua diretamente no Oceano Atlântico. Informação de passadiços e miradouro.'
+  },
+  'seo.fisterraTitle': {
+    es: 'Cabo Fisterra (Finisterre): Faro, historia y atardecer | Casa da Cuncheira',
+    gl: 'Cabo Fisterra: Faro, historia e solpor | Casa da Cuncheira',
+    en: 'Cape Finisterre: Lighthouse, history & sunset | Casa da Cuncheira',
+    fr: 'Cap Finisterre : Phare, histoire et coucher de soleil | Casa da Cuncheira',
+    de: 'Kap Finisterre: Leuchtturm, Geschichte & Sonnenuntergang | Casa da Cuncheira',
+    it: 'Capo Finisterre: Faro, storia e tramonto | Casa da Cuncheira',
+    pt: 'Cabo Finisterra: Farol, história e pôr do sol | Casa da Cuncheira'
+  },
+  'seo.fisterraDescription': {
+    es: 'Guía para visitar el legendario Cabo Fisterra (Finisterre): historia del Finis Terrae, el Faro de 1853, el mojón del Km 0 del Camino de Santiago y el atardecer atlántico.',
+    gl: 'Guía para visitar o lendario Cabo Fisterra: historia do Finis Terrae, o Faro de 1853, o fito do Km 0 do Camiño de Santiago e o solpor atlántico.',
+    en: 'Visitor guide to legendary Cape Finisterre: history of the Finis Terrae, 1853 lighthouse, Kilometer 0 Camino marker, and dramatic Atlantic sunsets.',
+    fr: 'Guide pour visiter le légendaire Cap Finisterre : histoire du Finis Terrae, le phare de 1853, la borne du Km 0 du Chemin de Compostelle et le coucher de soleil.',
+    de: 'Reiseführer zum legendären Kap Finisterre: Geschichte des Finis Terrae, Leuchtturm von 1853, Km-0-Meilenstein des Jakobswegs und Sonnenuntergänge.',
+    it: 'Guida per visitare il leggendario Capo Finisterre: storia del Finis Terrae, faro del 1853, pietra miliare del Km 0 del Cammino di Santiago e tramonto.',
+    pt: 'Guia para visitar o lendário Cabo Finisterra: história do Finis Terrae, farol de 1853, marco do Km 0 do Caminho de Santiago e pôr do sol.'
   },
 
   // Hero
@@ -389,462 +515,316 @@ const translations: Translations = {
   'float.book': { es: 'Reservar ahora', gl: 'Reservar agora', en: 'Book now', fr: 'Réserver maintenant', de: 'Jetzt buchen', it: 'Prenota ora', pt: 'Reservar agora' },
 
   // Locations & Plans
-  'location.carnota.title': { es: 'Playa de Carnota', gl: 'Praia de Carnota', en: 'Carnota Beach', fr: 'Plage de Carnota', de: 'Strand von Carnota', it: 'Spiaggia di Carnota', pt: 'Praia de Carnota' },
-  'location.carnota.desc': { es: 'Una de las playas más largas de Galicia, perfecta para paseos infinitos', gl: 'Unha das praias máis longas de Galicia, perfecta para paseos infinitos', en: 'One of the longest beaches in Galicia, perfect for infinite walks', fr: 'L\'une des plus longues plages de Galice, parfaite pour des promenades infinies', de: 'Einer der längsten Strände Galiziens, perfekt für endlose Spaziergänge', it: 'Una delle spiagge più lunghe della Galizia, perfetta per passeggiate infinite', pt: 'Uma das praias mais longas da Galiza, perfeita para passeios infinitos' },
+  'location.carnota.title': { es: 'Playa de Carnota y Boca do Río', gl: 'Praia de Carnota e Boca do Río', en: 'Carnota Beach & Boca do Río', fr: 'Plage de Carnota & Boca do Río', de: 'Strand von Carnota & Boca do Río', it: 'Spiaggia di Carnota e Boca do Río', pt: 'Praia de Carnota e Boca do Río' },
+  'location.carnota.desc': { es: 'Más de 7 km de arena blanca virgen, marismas protegidas y las piscinas naturales de Boca do Río', gl: 'Máis de 7 km de area branca virxe, marismas protexidas e as piscinas naturais de Boca do Río', en: 'Over 7 km of pristine white sand, protected marshes, and the natural tidal pools of Boca do Río', fr: 'Plus de 7 km de sable blanc vierge, marais protégés et piscines naturelles de Boca do Río', de: 'Über 7 km unberührter weißer Sand, geschützte Sümpfe und die Naturpools von Boca do Río', it: 'Oltre 7 km di sabbia bianca incontaminata, paludi protette e piscine naturali di Boca do Río', pt: 'Mais de 7 km de areia branca virgem, pântanos protegidos e as piscinas naturais de Boca do Río' },
   'location.carnota.longDesc': {
-    es: `Con sus más de 7 kilómetros de extensión, la playa de Carnota no solo es la más grande de Galicia, sino también un ecosistema virgen de dunas y marismas de valor incalculable.
+    es: `Con más de 7 kilómetros de longitud continua en forma de medialuna, la Playa de Carnota es el arenal más extenso de Galicia y uno de los espacios litorales vírgenes más impresionantes de Europa. Protegida dentro de la Red Natura 2000, combina dunas móviles, marismas ricas en avifauna y aguas transparentes del Atlántico.
 
-El ecosistema
-Este espacio natural forma parte de la Red Natura 2000 y destaca por su biodiversidad. Las marismas de Caldebarcos albergan numerosas especies de aves migratorias, convirtiéndose en un lugar privilegiado para la ornitología.
+Boca do Río y sus piscinas naturales
+En la zona central de la playa, la desembocadura del río Valdebois (Boca do Río) crea uno de los rincones más singulares de la costa gallega. Durante la bajamar, la retirada de las aguas forma amplias lagunas y piscinas naturales de poca profundidad y arena blanca. El agua aquí se templa con el sol, convirtiéndola en un lugar perfecto para el baño, familias con niños y quienes buscan nadar en aguas calmas en pleno océano abierto.
 
-Boca do Río
-Uno de los puntos más espectaculares es la desembocadura del río Valdebois, conocida como Boca do Río. Aquí, la marea crea piscinas naturales de agua templada y cristalina, rodeadas de una arena blanca finísima, perfectas para el baño en un entorno idílico.
+Zonas y accesos de la playa
+• Sector Norte (Caldebarcos): Zona con ambiente marinero y excelentes restaurantes donde probar marisco fresco de la ría. Ideal para iniciar largos paseos hacia el sur.
+• Sector Central (Boca do Río): El acceso más popular y fotogénico, equipado con pasarelas de madera elevadas sobre el sistema dunar para proteger la vegetación autóctona. Dispone de zona de aparcamiento señalizado.
+• Sector Sur (Praia de Cancelo y Lira): Zona más recogida y tranquila, próxima a las calas de Lira.
 
-Patrimonio cultural
-Muy cerca de la playa, en el pueblo de Carnota, se pueden visitar sus famosos hórreos, entre los más largos de Galicia, que son testimonio de la rica historia agrícola y marinera de la zona.`,
-    gl: `Cos seus máis de 7 quilómetros de extensión, a praia de Carnota non só é a máis grande de Galicia, senón tamén un ecosistema virxe de dunas e marismas de valor incalculable.
+Consejos prácticos para la visita
+• Mareas: Para disfrutar al máximo de las piscinas naturales de Boca do Río, es muy recomendable planificar la visita coincidiendo con la marea baja (bajamar) o las horas previas.
+• Paseos y senderismo: Recorrer la orilla de un extremo a otro requiere entre 1.5 y 2 horas a paso tranquilo. Es imprescindible llevar protección solar, ya que no hay sombras naturales en el arenal.
+• Puestas de sol: Por su orientación atlántica abierta hacia el oeste, los atardeceres en Carnota tiñen de dorado el arenal y el macizo del Monte Pindo a sus espaldas.
 
-O ecosistema
-Este espazo natural forma parte da Rede Natura 2000 e destaca pola súa biodiversidade. As marismas de Caldebarcos albergan numerosas especies de aves migratorias, converténdose nun lugar privilexiado para a ornitoloxía.
+Combinación de excursión
+La visita a la Playa de Carnota se combina de forma idónea en una misma jornada con una subida matinal a la cumbre de A Moa en el Monte Pindo, una visita al Hórreo de Carnota o una cena marinera en el puerto de Portocubelo en Lira.`,
+    gl: `Cos seus máis de 7 quilómetros de lonxitude continua en forma de media lúa, a Praia de Carnota é o areal máis extenso de Galicia e un dos espazos litorais virxes máis impresionantes de Europa. Protexida dentro da Rede Natura 2000, combina dunas móbiles, marismas ricas en avifauna e augas transparentes do Atlántico.
 
-Boca do Río
-Un dos puntos máis espectaculares é a desembocadura do río Valdebois, coñecida como Boca do Río. Aquí, a marea crea piscinas naturais de auga tépeda e cristalina, rodeadas dunha area branca finísima, perfectas para o baño nun contorno idílico.
+Boca do Río e as súas piscinas naturais
+Na zona central da praia, a desembocadura do río Valdebois (Boca do Río) crea un dos recunchos máis singulares da costa galega. Durante a baixamar, a retirada das augas forma amplas lagoas e piscinas naturais de pouca profundidade e area branca. A auga aquí tépedase co sol, converténdoa nun lugar perfecto para o baño e familias.
 
-Patrimonio cultural
-Moi preto da praia, no pobo de Carnota, pódense visitar os seus famosos hórreos, entre os máis longos de Galicia, que son testemuña da rica historia agrícola e mariñeira da zona.`,
-    en: `With its more than 7 kilometers in length, Carnota Beach is not only the largest in Galicia but also an invaluable pristine ecosystem of dunes and marshes.
+Zonas e accesos da praia
+• Sector Norte (Caldebarcos): Zona con ambiente mariñeiro e excelentes restaurantes onde probar marisco fresco.
+• Sector Central (Boca do Río): O acceso máis popular, equipado con pasarelas de madeira elevadas sobre o sistema dunar e aparcadoiro.
+• Sector Sur (Praia de Cancelo e Lira): Zona máis recollida e tranquila, próxima ás calas de Lira.
 
-The ecosystem
-This natural space is part of the Natura 2000 Network and stands out for its biodiversity. The Caldebarcos marshes host numerous species of migratory birds, making it a privileged spot for birdwatching.
+Consellos prácticos para a visita
+• Mareas: Para gozar ao máximo das piscinas naturais de Boca do Río, é moi recomendable planificar a visita coincidindo coa baixamar.
+• Solpores: Pola súa orientación atlántica aberta cara ao oeste, os solpores en Carnota tinguen de dourado o areal e o Monte Pindo.`,
+    en: `With over 7 kilometers of continuous crescent-shaped coastline, Carnota Beach is the longest beach in Galicia and one of the most stunning pristine coastal environments in Europe. Protected within the Natura 2000 Network, it combines mobile dunes, wildlife-rich marshes, and crystal-clear Atlantic waters.
 
-Boca do Río
-One of the most spectacular points is the mouth of the Valdebois River, known as Boca do Río. Here, the tide creates natural pools of warm and crystalline water, surrounded by very fine white sand, perfect for swimming in an idyllic environment.
+Boca do Río and its natural tidal pools
+In the central area of the beach, the mouth of the Valdebois River (Boca do Río) creates one of the most unique landscapes in Galicia. At low tide, the receding waters leave behind expansive shallow lagoons and natural pools over fine white sand. The water warms in the sun, creating an ideal spot for calm swimming and families.
 
-Cultural heritage
-Very close to the beach, in the town of Carnota, you can visit its famous granaries (hórreos), among the longest in Galicia, which bear witness to the region's rich agricultural and seafaring history.`,
-    fr: `Avec ses plus de 7 kilomètres de long, la plage de Carnota n'est pas seulement la plus grande de Galice, mais aussi un écosystème vierge de dunes et de marais inestimable.
+Beach sectors and access
+• North Sector (Caldebarcos): Traditional fishing atmosphere and excellent seafood restaurants.
+• Central Sector (Boca do Río): The most famous and scenic access, featuring elevated wooden boardwalks across the dune system and parking.
+• South Sector (Cancelo & Lira): Peaceful and sheltered area close to the coves of Lira.
 
-L'écosystème
-Cet espace naturel fait partie du réseau Natura 2000 et se distingue par sa biodiversité. Les marais de Caldebarcos abritent de nombreuses espèces d'oiseaux migrateurs, ce qui en fait un lieu privilégié pour l'ornithologie.
+Practical visitor tips
+• Tides: To fully enjoy the natural swimming pools at Boca do Río, plan your visit during low tide.
+• Sunsets: Facing westward into the open Atlantic, sunsets at Carnota illuminate both the ocean and the pink granite slopes of Mount Pindo.`,
+    fr: `Avec plus de 7 kilomètres de littoral continu en forme de croissant, la plage de Carnota est la plus longue de Galice et l'un des espaces côtiers vierges les plus remarquables d'Europe.
 
-Boca do Río
-L'un des points les plus spectaculaires est l'embouchure de la rivière Valdebois, connue sous le nom de Boca do Río. Ici, la marée crée des piscines naturelles d'eau tiède et cristalline, entourées d'un sable blanc très fin, parfaites pour la baignade dans un cadre idyllique.
+Boca do Río et ses piscines naturelles
+À marée basse, l'embouchure du fleuve Valdebois crée des lagunes peu profondes et des piscines naturelles d'eau tiède sur un sable blanc immaculé, idéales pour la baignade.
 
-Patrimoine culturel
-Tout près de la plage, dans le village de Carnota, vous pourrez visiter ses célèbres hórreos, parmi les plus longs de Galice, qui témoignent de la riche histoire agricole et maritime de la région.`,
-    de: `Mit einer Länge von über 7 Kilometern ist der Strand von Carnota nicht nur der größte Galiciens, sondern auch ein unschätzbares, unberührtes Ökosystem aus Dünen und Sümpfen.
+Conseils de visite
+Planifiez votre visite à marée basse pour profiter pleinement des piscines naturelles de Boca do Río. Les couchers de soleil y sont spectaculaires.`,
+    de: `Mit über 7 Kilometern Länge ist der Strand von Carnota der längste Strand Galiciens und ein unberührtes Naturparadies.
 
-Das Ökosystem
-Dieser Naturraum ist Teil des Natura-2000-Netzwerks und zeichnet sich durch seine biologische Vielfalt aus. Die Sümpfe von Caldebarcos beherbergen zahlreiche Zugvogelarten und sind somit ein privilegierter Ort für die Vogelbeobachtung.
+Boca do Río und die Naturpools
+Bei Ebbe bildet die Flussmündung des Valdebois weitläufige flache Lagunen und natürliche Schwimmbecken mit angenehm warmem Wasser und feinstem weißem Sand.
 
-Boca do Río
-Einer der spektakulärsten Punkte ist die Mündung des Flusses Valdebois, bekannt als Boca do Río. Hier entstehen bei Ebbe natürliche Pools mit warmem, kristallklarem Wasser, umgeben von feinstem weißen Sand - ideal zum Baden in einer idyllischen Umgebung.
-
-Kulturelles Erbe
-Ganz in der Nähe des Strandes, im Dorf Carnota, können Sie die berühmten Hórreos (Speicher) besichtigen, die zu den längsten Galiciens gehören und von der reichen landwirtschaftlichen und maritimen Geschichte der Region zeugen.`,
-    it: `Con i suoi oltre 7 chilometri di lunghezza, la spiaggia di Carnota non è solo la più grande della Galizia, ma anche un inestimabile ecosistema incontaminato di dune e paludi.
-
-L'ecosistema
-Questo spazio naturale fa parte della Rete Natura 2000 e si distingue per la sua biodiversità. Le paludi di Caldebarcos ospitano numerose specie di uccelli migratori, rendendole un luogo privilegiato per l'ornitologia.
-
-Boca do Río
-Uno dei punti più spettacolari è la foce del fiume Valdebois, nota come Boca do Río. Qui, la marea crea piscine naturali di acqua tiepida e cristallina, circondate da una finissima sabbia bianca, perfette per nuotare in un ambiente idilliaco.
-
-Patrimonio culturale
-Molto vicino alla spiaggia, nel comune di Carnota, si possono visitare i suoi famosi hórreos, tra i più lunghi della Galizia, che testimoniano la ricca storia agricola e marinara della zona.`,
-    pt: `Com os seus mais de 7 quilómetros de extensão, a praia de Carnota não é apenas a maior da Galiza, mas também um ecossistema virgem de dunas e pântanos de valor incalculável.
-
-O ecossistema
-Este espaço natural faz parte da Rede Natura 2000 e destaca-se pela sua biodiversidade. Os pântanos de Caldebarcos abrigam numerosas espécies de aves migratórias, tornando-se um local privilegiado para a ornitologia.
-
-Boca do Río
-Um dos pontos mais espetaculares é a foz do rio Valdebois, conhecida como Boca do Río. Aqui, a maré cria piscinas naturais de água morna e cristalina, rodeadas de areia branca finíssima, perfeitas para banhos num ambiente idílico.
-
-Património cultural
-Muito perto da praia, na vila de Carnota, pode visitar os seus famosos hórreos, entre os mais longos da Galiza, que são testemunho da rica história agrícola e marítima da zona.`
-
-
+Praktische Tipps
+Besuchen Sie Boca do Río am besten bei Niedrigwasser (Ebbe), um die natürlichen Pools optimal zu nutzen.`,
+    it: `Con oltre 7 chilometri di estensione, la spiaggia di Carnota è la più lunga della Galizia. A Boca do Río, la bassa marea crea incantevoli piscine naturali di acqua trasparente e sabbia bianca ideali per il bagno.`,
+    pt: `Com mais de 7 quilómetros de extensão contínua, a Praia de Carnota é o areal mais extenso da Galiza. Na Boca do Río, a maré baixa forma piscinas naturais de água tépida e areia branca perfeitas para banhos.`
   },
-  'nature.carnota.h1': { es: '7km de arena blanca', gl: '7km de area branca', en: '7km of white sand', fr: '7km de sable blanc', de: '7km weißer Sand', it: '7km di sabbia bianca', pt: '7km de areia branca' },
-  'nature.carnota.h2': { es: 'Marismas de Caldebarcos', gl: 'Marismas de Caldebarcos', en: 'Caldebarcos Marshes', fr: 'Marais de Caldebarcos', de: 'Caldebarcos-Sümpfe', it: 'Paludi di Caldebarcos', pt: 'Pântanos de Caldebarcos' },
-  'nature.carnota.h3': { es: 'Boca do Río', gl: 'Boca do Río', en: 'Boca do Río River Mouth', fr: 'Embouchure de Boca do Río', de: 'Flussmündung Boca do Río', it: 'Foce del Boca do Río', pt: 'Foz do Boca do Río' },
+  'nature.carnota.h1': { es: '7 km de Arena Virgen', gl: '7 km de Area Virxe', en: '7 km Pristine Sand', fr: '7 km de Sable Vierge', de: '7 km Unberührter Sand', it: '7 km di Sabbia Vergine', pt: '7 km de Areia Virgem' },
+  'nature.carnota.h2': { es: 'Piscinas de Boca do Río', gl: 'Piscinas de Boca do Río', en: 'Boca do Río Pools', fr: 'Piscines de Boca do Río', de: 'Boca do Río Naturpools', it: 'Piscine di Boca do Río', pt: 'Piscinas de Boca do Río' },
+  'nature.carnota.h3': { es: 'Dunas y Marismas', gl: 'Dunas e Marismas', en: 'Dunes & Marshes', fr: 'Dunes et Marais', de: 'Dünen & Sümpfe', it: 'Dune e Paludi', pt: 'Dunas e Pântanos' },
 
-  'location.pindo.title': { es: 'Monte Pindo', gl: 'Monte Pindo', en: 'Monte Pindo', fr: 'Monte Pindo', de: 'Monte Pindo', it: 'Monte Pindo', pt: 'Monte Pindo' },
-  'location.pindo.desc': { es: 'El Olimpo celta, con vistas espectaculares del Atlántico', gl: 'O Olimpo celta, con vistas espectaculares do Atlántico', en: 'The Celtic Olympus, with spectacular views of the Atlantic', fr: 'L\'Olympe celtique, avec des vues spectaculaires sur l\'Atlantique', de: 'Der keltische Olymp mit spektakulärem Blick auf den Atlantik', it: 'L\'Olimpo celtico, con vistas espectaculares sull\'Atlantico', pt: 'O Olimpo celta, con vistas espetaculares do Atlántico' },
+  'location.pindo.title': { es: 'Monte Pindo y Cumbre de A Moa', gl: 'Monte Pindo e Cumio da Moa', en: 'Mount Pindo & A Moa Peak', fr: 'Mont Pindo et Sommet d\'A Moa', de: 'Monte Pindo & Gipfel A Moa', it: 'Monte Pindo e Cima di A Moa', pt: 'Monte Pindo e Cume da Moa' },
+  'location.pindo.desc': { es: 'El mítico Olimpo Celta de granito rosado (627 m) con vistas panorámicas de 360° sobre la Costa da Morte', gl: 'O mítico Olimpo Celta de granito rosado (627 m) con vistas panorámicas de 360° sobre a Costa da Morte', en: 'The legendary Celtic Olympus of pink granite (627 m) with 360° panoramic views over Costa da Morte', fr: 'Le mythique Olympe celtique en granit rose (627 m) avec vues panoramiques à 360°', de: 'Der legendäre keltische Olymp aus rosa Granit (627 m) mit 360°-Panoramablick', it: 'Il mitico Olimpo Celtico di granito rosa (627 m) con vista panoramica a 360°', pt: 'O mítico Olimpo Celta de granito rosado (627 m) com vistas panorâmicas de 360°' },
   'location.pindo.longDesc': {
-    es: `El Monte Pindo, conocido como el “Olimpo Celta”, es uno de los parajes más emblemáticos de A Costa da Morte, junto a la playa de Carnota y la cascada de Ézaro. Este macizo granítico se sitúa entre Dumbría, Carnota y Mazaricos (A Coruña) y forma parte de la Red Natura 2000 como Zona Especial de Conservación. Abarca también terrenos de Cee y cuenta con 4.628,87 hectáreas, de las que 438 son marinas.
+    es: `Conocido desde la antigüedad como el "Olimpo Celta" de Galicia, el Monte Pindo es un colosal macizo de granito rosado que se eleva abruptamente hasta los 627 metros sobre las aguas del océano Atlántico. Sus formaciones rocosas esculpidas por el viento y el salitre —como la mítica figura de "O Guerreiro"— han inspirado leyendas milenarias y rituales ancestrales.
 
-Cómo llegar
-La forma más sencilla de acceder es por la carretera AC-550 (Cee–Carnota) hasta la localidad de O Pindo, donde comienza la ruta más popular. El punto de salida está junto a la iglesia del pueblo, donde hay panel informativo y aparcamiento.
+Ruta de subida a la cumbre de A Moa (627 m)
+El ascenso a la cumbre de A Moa ofrece una de las panorámicas más sobrecogedoras de toda la península ibérica: una vista de 360 grados que abarca toda la Playa de Carnota a vista de pájaro, el Cabo Fisterra, las islas Lobeiras y la ría de Corcubión.
 
-La subida a A Moa
-La ruta más conocida conduce a A Moa (627 m), la cima del monte. Es de dificultad media, con tramos de pendiente pronunciada desde el nivel del mar. La subida dura entre 2 y 2,5 horas (la bajada, alrededor de 1,5 horas). El recorrido está señalizado con balizas blancas y verdes. Como referencia, si hay niebla o dudas, conviene mantener el mar a la izquierda.
+Datos de la ruta y puntos de inicio
+• Inicio desde O Fieiro (Vertiente interior): Es la ruta más directa. Recorrido de unos 4.5 km (ida y vuelta) con unos 300 metros de desnivel positivo. Tiempo aproximado: 2 a 2.5 horas.
+• Inicio desde O Pindo (Vertiente costera / Puerto): Ruta más exigente y empinada, con más de 600 metros de desnivel continuo y unos 9.5 km totales. Tiempo aproximado: 4 a 4.5 horas.
+• Nivel de dificultad: Exigencia física media-alta. Terreno pedregoso de montaña con pendientes sobre losas de granito donde se requiere buen apoyo.
 
-Se recomienda llevar calzado adecuado, agua, protección solar y ropa cómoda. El primer tramo atraviesa una zona más húmeda y con vegetación; después predominan las pendientes abiertas y las formaciones rocosas.
+Consejos de seguridad imprescindibles
+• Calzado: Es indispensable utilizar calzado de montaña con buen agarre (botas o zapatillas de trekking). No subir en calzado urbano.
+• Agua y sol: El macizo no dispone de fuentes de agua potable en la parte alta y está 100% expuesto al sol sin sombras. Llevar al menos 1.5 litros de agua por persona y protección solar.
+• Meteorología: Evitar la subida en días de niebla cerrada (las referencias visuales en la meseta pueden desorientar) o lluvia intensa, ya que la roca mojada es muy resbaladiza.
 
-Paisaje y puntos de interés
-Desde la cima se obtienen vistas panorámicas de la ría de Cee y Corcubión, el cabo Fisterra y la playa de Carnota, la más extensa de Galicia. El granito, modelado por la erosión, forma figuras singulares como O Xigante.
+Combinación de jornada
+Una excelente opción es realizar la ascensión a primera hora de la mañana para evitar las horas centrales de calor y dedicar la tarde a descansar en las piscinas de Boca do Río o visitar la Cascada del Ézaro.`,
+    gl: `Coñecido dende a antigüidade como o “Olimpo Celta” de Galicia, o Monte Pindo é un macizo de granito rosado que se ergue ata os 627 metros sobre o océano Atlántico.
 
-Outros lugares destacados:
-• A Moa: o punto máis alto e un dos mellores miradoiros da comarca.
-• As murallas: restos de construcións pétreas, posiblemente dos séculos IV-VI.
-• Castelo de San Xurxo: antiga torre defensiva do século X, hoxe desaparecida, vinculada á defensa fronte a incursións marítimas.
-• Chan de Lourenzo: pradeira próxima á cima con restos dunha antiga mina de wolframio.
+Ruta de subida ao cumio da Moa (627 m)
+O ascenso á Moa ofrece unha panorámica de 360 graos que abrangue toda a Praia de Carnota, o Cabo Fisterra e a ría de Corcubión.
 
-Natureza
-O contorno destaca pola súa biodiversidade: foron catalogadas 625 especies de flora, fauna e fungos. Entre elas sobresae o carballo anano (Quercus lusitanica), que ten aquí o seu único habitar en Galicia.
+Datos da ruta e puntos de inicio
+• Inicio dende O Fieiro: Ruta máis directa de 4.5 km con 300 m de desnivel (2-2.5 h).
+• Inicio dende O Pindo: Ruta máis esixente dende a costa con 600 m de desnivel (4-4.5 h).
+• Dificultade: Media-alta en terreo pedregoso de montaña.
 
-O Monte Pindo é, en definitiva, unha visita imprescindible para quen percorre a Costa da Morte: natureza singular, panorámicas espectaculares e unha paisaxe cargada de historia e lenda.`,
-    gl: `O Monte Pindo, coñecido como o “Olimpo Celta”, é unha das paraxes máis emblemáticas da Costa da Morte, xunto á praia de Carnota e a fervenza do Ézaro. Este macizo granítico sitúase entre Dumbría, Carnota e Mazaricos (A Coruña) e forma parte da Rede Natura 2000 como Zona Especial de Conservación. Abarca tamén terreos de Cee e conta con 4.628,87 hectáreas, das que 438 son mariñas.
+Consellos de seguridade
+Levar calzado de montaña con bo agarre, abundante auga (non hai fontes arriba) e protección solar. Evitar a subida con néboa pechada ou choiva.`,
+    en: `Known since antiquity as Galicia's "Celtic Olympus," Mount Pindo is a massive pink granite massif rising steeply to 627 meters above the Atlantic Ocean.
 
-Como chegar
-A forma máis sinxela de acceder é pola estrada AC-550 (Cee–Carnota) ata a localidade do Pindo, onde comeza a ruta máis popular. O punto de saída está a carón da igrexa do pobo, onde hai panel informativo e aparcadoiro.
+Ascent to A Moa Peak (627 m)
+Reaching the top of A Moa rewards hikers with one of Spain's most dramatic 360-degree panoramas, overlooking the entire crescent of Carnota Beach, Cape Finisterre, and the Atlantic coastline.
 
-A subida á Moa
-A ruta máis coñecida conduce á Moa (627 m), a cima do monte. É de dificultade media, con treitos de pendente pronunciada desde o nivel do mar. A subida dura entre 2 e 2,5 horas (a baixada, arredor de 1,5 horas). O percorrido está sinalizado con balizas brancas e verdes. Como referencia, se hai néboa ou dúbidas, convén manter o mar á esquerda.
+Trailheads and difficulty
+• From O Fieiro (Inland): Direct route of ~4.5 km round-trip with ~300 m elevation gain (2–2.5 hours).
+• From O Pindo (Coast/Port): Demanding coastal ascent with over 600 m elevation gain (~9.5 km, 4–4.5 hours).
+• Difficulty: Medium-High. Rocky mountain terrain requiring sturdy trekking shoes.
 
-Recoméndase levar calzado adecuado, auga, protección solar e roupa cómoda. O primeiro treito atravesa unha zona máis húmida e con vexetación; despois predominan as pendentes abertas e as formacións rochosas.
-
-Paisaxe e puntos de interese
-Desde a cima obtéñense vistas panorámicas da ría de Cee e Corcubión, o cabo Fisterra e a praia de Carnota, a máis extensa de Galicia. O granito, modelado pola erosión, forma figuras singulares como O Xigante.
-
-Outros lugares destacados:
-• A Moa: o punto máis alto e un dos mellores miradoiros da comarca.
-• As murallas: restos de construcións pétreas, posiblemente dos séculos IV-VI.
-• Castelo de San Xurxo: antiga torre defensiva do século X, hoxe desaparecida, vinculada á defensa fronte a incursións marítimas.
-• Chan de Lourenzo: pradeira próxima á cima con restos dunha antiga mina de wolframio.
-
-Natureza
-O contorno destaca pola súa biodiversidade: foron catalogadas 625 especies de flora, fauna e fungos. Entre elas sobresae o carballo anano (Quercus lusitanica), que ten aquí o seu único habitar en Galicia.
-
-O Monte Pindo é, en definitiva, unha visita imprescindible para quen percorre a Costa da Morte: natureza singular, panorámicas espectaculares e unha paisaxe cargada de historia e lenda.`,
-    en: `Mount Pindo, known as the "Celtic Olympus," is one of the most emblematic spots in Costa da Morte, alongside Carnota Beach and the Ézaro Waterfall. This granite massif is located between Dumbría, Carnota, and Mazaricos (A Coruña) and is part of the Natura 2000 Network as a Special Conservation Area. It also covers land in Cee and spans 4,628.87 hectares, of which 438 are marine.
-
-How to get there
-The easiest way to access it is via the AC-550 road (Cee–Carnota) to the town of O Pindo, where the most popular route begins. The starting point is next to the town church, where there is an information board and parking.
-
-The climb to A Moa
-The most famous route leads to A Moa (627 m), the mountain's peak. It is of medium difficulty, with sections of steep incline starting from sea level. The climb takes between 2 and 2.5 hours (the descent takes about 1.5 hours). The path is marked with white and green markers. As a reference, if there is fog or doubt, it is advisable to keep the sea to your left.
-
-It is recommended to wear suitable footwear, bring water, use sun protection, and wear comfortable clothing. The first section passes through a more humid area with vegetation; afterward, open slopes and rocky formations predominate.
-
-Landscape and points of interest
-From the summit, you get panoramic views of the Cee and Corcubión estuary, Cape Finisterre, and Carnota Beach, the longest in Galicia. The granite, shaped by erosion, creates unique figures such as "O Xigante" (The Giant).
-
-Other notable places:
-• A Moa: the highest point and one of the best viewpoints in the region.
-• The walls: remains of stone constructions, possibly from the 4th-6th centuries.
-• San Xurxo Castle: an ancient defensive tower from the 10th century, now gone, linked to defense against maritime raids.
-• Chan de Lourenzo: a meadow near the summit with remains of an old tungsten mine.
-
-Nature
-The environment stands out for its biodiversity: 625 species of flora, fauna, and fungi have been cataloged. Among them, the dwarf oak (Quercus lusitanica) stands out, which has its only habitat in Galicia here.
-
-Mount Pindo is, ultimately, an essential visit for those traveling through Costa da Morte: unique nature, spectacular panoramas, and a landscape steeped in history and legend.`,
-    fr: `Le mont Pindo, connu sous le nom d'« Olympe celtique », est l'un des lieux les plus emblématiques de la Costa da Morte, aux côtés de la plage de Carnota et de la cascade d'Ézaro. Ce massif granitique est situé entre Dumbría, Carnota et Mazaricos (A Coruña) et fait partie du réseau Natura 2000 en tant que zone spéciale de conservation. Il s'étend également sur les terres de Cee et couvre 4 628,87 hectares, dont 438 sont marins.
-
-Comment s'y rendre
-Le moyen le plus simple d'y accéder est de emprunter la route AC-550 (Cee-Carnota) jusqu'à la ville d'O Pindo, où commence l'itinéraire le plus populaire. Le point de départ se trouve à côté de l'église du village, où vous trouverez un panneau d'information et un parking.
-
-La montée vers A Moa
-L'itinéraire le plus célèbre mène à A Moa (627 m), le point culminant de la montagne. Il est de difficulté moyenne, avec des sections à forte pente depuis le niveau de la mer. La montée dure entre 2h et 2h30 (la descente environ 1h30). L'itinéraire est balisé par des balises blanches et vertes. A titre de référence, s'il y a du brouillard ou des doutes, il convient de garder la mer à gauche.
-
-Il est recommandé de porter des chaussures adaptées, d'apporter de l'eau, une protection solaire et des vêtements confortables. La première partie traverse une zone plus humide et plus végétalisée ; ensuite, les pentes ouvertes et les formations rocheuses prédominent.
-
-Paysage et points d'intérêt
-Du sommet, vous obtenez des vues panoramiques sur l'estuaire de Cee et Corcubión, le cap Finisterre et la plage de Carnota, la plus longue de Galice. Le granit, façonné par l'érosion, forme des figures uniques comme O Xigante (Le Géant).
-
-Autres lieux notables :
-• A Moa : le point culminant et l'un des meilleurs points de vue de la région.
-• Les murailles : restes de constructions en pierre, datant peut-être des IVe-VIe siècles.
-• Château de San Xurxo : ancienne tour défensive du Xe siècle, aujourd'hui disparue, liée à la défense contre les incursions maritimes.
-• Chan de Lourenzo : prairie proche du sommet avec les restes d'une ancienne mine de tungstène.
-
-Nature
-L'environnement se distingue par sa biodiversité : 625 espèces de flore, faune et champignons ont été répertoriées. Parmi elles, se distingue le chêne nain (Quercus lusitanica), qui a ici son seul habitat en Galice.
-
-Le mont Pindo est, en somme, une visite incontournable pour ceux qui visitent la Costa da Morte : une nature unique, des panoramas spectaculaires et un paysage chargé d'histoire et de légendes.`,
-    de: `Der Monte Pindo, bekannt als der „keltische Olymp“, ist einer der emblematischsten Orte an der Costa da Morte, neben dem Strand von Carnota und dem Wasserfall von Ézaro. Dieses Granitmassiv liegt zwischen Dumbría, Carnota und Mazaricos (A Coruña) und ist Teil des Natura-2000-Netzwerks als besonderes Schutzgebiet. Er umfasst auch Gebiete von Cee und erstreckt sich über 4.628,87 Hektar, von denen 438 Hektar Meeresfläche sind.
-
-Wie man dorthin kommt
-Der einfachste Zugang erfolgt über die Straße AC-550 (Cee–Carnota) bis zum Ort O Pindo, wo die beliebteste Route beginnt. Der Ausgangspunkt befindet sich neben der Dorfkirche, wo es eine Informationstafel und Parkplätze gibt.
-
-Der Aufstieg zur A Moa
-Der bekannteste Weg führt zur A Moa (627 m), dem Gipfel des Berges. Er ist von mittlerem Schwierigkeitsgrad, mit steilen Abschnitten ab Meereshöhe. Der Aufstieg dauert zwischen 2 und 2,5 Stunden (der Abstieg etwa 1,5 Stunden). Die Strecke ist mit weiß-grünen Markierungen gekennzeichnet. Als Orientierungshilfe bei Nebel oder Zweifeln empfiehlt es sich, das Meer zur Linken zu behalten.
-
-Es wird empfohlen, geeignetes Schuhwerk, Wasser, Sonnenschutz und bequeme Kleidung mitzubringen. Der erste Abschnitt führt durch ein feuchteres Gebiet mit Vegetation, danach dominieren offene Hänge und Felsformationen.
-
-Landschaft und Sehenswürdigkeiten
-Vom Gipfel aus hat man einen Panoramablick auf die Bucht von Cee und Corcubión, das Kap Finisterre und den Strand von Carnota, den längsten Galiciens. Der Granit, durch Erosion geformt, bildet einzigartige Figuren wie O Xigante (Der Riese).
-
-Weitere Höhepunkte:
-• A Moa: der höchste Punkt und einer der besten Aussichtspunkte der Region.
-• Die Mauern: Reste von Steinbauten, möglicherweise aus dem 4. bis 6. Jahrhundert.
-• Burg von San Xurxo: alter Verteidigungsturm aus dem 10. Jahrhundert, heute verschwunden, verbunden mit der Verteidigung gegen Seeüberfälle.
-• Chan de Lourenzo: Wiese in Gipfelnähe mit Resten einer alten Wolframmine.
-
-Natur
-Die Umgebung zeichnet sich durch ihre Artenvielfalt aus: 625 Arten von Flora, Fauna und Pilzen wurden katalogisiert. Unter ihnen sticht die Zwergeiche (Quercus lusitanica) hervor, die hier ihren einzigen Lebensraum in Galicien hat.
-
-Der Monte Pindo ist definitiv ein Muss für jeden Besucher der Costa da Morte: einzigartige Natur, spektakuläre Ausblicke und eine Landschaft voller Geschichte und Legenden.`,
-    it: `Monte Pindo, conosciuto come l'“Olimpo Celtico”, è uno dei luoghi più emblematici della Costa da Morte, insieme alla spiaggia di Carnota e alla cascata dell'Ézaro. Questo massiccio granitico si trova tra Dumbría, Carnota e Mazaricos (La Coruña) e fa parte della Rete Natura 2000 come Zona Speciale di Confederazione. Comprende anche terreni di Cee e dispone di 4.628,87 ettari, di cui 438 marini.
-
-Come arrivare
-Il modo più semplice per accedere è attraverso la strada AC-550 (Cee–Carnota) fino alla località di O Pindo, dove inizia il percorso più popolare. Il punto di partenza è vicino alla chiesa del paese, dove si trova un pannello informativo e un parcheggio.
-
-La salita ad A Moa
-Il percorso più famoso porta ad A Moa (627 m), la cima del monte. È di media difficoltà, con tratti di forte pendenza a partire dal livello del mare. La salita dura tra le 2 e le 2,5 ore (la discesa circa 1,5 ore). Il percorso è segnalato con segnavia bianchi e verdi. Come riferimento, in caso di nebbia o dubbi, conviene tenere il mare sulla sinistra.
-
-Si consiglia di indossare calzature adeguate, portare acqua, protezione solare e abbigliamento comodo. Il primo tratto attraversa una zona più umida e con vegetazione; successivamente predominano pendii aperti e formazioni rocciose.
-
-Paesaggio e punti di interesse
-Dalla vetta si ottengono viste panoramiche sull'estuario di Cee e Corcubión, sul capo Finisterre e sulla spiaggia di Carnota, la più estesa della Galizia. Il granito, modellato dall'erosione, forma figure singolari come O Xigante (Il Gigante).
-
-Altri luoghi degni di nota:
-• A Moa: il punto più alto e uno dei migliori punti panoramici della regione.
-• Le mura: resti di costruzioni in pietra, probabilmente risalenti ai secoli IV-VI.
-• Castello di San Xurxo: antica torre difensiva del X secolo, oggi scomparsa, legata alla difesa contro le incursioni marittime.
-• Chan de Lourenzo: prato vicino alla vetta con i resti di un'antica miniera di tungsteno.
-
-Naturalezza
-L'ambiente si distingue per la sua biodiversità: sono state catalogate 625 specie tra flora, fauna e funghi. Tra queste spicca la quercia nana (Quercus lusitanica), che qui ha il suo unico habitat in Galizia.
-
-Il Monte Pindo è, in definitiva, una visita imperdibile per chi percorre la Costa da Morte: natura singolare, panorami spettacolari e un paesaggio carico di storia e leggenda.`,
-    pt: `O Monte Pindo, conhecido como o “Olimpo Celta”, é um dos lugares mais emblemáticos da Costa da Morte, junto à praia de Carnota e à cascata do Ézaro. Este maciço granítico situa-se entre Dumbría, Carnota e Mazaricos (A Coruña) e faz parte da Rede Natura 2000 como Zona Especial de Conservação. Abrange também terrenos de Cee e conta com 4.628,87 hectares, dos quais 438 são marinhos.
-
-Como chegar
-A forma mais fácil de aceder é pola estrada AC-550 (Cee–Carnota) ata á localidade do Pindo, onde começa a rota mais popular. O ponto de partida é junto à igreja da vila, onde existe um painel informativo e estacionamento.
-
-A subida à Moa
-A rota mais conhecida leva à Moa (627 m), o cume do monte. É de dificuldade média, com trechos de declive acentuado desde o nível do mar. A subida dura entre 2 e 2,5 horas (a descida, cerca de 1,5 horas). O percurso está sinalizado com balizas brancas e verdes. Como referência, se houver nevoeiro ou dúvidas, convém manter o mar à esquerda.
-
-Recomenda-se levar calçado adequado, água, proteção solar e roupa confortável. O primeiro trecho atravessa uma zona mais húmida e com vegetação; depois predominam as encostas abertas e as formações rochosas.
-
-Paisagem e pontos de interesse
-Do cume obtêm-se vistas panorámicas da ria de Cee e Corcubión, do cabo Fisterra e da praia de Carnota, a mais extensa da Galiza. O granito, moldado pela erosão, forma figuras singulares como O Xigante.
-
-Outros lugares de destaque:
-• A Moa: o ponto mais alto e um dos melhores miradouros da região.
-• As muralhas: restos de construções de pedra, possivelmente dos séculos IV-VI.
-• Castelo de San Xurxo: antiga torre defensiva do século X, hoje desaparecida, ligada à defesa contra incursões marítimas.
-• Chan de Lourenzo: pradeira próxima ao cume com restos de uma antiga mina de tungsténio.
-
-Naturaleza
-O ambiente destaca-se pela sua biodiversidade: foram catalogadas 625 espécies de flora, fauna e fungos. Entre elas sobressai o carvalho-anão (Quercus lusitanica), que tem aqui o seu único habitat na Galiza.
-
-O Monte Pindo é, em suma, uma visita essencial para quem percorre a Costa da Morte: natureza singular, panorâmicas espetaculares e uma paisagem carregada de história e lenda.`
+Safety advice
+Bring plenty of water (no drinkable sources on top), sun protection, and avoid hiking in thick fog or heavy rain.`,
+    fr: `Le mont Pindo, l'« Olympe celtique » de Galice, culmine à 627 mètres et offre une vue panoramique exceptionnelle sur la plage de Carnota et le cap Finisterre. Chaussures de randonnée et eau indispensables.`,
+    de: `Der Monte Pindo, der keltische Olymp Galiciens, erhebt sich 627 Meter über den Atlantik. Der Gipfel A Moa bietet einen atemberaubenden 360-Grad-Panoramablick. Festes Schuhwerk und ausreichend Wasser sind unerlässlich.`,
+    it: `Il Monte Pindo, l'Olimpo Celtico della Galizia (627 m), offre un panorama spettacolare a 360 gradi sulla spiaggia di Carnota e su Capo Finisterre. Scarpe da trekking e acqua indispensabili.`,
+    pt: `O Monte Pindo, o Olimpo Celta da Galiza (627 m), oferece uma das panorâmicas mais espetaculares da Costa da Morte. Calçado de caminhada e água são essenciais.`
   },
-  'nature.pindo.h1': { es: 'Cima de A Moa (627m)', gl: 'Cima de A Moa (627m)', en: 'A Moa Peak (627m)', fr: 'Sommet d\'A Moa (627m)', de: 'A Moa Gipfel (627m)', it: 'Cima di A Moa (627m)', pt: 'Pico de A Moa (627m)' },
-  'nature.pindo.h2': { es: 'Leyendas Celtas', gl: 'Lendas Celtas', en: 'Celtic Legends', fr: 'Légendes Celtiques', de: 'Keltische Legenden', it: 'Leggende Celtiche', pt: 'Lendas Celtas' },
-  'nature.pindo.h3': { es: 'Geología de Granito Rosa', gl: 'Xeoloxía de Granito Rosa', en: 'Pink Granite Geology', fr: 'Géologie de Granit Rose', de: 'Rosa Granitgeologie', it: 'Geologia del Granito Rosa', pt: 'Geologia do Granito Rosa' },
-  'nature.pindo.route_title': { es: 'Ruta de ascenso a A Moa', gl: 'Ruta de ascenso á Moa', en: 'A Moa ascent route', fr: 'Itinéraire d\'ascension d\'A Moa', de: 'Aufstiegsroute zur A Moa', it: 'Percorso di ascesa ad A Moa', pt: 'Rota de ascensão à Moa' },
-  'nature.route.distance': { es: 'Distancia', gl: 'Distancia', en: 'Distance', fr: 'Distance', de: 'Entfernung', it: 'Distanza', pt: 'Distância' },
-  'nature.route.gain': { es: 'Desnivel', gl: 'Desnivel', en: 'Elevation gain', fr: 'Dénivelé', de: 'Höhenmeter', it: 'Dislivello', pt: 'Desnível' },
-  'nature.route.max_ele': { es: 'Alt. Máx', gl: 'Alt. Máx', en: 'Max Alt.', fr: 'Alt. Max', de: 'Max. Höhe', it: 'Alt. Max', pt: 'Alt. Máx' },
-  'nature.route.elevation_profile': { es: 'Perfil de Elevación', gl: 'Perfil de Elevación', en: 'Elevation Profile', fr: 'Profil d\'élévation', de: 'Höhenprofil', it: 'Profilo altimetrico', pt: 'Perfil de Elevação' },
-  'nature.route.elevation_desc': { es: 'Altitud acumulada del recorrido', gl: 'Altitude acumulada do percorrido', en: 'Cumulative elevation of the route', fr: 'Élévation cumulée du parcours', de: 'Kumulierte Höhe der Route', it: 'Elevazione cumulata del percorso', pt: 'Elevação acumulada do percurso' },
-  'nature.route.download': { es: 'Descargar GPX', gl: 'Descargar GPX', en: 'Download GPX', fr: 'Télécharger GPX', de: 'GPX Herunterladen', it: 'Scarica GPX', pt: 'Descarregar GPX' },
-  'nature.route.start': { es: 'Inicio', gl: 'Inicio', en: 'Start', fr: 'Départ', de: 'Start', it: 'Inizio', pt: 'Início' },
-  'nature.route.end': { es: 'Fin', gl: 'Fin', en: 'Finish', fr: 'Arrivée', de: 'Ziel', it: 'Fine', pt: 'Fim' },
-  'nature.route.meters': { es: 'm', gl: 'm', en: 'm', fr: 'm', de: 'm', it: 'm', pt: 'm' },
-  'nature.route.km': { es: 'km', gl: 'km', en: 'km', fr: 'km', de: 'km', it: 'km', pt: 'km' },
-  'nature.route.steep': { es: 'Fuerte', gl: 'Forte', en: 'Steep', fr: 'Raide', de: 'Steil', it: 'Ripido', pt: 'Forte' },
-  'nature.route.moderate': { es: 'Moderado', gl: 'Moderado', en: 'Moderate', fr: 'Modéré', de: 'Mittel', it: 'Moderato', pt: 'Moderado' },
-  'nature.route.flat': { es: 'Llano', gl: 'Chai', en: 'Flat', fr: 'Plat', de: 'Flach', it: 'Piano', pt: 'Plano' },
-  'nature.route.descent': { es: 'Descenso', gl: 'Descenso', en: 'Descent', fr: 'Descente', de: 'Abstieg', it: 'Discesa', pt: 'Descida' },
+  'nature.pindo.h1': { es: 'Cumbre de A Moa (627 m)', gl: 'Cumio da Moa (627 m)', en: 'A Moa Peak (627 m)', fr: 'Sommet d\'A Moa (627 m)', de: 'A Moa Gipfel (627 m)', it: 'Cima di A Moa (627 m)', pt: 'Cume da Moa (627 m)' },
+  'nature.pindo.h2': { es: 'Granito Rosa y Leyendas', gl: 'Granito Rosa e Lendas', en: 'Pink Granite & Legends', fr: 'Granit rose et légendes', de: 'Rosa Granit & Mythen', it: 'Granito Rosa e Leggende', pt: 'Granito Rosa e Lendas' },
+  'nature.pindo.h3': { es: 'Vistas Panorámicas 360°', gl: 'Vistas Panorámicas 360°', en: '360° Panoramic Views', fr: 'Vues panoramiques 360°', de: '360°-Panoramablick', it: 'Viste panoramiche a 360°', pt: 'Vistas panorâmicas 360°' },
 
-  'location.louro.title': { es: 'Monte Louro', gl: 'Monte Louro', en: 'Monte Louro', fr: 'Monte Louro', de: 'Monte Louro', it: 'Monte Louro', pt: 'Monte Louro' },
-  'location.louro.desc': { es: 'El guardián de piedra que vigila la entrada de la ría y el océano.', gl: 'O gardián de pedra que vixía a entrada da ría e o océano.', en: 'The stone guardian watching over the entrance of the estuary and the ocean.', fr: 'Le gardien de pierre qui surveille l\'entrée de l\'estuaire et de l\'océan.', de: 'Der steinerne Wächter, der über den Eingang des Ästuars und des Ozeans wacht.', it: 'Il guardiano di pietra che veglia sull\'ingresso dell\'estuario e dell\'oceano.', pt: 'O guardião de pedra que vigia a entrada da ria e do oceano.' },
+  'location.lira.title': { es: 'Lira y Portocubelo', gl: 'Lira e Portocubelo', en: 'Lira & Portocubelo', fr: 'Lira & Portocubelo', de: 'Lira & Portocubelo', it: 'Lira e Portocubelo', pt: 'Lira e Portocubelo' },
+  'location.lira.desc': { es: 'Pueblo marinero tradicional, puerto pesquero artesanal de Portocubelo y calas de aguas tranquilas', gl: 'Pobo mariñeiro tradicional, porto pesqueiro artesanal de Portocubelo e calas de augas tranquilas', en: 'Traditional fishing village, Portocubelo artisanal harbor, and sheltered peaceful coves', fr: 'Village de pêcheurs traditionnel, port artisanal de Portocubelo et criques paisibles', de: 'Traditionelles Fischerdorf, malerischer Hafen Portocubelo und ruhige Badebuchten', it: 'Borgo marinaro tradizionale, porto peschereccio di Portocubelo e calette riparate', pt: 'Vila piscatória tradicional, porto artesanal de Portocubelo e enseadas tranquilas' },
+  'location.lira.longDesc': {
+    es: `Lira es una de las parroquias marineras más auténticas y mejor conservadas de la Costa da Morte. Situada en el extremo sur del municipio de Carnota, al abrigo de los vientos del norte, combina arquitectura tradicional gallega, calas resguardadas de aguas cristalinas y un puerto pesquero vivo: Portocubelo.
+
+El Puerto de Portocubelo y la Reserva Marina
+El pequeño puerto de Portocubelo es el corazón marinero de Lira. Aquí faena una flota de bajura artesanal dedicada a la captura sostenible de pulpo, nécora, percebe y pescados de roca. Lira fue pionera en Galicia al impulsar la creación de la Reserva Marina de Interés Pesquero "Os Miñarzos", un modelo ejemplar de protección marina y pesca responsable.
+
+Las Calas de Lira: Praia de Cons y Praia do Cancelo
+• Praia de Cons: Una joya resguardada de arena dorada y aguas transparentes, protegida del viento y del oleaje del mar abierto. Es el lugar perfecto para bañarse en calma y relajarse a pocos minutos a pie de los alojamientos locales.
+• Praia do Cancelo: Pequeña cala situada junto al puerto, con sabor puramente marinero y barcas tradicionales en la orilla.
+
+El Hórreo de Lira
+Junto a la iglesia parroquial de Santa María se encuentra el monumental Hórreo de Lira, construido entre 1779 y 1814. Con sus casi 37 metros de longitud y 22 pares de pies de piedra, rivaliza históricamente en tamaño y belleza con el famoso hórreo de Carnota.
+
+Alojarse en Lira: Base estratégica y tranquilidad
+Lira ofrece la calma de una aldea costera genuina sin masificaciones, con tabernas donde el pescado entra directamente del barco y una ubicación privilegiada para explorar toda la comarca. Casa da Cuncheira se sitúa en esta parroquia, permitiendo disfrutar de la vida marinera y el mar a diario.`,
+    gl: `Lira é unha das parroquias mariñeiras máis auténticas e mellor conservadas da Costa da Morte. Situada no extremo sur de Carnota, combina arquitectura tradicional, calas de augas cristalinas e o porto de Portocubelo.
+
+O Porto de Portocubelo e a Reserva Mariña
+Portocubelo é o corazón mariñeiro de Lira, pioneiro na creación da Reserva Mariña de Interese Pesqueiro "Os Miñarzos" para a protección do medio mariño.
+
+As Calas de Lira
+• Praia de Cons: Cala recollida de area dourada e augas calmas, perfecta para o baño.
+• Praia do Cancelo: Pequena cala mariñeira a carón do porto.
+
+O Hórreo de Lira
+Monumental hórreo de case 37 metros de lonxitude e 22 pares de pés sobre rocha viva.`,
+    en: `Lira is one of the most authentic and best-preserved fishing parishes in Costa da Morte. Located in southern Carnota, it combines traditional stone architecture, sheltered coves, and the active harbor of Portocubelo.
+
+Portocubelo Harbor & Os Miñarzos Marine Reserve
+Portocubelo is Lira's seafaring heart, pioneering sustainable fishing through the "Os Miñarzos" marine reserve.
+
+The Coves of Lira
+• Praia de Cons: A sheltered golden-sand cove with calm waters, ideal for relaxed swimming.
+• Praia do Cancelo: Scenic cove right next to the fishing harbor.
+
+The Monumental Granary of Lira
+Nearly 37 meters long on 22 pairs of stone pillars, standing proudly alongside Santa María church.`,
+    fr: `Lira est un village de pêcheurs authentique de Carnota, abritant le port de Portocubelo, la réserve marine Os Miñarzos, la crique abritée de Praia de Cons et son monumental hórreo en pierre.`,
+    de: `Lira ist ein authentisches Fischerdorf in Carnota mit dem Hafen Portocubelo, dem Meeresschutzgebiet Os Miñarzos, geschützten Buchten wie Praia de Cons und einem monumentalen Hórreo.`,
+    it: `Lira è un autentico borgo marinaro a Carnota, con il porto di Portocubelo, la riserva marina Os Miñarzos, la caletta riparata di Praia de Cons e il suo monumentale hórreo.`,
+    pt: `Lira é uma autêntica vila piscatória em Carnota, com o porto de Portocubelo, a reserva marinha Os Miñarzos, a enseada abrigada da Praia de Cons e o seu hórreo monumental.`
+  },
+  'nature.lira.h1': { es: 'Puerto de Portocubelo', gl: 'Porto de Portocubelo', en: 'Portocubelo Harbor', fr: 'Port de Portocubelo', de: 'Hafen Portocubelo', it: 'Porto di Portocubelo', pt: 'Porto de Portocubelo' },
+  'nature.lira.h2': { es: 'Reserva Os Miñarzos', gl: 'Reserva Os Miñarzos', en: 'Os Miñarzos Reserve', fr: 'Réserve Os Miñarzos', de: 'Os Miñarzos Schutzgebiet', it: 'Riserva Os Miñarzos', pt: 'Reserva Os Miñarzos' },
+  'nature.lira.h3': { es: 'Praia de Cons y Cancelo', gl: 'Praia de Cons e Cancelo', en: 'Praia de Cons & Cancelo', fr: 'Praia de Cons & Cancelo', de: 'Praia de Cons & Cancelo', it: 'Praia de Cons e Cancelo', pt: 'Praia de Cons e Cancelo' },
+
+  'location.carnota_guide.title': { es: 'Qué ver en Carnota: 8 Imprescindibles', gl: 'Que ver en Carnota: 8 Imprescindibles', en: 'What to see in Carnota: Top 8', fr: 'Que voir à Carnota : Top 8', de: 'Carnota Highlights: Top 8', it: 'Cosa vedere a Carnota: Top 8', pt: 'O que ver em Carnota: Top 8' },
+  'location.carnota_guide.desc': { es: 'Guía completa de los lugares esenciales que visitar en Carnota, Lira y alrededores de Costa da Morte', gl: 'Guía completa dos lugares esenciais que visitar en Carnota, Lira e arredores da Costa da Morte', en: 'Complete guide to the essential sights in Carnota, Lira, and the Costa da Morte region', fr: 'Guide complet des lieux incontournables à Carnota, Lira et sur la Costa da Morte', de: 'Kompletter Reiseführer zu den wichtigsten Sehenswürdigkeiten in Carnota, Lira und Umgebung', it: 'Guida completa ai luoghi imperdibili da visitare a Carnota, Lira e nella Costa da Morte', pt: 'Guia completo dos locais essenciais a visitar em Carnota, Lira e arredores da Costa da Morte' },
+  'location.carnota_guide.longDesc': {
+    es: `El municipio de Carnota concentra algunos de los paisajes litorales y monumentos etnográficos más espectaculares de Galicia. Desde inmensos arenales vírgenes hasta cumbres de granito sagradas, esta es la selección de los 8 lugares que no te puedes perder.
+
+Los 8 lugares imprescindibles en Carnota y alrededores
+1. Playa de Carnota y Boca do Río: Más de 7 km de arena blanca virgen y las idílicas piscinas naturales que se forman durante la bajamar.
+2. Hórreo de Carnota: Monumento Nacional de 34.7 metros levantado en el siglo XVIII junto a la iglesia de Santa Comba y su palomar.
+3. Hórreo de Lira: El gemelo monumental de Carnota, con casi 37 metros de largo sustentado sobre 22 pares de pies de piedra.
+4. Lira y el Puerto de Portocubelo: Pueblo marinero tradicional con la Reserva Marina Os Miñarzos, calas tranquilas como Praia de Cons y gastronomía de lonja.
+5. Monte Pindo y cumbre de A Moa (627 m): El mítico Olimpo Celta, mole de granito rosado con rutas de senderismo y vistas panorámicas de 360°.
+6. Fervenza do Ézaro: La única cascada de Europa continental que desemboca directamente en el mar, a 15 minutos en Dumbría.
+7. Monte Louro y Playa de Area Maior: Espacio protegido en la bocana de la Ría de Muros con laguna litoral y faro panorámico.
+8. Casco histórico de Muros: Villa marinera medieval con calles porticadas de piedra y tabernas tradicionales.
+
+Cómo organizar tu visita
+• En 1 día: Mañana en Boca do Río y visita a los hórreos; tarde en Portocubelo (Lira) y atardecer en la Fervenza do Ézaro.
+• En un fin de semana: Añade la ruta a la cumbre de A Moa en el Monte Pindo, un paseo por Muros y la puesta de sol en Cabo Fisterra.`,
+    gl: `O concello de Carnota concentra algunhas das paisaxes e monumentos etnográficos máis espectaculares de Galicia.
+
+Os 8 imprescindibles
+1. Praia de Carnota e Boca do Río
+2. Hórreo de Carnota
+3. Hórreo de Lira
+4. Lira e Porto de Portocubelo
+5. Monte Pindo e cumio da Moa
+6. Fervenza do Ézaro
+7. Monte Louro e Area Maior
+8. Casco histórico de Muros`,
+    en: `Carnota offers some of Galicia's most dramatic coastal scenery and cultural landmarks.
+
+Top 8 Highlights
+1. Carnota Beach & Boca do Río natural tidal pools
+2. Historic Carnota Granary (34.7 m)
+3. Monumental Lira Granary (almost 37 m)
+4. Lira fishing village & Portocubelo harbor
+5. Mount Pindo and the peak of A Moa (627 m)
+6. Ézaro Waterfall into the sea
+7. Mount Louro and Area Maior wild beach
+8. Medieval historic center of Muros`,
+    fr: `Carnota rassemble les plus beaux paysages de la Costa da Morte : Plage de Carnota, Hórreos géants, Mont Pindo, Port de Lira, Cascade d'Ézaro et village de Muros.`,
+    de: `Carnota vereint die schönsten Natur- und Kulturhighlights Galiciens: Strand von Carnota, historische Hórreos, Monte Pindo, Hafen Lira, Ézaro-Wasserfall und Muros.`,
+    it: `Carnota offre i migliori paesaggi della Costa da Morte: Spiaggia di Carnota, grandi hórreos, Monte Pindo, porto di Lira, Cascata dell'Ézaro e borgo di Muros.`,
+    pt: `Carnota reúne as melhores paisagens da Costa da Morte: Praia de Carnota, hórreos monumentais, Monte Pindo, porto de Lira, Cascata do Ézaro e Muros.`
+  },
+  'nature.carnota_guide.h1': { es: '8 Visitas Esenciales', gl: '8 Visitas Esenciais', en: 'Top 8 Highlights', fr: 'Top 8 Incontournables', de: '8 Top-Highlights', it: '8 Luoghi Imperdibili', pt: '8 Visitas Essenciais' },
+  'nature.carnota_guide.h2': { es: 'Patrimonio y Naturaleza', gl: 'Patrimonio e Natureza', en: 'Heritage & Nature', fr: 'Patrimoine et Nature', de: 'Kultur & Natur', it: 'Patrimonio e Natura', pt: 'Património e Natureza' },
+  'nature.carnota_guide.h3': { es: 'Itinerarios Recomendados', gl: 'Itinerarios Recomendados', en: 'Suggested Itineraries', fr: 'Itinéraires conseillés', de: 'Routenvorschläge', it: 'Itinerari consigliati', pt: 'Roteiros sugeridos' },
+
+  'location.louro.title': { es: 'Monte Louro y Playa de Area Maior', gl: 'Monte Louro e Praia de Area Maior', en: 'Mount Louro & Area Maior Beach', fr: 'Mont Louro et Plage d\'Area Maior', de: 'Monte Louro & Strand Area Maior', it: 'Monte Louro e Spiaggia di Area Maior', pt: 'Monte Louro e Praia de Area Maior' },
+  'location.louro.desc': { es: 'Pirámide de granito, salvaje arenal de Area Maior y la laguna protegida de As Xarfas en la ría de Muros', gl: 'Pirámide de granito, salvaxe areal de Area Maior e a lagoa protexida de As Xarfas na ría de Muros', en: 'Granite pyramid, wild Area Maior sands, and protected As Xarfas lagoon at the entrance of Muros estuary', fr: 'Pyramide de granit, plage sauvage d\'Area Maior et lagune d\'As Xarfas', de: 'Granitpyramide, wilder Strand Area Maior und die geschützte As Xarfas-Lagune', it: 'Piramide di granito, spiaggia selvaggia di Area Maior e laguna di As Xarfas', pt: 'Pirâmide de granito, praia selvagem de Area Maior e lagoa protegida de As Xarfas' },
   'location.louro.longDesc': {
-    es: `El Monte Louro, con su icónica silueta de dos picos, se levanta majestuoso en la desembocadura de la Ría de Muros y Noia. Es un espacio natural protegido de una belleza singular, donde el granito, el agua dulce y la arena del Atlántico conviven en perfecta armonía.
+    es: `En la bocana de la Ría de Muros e Noia se alza la imponente silueta de Monte Louro (241 m), una pirámide de granito que marca el límite geográfico entre las Rías Baixas y la Costa da Morte. A sus pies se despliega un espacio natural protegido de extraordinario valor paisajístico y ecológico.
 
-El entorno
-A sus pies se encuentra la Lagoa de Xalfas, una laguna costera de agua dulce separada del mar por un imponente complejo de dunas. Este ecosistema es un refugio vital para numerosas especies de aves migratorias y flora endémica, creando un paisaje de contrastes únicos entre el azul del mar y el verde de la vegetación lacustre.
+Playa de Area Maior y Laguna de As Xarfas
+A los pies del monte se extiende la salvaje Playa de Area Maior, un arenal abierto de arena blanca y dunas móviles. Justo tras la barrera dunar se encuentra la Laguna de As Xarfas (Lagoa de Louro), un ecosistema dunar-lacustre protegido donde nidifican y descansan numerosas aves acuáticas y migratorias.
 
-Puntos de interés
-• La cima: Los dos picos graníticos ofrecen una de las mejores panorámicas de las Rías Baixas y la entrada de la Ría de Muros y Noia.
-• Lagoa de Xalfas: Un ecosistema lagunar protegido de gran valor ecológico que invita a la contemplación y al avistamiento de aves.
-• Praia de Area Maior: Una playa salvaje de arena blanca y aguas cristalinas que se extiende a los pies del monte, ideal para los amantes de la naturaleza en estado puro.
+Paseos y puntos de interés
+• Faro de Monte Louro: Una carretera estrecha conduce hasta el faro que vigila la entrada de la ría, con vistas sobre la ensenada de San Francisco y las islas de la ría.
+• Paseo dunar: Senderos y pasarelas de madera permiten bordear la laguna y la playa disfrutando de la flora litoral protegida.
+• Precaución en el baño: Al ser una playa abierta al océano, el oleaje suele ser intenso; se recomienda bañarse con precaución.
 
-Actividades recomendadas
-La subida al monte, aunque requiere calzado adecuado para terreno rocoso, compensa con creces por las vistas. También es muy recomendable el paseo circular que rodea la laguna y atraviesa el sistema dunar, permitiendo apreciar la biodiversidad de este enclave privilegia.`,
-    gl: `O Monte Louro, coa súa icónica silueta de dous picos, érguese maxestoso na desembocadura da Ría de Muros e Noia. É un espazo natural protexido dunha beleza singular, onde o granito, a auga doce e a area do Atlántico conviven en perfecta harmonía.
-
-O contorno
-Aos seus pés atópase a Lagoa de Xalfas, unha lagoa costeira de auga doce separada do mar por un impoñente complexo de dunas. Este ecosistema é un refuxio vital para numerosas especies de aves migratorias e flora endémica, creando unha paisaxe de contrastes únicos entre o azul do mar e o verde da vexetación lacustre.
+Combinación con la villa marinera de Muros
+Monte Louro se encuentra a apenas 10 minutos en coche de la villa histórica de Muros, célebre por su casco histórico medieval, sus calles porticadas de piedra y sus tabernas de pescado fresco.`,
+    gl: `Na bocana da Ría de Muros e Noia érguese o Monte Louro (241 m), unha pirámide de granito que protexe a salvaxe Praia de Area Maior e a Lagoa de As Xarfas.
 
 Puntos de interese
-• O cume: Os dous picos graníticos ofrecen unha das mellores panorámicas das Rías Baixas e a entrada da Ría de Muros e Noia.
-• Lagoa de Xalfas: Un ecosistema lagunar protexido de gran valor ecolóxico que convida á contemplación e ao avistamento de aves.
-• Praia de Area Maior: Unha praia salvaxe de area branca e augas cristalinas que se estende aos pés do monte, ideal para os amantes da natureza en estado puro.
-
-Actividades recomendadas
-A subida ao monte, aínda que require calzado axeitado para terreo rochoso, compensa con creces polas vistas. Tamén é moi recomendable o paseo circular que rodea a lagoa e atravesa o sistema dunar, permitindo apreciar a biodiversidade deste enclave privilexiado.`,
-    en: `Mount Louro, with its iconic twin-peak silhouette, stands majestic at the mouth of the Muros and Noia Estuary. It is a protected natural space of singular beauty, where granite, freshwater, and Atlantic sand coexist in perfect harmony.
-
-The surroundings
-At its feet lies the Xalfas Lagoon, a coastal freshwater lagoon separated from the sea by an imposing dune complex. This ecosystem is a vital refuge for numerous species of migratory birds and endemic flora, creating a landscape of unique contrasts between the blue of the sea and the green of the lacustrine vegetation.
-
-Points of interest
-• The summit: The two granite peaks offer one of the best panoramic views of the Rías Baixas and the entrance to the Muros and Noia Estuary.
-• Xalfas Lagoon: A protected lagoon ecosystem of great ecological value that invites contemplation and birdwatching.
-• Area Maior Beach: A wild beach with white sand and crystal-clear waters stretching at the foot of the mountain, ideal for lovers of pure nature.
-
-Recommended activities
-The climb to the mountain, although requiring suitable footwear for rocky terrain, is more than rewarded by the views. The circular walk around the lagoon and through the dune system is also highly recommended, allowing you to appreciate the biodiversity of this privileged enclave.`,
-    fr: `Le Mont Louro, avec son iconique silhouette à deux pics, se dresse majestueusement à l'embouchure de l'estuaire de Muros et Noia. C'est un espace naturel protégé d'une beauté singulière, où le granit, l'eau douce et le sable de l'Atlantique cohabitent en parfaite harmonie.
-
-L'environnement
-À ses pieds se trouve la lagune de Xalfas, une lagune côtière d'eau douce séparée de la mer par un imposant complexe de dunes. Cet écosystème est un refuge vital pour de nombreuses espèces d'oiseaux migrateurs et de flore endémique, créant un paysage de contrastes uniques entre le bleu de la mer et le vert de l'environnement lacustre.
-
-Points d'intérêt
-• Le sommet : Les deux pics granitiques offrent l'un des meilleurs panoramas des Rías Baixas et de l'entrée de l'estuaire de Muros et Noia.
-• Lagune de Xalfas : Un écosystème lagunaire protégé d'une grande valeur écologique qui invite à la contemplation et à l'observation des oiseaux.
-• Plage d'Area Maior : Une plage sauvage de sable blanc et d'eaux cristallines qui s'étend au pied de la montagne, idéale pour les amoureux de la nature à l'état pur.
-
-Activités recommandées
-La montée de la montagne, bien qu'elle nécessite des chaussures adaptées aux terrains rocheux, est largement récompensée par la vue. La promenade circulaire qui entoure la lagune et traverse le système dunaire est également vivement recommandée, permettant d'apprécier la biodiversité de cette enclave privilégiée.`,
-    de: `Der Monte Louro mit seiner ikonischen Silhouette aus zwei Gipfeln erhebt sich majestätisch an der Mündung der Ría de Muros und Noia. Er ist ein geschützter Naturraum von einzigartiger Schönheit, in dem Granit, Süßwasser und der Sand des Atlantiks in perfekter Harmonie koexistieren.
-
-Die Umgebung
-Zu seinen Füßen liegt die Lagoa de Xalfas, eine Küsten-Süßwasserlagune, die durch einen imposanten Dünenkomplex vom Meer getrennt ist. Dieses Ökosystem ist ein lebenswichtiger Rückzugsort für zahlreiche Zugvogelarten und endemische Flora und schafft eine Landschaft voller einzigartiger Kontraste zwischen dem Blau des Meeres und dem Grün der Seervegetation.
-
-Sehenswürdigkeiten
-• Der Gipfel: Die beiden Granitgipfel bieten eines der besten Panoramen der Rías Baixas und des Eingangs der Ría de Muros und Noia.
-• Lagoa de Xalfas: Ein geschütztes Lagunenökosystem von hohem ökologischem Wert, das zur Kontemplation und Vogelbeobachtung einlädt.
-• Praia de Area Maior: Ein wilder Strand mit weißem Sand und kristallklarem Wasser, der sich am Fuße des Berges erstreckt, ideal für Liebhaber der reinen Natur.
-
-Empfohlene Aktivitäten
-Der Aufstieg auf den Berg erfordert zwar geeignetes Schuhwerk für felsiges Gelände, wird aber durch die Aussicht mehr als belohnt. Sehr empfehlenswert ist auch der Rundweg um die Lagune und durch das Dünensystem, auf dem man die Artenvielfalt dieser privilegierten Enklave bewundern kann.`,
-    it: `Il Monte Louro, con la sua iconica silhouette a due cime, si erge maestoso alla foce dell'estuario di Muros e Noia. È uno spazio naturale protetto di singolare bellezza, dove il granito, l'acqua dolce e la sabbia dell'Atlantico convivono in perfetta armonia.
-
-L'ambiente
-Ai suoi piedi si trova la Lagoa de Xalfas, una laguna costiera d'acqua dolce separata dal mare da un imponente complesso di dune. Questo ecosistema è un rifugio vitale per numerose specie di uccelli migratori e flora endemica, creando un paesaggio di contrasti unici tra il blu del mare e il verde della vegetazione lacustre.
-
-Punti di interesse
-• La cima: Le due cime granitiche offrono uno dei migliori panorami delle Rías Baixas e dell'ingresso dell'estuario di Muros e Noia.
-• Lagoa de Xalfas: Un ecosistema lagunare protetto di grande valore ecologico che invita alla contemplazione e al birdwatching.
-• Praia de Area Maior: Una spiaggia selvaggia di sabbia bianca e acque cristalline che si estende ai piedi del monte, ideale per gli amanti della natura allo stato puro.
-
-Attività consigliate
-La salita al monte, pur richiedendo calzature adeguate per il terreno roccioso, ripaga ampiamente con i suoi panorami. È inoltre molto consigliata la passeggiata circolare che circonda la laguna e attraversa il sistema dunale, permettendo di apprezzare la biodiversità di questa enclave privilegiata.`,
-    pt: `O Monte Louro, com a sua icónica silhueta de dois picos, ergue-se majestoso na foz da Ria de Muros e Noia. É um espaço natural protegido de uma beleza singular, onde o granito, a água doce e a areia do Atlântico convivem em perfeita harmonia.
-
-O entorno
-Aos seus pés encontra-se a Lagoa de Xalfas, uma lagoa costeira de água doce separada do mar por um imponente complexo de dunas. Este ecossistema é um refúgio vital para numerosas espécies de aves migratórias e flora endémica, criando uma paisagem de contrastes únicos entre o azul do mar e o verde da vegetação lacustre.
-
-Pontos de interesse
-• O cume: Os dois picos graníticos oferecem uma das melhores panorâmicas das Rias Baixas e da entrada da Ria de Muros e Noia.
-• Lagoa de Xalfas: Um ecossistema lagunar protegido de grande valor ecológico que convida à contemplação e à observação de aves.
-• Praia de Area Maior: Uma praia selvagem de areia branca e águas cristalinas que se estende aos pés do monte, ideal para os amantes da natureza em estado puro.
-
-Atividades recomendadas
-A subida ao monte, embora exija calçado adequado para terreno rochoso, compensa em grande medida pelas vistas. Também é muito recomendável o passeio circular que rodeia a lagoa e atravessa o sistema dunar, permitindo apreciar a biodiversidade deste enclave privilegiado.`
-
+• Lagoa de As Xarfas: Lagoa costeira de gran valor ecolóxico e refuxio de aves migratorias.
+• Praia de Area Maior: Areal virxe de area branca aberto ao océano.
+• Faro de Monte Louro: Vistas excepcionais sobre a entrada da ría.`,
+    en: `Standing at the mouth of the Muros & Noia Estuary, Mount Louro (241 m) is an iconic granite landmark guarding the wild sands of Area Maior Beach and the protected As Xarfas coastal lagoon.`,
+    fr: `Le mont Louro veille sur l'entrée de l'estuaire de Muros, avec la plage sauvage d'Area Maior et la lagune protégée d'As Xarfas.`,
+    de: `Der Monte Louro bewacht die Mündung der Ría de Muros mit dem wilden Strand Area Maior und der geschützten Lagune As Xarfas.`,
+    it: `Il Monte Louro domina l'ingresso dell'estuario di Muros, proteggendo la spiaggia selvaggia di Area Maior e la laguna di As Xarfas.`,
+    pt: `O Monte Louro ergue-se na entrada da Ria de Muros, guardando a praia selvagem de Area Maior e a lagoa protegida de As Xarfas.`
   },
-  'nature.louro.h1': { es: 'Lagoa de Louro', gl: 'Lagoa de Louro', en: 'Louro Lagoon', fr: 'Lagune de Louro', de: 'Louro-Lagune', it: 'Laguna di Louro', pt: 'Lagoa do Louro' },
-  'nature.louro.h2': { es: 'Vistas de la Ría', gl: 'Vistas da Ría', en: 'Estuary Views', fr: 'Vues sur l\'Estuaire', de: 'Blick auf die Mündung', it: 'Viste dell\'Estuario', pt: 'Vistas da Ria' },
-  'nature.louro.h3': { es: 'Playa de Area Maior', gl: 'Praia de Area Maior', en: 'Area Maior Beach', fr: 'Plage d\'Area Maior', de: 'Strand von Area Maior', it: 'Spiaggia di Area Maior', pt: 'Praia de Area Maior' },
+  'nature.louro.h1': { es: 'Laguna de As Xarfas', gl: 'Lagoa de As Xarfas', en: 'As Xarfas Lagoon', fr: 'Lagune d\'As Xarfas', de: 'As Xarfas Lagune', it: 'Laguna di As Xarfas', pt: 'Lagoa de As Xarfas' },
+  'nature.louro.h2': { es: 'Playa de Area Maior', gl: 'Praia de Area Maior', en: 'Area Maior Beach', fr: 'Plage d\'Area Maior', de: 'Strand Area Maior', it: 'Spiaggia di Area Maior', pt: 'Praia de Area Maior' },
+  'nature.louro.h3': { es: 'Faro y Ría de Muros', gl: 'Faro e Ría de Muros', en: 'Lighthouse & Estuary', fr: 'Phare et Estuaire', de: 'Leuchtturm & Mündung', it: 'Faro ed Estuario', pt: 'Farol e Ria de Muros' },
 
-  'location.ezaro.title': { es: 'Cascada do Ézaro', gl: 'Fervenza do Ézaro', en: 'Ézaro Waterfall', fr: 'Cascade d\'Ézaro', de: 'Ézaro Wasserfall', it: 'Cascata dell\'Ézaro', pt: 'Cascata do Ézaro' },
-  'location.ezaro.desc': { es: 'La única cascada de Europa que desemboca directamente en el mar.', gl: 'A única fervenza de Europa que desemboca directamente no mar.', en: 'The only waterfall in Europe that flows directly into the sea.', fr: 'La seule cascade d\'Europe qui se jette directement dans la mer.', de: 'Der einzige Wasserfall in Europa, der direkt ins Meer mündet.', it: 'L\'unica cascata in Europa che sfocia direttamente nel mare.', pt: 'A única cascata da Europa que desagua directamente no mar.' },
+  'location.ezaro.title': { es: 'Fervenza do Ézaro y Mirador', gl: 'Fervenza do Ézaro e Miradoiro', en: 'Ézaro Waterfall & Viewpoint', fr: 'Cascade d\'Ézaro et Belvédère', de: 'Ézaro-Wasserfall & Aussichtspunkt', it: 'Cascata dell\'Ézaro e Belvedere', pt: 'Cascata do Ézaro e Miradouro' },
+  'location.ezaro.desc': { es: 'Única cascada de Europa continental que desemboca en el océano Atlántico y su mirador panorámico', gl: 'Única fervenza da Europa continental que desemboca no océano Atlántico e o seu miradoiro panorámico', en: 'The only waterfall in continental Europe cascading directly into the Atlantic Ocean, plus its panoramic viewpoint', fr: 'Seule cascade d\'Europe continentale se jetant directement dans l\'océan Atlantique et son belvédère', de: 'Der einzige Wasserfall Kontinentaleuropas, der direkt ins Meer stürzt, und sein Aussichtspunkt', it: 'L\'unica cascata dell\'Europa continentale che si getta nell\'oceano Atlantico e il suo punto panoramico', pt: 'A única cascata da Europa continental que desagua no oceano Atlântico e o seu miradouro' },
   'location.ezaro.longDesc': {
-    es: `La cascada del Ézaro, situada en el municipio de Dumbría, es uno de los tesoros naturales más impactantes de Galicia. Su singularidad reside en ser la única cascada de Europa continental que desemboca directamente en el océano Atlántico en forma de catarata.
+    es: `Situada en el municipio de Dumbría, a solo 15 minutos de Carnota, la Fervenza do Ézaro es un fenómeno natural único en Europa: es la única cascada de Europa continental donde un río (el Xallas) se precipita en caída libre directamente al océano Atlántico.
 
-El entorno
-El río Xallas, tras recorrer tierras coruñesas, se precipita al mar en la ensenada de Ézaro. La caída, de más de 40 metros de altura, golpea las paredes graníticas del monte Pindo antes de mezclarse con el agua salada. El estruendo del agua y el vapor que se levanta crean una atmósfera mágica, especialmente en épocas de lluvias abundantes.
+El salto del río Xallas
+Tras encajonarse entre las moles de granito del Monte Pindo, el río Xallas salva un desnivel de más de 40 metros en forma de atronadora cascada sobre la ensenada marina de Ézaro, creando una nube constante de agua pulverizada.
 
-Puntos de interés
-• El Mirador: Situado sobre la cascada, ofrece una vista aérea inigualable de la desembocadura y de la inmensidad del océano.
-• Pasarelas de madera: Un cómodo recorrido a pie permite acercarse a la base de la cascada con total seguridad, disfrutando de la fuerza del agua desde cerca.
-• Iluminación nocturna: Durante los meses de verano y en fechas especiales, la cascada se ilumina con juegos de luces de colores, convirtiendo el lugar en un escenario de película.
-• Museo de la Electricidad: Junto a la cascada se encuentra una antigua central hidroeléctrica que hoy alberga un centro de interpretación sobre la energía y el agua.
+Acceso y pasarelas
+• Pasarelas peatonales: Desde el aparcamiento del puerto deportivo de Ézaro parte una cómoda pasarela de madera llana de unos 300 metros que bordea el río hasta la base misma de la cascada. Es un paseo completamente accesible y apto para todas las edades.
+• Iluminación nocturna: Durante las noches de verano y fechas festivas señaladas, la cascada cuenta con un espectáculo de iluminación artística sobre la roca.
 
-Actividades recomendadas
-Una de las experiencias más populares es alquilar un kayak para remontar la ensenada y ver la cascada desde el mar, permitiéndote sentir los salpicones de agua dulce mientras navegas por el Atlántico.`,
-    gl: `A fervenza do Ézaro, situada no concello de Dumbría, é un dos tesouros naturais máis impactantes de Galicia. A súa singularidade reside en ser a única fervenza de Europa continental que desemboca directamente no océano Atlántico en forma de catarata.
+Diferencia clave: Fervenza vs. Mirador do Ézaro
+• Fervenza do Ézaro: Situada a nivel del mar junto al puerto, con acceso directo y llano a la cascada.
+• Miradoiro do Ézaro: Situado en lo alto de la montaña (acceso por carretera de 1.8 km con rampas del 28% famosas en la Vuelta a España). Desde arriba se disfruta de una vista panorámica sublime de la ría, la desembocadura y el cañón granítico del Monte Pindo.`,
+    gl: `A Fervenza do Ézaro (Dumbría) é a única fervenza da Europa continental que desemboca directamente no océano Atlántico.
 
-O contorno
-O río Xallas, tras percorrer terras coruñesas, precipítase ao mar na ensenada do Ézaro. A caída, de máis de 40 metros de altura, golpea as paredes graníticas do monte Pindo antes de mesturarse coa auga salgada. O estrondo da auga e o vapor que se levanta crean unha atmosfera máxica, especialmente en épocas de choivas abundantes.
+O salto do río Xallas
+Unha caída de máis de 40 metros de altura que golpea as paredes graníticas do Monte Pindo antes de mesturarse coa auga salgada da ría.
 
-Puntos de interese
-• O Miradoiro: Situado sobre a fervenza, ofrece unha vista aérea inigualable da desembocadura e da inmensidade do océano.
-• Pasarelas de madeira: Un cómodo percorrido a pé permite achegarse á base da fervenza con total seguridade, gozando da forza da auga desde preto.
-• Iluminación nocturna: Durante os meses de verán e en datas especiais, a fervenza ilumínase con xogos de luces de fores, convertendo o lugar nun escenario de película.
-• Museo da Electricidade: Xunto a fervenza atópase unha antiga central hidroeléctrica que hoxe alberga un centro de interpretación sobre a enerxía e a auga.
+Diferenza clave: Fervenza vs. Miradoiro
+• Fervenza: A nivel do mar xunto ao porto, con pasarelas de madeira llanas.
+• Miradoiro: No alto da montaña (rampas do 28%), con vistas panorámicas sobre a ría e o Monte Pindo.`,
+    en: `The Ézaro Waterfall in Dumbría is the only waterfall in continental Europe plunging directly into the open Atlantic Ocean.
 
-Actividades recomendadas
-Unha das experiencias máis populares é alugar un kaiak para remontar a ensenada e ver a fervenza desde o mar, permitíndoche sentir os salpicos de auga doce mentres navegas polo Atlántico.`,
-    en: `The Ézaro waterfall, located in the municipality of Dumbría, is one of the most stunning natural treasures in Galicia. Its uniqueness lies in being the only waterfall in continental Europe that flows directly into the Atlantic Ocean in the form of a cataract.
+The River Xallas Cascade
+A thunderous 40-meter cascade where freshwater crashes against the granite walls of Mount Pindo into the sea.
 
-The surroundings
-The Xallas River, after flowing through the lands of A Coruña, plunges into the sea at the Ézaro inlet. The fall, over 40 meters high, hits the granite walls of Mount Pindo before mixing with salt water. The roar of the water and the rising mist create a magical atmosphere, especially during periods of heavy rain.
-
-Points of interest
-• The Viewpoint: Located above the waterfall, it offers an unparalleled aerial view of the mouth and the vastness of the ocean.
-• Wooden walkways: A comfortable walking route allows you to get close to the base of the waterfall with total safety, enjoying the power of the water from nearby.
-• Night lighting: During the summer months and on special dates, the waterfall is illuminated with colored light shows, turning the place into a movie-like setting.
-• Electricity Museum: Next to the waterfall is an old hydroelectric plant that now houses an interpretation center about energy and water.
-
-Recommended activities
-One of the most popular experiences is renting a kayak to head up the inlet and see the waterfall from the sea, allowing you to feel the freshwater splashes while sailing through the Atlantic.`,
-    fr: `La cascade d'Ézaro, située dans la commune de Dumbría, est l'un des trésors naturels les plus impressionnants de Galice. Sa singularité réside dans le fait qu'elle est la seule cascade d'Europe continentale qui se jette directement dans l'océan Atlantique sous forme de cataracte.
-
-L'environnement
-Le fleuve Xallas, après avoir parcouru les terres de La Corogne, se précipite dans la mer dans l'anse d'Ézaro. La chute, de plus de 40 mètres de haut, frappe les parois granitiques du mont Pindo avant de se mélanger à l'eau salée. Le fracas de l'eau et la vapeur qui s'élève créent une atmosphère magique, surtout en période de pluies abondantes.
-
-Points d'intérêt
-• Le Belvédère : Situé au-dessus de la cascade, il offre une vue aérienne inégalée sur l'embouchure et l'immensité de l'océan.
-• Passerelles en bois : Un parcours à pied confortable permet de s'approcher de la base de la cascade en toute sécurité, en profitant de la force de l'eau de près.
-• Éclairage nocturne : Pendant les mois d'été et lors de dates spéciales, la cascade est illuminée par des jeux de lumières colorées, transformant le lieu en un décor de film.
-• Musée de l'Électricité : À côté de la cascade se trouve une ancienne centrale hydroélectrique qui abrite aujourd'hui un centre d'interprétation sur l'énergie et l'eau.
-
-Activités recommandées
-L'une des expériences les plus populaires consiste à louer un kayak pour remonter l'anse et voir la cascade depuis la mer, vous permettant de sentir les éclaboussures d'eau douce tout en naviguant sur l'Atlantique.`,
-    de: `Der Ézaro-Wasserfall in der Gemeinde Dumbría ist einer der beeindruckendsten Naturschätze Galiciens. Seine Einzigartigkeit liegt darin, dass er der einzige Wasserfall in Kontinentaleuropa ist, der direkt in Form eines Katarakts in den Atlantischen Ozean mündet.
-
-Die Umgebung
-Der Fluss Xallas stürzt, nachdem er die Ländereien von A Coruña durchquert hat, in der Bucht von Ézaro ins Meer. Der über 40 Meter hohe Fall trifft auf die Granitwände des Monte Pindo, bevor er sich mit dem Salzwasser vermischt. Das Getöse des Wassers und der aufsteigende Nebel erzeugen eine magische Atmosphäre, besonders in Zeiten starker Regenfälle.
-
-Sehenswürdigkeiten
-• Der Aussichtspunkt: Er befindet sich oberhalb des Wasserfalls und bietet einen unvergleichlichen Blick aus der Vogelperspektive auf die Mündung und die Unendlichkeit des Ozeans.
-• Holzstege: Ein bequemer Rundweg ermöglicht es, sich dem Fuß des Wasserfalls in aller Sicherheit zu nähern und die Kraft des Wassers aus nächster Nähe zu genießen.
-• Nachtbeleuchtung: In den Sommermonaten und an besonderen Terminen wird der Wasserfall mit farbigen Lichtspielen beleuchtet, was den Ort in eine filmreife Kulisse verwandelt.
-• Elektrizitätsmuseum: Neben dem Wasserfall befindet sich ein altes Wasserkraftwerk, das heute ein Informationszentrum über Energie und Wasser beherbergt.
-
-Empfohlene Aktivitäten
-Eine der beliebtesten Erfahrungen ist es, ein Kajak zu mieten, um die Bucht zu befahren und den Wasserfall vom Meer aus zu sehen, sodass Sie die Spritzer des Süßwassers spüren können, während Sie durch den Atlantik navigieren.`,
-    it: `La cascata dell'Ézaro, situata nel comune di Dumbría, è uno dei tesori naturali più impressionanti della Galizia. La sua particolarità risiede nell'essere l'unica cascata dell'Europa continentale che sfocia direttamente nell'oceano Atlantico sotto forma di cascata.
-
-L'ambiente
-Il fiume Xallas, dopo aver attraversato le terre di La Coruña, precipita in mare nell'insenatura di Ézaro. La caduta, alta più di 40 metri, colpisce le pareti granitiche del monte Pindo prima di mescolarsi con l'acqua salata. Il fragore dell'acqua e il vapore che si alza creano un'atmosfera magica, specialmente nei periodi di piogge abbondanti.
-
-Punti di interesse
-• Il Belvedere: Situato sopra la cascata, offre una vista aerea impareggiabile della foce e dell'immensità dell'oceano.
-• Passerelle in legno: Un comodo percorso a piedi permette di avvicinarsi alla base della cascata in totale sicurezza, godendo della forza dell'acqua da vicino.
-• Illuminazione notturna: Durante i mesi estivi e in date speciali, la cascata si illumina con giochi di luci colorate, trasformando il luogo in uno scenario da film.
-• Museo dell'Elettricità: Accanto alla cascata si trova un'antica centrale idroelettrica che oggi ospita un centro di interpretazione sull'energia e l'acqua.
-
-Attività consigliate
-Una delle esperienze più popolari è noleggiare un kayak per risalire l'insenatura e vedere la cascata dal mare, sentendo gli spruzzi d'acqua dolce mentre si naviga nell'Atlantico.`,
-    pt: `A cascata do Ézaro, situada no município de Dumbría, é um dos tesouros naturais mais impactantes da Galiza. A sua singularidade reside em ser a única cascata da Europa continental que desagua diretamente no Oceano Atlântico em forma de catarata.
-
-O entorno
-O rio Xallas, após percorrer as terras da Corunha, precipita-se no mar na enseada do Ézaro. A queda, de mais de 40 metros de altura, atinge as paredes graníticas do monte Pindo antes de se misturar com a água salgada. O estrondo da água e o vapor que se levanta criam uma atmosfera mágica, especialmente em épocas de chuvas abundantes.
-
-Pontos de interesse
-• O Miradouro: Situado sobre a cascata, oferece uma vista aérea inigualável da foz e da imensidão do oceano.
-• Passadeiras de madeira: Um percurso a pé confortável permite aproximar-se da base da cascata com total segurança, desfrutando da força da água de perto.
-• Iluminação noturna: Durante os meses de verão e em datas especiais, a cascata ilumina-se com jogos de luzes coloridas, transformando o lugar num cenário de filme.
-• Museu da Eletricidade: Junto à cascata encontra-se uma antiga central hidroelétrica que hoje abriga um centro de interpretação sobre energia e água.
-
-Atividades recomendadas
-Uma das experiências mais populares é alugar um kayak para remontar a enseada e ver a cascata a partir do mar, permitindo sentir os salpicos de água doce enquanto navega pelo Atlântico.`
-
+Waterfall vs. Panoramic Viewpoint
+• The Waterfall: Located at sea level with flat wooden boardwalks accessible to all.
+• The Viewpoint (Miradoiro): High on the mountain ridge (via a steep road with 28% gradients), offering sweeping views of the coastline.`,
+    fr: `La cascade d'Ézaro est la seule cascade d'Europe continentale à se jeter directement dans l'océan Atlantique. Passerelles en bois au niveau de la mer et belvédère panoramique au sommet.`,
+    de: `Der Ézaro-Wasserfall ist der einzige Wasserfall Kontinentaleuropas, der direkt in den Atlantik stürzt. Holzstege auf Meereshöhe und Panoramablick von oben.`,
+    it: `La cascata dell'Ézaro è l'unica in Europa continentale a sfociare direttamente nell'oceano Atlantico. Passerelle in legno sul mare e belvedere panoramico.`,
+    pt: `A Cascata do Ézaro é a única da Europa continental a desaguar diretamente no Oceano Atlântico. Passadiços de madeira ao nível do mar e miradouro panorâmico no topo.`
   },
-  'nature.ezaro.h1': { es: 'Río Xallas', gl: 'Río Xallas', en: 'Xallas River', fr: 'Fleuve Xallas', de: 'Fluss Xallas', it: 'Fiume Xallas', pt: 'Rio Xallas' },
-  'nature.ezaro.h2': { es: 'Única en Europa', gl: 'Única en Europa', en: 'Unique in Europe', fr: 'Unique in Europe', de: 'Einzigartig in Europa', it: 'Unica in Europa', pt: 'Única na Europa' },
-  'nature.ezaro.h3': { es: 'Espectáculo Nocturno', gl: 'Espectáculo Nocturno', en: 'Night Show', fr: 'Spectacle Nocturne', de: 'Nachtspektakel', it: 'Spettacolo Notturno', pt: 'Espectáculo Nocturno' },
+  'nature.ezaro.h1': { es: 'Cascada del Río Xallas', gl: 'Salto do Río Xallas', en: 'River Xallas Fall', fr: 'Chute du fleuve Xallas', de: 'Wasserfall Fluss Xallas', it: 'Cascata Fiume Xallas', pt: 'Queda do Rio Xallas' },
+  'nature.ezaro.h2': { es: 'Pasarelas Accesibles', gl: 'Pasarelas Accesibles', en: 'Accessible Boardwalks', fr: 'Passerelles accessibles', de: 'Barrierefreie Holzstege', it: 'Passerelle accessibili', pt: 'Passadiços acessíveis' },
+  'nature.ezaro.h3': { es: 'Mirador Panorámico', gl: 'Miradoiro Panorámico', en: 'Panoramic Viewpoint', fr: 'Belvédère panoramique', de: 'Panoramablick', it: 'Belvedere panoramico', pt: 'Miradouro panorâmico' },
+
+  // Contextual Accommodation & Related Section
+  'nature.cta.title': {
+    es: '¿Planeando tu estancia en Carnota y Costa da Morte?',
+    gl: 'Planeando a túa estadía en Carnota e Costa da Morte?',
+    en: 'Planning your stay in Carnota & Costa da Morte?',
+    fr: 'Vous préparez votre séjour à Carnota et sur la Costa da Morte ?',
+    de: 'Planen Sie Ihren Aufenthalt in Carnota & an der Costa da Morte?',
+    it: 'Stai programmando il tuo soggiorno a Carnota e nella Costa da Morte?',
+    pt: 'A planear a sua estadia em Carnota e na Costa da Morte?'
+  },
+  'nature.cta.desc': {
+    es: 'Casa da Cuncheira es una acogedora vivienda vacacional en Lira (Carnota) con capacidad para 6 personas, vistas al mar y wifi fibra. La base ideal para descubrir estos parajes con total comodidad y tranquilidad.',
+    gl: 'Casa da Cuncheira é unha acolledora vivenda vacacional en Lira (Carnota) con capacidade para 6 persoas, vistas ao mar e wifi fibra. A base ideal para descubrir estas paraxes con comodidade.',
+    en: 'Casa da Cuncheira is a welcoming holiday rental in Lira (Carnota) for up to 6 guests, with sea views and fiber Wi-Fi. The perfect base to explore these landscapes with comfort and serenity.',
+    fr: 'Casa da Cuncheira est une maison de vacances chaleureuse à Lira (Carnota) pour 6 personnes, avec vue sur la mer et fibre Wi-Fi. Le point de départ parfait pour explorer ces paysages.',
+    de: 'Casa da Cuncheira ist ein gemütliches Ferienhaus in Lira (Carnota) für bis zu 6 Personen mit Meerblick und Glasfaser-WLAN. Die ideale Basis für Ihre Entdeckungen.',
+    it: 'Casa da Cuncheira è un accogliente alloggio vacanze a Lira (Carnota) per 6 persone, con vista mare e Wi-Fi in fibra. La base perfetta per esplorare questi paesaggi.',
+    pt: 'Casa da Cuncheira é um acolhedor alojamento de férias em Lira (Carnota) para 6 pessoas, com vista para o mar e Wi-Fi de fibra. A base ideal para explorar estas paisagens.'
+  },
+  'nature.cta.house': { es: 'Conocer Casa da Cuncheira', gl: 'Coñecer Casa da Cuncheira', en: 'Discover Casa da Cuncheira', fr: 'Découvrir Casa da Cuncheira', de: 'Casa da Cuncheira entdecken', it: 'Scopri Casa da Cuncheira', pt: 'Conhecer Casa da Cuncheira' },
+  'nature.cta.book': { es: 'Consultar disponibilidad', gl: 'Consultar dispoñibilidade', en: 'Check availability', fr: 'Consulter la disponibilité', de: 'Verfügbarkeit prüfen', it: 'Verifica disponibilità', pt: 'Consultar disponibilidade' },
+  'nature.related.title': { es: 'Otros lugares cercanos que descubrir', gl: 'Outros lugares próximos que descubrir', en: 'Other nearby places to explore', fr: 'Autres lieux à découvrir à proximité', de: 'Weitere Sehenswürdigkeiten in der Nähe', it: 'Altri luoghi vicini da scoprire', pt: 'Outros locais próximos a descobrir' },
 
   'experiences.hiking.title': { es: 'Senderismo por Monte Pindo', gl: 'Sendeirismo polo Monte Pindo', en: 'Hiking Mount Pindo', fr: 'Randonnée au Mont Pindo', de: 'Wandern auf den Berg Pindo', it: 'Escursionismo sul Monte Pindo', pt: 'Caminhadas pelo Monte Pindo' },
   'experiences.hiking.desc': { es: 'Ruta de 3 horas por el monte sagrado celta', gl: 'Ruta de 3 horas polo monte sagrado celta', en: '3-hour route through the sacred Celtic mountain', fr: 'Itinéraire de 3 heures à travers la montagne sacrée celtique', de: '3-stündige Route durch den heiligen keltischen Berg', it: 'Percorso di 3 ore attraverso la sacra montagna celtica', pt: 'Percurso de 3 horas pela montanha sagrada celta' },
@@ -1178,80 +1158,49 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
   'gastronomy.cta.title': { es: '¿Deseas más recomendaciones personales?', gl: 'Desexas máis recomendacións persoais?', en: 'Would you like more personalized recommendations?', fr: 'Souhaitez-vous plus de recommandations personnalisées?', de: 'Möchten Sie weitere persönliche Empfehlungen?', it: 'Desideri più raccomandazioni personalizzate?', pt: 'Deseja mais recomendações personalizadas?' },
   'gastronomy.cta.desc': { es: 'Estamos encantados de ayudarte a encontrar el lugar perfecto para cada ocasión durante tu estancia.', gl: 'Estamos encantados de axudarche a atopar o lugar perfecto para cada ocasión durante a túa estadía.', en: 'We are delighted to help you find the perfect place for every occasion during your stay.', fr: 'Nous sommes ravis de vous aider à trouver l\'endroit parfait pour chaque occasion pendant votre séjour.', de: 'Wir helfen Ihnen gerne, den perfekten Ort für jeden Anlass während Ihres Aufenthalts zu finden.', it: 'Siamo lieti di aiutarti a trovare il posto perfetto per ogni occasione durante il tuo soggiorno.', pt: 'Estamos encantados em ajudá-lo a encontrar o lugar perfeito para cada ocasião durante a sua estadia.' },
 
-  'location.fisterra.title': { es: 'Cabo Finisterre', gl: 'Cabo Fisterra', en: 'Cape Finisterre', fr: 'Cap Finisterre', de: 'Kap Finisterre', it: 'Capo Finisterre', pt: 'Cabo Finisterra' },
-  'location.fisterra.desc': { es: 'El legendario "Fin del Mundo", un lugar de belleza sublime y atardeceres infinitos.', gl: 'O lendario "Fin do Mundo", un lugar de beleza sublime e atardeceres infinitos.', en: 'The legendary "End of the World", a place of sublime beauty and infinite sunsets.', fr: 'Le légendaire "Fin du Monde", un lieu d\'une beauté sublime et de couchers de soleil infinis.', de: 'Das legendäre "Ende der Welt", ein Ort von erhabener Schönheit und unendlichen Sonnenuntergängen.', it: 'Il leggendario "Fine del Mondo", un luogo di sublime bellezza e tramonti infiniti.', pt: 'O lendário "Fim do Mundo", um lugar de beleza sublime e pores do sol infinitos.' },
+  'location.fisterra.title': { es: 'Cabo Fisterra (Finisterre)', gl: 'Cabo Fisterra', en: 'Cape Finisterre', fr: 'Cap Finisterre', de: 'Kap Finisterre', it: 'Capo Finisterre', pt: 'Cabo Finisterra' },
+  'location.fisterra.desc': { es: 'El legendario fin del mundo conocido, su faro de 1853 y atardeceres sobre el océano infinito', gl: 'O lendario fin do mundo coñecido, o seu faro de 1853 e solpores sobre o océano infinito', en: 'The legendary end of the known world, its 1853 lighthouse, and sunsets over the infinite ocean', fr: 'Le bout du monde légendaire, son phare de 1853 et couchers de soleil sur l\'océan', de: 'Das legendäre Ende der bekannten Welt, sein Leuchtturm von 1853 und Sonnenuntergänge', it: 'La leggendaria fine del mondo conosciuto, il faro del 1853 e tramonti sull\'oceano', pt: 'O lendário fim do mundo conhecido, o seu farol de 1853 e pores do sol sobre o oceano' },
   'location.fisterra.longDesc': {
-    es: `Cabo Finisterre, el punto más occidental de la España peninsular para los romanos, sigue siendo hoy un lugar de peregrinación y asombro, donde el faro guía a los barcos a través de la mítica Costa da Morte.
+    es: `Durante siglos, Cabo Fisterra fue considerado el fin del mundo conocido y continúa siendo uno de los lugares más simbólicos y magnéticos de la costa atlántica gallega. Para los romanos era el "Finis Terrae", el mítico confín donde cada tarde el sol se sumergía en las aguas del océano ignoto.
 
-El Fin del Mundo
-Desde la antigüedad, este lugar ha sido considerado el "Finis Terrae", el límite del mundo conocido. Caminar hasta el faro es seguir los pasos de miles de peregrinos que terminan aquí su viaje después de Santiago de Compostela.
+Fisterra y Finisterre: Tradición y toponimia
+En Galicia y a nivel oficial el nombre propio es Cabo Fisterra, mientras que tradicionalmente en castellano se conoce como Cabo Finisterre. Ambas denominaciones hacen referencia a la misma esencia de frontera mística y geográfica entre la tierra y el mar abierto.
 
-El Faro de Fisterra
-El faro, construido en 1853, es el más emblemático de la costa. Su luz alcanza más de 65 kilómetros mar adentro, siendo un guardián incansable para los navegantes del Atlántico.
+El Faro de 1853 y el Kilómetro Cero
+• El Faro de Fisterra: Erigido en 1853 sobre un acantilado a 143 metros de altitud, su potente linterna guía a los navegantes a través de las aguas bravas de la Costa da Morte. En días de niebla cerrada, su sirena ("la vaca de Fisterra") avisa a las embarcaciones del peligro de los bajíos.
+• Mojón del Km 0 del Camino de Santiago: Es el punto culminante de la prolongación jacobea hasta la costa, donde los peregrinos concluyen su viaje contemplando el horizonte infinito.
 
-Atardeceres infinitos
-La puesta de sol desde el acantilado, con la inmensidad del océano abriéndose ante tus ojos, es un espectáculo que invita a la reflexión y la calma, capturando la esencia indomable de A Costa da Morte.`,
-    gl: `Cabo Fisterra, o punto máis occidental da España peninsular para os romanos, segue a ser hoxe un lugar de peregrinación e asombro, onde o faro guía aos barcos a través da mítica Costa da Morte.
+La experiencia de la puesta de sol
+Presenciar el atardecer desde los riscos de granito del cabo, con la inmensidad del Atlántico y el juego de luces doradas sobre el mar, es uno de los momentos más memorables de Galicia.
 
-O Fin do Mundo
-Desde a antigüidade, este lugar foi considerado o "Finis Terrae", o límite do mundo coñecido. Camiñar ata o faro é seguir os pasos de miles de peregrinos que rematan aquí a súa viaxe despois de Santiago de Compostela.
+Excursión desde Carnota y Lira
+Situado a solo 35 minutos en coche desde Casa da Cuncheira bordeando la ría, la excursión a Fisterra se combina a la perfección con la visita a su puerto pesquero, la lonja, el castillo de San Carlos y sus tabernas marineras.`,
+    gl: `Durante séculos, o Cabo Fisterra foi considerado o fin do mundo coñecido e continúa a ser un dos lugares máis simbólicos da costa atlántica galega.
 
-O Faro de Fisterra
-O faro, construído en 1853, é o máis emblemático da costa. A súa luz acada máis de 65 quilómetros mar adentro, sendo un gardián incansable para os navegantes do Atlántico.
+Fisterra e Finisterre
+Oficialmente coñecido en galego como Cabo Fisterra e en castelán como Cabo Finisterre, representa o mítico Finis Terrae dos romanos.
 
-Atardeceres infinitos
-A posta de sol desde o acantilado, coa inmensidade do océano abríndose ante os teus ollos, é un espectáculo que convida á reflexión e á calma, capturando a esencia indomable da Costa da Morte.`,
-    en: `Cape Finisterre, the westernmost point of peninsular Spain for the Romans, remains today a place of pilgrimage and awe, where the lighthouse guides ships through the mythical Costa da Morte.
+O Faro de 1853 e o Km 0
+• O Faro de Fisterra: Construído en 1853 sobre un cantil a 143 metros sobre o mar.
+• Fito do Km 0: Punto final da prolongación xacobea dende Santiago de Compostela.
 
-The End of the World
-Since ancient times, this place has been considered the "Finis Terrae", the boundary of the known world. Walking to the lighthouse is following the steps of thousands of pilgrims who end their journey here after Santiago de Compostela.
+Solpores atlánticos
+Contemplar a posta de sol sobre o océano dende as rochas do cabo é unha experiencia inesquecible a só 35 minutos de Casa da Cuncheira.`,
+    en: `For centuries, Cape Finisterre was considered the end of the known world and remains one of the most symbolic and magnetic landmarks on the Atlantic coast. To the Romans, it was the "Finis Terrae," where the sun sank every evening into the uncharted ocean.
 
-The Finisterre Lighthouse
-Built in 1853, the lighthouse is the most iconic on the coast. Its light reaches more than 65 kilometers out to sea, serving as a tireless guardian for Atlantic sailors.
+Finisterre & Fisterra: Two Names, One Legend
+Officially named Cabo Fisterra in Galician and traditionally Cape Finisterre in Spanish, both names evoke the same mystical boundary between land and sea.
 
-Infinite sunsets
-The sunset from the cliff, with the vastness of the ocean opening before your eyes, is a spectacle that invites reflection and calm, capturing the untameable essence of A Costa da Morte.`,
-    fr: `Le Cap Finisterre, le point le plus à l'ouest de l'Espagne péninsulaire pour les Romains, reste aujourd'hui un lieu de pèlerinage et d'émerveillement, où le phare guide les navires à travers la mythique Costa da Morte.
+The 1853 Lighthouse & Kilometer 0
+• The Lighthouse: Built in 1853 upon cliffs 143 meters above sea level to guide mariners through the treacherous waters of Costa da Morte.
+• Kilometer 0 Marker: The ultimate destination for Way of St. James pilgrims continuing beyond Santiago to reach the ocean's edge.
 
-Le Bout du Monde
-Depuis l'Antiquité, ce lieu est considéré comme le "Finis Terrae", la limite du monde connu. Marcher jusqu'au phare, c'est suivre les traces de milliers de pèlerins qui terminent ici leur voyage après Saint-Jacques-de-Compostelle.
-
-Le Phare de Finisterre
-Le phare, construit en 1853, est le plus emblématique de la côte. Sa lumière porte à plus de 65 kilomètres en mer, constituant un gardien infatigable pour les navigateurs de l'Atlantique.
-
-Couchers de soleil infinis
-Le coucher de soleil depuis la falaise, avec l'immensité de l'océan s'ouvrant devant vos yeux, est un spectacle qui invite à la réflexion et au calme, capturant l'essence indomptable de la Costa da Morte.`,
-    de: `Kap Finisterre, für die Römer der westlichste Punkt des spanischen Festlandes, ist auch heute noch ein Ort der Pilgerfahrt und des Staunens, an dem der Leuchtturm die Schiffe durch die mystische Costa da Morte leitet.
-
-Das Ende der Welt
-Seit der Antike gilt dieser Ort als das "Finis Terrae", die Grenze der bekannten Welt. Der Weg zum Leuchtturm bedeutet, in die Fußstapfen Tausender Pilger zu treten, die hier ihre Reise nach dem Jakobsweg beenden.
-
-Der Leuchtturm von Finisterre
-Der 1853 errichtete Leuchtturm ist der wohl bekannteste an der Küste. Sein Licht reicht mehr als 65 Kilometer weit auf das Meer hinaus und dient den Seefahrern auf dem Atlantik als unermüdlicher Wächter.
-
-Unendliche Sonnenuntergänge
-Der Sonnenuntergang von den Klippen aus, während sich die Unermesslichkeit des Ozeans vor Ihren Augen öffnet, ist ein Schauspiel, das zum Nachdenken und zur Ruhe einlädt und die unzähmbare Essenz der Costa da Morte einfängt.`,
-    it: `Capo Finisterre, il punto più occidentale della Spagna peninsulare per i romani, rimane ancora oggi un luogo di pellegrinaggio e meraviglia, dove il faro guida le navi attraverso la mitica Costa da Morte.
-
-La Fine del Mondo
-Fin dall'antichità, questo luogo è stato considerato il "Finis Terrae", il limite del mondo conosciuto. Camminare fino al faro significa seguire le orme di migliaia di pellegrini che terminano qui il loro viaggio dopo Santiago de Compostela.
-
-Il Faro di Finisterre
-Il faro, costruito nel 1853, è il più emblematico della costa. La sua luce raggiunge oltre 65 chilometri in mare aperto, fungendo da guardiano instancabile per i navigatori dell'Atlantico.
-
-Tramonti infiniti
-Il tramonto dalla scogliera, con l'immensità dell'oceano che si apre davanti ai tuoi occhi, è uno spettacolo che invita alla riflessione e alla calma, catturando l'essenza indomabile della Costa da Morte.`,
-    pt: `O Cabo Finisterra, o ponto mais ocidental da Espanha peninsular para os romanos, continua hoje a ser um lugar de peregrinação e assombro, onde o farol guia os navios através da mítica Costa da Morte.
-
-O Fim do Mundo
-Desde a antiguidade, este lugar tem sido considerado o "Finis Terrae", o limite do mundo conhecido. Caminhar até ao farol é seguir os passos de milhares de peregrinos que terminam aqui a sua viagem depois de Santiago de Compostela.
-
-O Farol de Finisterra
-O farol, construído em 1853, é o mais emblemático da costa. A sua luz alcança mais de 65 quilómetros mar adentro, sendo um guardião incansável para os navegantes do Atlântico.
-
-Pôr do sol infinito
-O pôr do sol do alto das arribas, com a imensidão do oceano a abrir-se diante dos seus olhos, é um espetáculo que convida à reflexão e à calma, capturando a essência indomável da Costa da Morte.`
-
+Unforgettable Atlantic Sunsets
+Watching the sunset from the granite cliffs, overlooking the vast open ocean, is one of Galicia's most breathtaking experiences, located just 35 minutes from Casa da Cuncheira.`,
+    fr: `Pendant des siècles, le cap Finisterre a été considéré comme le bout du monde connu. Son phare historique de 1853, la borne du Km 0 du Chemin de Compostelle et ses couchers de soleil sur l'Atlantique en font une étape incontournable à 35 min de Casa da Cuncheira.`,
+    de: `Jahrhundertelang galt das Kap Finisterre als das Ende der bekannten Welt. Der Leuchtturm von 1853, der Km-0-Meilenstein des Jakobswegs und die Sonnenuntergänge über dem Atlantik sind nur 35 Minuten von Casa da Cuncheira entfernt.`,
+    it: `Per secoli, Capo Finisterre è stato considerato la fine del mondo conosciuto. Il suo storico faro del 1853, il cippo del Km 0 del Cammino di Santiago e i suoi tramonti sull'oceano si trovano a soli 35 minuti da Casa da Cuncheira.`,
+    pt: `Durante séculos, o Cabo Finisterra foi considerado o fim do mundo conhecido. O seu farol de 1853, o marco do Km 0 do Caminho de Santiago e os pores do sol sobre o Atlântico ficam a apenas 35 minutos da Casa da Cuncheira.`
   },
   'nature.fisterra.h1': { es: 'Faro de Finisterre', gl: 'Faro de Fisterra', en: 'Finisterre Lighthouse', fr: 'Phare du Finisterre', de: 'Leuchtturm von Finisterre', it: 'Faro di Finisterre', pt: 'Farol de Finisterra' },
   'nature.fisterra.h2': { es: 'Kilómetro 0 Camino Santiago', gl: 'Kilómetro 0 Camiño Santiago', en: 'Kilometer 0 Way of St. James', fr: 'Kilomètre 0 Chemin de Compostelle', de: 'Kilometer 0 Jakobsweg', it: 'Chilometro 0 Cammino di Santiago', pt: 'Quilómetro 0 Caminho de Santiago' },

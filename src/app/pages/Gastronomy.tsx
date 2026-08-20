@@ -1,18 +1,34 @@
 import { motion } from 'motion/react';
-import { UtensilsCrossed, ArrowLeft, Star, MapPin, Globe, Phone, Map } from 'lucide-react';
+import { UtensilsCrossed, ArrowLeft, Star, MapPin, Globe, Phone, Map, ChevronRight, Home, CalendarCheck, Sparkles } from 'lucide-react';
+import { Link, useNavigate } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from '../components/ui/ImageWithFallback';
 import { getRestaurants, Restaurant } from '../constants/restaurants';
 import { SEOHead } from '../components/SEOHead';
+import { useMemo } from 'react';
 
 interface GastronomyProps {
     onBack: () => void;
 }
 
 export function Gastronomy({ onBack }: GastronomyProps) {
-    const { t } = useLanguage();
+    const { language, t } = useLanguage();
+    const navigate = useNavigate();
 
     const restaurants: Restaurant[] = getRestaurants(t);
+
+    const bookingUrl = useMemo(() => {
+        const urlMap: Record<string, string> = {
+            es: 'https://bookonline.pro/es/property/350327',
+            gl: 'https://bookonline.pro/es/property/350327',
+            en: 'https://bookonline.pro/en/property/350327',
+            fr: 'https://bookonline.pro/fr/property/350327',
+            de: 'https://bookonline.pro/de/property/350327',
+            it: 'https://bookonline.pro/it/property/350327',
+            pt: 'https://bookonline.pro/pt/property/350327',
+        };
+        return urlMap[language] || urlMap['es'];
+    }, [language]);
 
     const breadcrumbsSchema = {
         '@context': 'https://schema.org',
@@ -43,15 +59,16 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                 ogType="article"
                 structuredData={breadcrumbsSchema}
             />
+
             {/* Hero Section */}
             <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src={`${import.meta.env.BASE_URL}images/gastronomy_hero.png`}
-                        alt="Gastronomy Hero"
+                        src={`${(import.meta as any).env.BASE_URL}images/gastronomy_hero.png`}
+                        alt="Gastronomía en Carnota y Lira"
                         className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-black/50 backdrop-blur-[2px]" />
+                    <div className="absolute inset-0 bg-black/55 backdrop-blur-[2px]" />
                 </div>
 
                 <div className="relative z-10 text-center px-4 max-w-4xl">
@@ -62,25 +79,52 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                     >
                         <button
                             onClick={onBack}
-                            className="mb-8 flex items-center gap-2 text-white/80 hover:text-white transition-colors mx-auto group"
+                            className="mb-8 flex items-center gap-2 text-white/80 hover:text-white transition-colors mx-auto group cursor-pointer"
                         >
                             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
                             {t('common.back')}
                         </button>
-                        <h1 className="text-3xl sm:text-5xl md:text-7xl font-light text-white mb-6 tracking-tight break-words">
+                        <h1 className="text-3xl sm:text-5xl md:text-6xl font-light text-white mb-6 tracking-tight break-words">
                             {t('gastronomy.pageTitle')}
                         </h1>
-                        <p className="text-lg sm:text-xl text-white/90 font-light max-w-2xl mx-auto leading-relaxed">
+                        <p className="text-base sm:text-lg text-white/90 font-light max-w-2xl mx-auto leading-relaxed">
                             {t('gastronomy.pageSubtitle')}
                         </p>
                     </motion.div>
                 </div>
             </section>
 
-            {/* Content Section */}
-            <section className="py-24 px-4 sm:px-6 lg:px-8">
+            {/* Breadcrumbs */}
+            <div className="bg-slate-50 border-b border-border/40 py-3 px-4 sm:px-6 lg:px-8">
+                <nav aria-label="Breadcrumb" className="max-w-7xl mx-auto flex items-center gap-2 text-xs sm:text-sm text-muted-foreground">
+                    <Link to="/" className="hover:text-primary transition-colors flex items-center gap-1">
+                        <Home className="w-3.5 h-3.5" />
+                        <span>Inicio</span>
+                    </Link>
+                    <ChevronRight className="w-3.5 h-3.5 text-muted-foreground/60" />
+                    <span className="text-foreground font-medium">Gastronomía en Carnota y Lira</span>
+                </nav>
+            </div>
+
+            {/* Local Context Intro */}
+            <section className="py-12 bg-white border-b border-border/30">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+                    <span className="text-primary text-xs uppercase font-semibold tracking-wider mb-2 block">
+                        Producto de Lonja y Tradición
+                    </span>
+                    <h2 className="text-2xl sm:text-3xl font-semibold text-foreground mb-4">
+                        Sabores del Atlántico: De la Lonja a la Mesa
+                    </h2>
+                    <p className="text-muted-foreground text-base sm:text-lg leading-relaxed font-light">
+                        La gastronomía de Carnota y Lira se sustenta en el producto fresco del mar. En el puerto de <strong>Portocubelo (Lira)</strong> y las lonjas de la ría de Muros, las capturas de pesca artesanal garantizan pescados de roca salvajes (lubina, sargo, maragota), el célebre pulpo gallego de la reserva marina Os Miñarzos, nécoras y percebes de los acantilados más bravos de la Costa da Morte.
+                    </p>
+                </div>
+            </section>
+
+            {/* Restaurants Grid */}
+            <section className="py-20 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-7xl mx-auto">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12">
                         {restaurants.map((rest, index) => (
                             <motion.div
                                 key={index}
@@ -88,54 +132,58 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                                className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-border/50"
+                                className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-border/50 flex flex-col justify-between"
                             >
-                                <div className="relative h-72 overflow-hidden">
-                                    <ImageWithFallback
-                                        src={rest.image}
-                                        alt={rest.name}
-                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                                    />
-                                    <div className="absolute top-4 left-4 px-3 py-1 bg-white/90 backdrop-blur-sm rounded-full text-xs font-medium text-primary">
-                                        {rest.type}
+                                <div>
+                                    <div className="relative h-72 overflow-hidden">
+                                        <ImageWithFallback
+                                            src={rest.image}
+                                            alt={rest.name}
+                                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                                        />
+                                        <div className="absolute top-4 left-4 px-3 py-1 bg-white/90 backdrop-blur-sm rounded-full text-xs font-medium text-primary">
+                                            {rest.type}
+                                        </div>
+                                        <div className="absolute bottom-4 right-4 flex items-center gap-1 px-3 py-1 bg-black/40 backdrop-blur-sm rounded-full text-white text-sm">
+                                            <Star className="w-3.5 h-3.5 fill-yellow-400 text-yellow-400" />
+                                            {rest.rating}
+                                        </div>
                                     </div>
-                                    <div className="absolute bottom-4 right-4 flex items-center gap-1 px-3 py-1 bg-black/40 backdrop-blur-sm rounded-full text-white text-sm">
-                                        <Star className="w-3.5 h-3.5 fill-yellow-400 text-yellow-400" />
-                                        {rest.rating}
+
+                                    <div className="p-8">
+                                        <h3 className="text-2xl font-semibold mb-3 group-hover:text-primary transition-colors">
+                                            {rest.name}
+                                        </h3>
+                                        <div className="flex items-center gap-2 text-muted-foreground text-sm mb-4">
+                                            <MapPin className="w-4 h-4 flex-shrink-0 text-primary" />
+                                            <span className="line-clamp-1">{rest.location}</span>
+                                        </div>
+                                        <p className="text-muted-foreground leading-relaxed mb-6 line-clamp-3 font-light text-sm sm:text-base">
+                                            {rest.description}
+                                        </p>
                                     </div>
                                 </div>
 
-                                <div className="p-8">
-                                    <h3 className="text-2xl font-light mb-3 group-hover:text-primary transition-colors">
-                                        {rest.name}
-                                    </h3>
-                                    <div className="flex items-center gap-2 text-muted-foreground text-sm mb-4">
-                                        <MapPin className="w-4 h-4" />
-                                        {rest.location}
-                                    </div>
-                                    <p className="text-muted-foreground leading-relaxed mb-6 line-clamp-3">
-                                        {rest.description}
-                                    </p>
-
-                                    <div className="space-y-3 mb-8">
+                                <div className="p-8 pt-0">
+                                    <div className="space-y-3 mb-6">
                                         {rest.phone && (
                                             <a
                                                 href={`tel:${rest.phone.replace(/\s+/g, '')}`}
                                                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
                                             >
-                                                <Phone className="w-4 h-4" />
+                                                <Phone className="w-4 h-4 text-primary" />
                                                 {rest.phone}
                                             </a>
                                         )}
                                     </div>
 
-                                    <div className="flex items-center justify-between mt-auto">
+                                    <div className="flex items-center justify-between pt-4 border-t border-border/40">
                                         {rest.website && (
                                             <a
                                                 href={rest.website}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className="inline-flex items-center gap-2 text-primary hover:gap-3 transition-all font-medium"
+                                                className="inline-flex items-center gap-1.5 text-primary hover:underline font-medium text-sm"
                                             >
                                                 <Globe className="w-4 h-4" />
                                                 {t('gastronomy.website')}
@@ -146,7 +194,7 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                                                 href={rest.googleMaps}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className="inline-flex items-center gap-2 text-primary hover:gap-3 transition-all font-medium"
+                                                className="inline-flex items-center gap-1.5 text-primary hover:underline font-medium text-sm ml-auto"
                                             >
                                                 <Map className="w-4 h-4" />
                                                 {t('gastronomy.googleMaps')}
@@ -157,37 +205,93 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                             </motion.div>
                         ))}
                     </div>
+
+                    {/* Related Exploration Guides */}
+                    <div className="mt-20 pt-12 border-t border-border/40">
+                        <h3 className="text-2xl font-semibold text-foreground mb-6 flex items-center gap-2">
+                            <Sparkles className="w-6 h-6 text-primary" />
+                            Combina gastronomía y naturaleza en la zona
+                        </h3>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <Link
+                                to="/nature/lira-carnota"
+                                className="p-6 rounded-2xl bg-white border border-border/60 hover:border-primary/40 hover:shadow-md transition-all flex items-center justify-between group"
+                            >
+                                <div>
+                                    <h4 className="font-semibold text-lg text-foreground group-hover:text-primary transition-colors">
+                                        Conocer Lira y el Puerto de Portocubelo
+                                    </h4>
+                                    <p className="text-sm text-muted-foreground mt-1">
+                                        Descubre de dónde procede el pescado fresco y las calas tranquilas junto al puerto.
+                                    </p>
+                                </div>
+                                <span className="text-primary group-hover:translate-x-1 transition-transform ml-4">→</span>
+                            </Link>
+                            <Link
+                                to="/nature/que-ver-en-carnota"
+                                className="p-6 rounded-2xl bg-white border border-border/60 hover:border-primary/40 hover:shadow-md transition-all flex items-center justify-between group"
+                            >
+                                <div>
+                                    <h4 className="font-semibold text-lg text-foreground group-hover:text-primary transition-colors">
+                                        Guía: Qué ver en Carnota y alrededores
+                                    </h4>
+                                    <p className="text-sm text-muted-foreground mt-1">
+                                        8 visitas imprescindibles para planificar tu itinerario por la Costa da Morte.
+                                    </p>
+                                </div>
+                                <span className="text-primary group-hover:translate-x-1 transition-transform ml-4">→</span>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            {/* Footer CTA */}
-            <section className="py-24 bg-secondary/30 text-center px-4">
+            {/* Contextual Accommodation CTA */}
+            <section className="py-20 bg-slate-900 text-white text-center px-4">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     className="max-w-2xl mx-auto"
                 >
-                    <UtensilsCrossed className="w-12 h-12 text-primary mx-auto mb-6 opacity-50" />
-                    <h2 className="text-3xl font-light mb-8">{t('gastronomy.cta.title')}</h2>
-                    <p className="text-muted-foreground mb-12">{t('gastronomy.cta.desc')}</p>
-                    <button
-                        onClick={() => {
-                            onBack();
-                            setTimeout(() => {
-                                const element = document.getElementById('experiences');
-                                if (element) {
-                                    const headerHeight = 80;
-                                    const elementPosition = element.getBoundingClientRect().top;
-                                    const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
-                                    window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
-                                }
-                            }, 100);
-                        }}
-                        className="px-12 py-4 bg-primary text-white rounded-full hover:bg-primary/90 transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1"
-                    >
-                        {t('common.back')}
-                    </button>
+                    <UtensilsCrossed className="w-12 h-12 text-primary mx-auto mb-6 opacity-70" />
+                    <span className="inline-block px-4 py-1.5 bg-white/10 rounded-full text-xs uppercase tracking-widest text-primary-foreground font-medium mb-4">
+                        Alojamiento en Lira, Carnota
+                    </span>
+                    <h2 className="text-3xl font-semibold mb-4 tracking-tight">
+                        Disfruta de la gastronomía gallega alojándote junto al mar
+                    </h2>
+                    <p className="text-slate-300 mb-8 font-light text-base sm:text-lg leading-relaxed">
+                        Casa da Cuncheira se encuentra a pocos minutos de las mejores tabernas marineras de Lira y restaurantes de Carnota. Disfruta de pescado fresco y desconexión en una casa con todas las comodidades.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <button
+                            onClick={() => {
+                                navigate('/');
+                                setTimeout(() => {
+                                    const el = document.getElementById('house');
+                                    if (el) {
+                                        const headerHeight = 80;
+                                        const elementPosition = el.getBoundingClientRect().top;
+                                        const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+                                        window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+                                    }
+                                }, 100);
+                            }}
+                            className="w-full sm:w-auto px-8 py-3.5 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-full font-medium transition-all cursor-pointer"
+                        >
+                            Conocer Casa da Cuncheira
+                        </button>
+                        <a
+                            href={bookingUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-full sm:w-auto px-8 py-3.5 bg-primary text-white hover:bg-primary/90 rounded-full font-medium transition-all shadow-lg flex items-center justify-center gap-2"
+                        >
+                            <CalendarCheck className="w-4 h-4" />
+                            Consultar disponibilidad
+                        </a>
+                    </div>
                 </motion.div>
             </section>
         </div>

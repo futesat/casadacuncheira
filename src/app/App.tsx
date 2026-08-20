@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation, useNavigate } from 'react-router';
+import { BrowserRouter, Routes, Route, useLocation, useNavigate, Navigate } from 'react-router';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
@@ -80,6 +80,13 @@ function AppContent() {
             <Route path="/" element={<HomePage />} />
             <Route path="/gastronomy" element={<GastronomyPage />} />
             <Route path="/nature/:slug" element={<NaturePage />} />
+            <Route path="/lira-carnota" element={<Navigate to="/nature/lira-carnota" replace />} />
+            <Route path="/que-ver-en-carnota" element={<Navigate to="/nature/que-ver-en-carnota" replace />} />
+            <Route path="/praia-carnota" element={<Navigate to="/nature/praia-carnota" replace />} />
+            <Route path="/monte-pindo" element={<Navigate to="/nature/monte-pindo" replace />} />
+            <Route path="/monte-louro" element={<Navigate to="/nature/monte-louro" replace />} />
+            <Route path="/fervenza-do-ezaro" element={<Navigate to="/nature/fervenza-do-ezaro" replace />} />
+            <Route path="/cabo-finisterre" element={<Navigate to="/nature/cabo-finisterre" replace />} />
             <Route path="/aviso-legal" element={<LegalPage />} />
           </Routes>
         </Suspense>
