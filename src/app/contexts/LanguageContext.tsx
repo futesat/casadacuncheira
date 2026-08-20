@@ -279,6 +279,7 @@ const translations: Translations = {
   'features.badge.views': { es: 'Vistas al mar', gl: 'Vistas ao mar', en: 'Ocean views', fr: 'Vue sur la mer', de: 'Meerblick', it: 'Vista mare', pt: 'Vista para o mar' },
   'features.badge.terrace': { es: 'Terraza y jardín', gl: 'Terraza e xardín', en: 'Terrace & garden', fr: 'Terrasse et jardin', de: 'Terrasse & Garten', it: 'Terrazza e giardino', pt: 'Terraço e jardim' },
   'features.badge.ac': { es: 'Climatización', gl: 'Climatización', en: 'Air conditioning', fr: 'Climatisation', de: 'Klimaanlage', it: 'Aria condizionata', pt: 'Ar condicionado' },
+  'features.badge.checkin': { es: 'Auto check-in', gl: 'Auto check-in', en: 'Self check-in', fr: 'Arrivée autonome', de: 'Selbst-Check-in', it: 'Self check-in', pt: 'Auto check-in' },
 
   'features.lira.title': { es: 'Lira y sus calas', gl: 'Lira e as súas calas', en: 'Lira & its coves', fr: 'Lira et ses criques', de: 'Lira und seine Buchten', it: 'Lira e le sue calette', pt: 'Lira e as suas enseadas' },
   'features.lira.desc': { es: 'Praia de Cons, Praia do Cancelo y el puerto pesquero de Portocubelo a pocos minutos a pie', gl: 'Praia de Cons, Praia do Cancelo e o porto pesqueiro de Portocubelo a poucos minutos a pé', en: 'Praia de Cons, Praia do Cancelo and Portocubelo fishing harbor just minutes away', fr: 'Praia de Cons, Praia do Cancelo et le port de Portocubelo à quelques minutes', de: 'Praia de Cons, Praia do Cancelo und der Fischerhafen Portocubelo wenige Gehminuten entfernt', it: 'Praia de Cons, Praia do Cancelo e il porto di Portocubelo a pochi minuti', pt: 'Praia de Cons, Praia do Cancelo e o porto de Portocubelo a poucos minutos a pé' },
@@ -310,6 +311,7 @@ const translations: Translations = {
   'house.amenities.view': { es: 'Vistas al mar', gl: 'Vistas ao mar', en: 'Ocean View', fr: 'Vue sur la mer', de: 'Meerblick', it: 'Vista mare', pt: 'Vista para o mar' },
   'house.amenities.ac': { es: 'Aire acondicionado', gl: 'Aire acondicionado', en: 'Air conditioning', fr: 'Climatisation', de: 'Klimaanlage', it: 'Aria condizionata', pt: 'Ar condicionado' },
   'house.amenities.garden': { es: 'Jardín', gl: 'Xardín', en: 'Garden', fr: 'Jardin', de: 'Garten', it: 'Giardino', pt: 'Jardim' },
+  'house.amenities.checkin': { es: 'Auto check-in', gl: 'Auto check-in', en: 'Self check-in', fr: 'Arrivée autonome', de: 'Selbst-Check-in', it: 'Self check-in', pt: 'Auto check-in' },
 
   // Location
   'location.title': { es: 'Naturaleza en estado puro', gl: 'Natureza en estado puro', en: 'Pure nature', fr: 'Nature pure', de: 'Reine Natur', it: 'Natura allo stato puro', pt: 'Natureza em estado puro' },
