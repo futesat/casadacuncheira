@@ -275,7 +275,7 @@ const translations: Translations = {
   'features.badge.guests': { es: '6 huéspedes', gl: '6 hóspedes', en: '6 guests', fr: '6 personnes', de: '6 Gäste', it: '6 ospiti', pt: '6 hóspedes' },
   'features.badge.bedrooms': { es: '4 dormitorios', gl: '4 dormitorios', en: '4 bedrooms', fr: '4 chambres', de: '4 Schlafzimmer', it: '4 camere', pt: '4 quartos' },
   'features.badge.bathrooms': { es: '2 baños', gl: '2 baños', en: '2 bathrooms', fr: '2 salles de bain', de: '2 Bäder', it: '2 bagni', pt: '2 casas de banho' },
-  'features.badge.wifi': { es: 'Wi-Fi fibra', gl: 'Wi-Fi fibra', en: 'Fiber Wi-Fi', fr: 'Wi-Fi fibre', de: 'Glasfaser-WLAN', it: 'Wi-Fi fibra', pt: 'Wi-Fi fibra' },
+  'features.badge.wifi': { es: 'Wi-Fi 5G', gl: 'Wi-Fi 5G', en: '5G Wi-Fi', fr: 'Wi-Fi 5G', de: '5G-WLAN', it: 'Wi-Fi 5G', pt: 'Wi-Fi 5G' },
   'features.badge.views': { es: 'Vistas al mar', gl: 'Vistas ao mar', en: 'Ocean views', fr: 'Vue sur la mer', de: 'Meerblick', it: 'Vista mare', pt: 'Vista para o mar' },
   'features.badge.terrace': { es: 'Terraza y jardín', gl: 'Terraza e xardín', en: 'Terrace & garden', fr: 'Terrasse et jardin', de: 'Terrasse & Garten', it: 'Terrazza e giardino', pt: 'Terraço e jardim' },
   'features.badge.pets': { es: 'Mascotas', gl: 'Mascotas', en: 'Pets welcome', fr: 'Animaux admis', de: 'Haustiere', it: 'Animali ammessi', pt: 'Animais aceites' },
@@ -1603,13 +1603,13 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     pt: 'Existe WiFi e qual é a velocidade?'
   },
   'faq.a3': {
-    es: 'Sí, la casa tiene WiFi de fibra óptica de alta velocidad (100 Mbps), perfecto para trabajar en remoto o disfrutar de entretenimiento.',
-    gl: 'Si, a casa ten WiFi de fibra óptica de alta velocidade (100 Mbps), perfecto para traballar en remoto ou gozar de entretemento.',
-    en: 'Yes, the house has high-speed fiber optic WiFi (100 Mbps), perfect for remote work or enjoying entertainment.',
-    fr: 'Oui, la maison dispose d\'une connexion WiFi par fibre optique haut débit (100 Mbps), parfaite pour le télétravail ou les loisirs.',
-    de: 'Ja, das Haus verfügt über Hochgeschwindigkeits-Glasfaser-WLAN (100 Mbit/s), perfekt für Remote-Arbeit oder Unterhaltung.',
-    it: 'Sì, la casa dispone di WiFi in fibra ottica ad alta velocità (100 Mbps), perfetto per il lavoro a distanza o per il tempo libero.',
-    pt: 'Sim, a casa tem WiFi de fibra ótica de alta velocidade (100 Mbps), perfeito para trabalho remoto ou lazer.'
+    es: 'Sí, la casa tiene WiFi mediante conexión 5G, perfecta para trabajar en remoto o disfrutar de entretenimiento.',
+    gl: 'Si, a casa ten WiFi mediante conexión 5G, perfecta para traballar en remoto ou gozar de entretemento.',
+    en: 'Yes, the house has WiFi with a 5G connection, perfect for remote work or enjoying entertainment.',
+    fr: 'Oui, la maison dispose d\'une connexion WiFi 5G, parfaite pour le télétravail ou les loisirs.',
+    de: 'Ja, das Haus verfügt über WLAN mit 5G-Verbindung, perfekt für mobiles Arbeiten oder Streaming.',
+    it: 'Sì, la casa dispone di WiFi con connessione 5G, perfetta per il lavoro a distanza o per il tempo libero.',
+    pt: 'Sim, a casa dispõe de WiFi mediante ligação 5G, perfeita para trabalho remoto ou lazer.'
   },
   'faq.q4': {
     es: '¿A qué distancia está la playa?',
