@@ -5,7 +5,7 @@ export interface Restaurant {
     location: string;
     type: string;
     rating: number;
-    website: string;
+    website?: string;
     phone?: string;
     googleMaps?: string;
 }
@@ -14,7 +14,7 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
     {
         name: 'Mar da\'morosa',
         description: t('gastronomy.morosa.desc'),
-        image: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80',
+        image: `${(import.meta as any).env.BASE_URL}images/mar_da_morosa.webp`,
         location: 'Mallou, 182, 15293 Carnota, A Coruña',
         type: t('gastronomy.type.seafood'),
         rating: 4.6,
@@ -25,7 +25,7 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
     {
         name: 'A Chalana de Rucho',
         description: t('gastronomy.chalana.desc'),
-        image: 'https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&q=80',
+        image: `${(import.meta as any).env.BASE_URL}images/chalana_de_rucho.webp`,
         location: 'Aldea Carballal - Lira, 72, 15292 Carnota, A Coruña',
         type: t('gastronomy.type.tapas'),
         rating: 4.3,
@@ -36,7 +36,7 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
     {
         name: 'O Cuberto',
         description: t('gastronomy.ocuberto.desc'),
-        image: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80',
+        image: `${(import.meta as any).env.BASE_URL}images/o_cuberto.webp`,
         location: 'Rúa Igrexas, 15293 Carnota, A Coruña',
         type: t('gastronomy.type.tapas'),
         rating: 4.6,
@@ -47,12 +47,32 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
     {
         name: 'O Moncho Burguer',
         description: t('gastronomy.moncho.desc'),
-        image: 'https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&q=80',
+        image: `${(import.meta as any).env.BASE_URL}images/o_moncho_burger.webp`,
         location: 'Rúa Lira S/N, 15292 Carnota, A Coruña',
         type: t('gastronomy.type.burger'),
         rating: 4.6,
         website: 'https://omonchoburguer.com',
         phone: '+34 680 280 812',
         googleMaps: 'https://www.google.com/maps/place/O%E2%80%99Moncho+burguer/@42.8028893,-9.1286953,631m/data=!3m2!1e3!4b1!4m6!3m5!1s0xd2f2a6daefb85b5:0xa417f7b282aff2fb!8m2!3d42.8028893!4d-9.1286953!16s%2Fg%2F119vwc9dt?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D'
+    },
+    {
+        name: 'Xouba',
+        description: t('gastronomy.xouba.desc'),
+        image: `${(import.meta as any).env.BASE_URL}images/xouba.webp`,
+        location: 'Rúa Lira, 92, 15292 Carnota, A Coruña',
+        type: t('gastronomy.type.tapas'),
+        rating: 4.8,
+        phone: '+34 981 761 145',
+        googleMaps: 'https://maps.app.goo.gl/fUCSVZuJUSXW6F1w9'
+    },
+    {
+        name: 'Café Bar San Francisco',
+        description: t('gastronomy.sanfrancisco.desc'),
+        image: `${(import.meta as any).env.BASE_URL}images/san_francisco.webp`,
+        location: 'Praia de San Francisco, 7, Louro, 15291 Muros, A Coruña',
+        type: t('gastronomy.type.gastrobar'),
+        rating: 4.6,
+        phone: '+34 881 293 911',
+        googleMaps: 'https://share.google/zv4487RnaUO6aq2x9'
     }
 ];

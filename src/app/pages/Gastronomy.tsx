@@ -102,15 +102,17 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                                     </div>
 
                                     <div className="flex items-center justify-between mt-auto">
-                                        <a
-                                            href={rest.website}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="inline-flex items-center gap-2 text-primary hover:gap-3 transition-all font-medium"
-                                        >
-                                            <Globe className="w-4 h-4" />
-                                            {t('gastronomy.website')}
-                                        </a>
+                                        {rest.website && (
+                                            <a
+                                                href={rest.website}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center gap-2 text-primary hover:gap-3 transition-all font-medium"
+                                            >
+                                                <Globe className="w-4 h-4" />
+                                                {t('gastronomy.website')}
+                                            </a>
+                                        )}
                                         {rest.googleMaps && (
                                             <a
                                                 href={rest.googleMaps}

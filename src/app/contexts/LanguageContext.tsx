@@ -910,10 +910,29 @@ O momento do "raio verde", a gama de púrpuras e laranjas que tingem o céu, e o
     it: 'Hamburger artigianali con ingredienti freschi e di qualità. Il miglior sapore di Lira in ogni morso.',
     pt: 'Hambúrgueres artesanais com ingredientes frescos e de qualidade. O melhor sabor de Lira em cada dentada.'
   },
+  'gastronomy.xouba.desc': {
+    es: 'Cocina gallega casera con producto fresco y de calidad. Pescados, mariscos y sabor auténtico de Carnota.',
+    gl: 'Cociña galega caseira con produto fresco e de calidade. Peixes, mariscos e sabor auténtico de Carnota.',
+    en: 'Homemade Galician cuisine with fresh, quality produce. Fish, seafood, and the authentic flavor of Carnota.',
+    fr: 'Cuisine galicienne maison avec des produits frais et de qualité. Poissons, fruits de mer et saveur authentique de Carnota.',
+    de: 'Hausgemachte galicische Küche mit frischen Qualitätsprodukten. Fisch, Meeresfrüchte und der authentische Geschmack von Carnota.',
+    it: 'Cucina casalinga galiziana con prodotti freschi e di qualità. Pesce, frutti di mare e il sapore autentico di Carnota.',
+    pt: 'Cozinha caseira galega com produtos frescos e de qualidade. Peixes, mariscos e o sabor autêntico de Carnota.'
+  },
+  'gastronomy.sanfrancisco.desc': {
+    es: 'Gastrobar junto al mar con platos originales y cuidados para compartir en un ambiente moderno.',
+    gl: 'Gastrobar xunto ao mar con pratos orixinais e coidados para compartir nun ambiente moderno.',
+    en: 'Seaside gastrobar with creative, nicely presented dishes to share in a modern setting.',
+    fr: 'Gastrobar en bord de mer avec des plats créatifs et soignés à partager dans un cadre moderne.',
+    de: 'Gastrobar am Meer mit kreativen Gerichten zum Teilen in modernem Ambiente.',
+    it: 'Gastrobar sul mare con piatti creativi e curati da condividere in un ambiente moderno.',
+    pt: 'Gastrobar à beira-mar com pratos originais e cuidados para partilhar num ambiente moderno.'
+  },
 
   'gastronomy.type.seafood': { es: 'Marisco y pescado fresco', gl: 'Marisco e peixe fresco', en: 'Fresh seafood and fish', fr: 'Fruits de mer et poisson frais', de: 'Frische Meeresfrüchte und Fisch', it: 'Frutti di mare e pesce fresco', pt: 'Marisco e peixe fresco' },
   'gastronomy.type.tapas': { es: 'Tapas / Tradicional Gallega', gl: 'Tapas / Tradicional Galega', en: 'Tapas / Traditional Galician', fr: 'Tapas / Traditionnel galicien', de: 'Tapas / Traditionell galizisch', it: 'Tapas / Tradizionale galiziano', pt: 'Tapas / Tradicional galega' },
   'gastronomy.type.burger': { es: 'Hamburguesería', gl: 'Hamburguería', en: 'Burger restaurant', fr: 'Restaurant de burgers', de: 'Burger-Restaurant', it: 'Hamburgeria', pt: 'Hamburguesaria' },
+  'gastronomy.type.gastrobar': { es: 'Gastrobar / Tapas de autor', gl: 'Gastrobar / Tapas de autor', en: 'Gastrobar / Signature Tapas', fr: 'Gastrobar / Tapas d\'auteur', de: 'Gastrobar / Signature Tapas', it: 'Gastrobar / Tapas d\'autore', pt: 'Gastrobar / Tapas de autor' },
 
   'gastronomy.website': { es: 'Sitio Web', gl: 'Sitio Web', en: 'Website', fr: 'Site Web', de: 'Webseite', it: 'Sito Web', pt: 'Site' },
   'gastronomy.googleMaps': { es: 'Ver en Google Maps', gl: 'Ver en Google Maps', en: 'View on Google Maps', fr: 'Voir sur Google Maps', de: 'Auf Google Maps ansehen', it: 'Vedi su Google Maps', pt: 'Ver no Google Maps' },
