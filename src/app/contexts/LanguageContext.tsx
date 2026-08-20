@@ -1621,13 +1621,13 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     pt: 'A que distância fica a praia?'
   },
   'faq.a4': {
-    es: 'La Playa de Carnota está a solo 10 minutos en coche. También hay otras playas preciosas a 15-20 minutos.',
-    gl: 'A Praia de Carnota está a só 10 minutos en coche. Tamén hai outras praias preciosas a 15-20 minutos.',
-    en: 'Carnota Beach is just 10 minutes away by car. There are also other beautiful beaches 15-20 minutes away.',
-    fr: 'La plage de Carnota est à seulement 10 minutes en voiture. Il y a aussi d\'autres belles plages à 15-20 minutes.',
-    de: 'Der Strand von Carnota ist nur 10 Autominuten entfernt. Es gibt auch andere schöne Strände in 15-20 Minuten Entfernung.',
-    it: 'La spiaggia di Carnota si trova a soli 10 minuti di auto. Ci sono anche altre bellissime spiagge a 15-20 minuti.',
-    pt: 'A Praia de Carnota fica a apenas 10 minutos de carro. Também existem outras praias bonitas a 15-20 minutos.'
+    es: 'Las espectaculares playas de **Carnota y Louro** están a solo 10 minutos en coche, mientras que las playas locales de **Cancelo, Cons y Mar de Lira** se encuentran a unos 10/15 minutos a pie. Además, en un radio de 15-20 minutos en coche encontrarás muchas otras calas y playas increíbles por descubrir.',
+    gl: 'As espectaculares praias de **Carnota e Louro** están a só 10 minutos en coche, mentres que as praias locais de **Cancelo, Cons e Mar de Lira** atópanse a uns 10/15 minutos a pé. Ademais, nun raio de 15-20 minutos en coche atoparás moitas outras calas e praias incribles por descubrir.',
+    en: 'The spectacular beaches of **Carnota and Louro** are just 10 minutes away by car, while the local beaches of **Cancelo, Cons, and Mar de Lira** are within a 10–15 minute walk. In addition, within a 15–20 minute drive you will discover many other breathtaking coves and beaches.',
+    fr: 'Les superbes plages de **Carnota et Louro** se trouvent à seulement 10 minutes en voiture, tandis que les plages locales de **Cancelo, Cons et Mar de Lira** sont accessibles en 10 à 15 minutes à pied. De plus, à 15-20 minutes en voiture, vous découvrirez de nombreuses autres criques magnifiques.',
+    de: 'Die spektakulären Strände von **Carnota und Louro** sind nur 10 Autominuten entfernt, während die örtlichen Buchten **Cancelo, Cons und Mar de Lira** in etwa 10–15 Gehminuten erreichbar sind. Im Umkreis von 15–20 Autominuten gibt es zudem viele weitere traumhafte Buchten zu entdecken.',
+    it: 'Le spettacolari spiagge di **Carnota e Louro** si trovano a soli 10 minuti di auto, mentre le spiagge locali di **Cancelo, Cons e Mar de Lira** sono a circa 10-15 minuti a piedi. Inoltre, nel raggio di 15-20 minuti di auto troverai molte altre splendide calette.',
+    pt: 'As espectaculares praias de **Carnota e Louro** ficam a apenas 10 minutos de carro, enquanto as praias locais de **Cancelo, Cons e Mar de Lira** se encontram a cerca de 10/15 minutos a pé. Além disso, num raio de 15-20 minutos de carro encontrará muitas outras enseadas e praias incríveis para descobrir.'
   },
   'faq.q5': {
     es: '¿Hay supermercados cerca?',

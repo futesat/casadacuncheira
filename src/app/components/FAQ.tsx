@@ -87,8 +87,16 @@ export function FAQ() {
                     transition={{ duration: 0.3 }}
                     className="overflow-hidden"
                   >
-                    <div className="px-6 pb-5 text-muted-foreground">
-                      {faq.answer}
+                    <div className="px-6 pb-5 text-muted-foreground leading-relaxed">
+                      {faq.answer.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+                        part.startsWith('**') && part.endsWith('**') ? (
+                          <strong key={i} className="font-semibold text-foreground">
+                            {part.slice(2, -2)}
+                          </strong>
+                        ) : (
+                          part
+                        )
+                      )}
                     </div>
                   </motion.div>
                 )}
