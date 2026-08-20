@@ -59,7 +59,7 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
     {
       title: t('experiences.villages.title'),
       description: t('experiences.villages.desc'),
-      image: 'https://images.unsplash.com/photo-1582144103470-08865b44e454?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnYWxpY2lhJTIwZm9yZXN0JTIwbmF0dXJlJTIwZ3JlZW58ZW58MXx8fHwxNzcxMTA0NzcxfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: `${(import.meta as any).env.BASE_URL}images/muros_villages_optimized.webp`,
       category: 'culture' as Category,
       duration: t('experiences.villages.duration'),
     },
