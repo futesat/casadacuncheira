@@ -95,7 +95,7 @@ export function House() {
             <CarouselContent>
               {images.map((image, index) => (
                 <CarouselItem key={index}>
-                  <div className="relative h-[500px] md:h-[600px] overflow-hidden bg-black">
+                  <div className="relative aspect-[4/3] sm:aspect-[16/10] md:aspect-auto md:h-[600px] overflow-hidden bg-black">
                     <ImageWithFallback
                       src={image}
                       alt={`Interior ${index + 1}`}
