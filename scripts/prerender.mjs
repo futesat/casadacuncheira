@@ -26,7 +26,7 @@ const routes = [
       </ol>
       <p><a href="/">Alojamiento en Casa da Cuncheira (Lira, Carnota)</a> | <a href="https://bookonline.pro/es/property/350327">Consultar disponibilidad y reserva directa</a></p>
     `,
-    image: 'https://www.casadacuncheira.com/images/carnota_horreo.jpg'
+    image: 'https://www.casadacuncheira.com/images/carnota_horreo.webp'
   },
   {
     path: '/nature/lira-carnota',
