@@ -17,6 +17,7 @@ const translations: Translations = {
   'nav.book': { es: 'Reservar', gl: 'Reservar', en: 'Book', fr: 'Réserver', de: 'Buchen', it: 'Prenota', pt: 'Reservar' },
   'nav.faq': { es: 'FAQ', gl: 'FAQ', en: 'FAQ', fr: 'FAQ', de: 'FAQ', it: 'FAQ', pt: 'FAQ' },
   'nav.contact': { es: 'Contacto', gl: 'Contacto', en: 'Contact', fr: 'Contact', de: 'Kontakt', it: 'Contatto', pt: 'Contacto' },
+  'nav.surroundings': { es: 'Entorno', gl: 'Contorno', en: 'Surroundings', fr: 'Environs', de: 'Umgebung', it: 'Dintorni', pt: 'Entorno' },
   'nav.legal': {
     es: 'Aviso Legal y Privacidad',
     gl: 'Aviso Legal e Privacidade',
@@ -26,6 +27,9 @@ const translations: Translations = {
     it: 'Note Legali e Privacy',
     pt: 'Aviso Legal e Privacidade'
   },
+  'location.viewGuide': { es: 'Guía y cómo llegar', gl: 'Guía e como chegar', en: 'Guide & Directions', fr: 'Guide et itinéraire', de: 'Reiseführer & Anfahrt', it: 'Guida e come arrivare', pt: 'Guia e como chegar' },
+  'nature.viewGuide': { es: 'Ver guía completa', gl: 'Ver guía completa', en: 'View full guide', fr: 'Voir le guide complet', de: 'Vollständigen Reiseführer anzeigen', it: 'Vedi guida completa', pt: 'Ver guia completo' },
+  'nature.cta.badge': { es: 'Alojamiento en Lira, Carnota', gl: 'Aloxamento en Lira, Carnota', en: 'Holiday rental in Lira, Carnota', fr: 'Hébergement à Lira, Carnota', de: 'Ferienunterkunft in Lira, Carnota', it: 'Alloggio a Lira, Carnota', pt: 'Alojamento em Lira, Carnota' },
   'footer.description': {
     es: 'Tu refugio en la Costa da Morte',
     gl: 'O teu refuxio na Costa da Morte',
@@ -561,22 +565,58 @@ Beach sectors and access
 Practical visitor tips
 • Tides: To fully enjoy the natural swimming pools at Boca do Río, plan your visit during low tide.
 • Sunsets: Facing westward into the open Atlantic, sunsets at Carnota illuminate both the ocean and the pink granite slopes of Mount Pindo.`,
-    fr: `Avec plus de 7 kilomètres de littoral continu en forme de croissant, la plage de Carnota est la plus longue de Galice et l'un des espaces côtiers vierges les plus remarquables d'Europe.
+    fr: `Avec plus de 7 kilomètres de littoral continu en forme de croissant, la plage de Carnota est la plus longue de Galice et l'un des espaces côtiers vierges les plus remarquables d'Europe. Protégée au sein du réseau Natura 2000, elle combine dunes mobiles, marais riches en avifaune et eaux cristallines de l'Atlantique.
 
 Boca do Río et ses piscines naturelles
-À marée basse, l'embouchure du fleuve Valdebois crée des lagunes peu profondes et des piscines naturelles d'eau tiède sur un sable blanc immaculé, idéales pour la baignade.
+Au centre de la plage, l'embouchure du fleuve Valdebois (Boca do Río) crée l'un des paysages les plus uniques de Galice. À marée basse, le retrait des eaux forme de vastes lagunes et piscines naturelles peu profondes sur un sable blanc immaculé. L'eau s'y réchauffe au soleil, créant un lieu idéal pour la baignade et les familles.
 
-Conseils de visite
-Planifiez votre visite à marée basse pour profiter pleinement des piscines naturelles de Boca do Río. Les couchers de soleil y sont spectaculaires.`,
-    de: `Mit über 7 Kilometern Länge ist der Strand von Carnota der längste Strand Galiciens und ein unberührtes Naturparadies.
+Secteurs et accès à la plage
+• Secteur Nord (Caldebarcos) : Ambiance de pêcheurs et excellents restaurants de fruits de mer.
+• Secteur Central (Boca do Río) : L'accès le plus spectaculaire, avec passerelles en bois sur les dunes et parking.
+• Secteur Sud (Praia de Cancelo et Lira) : Zone abritée et paisible, à deux pas des criques de Lira.
+
+Conseils pratiques pour la visite
+• Marées : Pour profiter des piscines naturelles de Boca do Río, planifiez votre visite à marée basse.
+• Couchers de soleil : Orientée plein ouest vers l'Atlantique, la plage offre des couchers de soleil dorés inoubliables.`,
+    de: `Mit über 7 Kilometern kontinuierlicher Küstenlinie ist der Strand von Carnota der längste Strand Galiciens und eines der beeindruckendsten unberührten Küstengebiete Europas. Als Natura-2000-Schutzgebiet vereint er Wanderdünen, vogelreiche Sümpfe und kristallklares Wasser.
 
 Boca do Río und die Naturpools
-Bei Ebbe bildet die Flussmündung des Valdebois weitläufige flache Lagunen und natürliche Schwimmbecken mit angenehm warmem Wasser und feinstem weißem Sand.
+Im mittleren Strandabschnitt bildet die Mündung des Valdebois (Boca do Río) ein einzigartiges Naturschauspiel. Bei Ebbe entstehen weitläufige, flache Lagunen und natürliche Schwimmbecken mit feinstem weißem Sand. Das Wasser erwärmt sich in der Sonne – ideal für Familien und entspanntes Baden.
 
-Praktische Tipps
-Besuchen Sie Boca do Río am besten bei Niedrigwasser (Ebbe), um die natürlichen Pools optimal zu nutzen.`,
-    it: `Con oltre 7 chilometri di estensione, la spiaggia di Carnota è la più lunga della Galizia. A Boca do Río, la bassa marea crea incantevoli piscine naturali di acqua trasparente e sabbia bianca ideali per il bagno.`,
-    pt: `Com mais de 7 quilómetros de extensão contínua, a Praia de Carnota é o areal mais extenso da Galiza. Na Boca do Río, a maré baixa forma piscinas naturais de água tépida e areia branca perfeitas para banhos.`
+Strandabschnitte und Zugänge
+• Nordabschnitt (Caldebarcos): Maritimes Flair und hervorragende Fischrestaurants.
+• Mittelabschnitt (Boca do Río): Der beliebteste Zugang mit Holzstegen über das Dünensystem und Parkplatz.
+• Südabschnitt (Cancelo & Lira): Ruhig und geschützt, nahe den Buchten von Lira.
+
+Praktische Besuchertipps
+• Gezeiten: Besuchen Sie Boca do Río am besten bei Niedrigwasser (Ebbe), um die natürlichen Pools optimal zu nutzen.
+• Sonnenuntergänge: Durch die Westausrichtung erstrahlt der Strand abends in goldenem Licht vor der Kulisse des Monte Pindo.`,
+    it: `Con oltre 7 chilometri di estensione continua a mezzaluna, la spiaggia di Carnota è la più lunga della Galizia e una delle coste vergini più spettacolari d'Europa. Protetta nella Rete Natura 2000, unisce dune mobili, paludi ricche di avifauna e acque atlantiche trasparenti.
+
+Boca do Río e le piscine naturali
+Al centro della spiaggia, la foce del fiume Valdebois (Boca do Río) crea lagune poco profonde e piscine naturali di sabbia bianca durante la bassa marea. L'acqua si scalda con il sole, rendendola perfetta per il bagno e per le famiglie.
+
+Settori e accessi
+• Settore Nord (Caldebarcos): Atmosfera marinara e ottimi ristoranti di pesce fresco.
+• Settore Centrale (Boca do Río): Accesso panoramico con passerelle in legno sulle dune e parcheggio.
+• Settore Sud (Cancelo e Lira): Area raccolta e tranquilla vicina alle calette di Lira.
+
+Consigli pratici
+• Maree: Pianifica la visita durante la bassa marea per goderti appieno le piscine naturali.
+• Tramonti: L'orientamento a ovest regala tramonti spettacolari sull'oceano e sulle pendici del Monte Pindo.`,
+    pt: `Com mais de 7 quilómetros de extensão contínua em forma de meia-lua, a Praia de Carnota é o areal mais extenso da Galiza e um dos espaços costeiros virgens mais impressionantes da Europa. Protegida na Rede Natura 2000, combina dunas móveis, pântanos e águas cristalinas do Atlântico.
+
+Boca do Río e as piscinas naturais
+Na zona central da praia, a foz do rio Valdebois (Boca do Río) cria lagoas e piscinas naturais de pouca profundidade durante a maré baixa. A água aquece com o sol, sendo perfeita para banhos tranquilos e famílias.
+
+Setores e acessos
+• Setor Norte (Caldebarcos): Ambiente piscatório e excelentes marisqueiras.
+• Setor Central (Boca do Río): Acesso mais emblemático com passadiços de madeira sobre as dunas e estacionamento.
+• Setor Sul (Cancelo e Lira): Zona recolhida e serena junto às enseadas de Lira.
+
+Conselhos práticos
+• Marés: Visite durante a maré baixa para aproveitar as piscinas naturais de Boca do Río.
+• Pôr do sol: Voltada a poente, a praia oferece pores do sol dourados inesquecíveis.`
   },
   'nature.carnota.h1': { es: '7 km de Arena Virgen', gl: '7 km de Area Virxe', en: '7 km Pristine Sand', fr: '7 km de Sable Vierge', de: '7 km Unberührter Sand', it: '7 km di Sabbia Vergine', pt: '7 km de Areia Virgem' },
   'nature.carnota.h2': { es: 'Piscinas de Boca do Río', gl: 'Piscinas de Boca do Río', en: 'Boca do Río Pools', fr: 'Piscines de Boca do Río', de: 'Boca do Río Naturpools', it: 'Piscine di Boca do Río', pt: 'Piscinas de Boca do Río' },
@@ -626,10 +666,54 @@ Trailheads and difficulty
 
 Safety advice
 Bring plenty of water (no drinkable sources on top), sun protection, and avoid hiking in thick fog or heavy rain.`,
-    fr: `Le mont Pindo, l'« Olympe celtique » de Galice, culmine à 627 mètres et offre une vue panoramique exceptionnelle sur la plage de Carnota et le cap Finisterre. Chaussures de randonnée et eau indispensables.`,
-    de: `Der Monte Pindo, der keltische Olymp Galiciens, erhebt sich 627 Meter über den Atlantik. Der Gipfel A Moa bietet einen atemberaubenden 360-Grad-Panoramablick. Festes Schuhwerk und ausreichend Wasser sind unerlässlich.`,
-    it: `Il Monte Pindo, l'Olimpo Celtico della Galizia (627 m), offre un panorama spettacolare a 360 gradi sulla spiaggia di Carnota e su Capo Finisterre. Scarpe da trekking e acqua indispensabili.`,
-    pt: `O Monte Pindo, o Olimpo Celta da Galiza (627 m), oferece uma das panorâmicas mais espetaculares da Costa da Morte. Calçado de caminhada e água são essenciais.`
+    fr: `Connu depuis l'Antiquité comme l'« Olympe celtique » de Galice, le mont Pindo est un massif colossal de granit rose qui culmine à 627 mètres au-dessus de l'océan Atlantique.
+
+Ascension au sommet d'A Moa (627 m)
+La montée vers la cime d'A Moa offre une vue panoramique à 360 degrés inoubliable sur toute la plage de Carnota, le cap Finisterre et la baie de Corcubión.
+
+Points de départ et difficulté
+• Départ d'O Fieiro : L'itinéraire le plus direct (4,5 km A/R, 300 m de dénivelé, 2-2,5 h).
+• Départ d'O Pindo (Port) : Itinéraire plus exigeant (9,5 km, 600 m de dénivelé, 4-4,5 h).
+• Difficulté : Moyenne à élevée sur terrain rocheux de montagne.
+
+Conseils de sécurité
+Chaussures de randonnée indispensables, prévoyez au moins 1,5 L d'eau par personne et évitez l'ascension par temps de brouillard épais ou de pluie.`,
+    de: `Seit der Antike als „keltischer Olymp“ Galiciens bekannt, ist der Monte Pindo ein imposantes Massiv aus rosa Granit, das sich 627 Meter über den Atlantik erhebt.
+
+Aufstieg zum Gipfel A Moa (627 m)
+Der Aufstieg zur A Moa bietet ein atemberaubendes 360-Grad-Panorama über den gesamten Strand von Carnota, das Kap Finisterre und die Küstenlandschaft.
+
+Ausgangspunkte und Schwierigkeit
+• Ab O Fieiro: Der direkteste Weg (~4,5 km hin und zurück, 300 Hm, 2–2,5 Std.).
+• Ab O Pindo (Hafen): Anspruchsvoller Aufstieg (~9,5 km, 600 Hm, 4–4,5 Std.).
+• Schwierigkeit: Mittel bis anspruchsvoll auf felsigem Berggelände.
+
+Sicherheitshinweise
+Festes Wanderschuhwerk, ausreichend Trinkwasser (keine Quellen am Gipfel) und Sonnenschutz mitnehmen. Bei dichtem Nebel oder Regen meiden.`,
+    it: `Conosciuto fin dall'antichità come l'«Olimpo Celtico» della Galizia, il Monte Pindo è un imponente massiccio di granito rosa che si eleva fino a 627 metri sull'Oceano Atlantico.
+
+Salita alla cima di A Moa (627 m)
+Dalla vetta si gode di una vista a 360 gradi spettacolare su tutta la spiaggia di Carnota, Capo Finisterre e la baia circostante.
+
+Punti di partenza e difficoltà
+• Da O Fieiro: Percorso più diretto (4,5 km A/R, 300 m dislivello, 2-2,5 ore).
+• Da O Pindo (Porto): Salita più impegnativa dalla costa (9,5 km, 600 m dislivello, 4-4,5 ore).
+• Difficoltà: Medio-alta su sentiero montano roccioso.
+
+Consigli di sicurezza
+Indispensabili scarponcini da trekking con buona aderenza, almeno 1,5 litri d'acqua e protezione solare. Evitare la salita con nebbia fitta o pioggia.`,
+    pt: `Conhecido desde a antiguidade como o «Olimpo Celta» da Galiza, o Monte Pindo é um maciço de granito rosado que atinge 627 metros sobre o Oceano Atlântico.
+
+Subida ao cume da Moa (627 m)
+A subida ao cume da Moa oferece uma das panorâmicas de 360 graus mais impressionantes de Espanha, avistando toda a Praia de Carnota e o Cabo Fisterra.
+
+Pontos de partida e dificuldade
+• A partir de O Fieiro: Rota mais direta (4,5 km ida/volta, 300 m desnível, 2-2,5 h).
+• A partir de O Pindo (Porto): Subida mais exigente (9,5 km, 600 m desnível, 4-4,5 h).
+• Dificuldade: Média-alta em terreno pedregoso de montanha.
+
+Conselhos de segurança
+Calçado de montanha adequado, água suficiente (não há fontes no topo) e evitar a subida com nevoeiro denso ou chuva sobre a rocha escorregadia.`
   },
   'nature.pindo.h1': { es: 'Cumbre de A Moa (627 m)', gl: 'Cumio da Moa (627 m)', en: 'A Moa Peak (627 m)', fr: 'Sommet d\'A Moa (627 m)', de: 'A Moa Gipfel (627 m)', it: 'Cima di A Moa (627 m)', pt: 'Cume da Moa (627 m)' },
   'nature.pindo.h2': { es: 'Granito Rosa y Leyendas', gl: 'Granito Rosa e Lendas', en: 'Pink Granite & Legends', fr: 'Granit rose et légendes', de: 'Rosa Granit & Mythen', it: 'Granito Rosa e Leggende', pt: 'Granito Rosa e Lendas' },
@@ -674,10 +758,50 @@ The Coves of Lira
 
 The Monumental Granary of Lira
 Nearly 37 meters long on 22 pairs of stone pillars, standing proudly alongside Santa María church.`,
-    fr: `Lira est un village de pêcheurs authentique de Carnota, abritant le port de Portocubelo, la réserve marine Os Miñarzos, la crique abritée de Praia de Cons et son monumental hórreo en pierre.`,
-    de: `Lira ist ein authentisches Fischerdorf in Carnota mit dem Hafen Portocubelo, dem Meeresschutzgebiet Os Miñarzos, geschützten Buchten wie Praia de Cons und einem monumentalen Hórreo.`,
-    it: `Lira è un autentico borgo marinaro a Carnota, con il porto di Portocubelo, la riserva marina Os Miñarzos, la caletta riparata di Praia de Cons e il suo monumentale hórreo.`,
-    pt: `Lira é uma autêntica vila piscatória em Carnota, com o porto de Portocubelo, a reserva marinha Os Miñarzos, a enseada abrigada da Praia de Cons e o seu hórreo monumental.`
+    fr: `Lira est l'un des villages marins les plus authentiques de la Costa da Morte, alliant architecture en pierre traditionnelle, criques protégées et le port de Portocubelo.
+
+Port de Portocubelo et Réserve Marine Os Miñarzos
+Portocubelo est le cœur maritime de Lira, pionnier de la pêche artisanale et durable au poulpe et aux poissons de roche.
+
+Les criques de Lira
+• Praia de Cons : Crique abritée de sable doré aux eaux calmes et cristallines.
+• Praia do Cancelo : Crique typique située juste à côté du port.
+
+Le Hórreo monumental de Lira
+Près de 37 mètres de long sur 22 paires de piliers en pierre face à l'église Santa María.`,
+    de: `Lira ist eines der authentischsten Fischerdörfer der Costa da Morte mit traditioneller Steinarchitektur, geschützten Buchten und dem malerischen Hafen Portocubelo.
+
+Hafen Portocubelo und Meeresschutzgebiet Os Miñarzos
+Portocubelo ist das Herz von Lira und Vorreiter im nachhaltigen Fischfang für Oktopus und frischen Felsenfisch.
+
+Die Buchten von Lira
+• Praia de Cons: Geschützte Bucht mit feinem Sand und ruhigem Wasser zum Baden.
+• Praia do Cancelo: Malerische kleine Bucht direkt am Fischereihafen.
+
+Der monumentale Hórreo von Lira
+Fast 37 Meter lang auf 22 Pfeilerpaaren aus Stein neben der Pfarrkirche Santa María.`,
+    it: `Lira è uno dei borghi marinari più autentici della Costa da Morte, con architettura tradizionale in pietra, calette riparate e il porto di Portocubelo.
+
+Porto di Portocubelo e Riserva Marina Os Miñarzos
+Cuore marinaro di Lira, famoso per la pesca artigianale e sostenibile di polpo e pesce di scoglio.
+
+Le Calette di Lira
+• Praia de Cons: Caletta riparata di sabbia dorata con acque calme e limpide.
+• Praia do Cancelo: Piccola insenatura caratteristica accanto al porticciolo.
+
+Il monumentale Hórreo di Lira
+Quasi 37 metri di lunghezza su 22 coppie di pilastri in pietra accanto alla chiesa di Santa María.`,
+    pt: `Lira é uma das freguesias marinheiras mais autênticas da Costa da Morte, combinando arquitetura tradicional, enseadas abrigadas e o porto de Portocubelo.
+
+Porto de Portocubelo e Reserva Marinha Os Miñarzos
+Coração marítimo de Lira, pioneiro na pesca artesanal e sustentável de polvo e peixes de rocha.
+
+As Enseadas de Lira
+• Praia de Cons: Enseada abrigada de areia dourada e águas calmas para banhos.
+• Praia do Cancelo: Pequena enseada pitoresca junto ao porto de pesca.
+
+O Hórreo monumental de Lira
+Quase 37 metros de comprimento sobre 22 pares de pés de pedra junto à igreja de Santa María.`
   },
   'nature.lira.h1': { es: 'Puerto de Portocubelo', gl: 'Porto de Portocubelo', en: 'Portocubelo Harbor', fr: 'Port de Portocubelo', de: 'Hafen Portocubelo', it: 'Porto di Portocubelo', pt: 'Porto de Portocubelo' },
   'nature.lira.h2': { es: 'Reserva Os Miñarzos', gl: 'Reserva Os Miñarzos', en: 'Os Miñarzos Reserve', fr: 'Réserve Os Miñarzos', de: 'Os Miñarzos Schutzgebiet', it: 'Riserva Os Miñarzos', pt: 'Reserva Os Miñarzos' },
@@ -723,11 +847,50 @@ Top 8 Highlights
 6. Ézaro Waterfall into the sea
 7. Mount Louro and Area Maior wild beach
 8. Medieval historic center of Muros`,
-    fr: `Carnota rassemble les plus beaux paysages de la Costa da Morte : Plage de Carnota, Hórreos géants, Mont Pindo, Port de Lira, Cascade d'Ézaro et village de Muros.`,
-    de: `Carnota vereint die schönsten Natur- und Kulturhighlights Galiciens: Strand von Carnota, historische Hórreos, Monte Pindo, Hafen Lira, Ézaro-Wasserfall und Muros.`,
-    it: `Carnota offre i migliori paesaggi della Costa da Morte: Spiaggia di Carnota, grandi hórreos, Monte Pindo, porto di Lira, Cascata dell'Ézaro e borgo di Muros.`,
-    pt: `Carnota reúne as melhores paisagens da Costa da Morte: Praia de Carnota, hórreos monumentais, Monte Pindo, porto de Lira, Cascata do Ézaro e Muros.`
-  },
+    fr: `Carnota rassemble les plus beaux paysages et trésors de la Costa da Morte.
+
+Les 8 incontournables à Carnota et ses environs
+1. Plage de Carnota & Boca do Río : Plus de 7 km de sable blanc et piscines naturelles à marée basse.
+2. Hórreo de Carnota : Grenier monumental en pierre du XVIIIe siècle (34,7 m).
+3. Hórreo de Lira : Près de 37 mètres de long sur 22 paires de piliers.
+4. Lira et le port de Portocubelo : Village de pêcheurs authentique, réserve marine et calanques calmes.
+5. Mont Pindo et sommet d'A Moa (627 m) : Panorama grandiose à 360° sur l'Atlantique.
+6. Cascade d'Ézaro : L'unique cascade d'Europe continentale qui plonge dans l'océan.
+7. Mont Louro et plage d'Area Maior : Espace dunaire protégé et lagune côtière.
+8. Centre historique de Muros : Cité médiévale de pêcheurs aux ruelles pavées.`,
+    de: `Carnota vereint die spektakulärsten Landschaften und Kulturdenkmäler Galiciens.
+
+Die 8 Top-Highlights in Carnota & Umgebung
+1. Strand von Carnota & Boca do Río: Über 7 km unberührter Sand und Naturpools bei Ebbe.
+2. Hórreo von Carnota: Nationaldenkmal aus dem 18. Jahrhundert (34,7 m lang).
+3. Hórreo von Lira: Fast 37 Meter lang auf 22 Pfeilerpaaren aus Stein.
+4. Lira & Hafen Portocubelo: Authentisches Fischerdorf mit Meeresschutzgebiet und ruhigen Buchten.
+5. Monte Pindo & Gipfel A Moa (627 m): Der keltische Olymp mit 360°-Panoramablick.
+6. Ézaro-Wasserfall: Einziger Wasserfall Kontinentaleuropas, der direkt ins Meer stürzt.
+7. Monte Louro & Strand Area Maior: Geschützte Dünenlandschaft und Küstenlagune.
+8. Historischer Ortskern von Muros: Mittelalterliches Fischerdorf mit Arkadenstraßen.`,
+    it: `Carnota racchiude alcuni dei paesaggi costieri e monumenti più spettacolari della Galizia.
+
+Gli 8 luoghi imperdibili a Carnota e dintorni
+1. Spiaggia di Carnota e Boca do Río: Oltre 7 km di sabbia bianca e piscine naturali con la bassa marea.
+2. Hórreo di Carnota: Monumento nazionale del XVIII secolo (34,7 m).
+3. Hórreo di Lira: Quasi 37 metri su 22 coppie di pilastri in granito.
+4. Lira e porto di Portocubelo: Borgo marinaro autentico, riserva marina e calette riparate.
+5. Monte Pindo e cima di A Moa (627 m): L'Olimpo celtico con vista a 360° sull'Atlantico.
+6. Cascata dell'Ézaro: L'unica cascata in Europa continentale che si getta direttamente nel mare.
+7. Monte Louro e spiaggia di Area Maior: Parco protetto con laguna costiera e dune.
+8. Centro storico di Muros: Borgo medievale marinaro con tipici portici in pietra.`,
+    pt: `Carnota reúne algumas das paisagens costeiras e monumentos mais espetaculares da Galiza.
+
+Os 8 locais imperdíveis em Carnota e arredores
+1. Praia de Carnota e Boca do Río: Mais de 7 km de areia virgem e piscinas naturais na maré baixa.
+2. Hórreo de Carnota: Monumento nacional do século XVIII (34,7 m).
+3. Hórreo de Lira: Quase 37 metros de comprimento sobre 22 pares de pés.
+4. Lira e porto de Portocubelo: Vila piscatória autêntica, reserva marinha e enseadas tranquilas.
+5. Monte Pindo e cume da Moa (627 m): O Olimpo Celta com vista de 360° sobre o Atlântico.
+6. Cascata do Ézaro: Única cascata da Europa continental que desagua diretamente no mar.
+7. Monte Louro e praia de Area Maior: Espaço dunar protegido e lagoa costeira.
+8. Centro histórico de Muros: Vila medieval marinheira com ruas de arcadas em pedra.`,
   'nature.carnota_guide.h1': { es: '8 Visitas Esenciales', gl: '8 Visitas Esenciais', en: 'Top 8 Highlights', fr: 'Top 8 Incontournables', de: '8 Top-Highlights', it: '8 Luoghi Imperdibili', pt: '8 Visitas Essenciais' },
   'nature.carnota_guide.h2': { es: 'Patrimonio y Naturaleza', gl: 'Patrimonio e Natureza', en: 'Heritage & Nature', fr: 'Patrimoine et Nature', de: 'Kultur & Natur', it: 'Patrimonio e Natura', pt: 'Património e Natureza' },
   'nature.carnota_guide.h3': { es: 'Itinerarios Recomendados', gl: 'Itinerarios Recomendados', en: 'Suggested Itineraries', fr: 'Itinéraires conseillés', de: 'Routenvorschläge', it: 'Itinerari consigliati', pt: 'Roteiros sugeridos' },
@@ -1157,6 +1320,34 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
 
   'gastronomy.cta.title': { es: '¿Deseas más recomendaciones personales?', gl: 'Desexas máis recomendacións persoais?', en: 'Would you like more personalized recommendations?', fr: 'Souhaitez-vous plus de recommandations personnalisées?', de: 'Möchten Sie weitere persönliche Empfehlungen?', it: 'Desideri più raccomandazioni personalizzate?', pt: 'Deseja mais recomendações personalizadas?' },
   'gastronomy.cta.desc': { es: 'Estamos encantados de ayudarte a encontrar el lugar perfecto para cada ocasión durante tu estancia.', gl: 'Estamos encantados de axudarche a atopar o lugar perfecto para cada ocasión durante a túa estadía.', en: 'We are delighted to help you find the perfect place for every occasion during your stay.', fr: 'Nous sommes ravis de vous aider à trouver l\'endroit parfait pour chaque occasion pendant votre séjour.', de: 'Wir helfen Ihnen gerne, den perfekten Ort für jeden Anlass während Ihres Aufenthalts zu finden.', it: 'Siamo lieti di aiutarti a trovare il posto perfetto per ogni occasione durante il tuo soggiorno.', pt: 'Estamos encantados em ajudá-lo a encontrar o lugar perfeito para cada ocasião durante a sua estadia.' },
+
+  'gastronomy.breadcrumb': { es: 'Gastronomía en Carnota y Lira', gl: 'Gastronomía en Carnota e Lira', en: 'Gastronomy in Carnota & Lira', fr: 'Gastronomie à Carnota et Lira', de: 'Gastronomie in Carnota & Lira', it: 'Gastronomia a Carnota e Lira', pt: 'Gastronomia em Carnota e Lira' },
+  'gastronomy.intro.tag': { es: 'Producto de Lonja y Tradición', gl: 'Produto de Lonxa e Tradición', en: 'Market Catch & Tradition', fr: 'Produits de la criée et tradition', de: 'Marktfrischer Fisch & Tradition', it: 'Prodotti d\'Asta e Tradizione', pt: 'Produtos da Lota e Tradição' },
+  'gastronomy.intro.title': { es: 'Sabores del Atlántico: De la Lonja a la Mesa', gl: 'Sabores do Atlántico: Da Lonxa á Mesa', en: 'Flavors of the Atlantic: From Market to Table', fr: 'Saveurs de l\'Atlantique : De la criée à la table', de: 'Aromen des Atlantiks: Vom Fischmarkt auf den Tisch', it: 'Sapori dell\'Atlantico: Dal mercato del pesce alla tavola', pt: 'Sabores do Atlântico: Da Lota à Mesa' },
+  'gastronomy.intro.desc': {
+    es: 'La gastronomía de Carnota y Lira se sustenta en el producto fresco del mar. En el puerto de Portocubelo (Lira) y las lonjas de la ría de Muros, las capturas de pesca artesanal garantizan pescados de roca salvajes (lubina, sargo, maragota), el célebre pulpo gallego de la reserva marina Os Miñarzos, nécoras y percebes de los acantilados más bravos de la Costa da Morte.',
+    gl: 'A gastronomía de Carnota e Lira susténtase no produto fresco do mar. No porto de Portocubelo (Lira) e nas lonxas da ría de Muros, as capturas de pesca artesanal garanten peixes de rocha salvaxes, o polbo da reserva mariña Os Miñarzos, nécoras e percebes da Costa da Morte.',
+    en: 'Carnota and Lira gastronomy is built on fresh seafood. In Portocubelo harbor (Lira) and Muros fish markets, artisanal catches provide wild rockfish, famous Galician octopus from the Os Miñarzos marine reserve, and barnacles from the wild cliffs of Costa da Morte.',
+    fr: 'La gastronomie de Carnota et Lira repose sur les produits frais de la mer. Au port de Portocubelo (Lira) et aux criées de Muros, la pêche artisanale garantit poissons de roche sauvages, poulpe de la réserve Os Miñarzos et fruits de mer réputés.',
+    de: 'Die Gastronomie von Carnota und Lira basiert auf frischen Meeresfrüchten. Im Hafen von Portocubelo (Lira) und den Fischmärkten von Muros garantiert handwerkliche Fischerei wilden Felsenfisch, Oktopus aus dem Schutzgebiet Os Miñarzos und edle Meeresfrüchte.',
+    it: 'La gastronomia di Carnota e Lira si basa sui prodotti freschi del mare. Nel porto di Portocubelo (Lira) e nei mercati ittici di Muros, la pesca artigianale garantisce pesci di scoglio, polpo della riserva Os Miñarzos e frutti di mare prelibati.',
+    pt: 'A gastronomia de Carnota e Lira baseia-se nos produtos frescos do mar. No porto de Portocubelo (Lira) e nas lotas de Muros, a pesca artesanal garante peixe fresco de rocha, polvo da reserva Os Miñarzos e marisco de qualidade.'
+  },
+  'gastronomy.explore.title': { es: 'Combina gastronomía y naturaleza en la zona', gl: 'Combina gastronomía e natureza na zona', en: 'Combine gastronomy and nature in the area', fr: 'Combinez gastronomie et nature dans la région', de: 'Kombinieren Sie Gastronomie und Natur in der Region', it: 'Combina gastronomia e natura nella zona', pt: 'Combine gastronomia e natureza na zona' },
+  'gastronomy.explore.lira.title': { es: 'Conocer Lira y el Puerto de Portocubelo', gl: 'Coñecer Lira e o Porto de Portocubelo', en: 'Discover Lira & Portocubelo Harbor', fr: 'Découvrir Lira et le port de Portocubelo', de: 'Lira und den Hafen Portocubelo entdecken', it: 'Scopri Lira e il porto di Portocubelo', pt: 'Conhecer Lira e o Porto de Portocubelo' },
+  'gastronomy.explore.lira.desc': { es: 'Descubre de dónde procede el pescado fresco y las calas tranquilas junto al puerto.', gl: 'Descobre de onde procede o peixe fresco e as calas tranquilas xunto ao porto.', en: 'Discover where the fresh fish comes from and the calm coves near the harbor.', fr: 'Découvrez l\'origine du poisson frais et les criques paisibles près du port.', de: 'Entdecken Sie die Herkunft des frischen Fisches und ruhige Buchten am Hafen.', it: 'Scopri la provenienza del pesce fresco e le tranquille calette vicino al porto.', pt: 'Descubra de onde vem o peixe fresco e as enseadas tranquilas junto ao porto.' },
+  'gastronomy.explore.carnota.title': { es: 'Guía: Qué ver en Carnota y alrededores', gl: 'Guía: Que ver en Carnota e arredores', en: 'Guide: What to see in Carnota & surroundings', fr: 'Guide : Que voir à Carnota et ses environs', de: 'Reiseführer: Sehenswürdigkeiten in Carnota', it: 'Guida: Cosa vedere a Carnota e dintorni', pt: 'Guia: O que ver em Carnota e arredores' },
+  'gastronomy.explore.carnota.desc': { es: '8 visitas imprescindibles para planificar tu itinerario por la Costa da Morte.', gl: '8 visitas esenciais para planificar o teu itinerario pola Costa da Morte.', en: '8 essential sights to plan your itinerary around Costa da Morte.', fr: '8 visites incontournables pour planifier votre itinéraire sur la Costa da Morte.', de: '8 unverzichtbare Sehenswürdigkeiten für Ihre Route an der Costa da Morte.', it: '8 tappe imperdibili per pianificare il tuo itinerario nella Costa da Morte.', pt: '8 visitas essenciais para planear o seu roteiro pela Costa da Morte.' },
+  'gastronomy.stay.title': { es: 'Disfruta de la gastronomía gallega alojándote junto al mar', gl: 'Gosa da gastronomía galega aloxándote xunto ao mar', en: 'Enjoy Galician gastronomy staying by the sea', fr: 'Savourez la gastronomie galicienne en séjournant en bord de mer', de: 'Genießen Sie die galizische Gastronomie direkt am Meer', it: 'Goditi la gastronomia galiziana soggiornando vicino al mare', pt: 'Desfrute da gastronomia galega hospedando-se junto ao mar' },
+  'gastronomy.stay.desc': {
+    es: 'Casa da Cuncheira se encuentra a pocos minutos de las mejores tabernas marineras de Lira y restaurantes de Carnota. Disfruta de pescado fresco y desconexión en una casa con todas las comodidades.',
+    gl: 'Casa da Cuncheira atópase a poucos minutos das mellores tabernas mariñeiras de Lira e restaurantes de Carnota. Gosa de peixe fresco e desconexión nunha casa con todas as comodidades.',
+    en: 'Casa da Cuncheira is located just minutes from Lira\'s best seaside taverns and Carnota\'s top restaurants. Enjoy fresh seafood and relaxation in a fully equipped home.',
+    fr: 'Casa da Cuncheira est située à quelques minutes des meilleures tavernes de Lira et restaurants de Carnota. Profitez du poisson frais et de la détente.',
+    de: 'Casa da Cuncheira liegt nur wenige Minuten von den besten Tavernen in Lira und Restaurants in Carnota entfernt. Genießen Sie frischen Fisch und Erholung.',
+    it: 'Casa da Cuncheira si trova a pochi minuti dalle migliori taverne di Lira e ristoranti di Carnota. Goditi pesce fresco e relax.',
+    pt: 'Casa da Cuncheira fica a poucos minutos das melhores tabernas de Lira e restaurantes de Carnota. Desfrute de peixe fresco e descanso.'
+  },
 
   'location.fisterra.title': { es: 'Cabo Fisterra (Finisterre)', gl: 'Cabo Fisterra', en: 'Cape Finisterre', fr: 'Cap Finisterre', de: 'Kap Finisterre', it: 'Capo Finisterre', pt: 'Cabo Finisterra' },
   'location.fisterra.desc': { es: 'El legendario fin del mundo conocido, su faro de 1853 y atardeceres sobre el océano infinito', gl: 'O lendario fin do mundo coñecido, o seu faro de 1853 e solpores sobre o océano infinito', en: 'The legendary end of the known world, its 1853 lighthouse, and sunsets over the infinite ocean', fr: 'Le bout du monde légendaire, son phare de 1853 et couchers de soleil sur l\'océan', de: 'Das legendäre Ende der bekannten Welt, sein Leuchtturm von 1853 und Sonnenuntergänge', it: 'La leggendaria fine del mondo conosciuto, il faro del 1853 e tramonti sull\'oceano', pt: 'O lendário fim do mundo conhecido, o seu farol de 1853 e pores do sol sobre o oceano' },

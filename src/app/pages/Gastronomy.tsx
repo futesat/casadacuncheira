@@ -65,7 +65,7 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                 <div className="absolute inset-0 z-0">
                     <img
                         src={`${(import.meta as any).env.BASE_URL}images/gastronomy_hero.png`}
-                        alt="Gastronomía en Carnota y Lira"
+                        alt={t('gastronomy.pageTitle')}
                         className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-black/55 backdrop-blur-[2px]" />
@@ -99,10 +99,10 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                 <nav aria-label="Breadcrumb" className="max-w-7xl mx-auto flex items-center gap-2 text-xs sm:text-sm text-muted-foreground">
                     <Link to="/" className="hover:text-primary transition-colors flex items-center gap-1">
                         <Home className="w-3.5 h-3.5" />
-                        <span>Inicio</span>
+                        <span>{t('nav.home')}</span>
                     </Link>
                     <ChevronRight className="w-3.5 h-3.5 text-muted-foreground/60" />
-                    <span className="text-foreground font-medium">Gastronomía en Carnota y Lira</span>
+                    <span className="text-foreground font-medium">{t('gastronomy.breadcrumb')}</span>
                 </nav>
             </div>
 
@@ -110,13 +110,13 @@ export function Gastronomy({ onBack }: GastronomyProps) {
             <section className="py-12 bg-white border-b border-border/30">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
                     <span className="text-primary text-xs uppercase font-semibold tracking-wider mb-2 block">
-                        Producto de Lonja y Tradición
+                        {t('gastronomy.intro.tag')}
                     </span>
                     <h2 className="text-2xl sm:text-3xl font-semibold text-foreground mb-4">
-                        Sabores del Atlántico: De la Lonja a la Mesa
+                        {t('gastronomy.intro.title')}
                     </h2>
                     <p className="text-muted-foreground text-base sm:text-lg leading-relaxed font-light">
-                        La gastronomía de Carnota y Lira se sustenta en el producto fresco del mar. En el puerto de <strong>Portocubelo (Lira)</strong> y las lonjas de la ría de Muros, las capturas de pesca artesanal garantizan pescados de roca salvajes (lubina, sargo, maragota), el célebre pulpo gallego de la reserva marina Os Miñarzos, nécoras y percebes de los acantilados más bravos de la Costa da Morte.
+                        {t('gastronomy.intro.desc')}
                     </p>
                 </div>
             </section>
@@ -210,7 +210,7 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                     <div className="mt-20 pt-12 border-t border-border/40">
                         <h3 className="text-2xl font-semibold text-foreground mb-6 flex items-center gap-2">
                             <Sparkles className="w-6 h-6 text-primary" />
-                            Combina gastronomía y naturaleza en la zona
+                            {t('gastronomy.explore.title')}
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <Link
@@ -219,10 +219,10 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                             >
                                 <div>
                                     <h4 className="font-semibold text-lg text-foreground group-hover:text-primary transition-colors">
-                                        Conocer Lira y el Puerto de Portocubelo
+                                        {t('gastronomy.explore.lira.title')}
                                     </h4>
                                     <p className="text-sm text-muted-foreground mt-1">
-                                        Descubre de dónde procede el pescado fresco y las calas tranquilas junto al puerto.
+                                        {t('gastronomy.explore.lira.desc')}
                                     </p>
                                 </div>
                                 <span className="text-primary group-hover:translate-x-1 transition-transform ml-4">→</span>
@@ -233,10 +233,10 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                             >
                                 <div>
                                     <h4 className="font-semibold text-lg text-foreground group-hover:text-primary transition-colors">
-                                        Guía: Qué ver en Carnota y alrededores
+                                        {t('gastronomy.explore.carnota.title')}
                                     </h4>
                                     <p className="text-sm text-muted-foreground mt-1">
-                                        8 visitas imprescindibles para planificar tu itinerario por la Costa da Morte.
+                                        {t('gastronomy.explore.carnota.desc')}
                                     </p>
                                 </div>
                                 <span className="text-primary group-hover:translate-x-1 transition-transform ml-4">→</span>
@@ -256,13 +256,13 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                 >
                     <UtensilsCrossed className="w-12 h-12 text-primary mx-auto mb-6 opacity-70" />
                     <span className="inline-block px-4 py-1.5 bg-white/10 rounded-full text-xs uppercase tracking-widest text-primary-foreground font-medium mb-4">
-                        Alojamiento en Lira, Carnota
+                        {t('nature.cta.badge')}
                     </span>
                     <h2 className="text-3xl font-semibold mb-4 tracking-tight">
-                        Disfruta de la gastronomía gallega alojándote junto al mar
+                        {t('gastronomy.stay.title')}
                     </h2>
                     <p className="text-slate-300 mb-8 font-light text-base sm:text-lg leading-relaxed">
-                        Casa da Cuncheira se encuentra a pocos minutos de las mejores tabernas marineras de Lira y restaurantes de Carnota. Disfruta de pescado fresco y desconexión en una casa con todas las comodidades.
+                        {t('gastronomy.stay.desc')}
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <button
@@ -280,7 +280,7 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                             }}
                             className="w-full sm:w-auto px-8 py-3.5 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-full font-medium transition-all cursor-pointer"
                         >
-                            Conocer Casa da Cuncheira
+                            {t('nature.cta.house')}
                         </button>
                         <a
                             href={bookingUrl}
@@ -289,7 +289,7 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                             className="w-full sm:w-auto px-8 py-3.5 bg-primary text-white hover:bg-primary/90 rounded-full font-medium transition-all shadow-lg flex items-center justify-center gap-2"
                         >
                             <CalendarCheck className="w-4 h-4" />
-                            Consultar disponibilidad
+                            {t('nature.cta.book')}
                         </a>
                     </div>
                 </motion.div>

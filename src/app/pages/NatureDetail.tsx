@@ -149,11 +149,11 @@ export function NatureDetail() {
                 <nav aria-label="Breadcrumb" className="max-w-4xl mx-auto flex items-center gap-2 text-xs sm:text-sm text-muted-foreground">
                     <Link to="/" className="hover:text-primary transition-colors flex items-center gap-1">
                         <Home className="w-3.5 h-3.5" />
-                        <span>Inicio</span>
+                        <span>{t('nav.home')}</span>
                     </Link>
                     <ChevronRight className="w-3.5 h-3.5 text-muted-foreground/60" />
                     <button onClick={handleBack} className="hover:text-primary transition-colors cursor-pointer">
-                        Entorno
+                        {t('nav.surroundings')}
                     </button>
                     <ChevronRight className="w-3.5 h-3.5 text-muted-foreground/60" />
                     <span className="text-foreground font-medium truncate">{data.title}</span>
@@ -333,7 +333,7 @@ export function NatureDetail() {
                                             </p>
                                         </div>
                                         <div className="mt-4 pt-3 border-t border-border/40 flex items-center justify-between text-xs font-medium text-primary">
-                                            <span>Ver guía completa</span>
+                                            <span>{t('nature.viewGuide')}</span>
                                             <span className="group-hover:translate-x-1 transition-transform">→</span>
                                         </div>
                                     </Link>
@@ -352,7 +352,7 @@ export function NatureDetail() {
                         <div className="absolute -top-24 -right-24 w-72 h-72 bg-primary/20 rounded-full blur-3xl" />
                         <div className="relative z-10 max-w-2xl mx-auto">
                             <span className="inline-block px-4 py-1.5 bg-white/10 rounded-full text-xs uppercase tracking-widest text-primary-foreground font-medium mb-4">
-                                Alojamiento en Lira, Carnota
+                                {t('nature.cta.badge')}
                             </span>
                             <h3 className="text-2xl sm:text-3xl font-semibold mb-4 tracking-tight">
                                 {t('nature.cta.title')}

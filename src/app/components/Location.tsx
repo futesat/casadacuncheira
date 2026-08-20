@@ -123,7 +123,7 @@ export function Location() {
                   aria-label={`${t('experiences.more')}: ${place.title}`}
                   className="text-primary font-medium hover:underline inline-flex items-center gap-1.5 group/btn text-sm"
                 >
-                  <span>Guía y cómo llegar</span>
+                  <span>{t('location.viewGuide')}</span>
                   <span className="group-hover/btn:translate-x-1 transition-transform">→</span>
                 </Link>
               </div>
