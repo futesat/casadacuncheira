@@ -916,11 +916,66 @@ Puntos de interese
 • Lagoa de As Xarfas: Lagoa costeira de gran valor ecolóxico e refuxio de aves migratorias.
 • Praia de Area Maior: Areal virxe de area branca aberto ao océano.
 • Faro de Monte Louro: Vistas excepcionais sobre a entrada da ría.`,
-    en: `Standing at the mouth of the Muros & Noia Estuary, Mount Louro (241 m) is an iconic granite landmark guarding the wild sands of Area Maior Beach and the protected As Xarfas coastal lagoon.`,
-    fr: `Le mont Louro veille sur l'entrée de l'estuaire de Muros, avec la plage sauvage d'Area Maior et la lagune protégée d'As Xarfas.`,
-    de: `Der Monte Louro bewacht die Mündung der Ría de Muros mit dem wilden Strand Area Maior und der geschützten Lagune As Xarfas.`,
-    it: `Il Monte Louro domina l'ingresso dell'estuario di Muros, proteggendo la spiaggia selvaggia di Area Maior e la laguna di As Xarfas.`,
-    pt: `O Monte Louro ergue-se na entrada da Ria de Muros, guardando a praia selvagem de Area Maior e a lagoa protegida de As Xarfas.`
+    en: `Standing at the mouth of the Muros & Noia Estuary, Mount Louro (241 m) is an iconic granite pyramid marking the geographical boundary between the Rías Baixas and the Costa da Morte, guarding the wild sands of Area Maior Beach and the protected As Xarfas coastal lagoon.
+
+Area Maior Beach & As Xarfas Lagoon
+At the base of the peak lies Area Maior, an open expanse of fine white sand and mobile dunes. Tucked just behind the dunes is the protected lagoon of As Xarfas (Lagoa de Louro), a vital coastal-lacustrine haven for resident and migratory waterbirds.
+
+Key Highlights & Tips
+• Mount Louro Lighthouse: A narrow road winds to the scenic lighthouse watching over the estuary entrance and San Francisco bay.
+• Dune Boardwalk: Wooden pathways offer peaceful walks around the lagoon while safeguarding the delicate native flora.
+• Swimming Caution: Open to oceanic swells, waves can be strong; swim with attention to sea conditions.
+
+Combining with Muros Historic Town
+Mount Louro is only 10 minutes by car from the historic seaside town of Muros, famous for its medieval stone arcades and authentic fresh fish taverns.`,
+    fr: `À l'embouchure de la Ría de Muros e Noia s'élève la silhouette emblématique du mont Louro (241 m), une pyramide de granit veillant sur la plage sauvage d'Area Maior et la lagune protégée d'As Xarfas.
+
+Plage d'Area Maior et Lagune d'As Xarfas
+Au pied du mont s'étend la plage d'Area Maior, vaste étendue de sable blanc et de dunes mobiles. Juste derrière les dunes se niche la lagune d'As Xarfas, un écosystème dunaire protégé abritant de nombreux oiseaux migrateurs.
+
+Visites et conseils
+• Phare de Monte Louro : Route panoramique menant au phare dominant l'entrée de la baie.
+• Passerelle dunaire : Sentiers et caillebotis en bois pour longer la lagune en préservant la flore protégée.
+• Prudence pour la baignade : Plage ouverte sur l'océan, attention aux rouleaux et courants.
+
+À combiner avec la cité médiévale de Muros
+À seulement 10 minutes en voiture de la ville historique de Muros, réputée pour ses ruelles à arcades et ses tavernes de poisson frais.`,
+    de: `An der Mündung der Ría de Muros e Noia erhebt sich die markante Granitpyramide des Monte Louro (241 m), die den wilden Strand Area Maior und die geschützte Lagune As Xarfas bewacht.
+
+Strand Area Maior und Lagune As Xarfas
+Am Fuße des Berges erstreckt sich der weitläufige weiße Sandstrand Area Maior mit seinen Wanderdünen. Direkt dahinter liegt die Lagoa de Louro (As Xarfas), ein bedeutendes Vogelschutzgebiet für Zugvögel.
+
+Sehenswürdigkeiten und Tipps
+• Leuchtturm Monte Louro: Spektakulärer Ausblick über die Ría und die Bucht von San Francisco.
+• Dünenwanderweg: Holzstege schützen die empfindliche Dünenflora bei Spaziergängen an der Lagune.
+• Badesicherheit: Als offener Atlantikstrand herrschen oft kräftige Wellen; vorsichtig baden.
+
+Kombination mit der historischen Altstadt von Muros
+Nur 10 Autominuten von der denkmalgeschützten Seefahrerstadt Muros mit ihren steinernen Bogengängen und Fischlokalen entfernt.`,
+    it: `All'imboccatura della Ría de Muros e Noia si erge il Monte Louro (241 m), una suggestiva piramide di granito che sovrasta la spiaggia selvaggia di Area Maior e la laguna protetta di As Xarfas.
+
+Spiaggia di Area Maior e Laguna di As Xarfas
+Ai piedi del monte si stende l'ampia spiaggia di Area Maior con le sue dune mobili. Subito dietro si trova la laguna di As Xarfas, preziosa oasi per l'avifauna migratoria.
+
+Punti di interesse
+• Faro di Monte Louro: Vista panoramica sulla baia di San Francisco e sull'ingresso dell'estuario.
+• Passerelle dunari: Percorsi in legno per passeggiare attorno alla laguna proteggendo la vegetazione costiera.
+• Prudenza nel bagno: Trattandosi di una spiaggia aperta sull'Atlantico, le onde possono essere sostenute.
+
+Da abbinare alla cittadina medievale di Muros
+A soli 10 minuti di auto dal centro storico di Muros, celebre per i portici marinari in pietra e le taverne tipiche.`,
+    pt: `Na entrada da Ria de Muros e Noia ergue-se o Monte Louro (241 m), uma imponente pirâmide de granito que guarda a praia selvagem de Area Maior e a lagoa protegida de As Xarfas.
+
+Praia de Area Maior e Lagoa de As Xarfas
+Aos pés do monte estende-se o extenso areal branco de Area Maior. Por trás do cordão dunar situa-se a Lagoa de As Xarfas, refúgio de aves aquáticas e migratórias.
+
+Pontos de interesse
+• Farol de Monte Louro: Miradouro panorâmico sobre a enseada de San Francisco e a entrada da ria.
+• Passadiços nas dunas: Percursos de madeira que permitem contornar a lagoa preservando a flora litoral.
+• Cuidado nos banhos: Praia aberta ao oceano com ondulação por vezes forte.
+
+Combinação com a vila histórica de Muros
+A apenas 10 minutos de carro do centro histórico de Muros, famoso pelas suas ruas com arcadas de pedra e tabernas de peixe fresco.`
   },
   'nature.louro.h1': { es: 'Laguna de As Xarfas', gl: 'Lagoa de As Xarfas', en: 'As Xarfas Lagoon', fr: 'Lagune d\'As Xarfas', de: 'As Xarfas Lagune', it: 'Laguna di As Xarfas', pt: 'Lagoa de As Xarfas' },
   'nature.louro.h2': { es: 'Playa de Area Maior', gl: 'Praia de Area Maior', en: 'Area Maior Beach', fr: 'Plage d\'Area Maior', de: 'Strand Area Maior', it: 'Spiaggia di Area Maior', pt: 'Praia de Area Maior' },
@@ -957,10 +1012,29 @@ A thunderous 40-meter cascade where freshwater crashes against the granite walls
 Waterfall vs. Panoramic Viewpoint
 • The Waterfall: Located at sea level with flat wooden boardwalks accessible to all.
 • The Viewpoint (Miradoiro): High on the mountain ridge (via a steep road with 28% gradients), offering sweeping views of the coastline.`,
-    fr: `La cascade d'Ézaro est la seule cascade d'Europe continentale à se jeter directement dans l'océan Atlantique. Passerelles en bois au niveau de la mer et belvédère panoramique au sommet.`,
-    de: `Der Ézaro-Wasserfall ist der einzige Wasserfall Kontinentaleuropas, der direkt in den Atlantik stürzt. Holzstege auf Meereshöhe und Panoramablick von oben.`,
-    it: `La cascata dell'Ézaro è l'unica in Europa continentale a sfociare direttamente nell'oceano Atlantico. Passerelle in legno sul mare e belvedere panoramico.`,
-    pt: `A Cascata do Ézaro é a única da Europa continental a desaguar diretamente no Oceano Atlântico. Passadiços de madeira ao nível do mar e miradouro panorâmico no topo.`
+    fr: `Située à 15 minutes de Carnota, la cascade d'Ézaro est l'unique chute d'eau d'Europe continentale où un fleuve (le Xallas) se jette directement dans l'océan Atlantique.
+
+La chute du fleuve Xallas
+Le fleuve franchit un dénivelé spectaculaire de plus de 40 mètres sur les parois granitiques du mont Pindo avant de plonger dans l'eau de mer.
+
+Cascade vs Belvédère d'Ézaro
+• La Cascade : Située au niveau de la mer avec une passerelle en bois accessible de 300 mètres.
+• Le Belvédère (Mirador) : Perché sur les hauteurs (célèbre rampe à 28% du Tour d'Espagne) offrant un panorama saisissant sur l'estuaire.`,
+    de: `Nur 15 Minuten von Carnota entfernt stürzt der Fluss Xallas beim Ézaro-Wasserfall über 40 Meter tief direkt in den Atlantik – ein in Kontinentaleuropa einzigartiges Naturschauspiel.
+
+Wasserfall und Aussichtspunkt
+• Der Wasserfall: Auf Meereshöhe über einen 300 Meter langen, barrierefreien Holzsteg bequem erreichbar.
+• Der Aussichtspunkt (Mirador): Hoch über der Bucht (bekannt für 28%-Steigungen der Vuelta a España) mit atemberaubendem Weitblick über den Granit-Canyon.`,
+    it: `A soli 15 minuti da Carnota, la Cascata dell'Ézaro è l'unica cascata nell'Europa continentale in cui un fiume (lo Xallas) si getta direttamente nell'oceano Atlantico.
+
+Cascata vs Belvedere
+• La Cascata: A livello del mare, raggiungibile con una comoda passerella in legno di 300 metri adatta a tutti.
+• Il Belvedere (Miradoiro): Situato in quota (salita con pendenze del 28% celebre alla Vuelta) con vista mozzafiato sulla ría e sul Monte Pindo.`,
+    pt: `Situada a 15 minutos de Carnota, a Cascata do Ézaro é a única cascata da Europa continental onde um rio (o Xallas) desagua em queda livre diretamente no Oceano Atlântico.
+
+Cascata vs Miradouro
+• A Cascata: Ao nível do mar com um passadiço de madeira plano de 300 metros acessível a todos.
+• O Miradouro: No alto da montanha (subida épica com 28% de inclinação) com vista panorâmica deslumbrante sobre o desfiladeiro.`
   },
   'nature.ezaro.h1': { es: 'Cascada del Río Xallas', gl: 'Salto do Río Xallas', en: 'River Xallas Fall', fr: 'Chute du fleuve Xallas', de: 'Wasserfall Fluss Xallas', it: 'Cascata Fiume Xallas', pt: 'Queda do Rio Xallas' },
   'nature.ezaro.h2': { es: 'Pasarelas Accesibles', gl: 'Pasarelas Accesibles', en: 'Accessible Boardwalks', fr: 'Passerelles accessibles', de: 'Barrierefreie Holzstege', it: 'Passerelle accessibili', pt: 'Passadiços acessíveis' },
@@ -1388,10 +1462,38 @@ The 1853 Lighthouse & Kilometer 0
 
 Unforgettable Atlantic Sunsets
 Watching the sunset from the granite cliffs, overlooking the vast open ocean, is one of Galicia's most breathtaking experiences, located just 35 minutes from Casa da Cuncheira.`,
-    fr: `Pendant des siècles, le cap Finisterre a été considéré comme le bout du monde connu. Son phare historique de 1853, la borne du Km 0 du Chemin de Compostelle et ses couchers de soleil sur l'Atlantique en font une étape incontournable à 35 min de Casa da Cuncheira.`,
-    de: `Jahrhundertelang galt das Kap Finisterre als das Ende der bekannten Welt. Der Leuchtturm von 1853, der Km-0-Meilenstein des Jakobswegs und die Sonnenuntergänge über dem Atlantik sind nur 35 Minuten von Casa da Cuncheira entfernt.`,
-    it: `Per secoli, Capo Finisterre è stato considerato la fine del mondo conosciuto. Il suo storico faro del 1853, il cippo del Km 0 del Cammino di Santiago e i suoi tramonti sull'oceano si trovano a soli 35 minuti da Casa da Cuncheira.`,
-    pt: `Durante séculos, o Cabo Finisterra foi considerado o fim do mundo conhecido. O seu farol de 1853, o marco do Km 0 do Caminho de Santiago e os pores do sol sobre o Atlântico ficam a apenas 35 minutos da Casa da Cuncheira.`
+    fr: `Pendant des siècles, le cap Finisterre a été considéré comme la fin du monde connu (« Finis Terrae ») et demeure l'un des lieux les plus symboliques de la côte atlantique.
+
+Le Phare de 1853 et la Borne du Km 0
+• Le Phare du Finisterre : Érigé en 1853 sur une falaise à 143 mètres d'altitude, guidant les marins le long de la Costa da Morte.
+• Borne du Km 0 du Chemin de Compostelle : Point final de la prolongation jacquaire où les pèlerins viennent contempler l'océan infini.
+
+L'expérience du coucher de soleil
+Assister au coucher du soleil depuis les falaises de granit sur l'immensité de l'océan est un moment inoubliable, à seulement 35 minutes de Casa da Cuncheira.`,
+    de: `Jahrhundertelang galt das Kap Finisterre als das Ende der bekannten Welt („Finis Terrae“) und bleibt einer der magischsten Orte Galiciens.
+
+Der Leuchtturm von 1853 und der Kilometer 0
+• Der Leuchtturm von Finisterre: 1853 auf einer 143 Meter hohen Klippe erbaut, um Schiffe an der Costa da Morte zu leiten.
+• Km-0-Meilenstein des Jakobswegs: Der symbolische Endpunkt der Pilgerreise mit Blick auf den endlosen Atlantik.
+
+Das Erlebnis des Sonnenuntergangs
+Der Sonnenuntergang über dem offenen Ozean von den Granitfelsen aus ist ein unvergessliches Erlebnis, nur 35 Autominuten von Casa da Cuncheira entfernt.`,
+    it: `Per secoli, Capo Finisterre è stato considerato la fine del mondo conosciuto («Finis Terrae») ed è tuttora uno dei luoghi più emblematici della Galizia.
+
+Il Faro del 1853 e il Chilometro 0
+• Il Faro di Finisterre: Eretto nel 1853 su una scogliera a 143 metri di quota sopra la Costa da Morte.
+• Cippo del Km 0 del Cammino di Santiago: Il punto culminante dove i pellegrini concludono il viaggio guardando l'orizzonte.
+
+La magia del tramonto
+Ammirare il tramonto dalle rocce granitiche a picco sull'oceano è un'esperienza imperdibile, a soli 35 minuti da Casa da Cuncheira.`,
+    pt: `Durante séculos, o Cabo Fisterra foi considerado o fim do mundo conhecido («Finis Terrae») e continua a ser um dos lugares mais emblemáticos da costa atlântica.
+
+O Farol de 1853 e o Quilómetro Zero
+• O Farol de Fisterra: Construído em 1853 sobre uma falésia a 143 metros de altitude sobre a Costa da Morte.
+• Marco do Km 0 do Caminho de Santiago: Ponto final da peregrinação jacobeia contemplando o oceano sem fim.
+
+A experiência do pôr do sol
+Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico é inesquecível, a apenas 35 minutos da Casa da Cuncheira.`
   },
   'nature.fisterra.h1': { es: 'Faro de Finisterre', gl: 'Faro de Fisterra', en: 'Finisterre Lighthouse', fr: 'Phare du Finisterre', de: 'Leuchtturm von Finisterre', it: 'Faro di Finisterre', pt: 'Farol de Finisterra' },
   'nature.fisterra.h2': { es: 'Kilómetro 0 Camino Santiago', gl: 'Kilómetro 0 Camiño Santiago', en: 'Kilometer 0 Way of St. James', fr: 'Kilomètre 0 Chemin de Compostelle', de: 'Kilometer 0 Jakobsweg', it: 'Chilometro 0 Cammino di Santiago', pt: 'Quilómetro 0 Caminho de Santiago' },
