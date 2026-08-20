@@ -62,12 +62,12 @@ export function WeatherWidget() {
                             style={{ border: 0 }}
                             allowFullScreen
                             loading="lazy"
-                            title="Previsión meteorológica de Lira y Carnota en Windy"
+                            title={t('weather.title_iframe')}
                         ></iframe>
                     ) : (
                         <div className="w-full h-full flex flex-col items-center justify-center text-muted-foreground/60 gap-3">
                             <CloudSun className="w-8 h-8 animate-pulse text-primary/60" />
-                            <span className="text-sm font-light">Cargando radar meteorológico en tiempo real...</span>
+                            <span className="text-sm font-light">{t('weather.loading')}</span>
                         </div>
                     )}
 

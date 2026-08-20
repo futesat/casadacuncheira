@@ -1520,6 +1520,24 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     it: 'Radar in tempo reale e previsioni del tempo per pianificare il tuo soggiorno.',
     pt: 'Radar em tempo real e previsão meteorológica para planejar a sua estadia.'
   },
+  'weather.loading': {
+    es: 'Cargando radar meteorológico en tiempo real...',
+    gl: 'Cargando radar meteorolóxico en tempo real...',
+    en: 'Loading real-time weather radar...',
+    fr: 'Chargement du radar météo en temps réel...',
+    de: 'Echtzeit-Wetterradar wird geladen...',
+    it: 'Caricamento del radar meteo in tempo reale...',
+    pt: 'A carregar radar meteorológico em tempo real...'
+  },
+  'weather.title_iframe': {
+    es: 'Previsión meteorológica de Lira y Carnota en Windy',
+    gl: 'Previsión meteorolóxica de Lira e Carnota en Windy',
+    en: 'Weather forecast for Lira and Carnota on Windy',
+    fr: 'Prévisions météo pour Lira et Carnota sur Windy',
+    de: 'Wettervorhersage für Lira und Carnota auf Windy',
+    it: 'Previsioni meteo per Lira e Carnota su Windy',
+    pt: 'Previsão meteorológica para Lira e Carnota no Windy'
+  },
   'faq.title': {
     es: 'Preguntas frecuentes',
     gl: 'Preguntas frecuentes',
