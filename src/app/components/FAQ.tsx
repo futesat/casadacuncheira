@@ -88,15 +88,34 @@ export function FAQ() {
                     className="overflow-hidden"
                   >
                     <div className="px-6 pb-5 text-muted-foreground leading-relaxed">
-                      {faq.answer.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
-                        part.startsWith('**') && part.endsWith('**') ? (
-                          <strong key={i} className="font-semibold text-foreground">
-                            {part.slice(2, -2)}
-                          </strong>
-                        ) : (
-                          part
-                        )
-                      )}
+                      {faq.answer.split(/(\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*)/g).map((part, i) => {
+                        if (part.startsWith('[') && part.includes('](') && part.endsWith(')')) {
+                          const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+                          if (match) {
+                            const [, linkText, href] = match;
+                            const isExternal = href.startsWith('http');
+                            return (
+                              <a
+                                key={i}
+                                href={href}
+                                target={isExternal ? '_blank' : undefined}
+                                rel={isExternal ? 'noopener noreferrer' : undefined}
+                                className="text-primary font-semibold underline hover:opacity-80 transition-opacity"
+                              >
+                                {linkText}
+                              </a>
+                            );
+                          }
+                        }
+                        if (part.startsWith('**') && part.endsWith('**')) {
+                          return (
+                            <strong key={i} className="font-semibold text-foreground">
+                              {part.slice(2, -2)}
+                            </strong>
+                          );
+                        }
+                        return part;
+                      })}
                     </div>
                   </motion.div>
                 )}

@@ -1567,13 +1567,13 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     pt: 'Qual é a política de cancelamento?'
   },
   'faq.a1': {
-    es: 'Cancelación gratuita hasta 7 días antes de la llegada. Entre 7 y 3 días antes, se cobra el 50% del total. Menos de 3 días, no hay reembolso.',
-    gl: 'Cancelación de balde ata 7 días antes da chegada. Entre 7 e 3 días antes, cóbrase o 50% do total. Menos de 3 días, non hai reembolso.',
-    en: 'Free cancellation up to 7 days before arrival. Between 7 and 3 days before, 50% of the total is charged. Less than 3 days, there is no refund.',
-    fr: 'Annulation gratuite jusqu\'à 7 jours avant l\'arrivée. Entre 7 et 3 jours avant, 50% du total est facturé. Moins de 3 jours, il n\'y a pas de remboursement.',
-    de: 'Kostenlose Stornierung bis zu 7 Tage vor der Anreise. Bei 7 bis 3 Tagen vorher werden 50% des Gesamtbetrags berechnet. Weniger als 3 Tage vorher erfolgt keine Rückerstattung.',
-    it: 'Cancellazione gratuita fino a 7 giorni prima dell\'arrivo. Tra 7 e 3 giorni prima, viene addebitato il 50% del totale. Meno di 3 giorni, non è previsto alcun rimborso.',
-    pt: 'Cancelamento gratuito até 7 dias antes da chegada. Entre 7 e 3 dias antes, é cobrado 50% do total. Menos de 3 dias, não há reembolso.'
+    es: 'Para consultar nuestra política de cancelación, revisa las condiciones disponibles en nuestra página de reservas: [Consultar condiciones y reservar](https://bookonline.pro/es/property/350327).',
+    gl: 'Para consultar a nosa política de cancelación, revisa as condicións dispoñibles na nosa páxina de reservas: [Consultar condicións e reservar](https://bookonline.pro/es/property/350327).',
+    en: 'To view our cancellation policy, please check the terms and conditions on our booking page: [View terms & book online](https://bookonline.pro/en/property/350327).',
+    fr: 'Pour consulter notre politique d\'annulation, veuillez vérifier les conditions disponibles sur notre page de réservation : [Consulter les conditions et réserver](https://bookonline.pro/fr/property/350327).',
+    de: 'Unsere Stornierungsbedingungen finden Sie direkt auf unserer Buchungsseite: [Bedingungen einsehen & buchen](https://bookonline.pro/de/property/350327).',
+    it: 'Per consultare la nostra politica di cancellazione, verifica i termini disponibili sulla nostra pagina di prenotazione: [Consulta le condizioni e prenota](https://bookonline.pro/it/property/350327).',
+    pt: 'Para consultar a nossa política de cancelamento, consulte as condições disponíveis na nossa página de reservas: [Consultar condições e reservar](https://bookonline.pro/pt/property/350327).'
   },
   'faq.q2': {
     es: '¿Se admiten mascotas?',
@@ -1639,13 +1639,13 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     pt: 'Existen supermercados por perto?'
   },
   'faq.a5': {
-    es: 'Sí, en Cee y Muros (a 10 minutos) hay supermercados, farmacias y todo lo necesario. También hay panaderías locales.',
-    gl: 'Si, en Cee e Muros (a 10 minutos) hai supermercados, farmacias e todo o necesario. Tamén hai panadarías locais.',
-    en: 'Yes, in Cee and Muros (10 minutes away) there are supermarkets, pharmacies, and everything you need. There are also local bakeries.',
-    fr: 'Oui, à Cee et Muros (à 10 minutes), il y a des supermarchés, des pharmacies et tout le nécessaire. Il y a aussi des boulangeries locales.',
-    de: 'Ja, in Cee und Muros (10 Minuten entfernt) gibt es Supermärkte, Apotheken und alles, was man braucht. Es gibt auch örtliche Bäckereien.',
-    it: 'Sì, a Cee e Muros (a 10 minuti) ci sono supermercati, farmacie e tutto il necessario. Ci sono anche panetterie locali.',
-    pt: 'Sim, em Cee e Muros (a 10 minutos) existem supermercados, farmácias e tudo o que é necessário. Também existem padarias locais.'
+    es: 'Sí, en Carnota y Muros, a unos 10 minutos en coche, encontrarás supermercados, farmacias y todo lo necesario para tu estancia. Además, en Lira hay varias tiendas de comestibles y panaderías locales con productos frescos y de proximidad. Para compras más grandes, en Cee encontrarás también hipermercados y una amplia variedad de comercios y servicios.',
+    gl: 'Si, en Carnota e Muros, a uns 10 minutos en coche, atoparás supermercados, farmacias e todo o necesario para a túa estancia. Ademais, en Lira hai varias tendas de comestibles e panadarías locais con produtos frescos e de proximidade. Para compras máis grandes, en Cee atoparás tamén hipermercados e unha ampla variedade de comercios e servizos.',
+    en: 'Yes, in Carnota and Muros, about 10 minutes away by car, you will find supermarkets, pharmacies, and everything you need for your stay. In addition, in Lira there are several local grocery shops and bakeries with fresh, local produce. For larger shopping trips, in Cee you will also find hypermarkets and a wide range of shops and services.',
+    fr: 'Oui, à Carnota et Muros, à environ 10 minutes en voiture, vous trouverez des supermarchés, des pharmacies et tout le nécessaire pour votre séjour. De plus, à Lira, il y a plusieurs épiceries et boulangeries locales avec des produits frais de proximité. Pour les achats plus importants, vous trouverez également des hypermarchés et de nombreux commerces à Cee.',
+    de: 'Ja, in Carnota und Muros, etwa 10 Autominuten entfernt, finden Sie Supermärkte, Apotheken und alles, was Sie für Ihren Aufenthalt benötigen. Außerdem gibt es in Lira mehrere örtliche Lebensmittelgeschäfte und Bäckereien mit frischen regionalen Produkten. Für größere Einkäufe finden Sie in Cee auch Hypermärkte und vielfältige Geschäfte.',
+    it: 'Sì, a Carnota e Muros, a circa 10 minuti di auto, troverai supermercati, farmacie e tutto il necessario per il tuo soggiorno. Inoltre, a Lira ci sono diversi negozi di alimentari e panetterie locali con prodotti freschi e a km 0. Per acquisti più grandi, a Cee troverai anche ipermercati e un\'ampia scelta di negozi e servizi.',
+    pt: 'Sim, em Carnota e Muros, a cerca de 10 minutos de carro, encontrará supermercados, farmácias e tudo o que é necessário para a sua estadia. Além disso, em Lira existem várias mercearias e padarias locais com produtos frescos e de proximidade. Para compras maiores, em Cee encontrará também hipermercados e uma grande variedade de comércio e serviços.'
   },
   'faq.q6': {
     es: '¿Es necesario coche?',
@@ -1666,22 +1666,22 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     pt: 'Sim, recomendamos ter um carro para explorar a área confortavelmente, embora também existam opções de transporte local.'
   },
   'faq.q7': {
-    es: '¿La casa tiene aire acondicionado?',
-    gl: 'A casa ten aire acondicionado?',
-    en: 'Does the house have air conditioning?',
-    fr: 'La maison dispose-t-elle de la climatisation?',
-    de: 'Verfügt das Haus über eine Klimaanlage?',
-    it: 'La casa dispone di aria condizionata?',
-    pt: 'A casa tem ar condicionado?'
+    es: '¿La casa tiene aire acondicionado y calefacción?',
+    gl: 'A casa ten aire acondicionado e calefacción?',
+    en: 'Does the house have air conditioning and heating?',
+    fr: 'La maison dispose-t-elle de la climatisation et du chauffage ?',
+    de: 'Verfügt das Haus über Klimaanlage und Heizung?',
+    it: 'La casa dispone di aria condizionata e riscaldamento?',
+    pt: 'A casa tem ar condicionado e aquecimento?'
   },
   'faq.a7': {
-    es: 'Sí, la casa cuenta con aire acondicionado de última generación en todas las estancias principales para garantizar tu confort total.',
-    gl: 'Si, a casa conta con aire acondicionado de última xeración en todas as estancias principais para garantir o teu confort total.',
-    en: 'Yes, the house has state-of-the-art air conditioning in all main rooms to ensure your total comfort.',
-    fr: 'Oui, la maison dispose d\'une climatisation de pointe dans toutes les pièces principales pour assurer votre confort total.',
-    de: 'Ja, das Haus verfügt über eine hochmoderne Klimaanlage in allen Haupträumen, um Ihren absoluten Komfort zu gewährleisten.',
-    it: 'Sì, la casa dispone di aria condizionata all\'avanguardia in tutte le stanze principali per garantire il massimo comfort.',
-    pt: 'Sim, a casa dispõe de ar condicionado de última geração em todas as divisões principais para garantir o seu conforto total.'
+    es: 'Sí, la casa cuenta con un sistema de climatización frío/calor, que proporciona tanto aire acondicionado como calefacción, para garantizar una temperatura agradable y el máximo confort en cualquier época del año.',
+    gl: 'Si, a casa conta cun sistema de climatización frío/calor, que proporciona tanto aire acondicionado como calefacción, para garantir unha temperatura agradable e o máximo confort en calquera época do ano.',
+    en: 'Yes, the house features a dual cooling/heating climate control system, providing both air conditioning and heating to ensure a pleasant temperature and maximum comfort all year round.',
+    fr: 'Oui, la maison dispose d\'un système de climatisation réversible chaud/froid, offrant à la fois climatisation et chauffage, pour garantir une température idéale et un confort optimal en toute saison.',
+    de: 'Ja, das Haus verfügt über eine moderne Warm-/Kalt-Klimaanlage, die sowohl kühlt als auch heizt, um zu jeder Jahreszeit eine angenehme Wohlfühltemperatur zu gewährleisten.',
+    it: 'Sì, la casa dispone di un sistema di climatizzazione reversibile caldo/freddo, che fornisce sia aria condizionata che riscaldamento, per garantire il massimo comfort in qualsiasi periodo dell\'anno.',
+    pt: 'Sim, a casa dispõe de um sistema de climatização quente/frio, que proporciona tanto ar condicionado como aquecimento, garantindo uma temperatura agradável e o máximo conforto em qualquer época do ano.'
   },
 };
 
