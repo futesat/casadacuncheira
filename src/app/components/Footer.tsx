@@ -11,9 +11,9 @@ export function Footer() {
   return (
     <footer className="bg-[#1e293b] text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
-          <div>
+          <div className="sm:col-span-2 md:col-span-1">
             <div className="text-xl mb-3 tracking-wide font-semibold">{STATIC_TEXTS.brand}</div>
             <p className="text-white/70 text-sm mb-4 leading-relaxed">
               {t('footer.description')}
@@ -59,6 +59,38 @@ export function Footer() {
               >
                 {t('nav.book')}
               </a>
+            </div>
+          </div>
+
+          {/* Legal Links */}
+          <div>
+            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/90">{t('footer.legalTitle')}</h4>
+            <div className="space-y-2.5 text-sm">
+              <Link
+                to="/aviso-legal"
+                className="block text-white/70 hover:text-white transition-colors"
+              >
+                {t('footer.legalNotice')}
+              </Link>
+              <Link
+                to="/privacidad"
+                className="block text-white/70 hover:text-white transition-colors"
+              >
+                {t('footer.privacy')}
+              </Link>
+              <Link
+                to="/cookies"
+                className="block text-white/70 hover:text-white transition-colors"
+              >
+                {t('footer.cookies')}
+              </Link>
+              <button
+                type="button"
+                onClick={openSettings}
+                className="block text-white/70 hover:text-white transition-colors cursor-pointer text-left"
+              >
+                {t('footer.cookieSettings')}
+              </button>
             </div>
           </div>
 

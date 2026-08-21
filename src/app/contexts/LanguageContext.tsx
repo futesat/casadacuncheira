@@ -19,13 +19,13 @@ const translations: Translations = {
   'nav.contact': { es: 'Contacto', gl: 'Contacto', en: 'Contact', fr: 'Contact', de: 'Kontakt', it: 'Contatto', pt: 'Contacto' },
   'nav.surroundings': { es: 'Entorno', gl: 'Contorno', en: 'Surroundings', fr: 'Environs', de: 'Umgebung', it: 'Dintorni', pt: 'Entorno' },
   'nav.legal': {
-    es: 'Aviso Legal y Privacidad',
-    gl: 'Aviso Legal e Privacidade',
-    en: 'Legal Notice & Privacy',
-    fr: 'Mentions légales & Confidentialité',
-    de: 'Impressum & Datenschutz',
-    it: 'Note Legali e Privacy',
-    pt: 'Aviso Legal e Privacidade'
+    es: 'Aviso Legal',
+    gl: 'Aviso Legal',
+    en: 'Legal Notice',
+    fr: 'Mentions Légales',
+    de: 'Impressum',
+    it: 'Note Legali',
+    pt: 'Aviso Legal'
   },
   'location.viewGuide': { es: 'Guía y cómo llegar', gl: 'Guía e como chegar', en: 'Guide & Directions', fr: 'Guide et itinéraire', de: 'Reiseführer & Anfahrt', it: 'Guida e come arrivare', pt: 'Guia e como chegar' },
   'nature.viewGuide': { es: 'Ver guía completa', gl: 'Ver guía completa', en: 'View full guide', fr: 'Voir le guide complet', de: 'Vollständigen Reiseführer anzeigen', it: 'Vedi guida completa', pt: 'Ver guia completo' },
@@ -40,13 +40,22 @@ const translations: Translations = {
     pt: 'O seu refúgio na Costa da Morte'
   },
   'footer.linksTitle': {
-    es: 'Enlaces',
-    gl: 'Ligazóns',
-    en: 'Links',
-    fr: 'Liens',
-    de: 'Links',
-    it: 'Link',
-    pt: 'Links'
+    es: 'Navegación',
+    gl: 'Navegación',
+    en: 'Navigation',
+    fr: 'Navigation',
+    de: 'Navigation',
+    it: 'Navigazione',
+    pt: 'Navegação'
+  },
+  'footer.legalTitle': {
+    es: 'Información Legal',
+    gl: 'Información Legal',
+    en: 'Legal Information',
+    fr: 'Informations Légales',
+    de: 'Rechtliche Hinweise',
+    it: 'Informazioni Legali',
+    pt: 'Informação Legal'
   },
   'footer.license': {
     es: 'Vivienda de uso turístico: VUT-CO-002236',
@@ -58,13 +67,13 @@ const translations: Translations = {
     pt: 'Alojamento turístico: VUT-CO-002236'
   },
   'footer.legal': {
-    es: 'Aviso Legal y Privacidad',
-    gl: 'Aviso Legal e Privacidade',
-    en: 'Legal Notice & Privacy',
-    fr: 'Mentions légales & Confidentialité',
-    de: 'Impressum & Datenschutz',
-    it: 'Note Legali e Privacy',
-    pt: 'Aviso Legal e Privacidade'
+    es: 'Aviso Legal',
+    gl: 'Aviso Legal',
+    en: 'Legal Notice',
+    fr: 'Mentions Légales',
+    de: 'Impressum',
+    it: 'Note Legali',
+    pt: 'Aviso Legal'
   },
   'footer.legalNotice': {
     es: 'Aviso Legal',
