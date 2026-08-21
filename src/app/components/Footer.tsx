@@ -1,9 +1,11 @@
 import { Link } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
+import { useCookieConsent } from '../contexts/CookieConsentContext';
 import { STATIC_TEXTS } from '../constants/static';
 
 export function Footer() {
   const { t } = useLanguage();
+  const { openSettings } = useCookieConsent();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -80,12 +82,25 @@ export function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/60">
+        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/60">
           <p>© {currentYear} {STATIC_TEXTS.brand}. {t('footer.rights')}.</p>
-          <div className="flex items-center gap-6">
-            <Link to="/aviso-legal" className="hover:text-white transition-colors text-xs">
-              {t('footer.legal')}
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+            <Link to="/aviso-legal" className="hover:text-white transition-colors">
+              {t('footer.legalNotice')}
             </Link>
+            <Link to="/privacidad" className="hover:text-white transition-colors">
+              {t('footer.privacy')}
+            </Link>
+            <Link to="/cookies" className="hover:text-white transition-colors">
+              {t('footer.cookies')}
+            </Link>
+            <button
+              type="button"
+              onClick={openSettings}
+              className="hover:text-white transition-colors cursor-pointer text-xs"
+            >
+              {t('footer.cookieSettings')}
+            </button>
           </div>
         </div>
       </div>

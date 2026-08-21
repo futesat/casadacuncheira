@@ -181,10 +181,19 @@ export function Booking() {
               />
             </div>
 
+            {/* Información básica de protección de datos (1ª Capa RGPD / LOPDGDD) */}
+            <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl text-xs text-muted-foreground space-y-1">
+              <p><strong>Responsable:</strong> César Caamaño Beiro y Hanno Gallinger (Casa da Cuncheira).</p>
+              <p><strong>Finalidad:</strong> Tramitar la solicitud de disponibilidad y atender su consulta de estancia.</p>
+              <p><strong>Base jurídica:</strong> Aplicación de medidas precontractuales a petición del interesado (Art. 6.1.b RGPD).</p>
+              <p><strong>Destinatarios:</strong> No se ceden datos a terceros salvo obligación legal.</p>
+              <p><strong>Derechos:</strong> Acceso, rectificación, supresión y demás derechos detallados en nuestra <a href="/privacidad" target="_blank" rel="noopener noreferrer" className="text-primary underline">Política de Privacidad</a>.</p>
+            </div>
+
             {/* Submit */}
             <motion.button
               type="submit"
-              className="w-full py-4 bg-primary text-white rounded-lg hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl"
+              className="w-full py-4 bg-primary text-white rounded-lg hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl cursor-pointer font-medium"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >

@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation, useNavigate, Navigate } from 'react-router';
 import { LanguageProvider } from './contexts/LanguageContext';
+import { CookieConsentProvider } from './contexts/CookieConsentContext';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
@@ -8,19 +9,20 @@ import { House } from './components/House';
 import { Location } from './components/Location';
 import { Experiences } from './components/Experiences';
 import { WeatherWidget } from './components/WeatherWidget';
-import { Testimonials } from './components/Testimonials';
 import { FAQ } from './components/FAQ';
-import { Booking } from './components/Booking';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { FloatingBookButton } from './components/FloatingBookButton';
+import { CookieBanner } from './components/CookieBanner';
 import { Toaster } from 'sonner';
 import { Suspense, lazy } from 'react';
 import { SEOHead } from './components/SEOHead';
 
 const Gastronomy = lazy(() => import('./pages/Gastronomy').then(m => ({ default: m.Gastronomy })));
 const NatureDetail = lazy(() => import('./pages/NatureDetail').then(m => ({ default: m.NatureDetail })));
-const Legal = lazy(() => import('./pages/Legal').then(m => ({ default: m.Legal })));
+const LegalNotice = lazy(() => import('./pages/LegalNotice').then(m => ({ default: m.LegalNotice })));
+const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy').then(m => ({ default: m.PrivacyPolicy })));
+const CookiePolicy = lazy(() => import('./pages/CookiePolicy').then(m => ({ default: m.CookiePolicy })));
 
 function HomePage() {
   const navigate = useNavigate();
@@ -53,10 +55,6 @@ function NaturePage() {
   return <NatureDetail />;
 }
 
-function LegalPage() {
-  return <Legal />;
-}
-
 function AppContent() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -87,12 +85,23 @@ function AppContent() {
             <Route path="/monte-louro" element={<Navigate to="/nature/monte-louro" replace />} />
             <Route path="/fervenza-do-ezaro" element={<Navigate to="/nature/fervenza-do-ezaro" replace />} />
             <Route path="/cabo-finisterre" element={<Navigate to="/nature/cabo-finisterre" replace />} />
-            <Route path="/aviso-legal" element={<LegalPage />} />
+            
+            {/* Legal Routes */}
+            <Route path="/aviso-legal" element={<LegalNotice />} />
+            <Route path="/privacidad" element={<PrivacyPolicy />} />
+            <Route path="/cookies" element={<CookiePolicy />} />
+            
+            {/* Legacy & Synonym Redirects */}
+            <Route path="/legal" element={<Navigate to="/aviso-legal" replace />} />
+            <Route path="/aviso-legal-y-privacidad" element={<Navigate to="/aviso-legal" replace />} />
+            <Route path="/politica-de-privacidad" element={<Navigate to="/privacidad" replace />} />
+            <Route path="/politica-de-cookies" element={<Navigate to="/cookies" replace />} />
           </Routes>
         </Suspense>
       </main>
       <Footer />
       <FloatingBookButton />
+      <CookieBanner />
       <Toaster position="top-center" richColors />
     </div>
   );
@@ -101,9 +110,11 @@ function AppContent() {
 export default function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter basename={(import.meta as any).env.BASE_URL}>
-        <AppContent />
-      </BrowserRouter>
+      <CookieConsentProvider>
+        <BrowserRouter basename={(import.meta as any).env.BASE_URL}>
+          <AppContent />
+        </BrowserRouter>
+      </CookieConsentProvider>
     </LanguageProvider>
   );
 }

@@ -66,6 +66,42 @@ const translations: Translations = {
     it: 'Note Legali e Privacy',
     pt: 'Aviso Legal e Privacidade'
   },
+  'footer.legalNotice': {
+    es: 'Aviso Legal',
+    gl: 'Aviso Legal',
+    en: 'Legal Notice',
+    fr: 'Mentions Légales',
+    de: 'Impressum',
+    it: 'Note Legali',
+    pt: 'Aviso Legal'
+  },
+  'footer.privacy': {
+    es: 'Política de Privacidad',
+    gl: 'Política de Privacidade',
+    en: 'Privacy Policy',
+    fr: 'Politique de Confidentialité',
+    de: 'Datenschutzerklärung',
+    it: 'Informativa sulla Privacy',
+    pt: 'Política de Privacidade'
+  },
+  'footer.cookies': {
+    es: 'Política de Cookies',
+    gl: 'Política de Cookies',
+    en: 'Cookie Policy',
+    fr: 'Politique de Cookies',
+    de: 'Cookie-Richtlinie',
+    it: 'Informativa sui Cookie',
+    pt: 'Política de Cookies'
+  },
+  'footer.cookieSettings': {
+    es: 'Configurar cookies',
+    gl: 'Configurar cookies',
+    en: 'Cookie settings',
+    fr: 'Paramètres des cookies',
+    de: 'Cookie-Einstellungen',
+    it: 'Impostazioni cookie',
+    pt: 'Configurar cookies'
+  },
 
   // SEO Metadata
   'seo.defaultTitle': {

@@ -164,15 +164,39 @@ const routes = [
   },
   {
     path: '/aviso-legal',
-    title: 'Aviso Legal, Privacidad y Cookies | Casa da Cuncheira',
-    description: 'Información legal, política de privacidad, términos de uso y registro turístico oficial VUT-CO-002236 de Casa da Cuncheira (Lira, Carnota).',
-    h1: 'Aviso Legal y Política de Privacidad',
+    title: 'Aviso Legal y Condiciones de Uso | Casa da Cuncheira',
+    description: 'Información legal, registro oficial VUT-CO-002236 de Casa da Cuncheira (Lira, Carnota) y condiciones de uso del sitio web según la LSSI-CE.',
+    h1: 'Aviso Legal y Condiciones de Uso',
     content: `
       <h2>Datos Identificativos del Titular y Registro Oficial</h2>
-      <p>En cumplimiento de la LSSI-CE y el RGPD, se informa de que Casa da Cuncheira es una vivienda de uso turístico con registro oficial <strong>VUT-CO-002236</strong>, situada en Aldea Carballal 70, Lira (Carnota, A Coruña).</p>
+      <p>En cumplimiento de la Ley 34/2002 (LSSI-CE), se informa de que Casa da Cuncheira es una vivienda de uso turístico con registro oficial <strong>VUT-CO-002236</strong> de la Xunta de Galicia, situada en Aldea Carballal 70, Lira (Carnota, A Coruña).</p>
       <p>Titular: César Caamaño Beiro (NIF: 53549213S) | Gestión y Explotación: Hanno Gallinger (NIF: X0792551V)</p>
       <p>Contacto: <a href="mailto:casadacuncheira@gmail.com">casadacuncheira@gmail.com</a> / <a href="mailto:faroinsua@gmail.com">faroinsua@gmail.com</a> | Teléfono: +34 607 952 250</p>
-      <p><a href="/">Volver a la página principal de Casa da Cuncheira</a></p>
+      <p><a href="/">Volver a la página principal</a> | <a href="/privacidad">Política de Privacidad</a> | <a href="/cookies">Política de Cookies</a></p>
+    `
+  },
+  {
+    path: '/privacidad',
+    title: 'Política de Privacidad y Protección de Datos | Casa da Cuncheira',
+    description: 'Tratamiento de datos personales, bases jurídicas RGPD, registro oficial de huéspedes y ejercicio de derechos en Casa da Cuncheira.',
+    h1: 'Política de Privacidad y Protección de Datos',
+    content: `
+      <h2>Tratamiento de Datos y Protección de la Privacidad (RGPD)</h2>
+      <p>Información detallada sobre el tratamiento de datos personales de usuarios y huéspedes conforme al Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD).</p>
+      <p>Responsables: César Caamaño Beiro y Hanno Gallinger (VUT-CO-002236, Lira, Carnota).</p>
+      <p>Derechos de acceso, rectificación, supresión y limitación: <a href="mailto:casadacuncheira@gmail.com">casadacuncheira@gmail.com</a></p>
+      <p><a href="/">Volver a la página principal</a> | <a href="/aviso-legal">Aviso Legal</a> | <a href="/cookies">Política de Cookies</a></p>
+    `
+  },
+  {
+    path: '/cookies',
+    title: 'Política de Cookies | Casa da Cuncheira',
+    description: 'Información sobre las cookies técnicas y analíticas de Casa da Cuncheira, tabla de almacenamiento real y panel de configuración.',
+    h1: 'Política de Cookies',
+    content: `
+      <h2>Uso de Cookies y Almacenamiento Local</h2>
+      <p>Información sobre las cookies técnicas estrictamente necesarias y cookies analíticas anónimas de Google Analytics según el artículo 22.2 de la LSSI-CE.</p>
+      <p><a href="/">Volver a la página principal</a> | <a href="/aviso-legal">Aviso Legal</a> | <a href="/privacidad">Política de Privacidad</a></p>
     `
   }
 ];
@@ -297,7 +321,11 @@ function prerender() {
 
     <footer style="padding: 20px; background-color: #1e293b; color: #94a3b8; text-align: center; margin-top: 40px;">
       <p>© 2026 Casa da Cuncheira. Alojamiento vacacional en Lira, Carnota (Costa da Morte).</p>
-      <p><a href="/aviso-legal" style="color: #cbd5e1;">Aviso Legal y Privacidad</a></p>
+      <p style="margin-top: 8px;">
+        <a href="/aviso-legal" style="color: #cbd5e1; margin: 0 8px;">Aviso Legal</a> |
+        <a href="/privacidad" style="color: #cbd5e1; margin: 0 8px;">Política de Privacidad</a> |
+        <a href="/cookies" style="color: #cbd5e1; margin: 0 8px;">Política de Cookies</a>
+      </p>
     </footer>`;
 
     pageHtml = pageHtml.replace(
