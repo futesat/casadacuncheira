@@ -23,6 +23,27 @@ const CURRENT_VERSION = '1.0';
 
 const CookieConsentContext = createContext<CookieConsentContextType | undefined>(undefined);
 
+const GTM_ID = 'GTM-WFGJHSJ4';
+
+// Helper to dynamically load GTM script only upon explicit consent
+function loadGTM() {
+  if (typeof window === 'undefined') return;
+  if (document.getElementById('gtm-script')) return;
+
+  const w = window as any;
+  w.dataLayer = w.dataLayer || [];
+  w.dataLayer.push({
+    'gtm.start': new Date().getTime(),
+    event: 'gtm.js'
+  });
+
+  const script = document.createElement('script');
+  script.id = 'gtm-script';
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`;
+  document.head.appendChild(script);
+}
+
 // Helper to push consent mode updates to Google Tag Manager / Analytics
 function updateGoogleConsent(analyticsGranted: boolean) {
   if (typeof window !== 'undefined') {
@@ -35,11 +56,15 @@ function updateGoogleConsent(analyticsGranted: boolean) {
         ad_user_data: 'denied',
         ad_personalization: 'denied'
       });
-    } else {
-      w.dataLayer.push({
-        event: 'consent_update',
-        consent_analytics: analyticsGranted ? 'granted' : 'denied'
-      });
+    }
+
+    w.dataLayer.push({
+      event: 'consent_update',
+      consent_analytics: analyticsGranted ? 'granted' : 'denied'
+    });
+
+    if (analyticsGranted) {
+      loadGTM();
     }
   }
 }
