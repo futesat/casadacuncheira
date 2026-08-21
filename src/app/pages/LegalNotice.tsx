@@ -68,9 +68,9 @@ export function LegalNotice() {
               <h2 className="text-xl font-bold text-foreground">2. Objeto del Sitio Web</h2>
             </div>
             <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-              El presente sitio web ({' '}
-              <a href="https://www.casadacuncheira.com/" className="text-primary hover:underline">
-                https://www.casadacuncheira.com/
+              El presente sitio web (
+              <a href="https://www.casadacuncheira.com" className="text-primary hover:underline">
+                https://www.casadacuncheira.com
               </a>
               ) tiene como finalidad ofrecer información descriptiva, fotográfica, turística y de ubicación sobre el alojamiento vacacional <strong>Casa da Cuncheira</strong> en Lira (Carnota, Costa da Morte).
             </p>

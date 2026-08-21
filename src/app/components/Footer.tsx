@@ -18,7 +18,7 @@ export function Footer() {
             <p className="text-white/70 text-sm mb-4 leading-relaxed">
               {t('footer.description')}
             </p>
-            <div className="inline-block px-3 py-1 bg-white/10 rounded-md text-xs text-white/80 font-medium tracking-wide">
+            <div className="inline-flex items-center px-3.5 py-1.5 bg-white/10 border border-white/10 rounded-lg text-xs text-white/80 font-medium leading-normal">
               {t('footer.license')}
             </div>
           </div>

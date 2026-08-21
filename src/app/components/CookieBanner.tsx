@@ -39,19 +39,26 @@ export function CookieBanner() {
 
   return (
     <>
-      {/* 1st Layer: Cookie Notice Banner */}
+      {/* 1st Layer: Cookie Notice Banner (Blocking overlay) */}
       <AnimatePresence>
         {!hasDecided && (
           <motion.div
-            role="region"
+            role="dialog"
+            aria-modal="true"
             aria-label="Aviso de cookies"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed bottom-0 inset-x-0 z-[999] p-4 sm:p-6 pointer-events-none"
+            className="fixed inset-0 z-[9999] bg-black/60 backdrop-blur-sm flex items-end justify-center p-4 sm:p-6"
           >
-            <div className="max-w-4xl mx-auto bg-slate-900/95 text-white backdrop-blur-xl rounded-3xl p-6 sm:p-8 shadow-2xl border border-white/15 pointer-events-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 40, scale: 0.98 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 40, scale: 0.98 }}
+              transition={{ duration: 0.3 }}
+              className="max-w-4xl w-full bg-slate-900 text-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-white/15"
+            >
               <div className="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between">
                 <div className="space-y-2 max-w-2xl">
                   <div className="flex items-center gap-2 text-primary">
@@ -97,7 +104,7 @@ export function CookieBanner() {
                   </button>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
@@ -106,7 +113,7 @@ export function CookieBanner() {
       <AnimatePresence>
         {isSettingsOpen && (
           <div
-            className="fixed inset-0 z-[1000] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
+            className="fixed inset-0 z-[10000] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
             role="dialog"
             aria-modal="true"
             aria-labelledby="cookie-settings-title"
