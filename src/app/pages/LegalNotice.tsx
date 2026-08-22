@@ -52,12 +52,11 @@ export function LegalNotice() {
             </p>
             <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 space-y-3 text-sm">
               <p><strong>Denominación comercial:</strong> {STATIC_TEXTS.brand}</p>
-              <p><strong>Titular del inmueble y de la habilitación turística:</strong> César Caamaño Beiro (53549213S)</p>
-              <p><strong>Gestión y Explotación de la actividad de alojamiento:</strong> Hanno Gallinger (X0792551V)</p>
+              <p><strong>Titular del dominio web, inmueble y habilitación turística:</strong> César Caamaño Beiro (53549213S) • Contacto: <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary hover:underline">{STATIC_TEXTS.ownerEmail}</a></p>
+              <p><strong>Gestión y Explotación de la actividad de alojamiento:</strong> Hanno Gallinger (X0792551V) • Domicilio: {STATIC_TEXTS.managerAddress} • Contacto: <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary hover:underline">{STATIC_TEXTS.email}</a></p>
               <p><strong>Registro Oficial de Viviendas de Uso Turístico (Xunta de Galicia):</strong> {STATIC_TEXTS.license} (VUT-CO-002236)</p>
               <p><strong>Ubicación de la vivienda turística:</strong> {STATIC_TEXTS.location}</p>
               <p><strong>Teléfono de atención al huésped:</strong> <a href={`tel:${STATIC_TEXTS.phone.replace(/\s+/g, '')}`} className="text-primary hover:underline">{STATIC_TEXTS.phone}</a></p>
-              <p><strong>Correos electrónicos de contacto:</strong> <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary hover:underline">{STATIC_TEXTS.email}</a> / <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary hover:underline">{STATIC_TEXTS.ownerEmail}</a></p>
             </div>
           </section>
 

@@ -170,8 +170,8 @@ const routes = [
     content: `
       <h2>Datos Identificativos del Titular y Registro Oficial</h2>
       <p>En cumplimiento de la Ley 34/2002 (LSSI-CE), se informa de que Casa da Cuncheira es una vivienda de uso turístico con registro oficial <strong>VUT-CO-002236</strong> de la Xunta de Galicia, situada en Aldea Carballal 70, Lira (Carnota, A Coruña).</p>
-      <p>Titular: César Caamaño Beiro (53549213S) | Gestión y Explotación: Hanno Gallinger (X0792551V)</p>
-      <p>Contacto: <a href="mailto:casadacuncheira@gmail.com">casadacuncheira@gmail.com</a> / <a href="mailto:faroinsua@gmail.com">faroinsua@gmail.com</a> | Teléfono: +34 607 952 250</p>
+      <p>Titular del dominio e inmueble: César Caamaño Beiro (53549213S) • casadacuncheira@gmail.com</p>
+      <p>Gestión y Explotación: Hanno Gallinger (X0792551V, Lariño 318, Carnota) • faroinsua@gmail.com | Teléfono: +34 607 952 250</p>
       <p><a href="/">Volver a la página principal</a> | <a href="/privacidad">Política de Privacidad</a> | <a href="/cookies">Política de Cookies</a></p>
     `
   },
