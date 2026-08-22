@@ -51,10 +51,53 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
    ```
    El sitio estará disponible en `http://localhost:5173`.
 
-4. **Compilar para producción:**
+4. **Compilar para producción y prerender:**
    ```bash
    npm run build
    ```
+
+5. **Barrera de Calidad Automatizada (Testing):**
+   ```bash
+   # Typecheck TypeScript (cero errores)
+   npm run typecheck
+
+   # Verificación de paridad en 7 diccionarios de idiomas
+   npm run test:i18n
+
+   # Ejecutar suite completa Playwright E2E contra el build real
+   npm run test:e2e
+
+   # Ejecutar suite rápida en Chromium
+   npm run test:e2e:chromium
+
+   # Modo interactivo UI
+   npm run test:e2e:ui
+   ```
+
+---
+
+## 🛡️ Pipeline CI/CD y Quality Gate
+
+El flujo de despliegue en GitHub Actions implementa el principio de **artefacto inmutable**:
+
+```text
+[INSTALL] ➔ [TYPECHECK & i18n PARITY] ➔ [BUILD & PRERENDER] ➔ [UPLOAD ARTIFACT]
+                                                                     │
+                                                                     ▼
+                                                          [DOWNLOAD ARTIFACT]
+                                                                     │
+                                                                     ▼
+                                                          [PLAYWRIGHT MULTI-BROWSER]
+                                                          (Chromium, Firefox, WebKit, Mobile Safari)
+                                                                     │
+                                                                     ▼
+                                                          [PRODUCTION QUALITY GATE]
+                                                                     │
+                                                                     ▼
+                                                          [DEPLOY TO GITHUB PAGES]
+```
+
+Cualquier fallo en typecheck, paridad de traducciones, accesibilidad WCAG 2.1 AA, navegación, SEO, cookies o responsive bloquea el despliegue a producción de forma estricta.
 
 ---
 

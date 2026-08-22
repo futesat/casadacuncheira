@@ -87,7 +87,7 @@ export function CookiePolicy() {
               En este sitio web únicamente se utilizan las cookies y elementos de almacenamiento estrictamente necesarios o autorizados por el usuario:
             </p>
 
-            <div className="overflow-x-auto rounded-2xl border border-slate-200/80">
+            <div className="overflow-x-auto rounded-2xl border border-slate-200/80" tabIndex={0} role="region" aria-label="Tabla de cookies">
               <table className="w-full text-left text-xs sm:text-sm">
                 <thead className="bg-slate-100/80 text-slate-700 font-semibold border-b border-slate-200">
                   <tr>
@@ -153,10 +153,10 @@ export function CookiePolicy() {
               Además de utilizar nuestro panel de configuración, puedes permitir, bloquear o eliminar las cookies instaladas en tu equipo configurando las opciones del navegador que utilices:
             </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-1 text-sm sm:text-base">
-              <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Google Chrome</a></li>
-              <li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Apple Safari</a></li>
-              <li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Mozilla Firefox</a></li>
-              <li><a href="https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Microsoft Edge</a></li>
+              <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:opacity-80">Google Chrome</a></li>
+              <li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:opacity-80">Apple Safari</a></li>
+              <li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:opacity-80">Mozilla Firefox</a></li>
+              <li><a href="https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:opacity-80">Microsoft Edge</a></li>
             </ul>
           </section>
         </motion.article>

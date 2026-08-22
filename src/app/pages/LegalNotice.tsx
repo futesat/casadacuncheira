@@ -52,11 +52,11 @@ export function LegalNotice() {
             </p>
             <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 space-y-3 text-sm">
               <p><strong>Denominación comercial:</strong> {STATIC_TEXTS.brand}</p>
-              <p><strong>Titular del dominio web, inmueble y habilitación turística:</strong> César Caamaño Beiro (53549213S) • Contacto: <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary hover:underline">{STATIC_TEXTS.ownerEmail}</a></p>
-              <p><strong>Gestión y Explotación de la actividad de alojamiento:</strong> Hanno Gallinger (X0792551V) • Domicilio: {STATIC_TEXTS.managerAddress} • Contacto: <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary hover:underline">{STATIC_TEXTS.email}</a></p>
-              <p><strong>Registro Oficial de Viviendas de Uso Turístico (Xunta de Galicia):</strong> {STATIC_TEXTS.license} (VUT-CO-002236)</p>
-              <p><strong>Ubicación de la vivienda turística:</strong> {STATIC_TEXTS.location}</p>
-              <p><strong>Teléfono de atención al huésped:</strong> <a href={`tel:${STATIC_TEXTS.phone.replace(/\s+/g, '')}`} className="text-primary hover:underline">{STATIC_TEXTS.phone}</a></p>
+              <p><strong>Titular del dominio web, inmueble y habilitación turística:</strong> César Caamaño Beiro (53549213S) • Contacto: <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary underline hover:opacity-80">{STATIC_TEXTS.ownerEmail}</a></p>
+              <p><strong>Gestión y Explotación de la actividad de alojamiento:</strong> Hanno Gallinger (X0792551V) • Domicilio: {STATIC_TEXTS.managerAddress} • Contacto: <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary underline hover:opacity-80">{STATIC_TEXTS.email}</a></p>
+              <p><strong>Inscripción en el Rexistro de Empresas e Actividades Turísticas (REAT):</strong> VUT-CO-009477 (Xunta de Galicia).</p>
+              <p><strong>Categoría:</strong> Vivenda de Uso Turístico (VUT).</p>
+              <p><strong>Teléfono de atención al huésped:</strong> <a href={`tel:${STATIC_TEXTS.phone.replace(/\s+/g, '')}`} className="text-primary underline hover:opacity-80">{STATIC_TEXTS.phone}</a></p>
             </div>
           </section>
 
@@ -64,17 +64,17 @@ export function LegalNotice() {
           <section className="space-y-4 border-t border-border/30 pt-8">
             <div className="flex items-center gap-3 text-primary">
               <Shield className="w-6 h-6 shrink-0" />
-              <h2 className="text-xl font-bold text-foreground">2. Objeto del Sitio Web</h2>
+              <h2 className="text-xl font-bold text-foreground">2. Objeto y Ámbito de Aplicación</h2>
             </div>
             <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-              El presente sitio web (
-              <a href="https://www.casadacuncheira.com" className="text-primary hover:underline">
-                https://www.casadacuncheira.com
+              El presente Aviso Legal regula el acceso, navegación y utilización del sitio web{' '}
+              <a href="https://www.casadacuncheira.com" className="text-primary underline hover:opacity-80">
+                www.casadacuncheira.com
               </a>
-              ) tiene como finalidad ofrecer información descriptiva, fotográfica, turística y de ubicación sobre el alojamiento vacacional <strong>Casa da Cuncheira</strong> en Lira (Carnota, Costa da Morte).
+              , así como las responsabilidades derivadas del uso de sus contenidos.
             </p>
             <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-              Asimismo, la web facilita el acceso a la consulta de disponibilidad y contratación de estancias conectando con el motor de reservas directas de AvaiBook (<a href="https://bookonline.pro/es/property/350327" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">bookonline.pro <ExternalLink className="w-3 h-3" /></a>).
+              Asimismo, la web facilita el acceso a la consulta de disponibilidad y contratación de estancias conectando con el motor de reservas directas de AvaiBook (<a href="https://bookonline.pro/es/property/350327" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:opacity-80 inline-flex items-center gap-1">bookonline.pro <ExternalLink className="w-3 h-3" /></a>).
             </p>
           </section>
 

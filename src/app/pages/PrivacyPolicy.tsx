@@ -57,7 +57,7 @@ export function PrivacyPolicy() {
                 <p><strong>Responsable del Tratamiento:</strong> Hanno Gallinger (X0792551V)</p>
                 <p><strong>Ámbito:</strong> Gestión y explotación turística de Casa da Cuncheira (VUT-CO-002236), tramitación de reservas, atención directa, facturación y registro oficial de viajeros (SES.HOSPEDAJES).</p>
                 <p><strong>Domicilio:</strong> {STATIC_TEXTS.managerAddress}</p>
-                <p><strong>Contacto privacidad:</strong> <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary hover:underline">{STATIC_TEXTS.email}</a></p>
+                <p><strong>Contacto privacidad:</strong> <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary underline hover:opacity-80">{STATIC_TEXTS.email}</a></p>
               </div>
 
               {/* Responsable Web y Cookies */}
@@ -66,7 +66,7 @@ export function PrivacyPolicy() {
                 <p><strong>Responsable del Tratamiento:</strong> César Caamaño Beiro (53549213S)</p>
                 <p><strong>Ámbito:</strong> Titular del dominio web, del inmueble y de la habilitación turística oficial VUT-CO-002236. Responsable del entorno digital, analítica y gestión del consentimiento de cookies.</p>
                 <p><strong>Domicilio:</strong> {STATIC_TEXTS.location}</p>
-                <p><strong>Contacto privacidad:</strong> <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary hover:underline">{STATIC_TEXTS.ownerEmail}</a></p>
+                <p><strong>Contacto privacidad:</strong> <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary underline hover:opacity-80">{STATIC_TEXTS.ownerEmail}</a></p>
               </div>
             </div>
           </section>
@@ -181,8 +181,8 @@ export function PrivacyPolicy() {
               Para ejercer estos derechos, puede remitir una solicitud por escrito indicando en el asunto "Protección de Datos - Ejercicio de Derechos" al canal correspondiente:
             </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-1 text-sm sm:text-base">
-              <li><strong>Para consultas, reservas, facturación y estancia:</strong> <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary hover:underline font-medium">{STATIC_TEXTS.email}</a> (Hanno Gallinger).</li>
-              <li><strong>Para navegación web, analítica y cookies:</strong> <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary hover:underline font-medium">{STATIC_TEXTS.ownerEmail}</a> (César Caamaño Beiro).</li>
+              <li><strong>Para consultas, reservas, facturación y estancia:</strong> <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary underline hover:opacity-80 font-medium">{STATIC_TEXTS.email}</a> (Hanno Gallinger).</li>
+              <li><strong>Para navegación web, analítica y cookies:</strong> <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary underline hover:opacity-80 font-medium">{STATIC_TEXTS.ownerEmail}</a> (César Caamaño Beiro).</li>
             </ul>
           </section>
 
@@ -193,7 +193,7 @@ export function PrivacyPolicy() {
               <h2 className="text-xl font-bold text-foreground">6. Reclamación ante la Autoridad de Control</h2>
             </div>
             <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-              Si considera que sus derechos no han sido debidamente atendidos o que el tratamiento de sus datos infringe la normativa aplicable, tiene derecho a presentar una reclamación ante la <strong>Agencia Española de Protección de Datos (AEPD)</strong> a través de su sede electrónica (<a href="https://www.aepd.es/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">www.aepd.es</a>) o por escrito en C/ Jorge Juan, 6, 28001 Madrid.
+              Si considera que sus derechos no han sido debidamente atendidos o que el tratamiento de sus datos infringe la normativa aplicable, tiene derecho a presentar una reclamación ante la <strong>Agencia Española de Protección de Datos (AEPD)</strong> a través de su sede electrónica (<a href="https://www.aepd.es/" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:opacity-80">www.aepd.es</a>) o por escrito en C/ Jorge Juan, 6, 28001 Madrid.
             </p>
           </section>
         </motion.article>

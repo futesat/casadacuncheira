@@ -6,3 +6,6 @@ node_modules
 .agent
 dist
 .vite
+playwright-report
+temp/*  
+test-results

@@ -85,9 +85,10 @@ export function Hero({ onDiscover }: HeroProps) {
       {/* Scroll Indicator */}
       <motion.button
         onClick={scrollToNext}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white cursor-pointer"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
+        aria-label="Desplazarse a la siguiente sección"
       >
         <ChevronDown className="w-8 h-8" />
       </motion.button>

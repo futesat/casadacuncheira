@@ -66,7 +66,7 @@ function AppContent() {
   const currentView = location.pathname === '/' ? 'home' : 'other';
 
   return (
-    <div className="min-h-screen bg-background font-['Inter',sans-serif]">
+    <div className="min-h-screen bg-background font-['Inter',sans-serif] overflow-x-hidden">
       <Header onNavigateHome={() => navigate('/')} currentView={currentView} />
       <main>
         <Suspense fallback={
