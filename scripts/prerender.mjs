@@ -320,7 +320,7 @@ function prerender() {
     </main>
 
     <footer style="padding: 20px; background-color: #1e293b; color: #94a3b8; text-align: center; margin-top: 40px;">
-      <p>© 2026 Casa da Cuncheira. Alojamiento vacacional en Lira, Carnota (Costa da Morte).</p>
+      <p>© 2026 Casa da Cuncheira. Vivienda de uso turístico VUT-CO-002236 · Lira, Carnota (Costa da Morte).</p>
       <p style="margin-top: 8px;">
         <a href="/aviso-legal" style="color: #cbd5e1; margin: 0 8px;">Aviso Legal</a> |
         <a href="/privacidad" style="color: #cbd5e1; margin: 0 8px;">Política de Privacidad</a> |
@@ -329,7 +329,7 @@ function prerender() {
     </footer>`;
 
     pageHtml = pageHtml.replace(
-      /<div id="root">[\s\S]*?<\/div>/i,
+      /<div id="root">[\s\S]*<\/div>(?=\s*<script|\s*<\/body>)/i,
       `<div id="root">${fallbackBody}</div>`
     );
 
