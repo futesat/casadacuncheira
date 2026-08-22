@@ -168,10 +168,49 @@ const routes = [
     description: 'Información legal, registro oficial VUT-CO-002236 de Casa da Cuncheira (Lira, Carnota) y condiciones de uso del sitio web según la LSSI-CE.',
     h1: 'Aviso Legal y Condiciones de Uso',
     content: `
-      <h2>Datos Identificativos del Titular y Registro Oficial</h2>
-      <p>En cumplimiento de la Ley 34/2002 (LSSI-CE), se informa de que Casa da Cuncheira es una vivienda de uso turístico con registro oficial <strong>VUT-CO-002236</strong> de la Xunta de Galicia, situada en Aldea Carballal 70, Lira (Carnota, A Coruña).</p>
-      <p>Titular del dominio e inmueble: César Caamaño Beiro (53549213S) • casadacuncheira@gmail.com</p>
-      <p>Gestión y Explotación: Hanno Gallinger (X0792551V, Lariño 318, Carnota) • faroinsua@gmail.com | Teléfono: +34 607 952 250</p>
+      <p style="color: #64748b; font-size: 0.875rem; margin-bottom: 2rem;">Última actualización: Agosto 2026 • Información legal exigible según la Ley 34/2002 (LSSI-CE)</p>
+
+      <h2>1. Datos Identificativos del Titular y Explotador</h2>
+      <p>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los datos identificativos y de contacto relativos a la actividad de este sitio web:</p>
+      <ul>
+        <li><strong>Denominación comercial:</strong> Casa da Cuncheira</li>
+        <li><strong>Titular del dominio web, inmueble y habilitación turística:</strong> César Caamaño Beiro (53549213S) • Contacto: <a href="mailto:casadacuncheira@gmail.com">casadacuncheira@gmail.com</a></li>
+        <li><strong>Gestión y Explotación de la actividad de alojamiento:</strong> Hanno Gallinger (X0792551V) • Domicilio: Lariño 318, 15292 Carnota (A Coruña) • Contacto: <a href="mailto:faroinsua@gmail.com">faroinsua@gmail.com</a></li>
+        <li><strong>Registro Oficial de Viviendas de Uso Turístico (Xunta de Galicia):</strong> VUT-CO-002236</li>
+        <li><strong>Ubicación de la vivienda turística:</strong> Casa Da Cuncheira - Casa Azul, Aldea Carballal, 70, 15292 Lira, Carnota, A Coruña</li>
+        <li><strong>Teléfono de atención al huésped:</strong> <a href="tel:+34607952250">+34 607 952 250</a></li>
+      </ul>
+
+      <h2>2. Objeto del Sitio Web</h2>
+      <p>El presente sitio web (<a href="https://www.casadacuncheira.com">https://www.casadacuncheira.com</a>) tiene como finalidad ofrecer información descriptiva, fotográfica, turística y de ubicación sobre el alojamiento vacacional <strong>Casa da Cuncheira</strong> en Lira (Carnota, Costa da Morte).</p>
+      <p>Asimismo, la web facilita el acceso a la consulta de disponibilidad y contratación de estancias conectando con el motor de reservas directas de AvaiBook (<a href="https://bookonline.pro/es/property/350327" target="_blank" rel="noopener noreferrer">bookonline.pro</a>).</p>
+
+      <h2>3. Condiciones de Acceso y Uso</h2>
+      <p>El acceso a este sitio web es libre y gratuito. El usuario se compromete a realizar un uso adecuado, lícito y conforme a la buena fe de los contenidos y servicios, absteniéndose de:</p>
+      <ul>
+        <li>Incurrir en actividades ilícitas, ilegales o contrarias al orden público y a la normativa aplicable.</li>
+        <li>Intentar acceder, manipular o vulnerar la seguridad de los servidores o sistemas técnicos asociados al sitio.</li>
+        <li>Realizar consultas masivas automatizadas o scraping no autorizado con fines lesivos.</li>
+      </ul>
+
+      <h2>4. Propiedad Intelectual e Industrial</h2>
+      <p>Todos los elementos que forman parte de este sitio web, incluyendo diseño gráfico, logotipos, textos, fotografías del alojamiento y del entorno, vídeos, código fuente y estructura de navegación, son titularidad exclusiva de Casa da Cuncheira o de terceros que han autorizado expresamente su inclusión.</p>
+      <p>Queda expresamente prohibida la reproducción, distribución, comunicación pública o transformación de cualquier contenido sin la autorización previa y por escrito de sus legítimos titulares.</p>
+
+      <h2>5. Política de Enlaces a Terceros</h2>
+      <p>Este sitio web incluye enlaces a plataformas y servicios de terceros, tales como:</p>
+      <ul>
+        <li><strong>Motor de reservas online (AvaiBook / bookonline.pro):</strong> Pasarela segura externa para tramitar reservas y pagos.</li>
+        <li><strong>Mapas y servicios de localización (Google Maps):</strong> Consulta de ubicación geográfica.</li>
+        <li><strong>Widgets meteorológicos (Windy.com):</strong> Consulta de previsión marítima y del viento.</li>
+        <li><strong>Redes sociales (Instagram, Facebook):</strong> Canales informativos complementarios.</li>
+      </ul>
+      <p>Casa da Cuncheira no ejerce control sobre los contenidos o políticas de privacidad de dichos sitios web externos y declina cualquier responsabilidad derivada de su uso fuera del presente dominio.</p>
+
+      <h2>6. Legislación Aplicable y Jurisdicción</h2>
+      <p>Las relaciones entre el usuario y los responsables de Casa da Cuncheira se regirán por la normativa española vigente.</p>
+      <p>En caso de conflicto o controversia, las partes se someterán a los Juzgados y Tribunales competentes conforme a las normas procesales españolas, respetando en todo caso el fuero legalmente establecido para los consumidores y usuarios por el Real Decreto Legislativo 1/2007 (TRLGDCU).</p>
+
       <p><a href="/">Volver a la página principal</a> | <a href="/privacidad">Política de Privacidad</a> | <a href="/cookies">Política de Cookies</a></p>
     `
   },
@@ -181,10 +220,89 @@ const routes = [
     description: 'Tratamiento de datos personales, bases jurídicas RGPD, registro oficial de huéspedes y ejercicio de derechos en Casa da Cuncheira.',
     h1: 'Política de Privacidad y Protección de Datos',
     content: `
-      <h2>Tratamiento de Datos y Protección de la Privacidad (RGPD)</h2>
-      <p>Información detallada sobre el tratamiento de datos personales de usuarios y huéspedes conforme al Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD).</p>
-      <p>Responsable Alojamiento y Reservas: Hanno Gallinger | Responsable Web y Cookies: César Caamaño Beiro (VUT-CO-002236, Lira, Carnota).</p>
-      <p>Ejercicio de derechos: <a href="mailto:faroinsua@gmail.com">faroinsua@gmail.com</a> (Estancia) / <a href="mailto:casadacuncheira@gmail.com">casadacuncheira@gmail.com</a> (Web/Cookies)</p>
+      <p style="color: #64748b; font-size: 0.875rem; margin-bottom: 2rem;">Última actualización: Agosto 2026 • En cumplimiento del Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD)</p>
+
+      <h2>1. Identificación y Responsables del Tratamiento</h2>
+      <p>A efectos de lo dispuesto en el RGPD, la LOPDGDD y la LSSI-CE, se detallan los responsables de los distintos tratamientos de datos personales que tienen lugar a través del sitio web y de la actividad turística:</p>
+      <h3>Alojamiento, Reservas y Huéspedes</h3>
+      <p><strong>Responsable del Tratamiento:</strong> Hanno Gallinger (X0792551V)</p>
+      <p><strong>Ámbito:</strong> Gestión y explotación turística de Casa da Cuncheira (VUT-CO-002236), tramitación de reservas, atención directa, facturación y registro oficial de viajeros (SES.HOSPEDAJES).</p>
+      <p><strong>Domicilio:</strong> Lariño 318, 15292 Carnota (A Coruña)</p>
+      <p><strong>Contacto privacidad:</strong> <a href="mailto:faroinsua@gmail.com">faroinsua@gmail.com</a></p>
+
+      <h3>Sitio Web, Analítica y Cookies</h3>
+      <p><strong>Responsable del Tratamiento:</strong> César Caamaño Beiro (53549213S)</p>
+      <p><strong>Ámbito:</strong> Titular del dominio web, del inmueble y de la habilitación turística oficial VUT-CO-002236. Responsable del entorno digital, analítica y gestión del consentimiento de cookies.</p>
+      <p><strong>Domicilio:</strong> Casa Da Cuncheira - Casa Azul, Aldea Carballal, 70, 15292 Lira, Carnota, A Coruña</p>
+      <p><strong>Contacto privacidad:</strong> <a href="mailto:casadacuncheira@gmail.com">casadacuncheira@gmail.com</a></p>
+
+      <h2>2. Tratamientos de Datos Personales, Finalidades y Bases Jurídicas</h2>
+      <p>A continuación se detallan de forma exhaustiva y transparente los tratamientos de datos personales que realmente se llevan a cabo:</p>
+
+      <h3>A. Gestión de consultas y atención al usuario (Email y Teléfono)</h3>
+      <p><strong>Datos tratados:</strong> Nombre, dirección de correo electrónico, teléfono y contenido del mensaje transmitido por el usuario.</p>
+      <p><strong>Finalidad:</strong> Atender solicitudes de información, dudas de disponibilidad, características de la casa y consultas precontractuales.</p>
+      <p><strong>Base jurídica:</strong> Aplicación de medidas precontractuales a petición del interesado (Art. 6.1.b RGPD) e interés legítimo en atender a los usuarios (Art. 6.1.f RGPD).</p>
+      <p><strong>Conservación:</strong> Durante el tiempo necesario para resolver la consulta y un máximo de 1 año tras su resolución para histórico de soporte, salvo que de ella se derive una reserva.</p>
+
+      <h3>B. Gestión de reservas y prestación del servicio de alojamiento</h3>
+      <p><strong>Datos tratados:</strong> Nombre y apellidos del titular de la reserva, datos de contacto (email, teléfono, dirección), fechas de estancia, número de huéspedes y confirmación de pago.</p>
+      <p><strong>Finalidad:</strong> Tramitar la reserva directa, formalizar la contratación de la estancia, coordinar la entrada (auto check-in o bienvenida) y prestar el servicio de alojamiento.</p>
+      <p><strong>Base jurídica:</strong> Ejecución del contrato de hospedaje en el que el interesado es parte (Art. 6.1.b RGPD).</p>
+      <p><strong>Conservación:</strong> Durante la vigencia de la reserva y, posteriormente, durante el plazo de 5 años para atender posibles responsabilidades civiles contractuales (Art. 1964 Código Civil).</p>
+
+      <h3>C. Registro oficial de viajeros (Parte de Entrada de Hospedaje)</h3>
+      <p><strong>Datos tratados:</strong> Datos de filiación de los huéspedes mayores de 14 años (nombre, apellidos, tipo y número de documento de identidad/pasaporte, nacionalidad, fecha de nacimiento, fecha de entrada/salida y firma).</p>
+      <p><strong>Finalidad:</strong> Confección del parte de entrada de viajeros y comunicación a las Fuerzas y Cuerpos de Seguridad del Estado (Guardia Civil / plataforma SES.HOSPEDAJES) en cumplimiento de la normativa de seguridad ciudadana.</p>
+      <p><strong>Base jurídica:</strong> Cumplimiento de una obligación legal aplicable al responsable del tratamiento (Art. 6.1.c RGPD), en virtud de la Ley Orgánica 4/2015 de Protección de la Seguridad Ciudadana, el Real Decreto 933/2021 de 26 de octubre y el Decreto 12/2017 de la Xunta de Galicia.</p>
+      <p><strong>Conservación:</strong> Los libros-registro y partes de viajeros deben conservarse obligatoriamente durante un periodo de 3 años desde la finalización del servicio de hospedaje, a disposición de las autoridades competentes (Art. 7 RD 933/2021).</p>
+      <p><em>Nota: Estos datos se solicitan exclusivamente durante el proceso de check-in / registro previo a la entrada, no mediante la navegación ordinaria por este sitio web.</em></p>
+
+      <h3>D. Facturación, contabilidad y obligaciones fiscales</h3>
+      <p><strong>Datos tratados:</strong> Nombre, apellidos o razón social, NIF/CIF, dirección fiscal y datos económicos de la estancia.</p>
+      <p><strong>Finalidad:</strong> Emisión de facturas y cumplimiento de obligaciones contables y tributarias.</p>
+      <p><strong>Base jurídica:</strong> Cumplimiento de una obligación legal (Art. 6.1.c RGPD) en aplicación de la Ley 58/2003 General Tributaria y el artículo 30 del Código de Comercio.</p>
+      <p><strong>Conservación:</strong> Entre 4 años (prescripción fiscal) y 6 años (libros contables y justificantes mercantiles).</p>
+
+      <h3>E. Analítica web, cookies y medición estadística agregada</h3>
+      <p><strong>Responsable específico del tratamiento:</strong> César Caamaño Beiro (Titular del sitio web).</p>
+      <p><strong>Datos tratados:</strong> Identificador seudónimo de cliente (_ga), dirección IP anonimizada, páginas visitadas y características técnicas de navegación.</p>
+      <p><strong>Finalidad:</strong> Medición agregada de tráfico, rendimiento técnico y optimización del sitio web mediante Google Analytics.</p>
+      <p><strong>Base jurídica:</strong> Consentimiento explícito del usuario (Art. 6.1.a RGPD y Art. 22.2 LSSI-CE), otorgado a través del banner de cookies.</p>
+      <p><strong>Conservación:</strong> Hasta un máximo de 2 años en el navegador o hasta la retirada del consentimiento.</p>
+
+      <h2>3. Destinatarios y Encargados del Tratamiento</h2>
+      <p>No se cederán datos a terceros salvo imperativo legal. Para la correcta prestación de los servicios, colaboran los siguientes proveedores en calidad de Encargados del Tratamiento (Art. 28 RGPD):</p>
+      <ul>
+        <li><strong>AvaiBook On-line, S.L.U. (Zaragoza, España):</strong> Proveedor del motor de reservas online y software de gestión de hospedaje. Actúa como Encargado del Tratamiento para la tramitación de reservas y como Responsable independiente para su pasarela de pagos seguros bajo normativa PSD2.</li>
+        <li><strong>Google Ireland Limited (Dublín, Irlanda):</strong> Servicios de correo electrónico (Gmail) y analítica web (Google Analytics con Google Consent Mode v2 y anonimización de IP activa).</li>
+        <li><strong>Fuerzas y Cuerpos de Seguridad del Estado (Guardia Civil / SES.HOSPEDAJES):</strong> Cesión por obligación legal en cumplimiento del registro de viajeros.</li>
+        <li><strong>Administración Tributaria (AEAT):</strong> Cesión por obligación legal fiscal.</li>
+      </ul>
+
+      <h2>4. Transferencias Internacionales de Datos</h2>
+      <p>Con carácter general, los datos se almacenan en servidores dentro del Espacio Económico Europeo (EEE). En los casos en que proveedores tecnológicos como Google presten soporte técnico desde EE.UU., las transferencias internacionales se encuentran amparadas en el <strong>Marco de Privacidad de Datos UE-EE.UU. (Data Privacy Framework)</strong> y en la suscripción de Cláusulas Contractuales Tipo (SCC) aprobadas por la Comisión Europea.</p>
+
+      <h2>5. Ejercicio de Derechos</h2>
+      <p>El usuario puede ejercer en cualquier momento sus derechos reconocidos por el RGPD y la LOPDGDD:</p>
+      <ul>
+        <li><strong>Acceso:</strong> Conocer qué datos personales están siendo tratados.</li>
+        <li><strong>Rectificación:</strong> Solicitar la corrección de datos inexactos o incompletos.</li>
+        <li><strong>Supresión («derecho al olvido»):</strong> Solicitar la eliminación de sus datos cuando ya no sean necesarios.</li>
+        <li><strong>Limitación del tratamiento:</strong> Solicitar que se suspenda temporalmente el tratamiento en los supuestos legalmente previstos.</li>
+        <li><strong>Portabilidad:</strong> Recibir los datos en formato estructurado de uso común y lectura mecánica.</li>
+        <li><strong>Oposición:</strong> Oponerse al tratamiento de sus datos por motivos derivados de su situación particular.</li>
+        <li><strong>Retirada del consentimiento:</strong> Retirar en cualquier momento el consentimiento otorgado previamente para cookies analíticas sin afectar a la licitud del tratamiento previo.</li>
+      </ul>
+      <p>Para ejercer estos derechos, puede remitir una solicitud por escrito indicando en el asunto "Protección de Datos - Ejercicio de Derechos" al canal correspondiente:</p>
+      <ul>
+        <li><strong>Para consultas, reservas, facturación y estancia:</strong> <a href="mailto:faroinsua@gmail.com">faroinsua@gmail.com</a> (Hanno Gallinger).</li>
+        <li><strong>Para navegación web, analítica y cookies:</strong> <a href="mailto:casadacuncheira@gmail.com">casadacuncheira@gmail.com</a> (César Caamaño Beiro).</li>
+      </ul>
+
+      <h2>6. Reclamación ante la Autoridad de Control</h2>
+      <p>Si considera que sus derechos no han sido debidamente atendidos o que el tratamiento de sus datos infringe la normativa aplicable, tiene derecho a presentar una reclamación ante la <strong>Agencia Española de Protección de Datos (AEPD)</strong> a través de su sede electrónica (<a href="https://www.aepd.es/" target="_blank" rel="noopener noreferrer">www.aepd.es</a>) o por escrito en C/ Jorge Juan, 6, 28001 Madrid.</p>
+
       <p><a href="/">Volver a la página principal</a> | <a href="/aviso-legal">Aviso Legal</a> | <a href="/cookies">Política de Cookies</a></p>
     `
   },
@@ -194,8 +312,72 @@ const routes = [
     description: 'Información sobre las cookies técnicas y analíticas de Casa da Cuncheira, tabla de almacenamiento real y panel de configuración.',
     h1: 'Política de Cookies',
     content: `
-      <h2>Uso de Cookies y Almacenamiento Local</h2>
-      <p>Información sobre las cookies técnicas estrictamente necesarias y cookies analíticas anónimas de Google Analytics según el artículo 22.2 de la LSSI-CE.</p>
+      <p style="color: #64748b; font-size: 0.875rem; margin-bottom: 2rem;">Última actualización: Agosto 2026 • En cumplimiento del artículo 22.2 de la LSSI-CE y la Guía sobre el uso de cookies de la AEPD</p>
+
+      <h2>1. ¿Qué son las Cookies y el Almacenamiento Local?</h2>
+      <p>Una cookie es un pequeño archivo de texto que un sitio web descarga en tu navegador o dispositivo al visitarlo. Además de las cookies tradicionales, este sitio web puede utilizar tecnologías de almacenamiento web como <code>localStorage</code> para recordar tus preferencias de privacidad de forma segura y eficiente.</p>
+      <p>Estas herramientas permiten que la página funcione correctamente, recuerde tus selecciones (como el idioma o la aceptación de cookies) y, en su caso, analice estadísticamente las visitas de forma anónima para mejorar el contenido y el rendimiento.</p>
+
+      <h2>2. Inventario Real de Cookies y Almacenamiento Utilizados</h2>
+      <p>En este sitio web únicamente se utilizan las cookies y elementos de almacenamiento estrictamente necesarios o autorizados por el usuario:</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.875rem; text-align: left;">
+        <thead>
+          <tr style="background-color: #f1f5f9; border-bottom: 2px solid #e2e8f0;">
+            <th style="padding: 10px;">Nombre</th>
+            <th style="padding: 10px;">Proveedor</th>
+            <th style="padding: 10px;">Finalidad</th>
+            <th style="padding: 10px;">Duración</th>
+            <th style="padding: 10px;">Tipo</th>
+            <th style="padding: 10px;">Consentimiento</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom: 1px solid #e2e8f0;">
+            <td style="padding: 10px; font-family: monospace; font-weight: bold;">cdc_cookie_consent_v1</td>
+            <td style="padding: 10px;">casadacuncheira.com (Propio)</td>
+            <td style="padding: 10px;">Almacena en <code>localStorage</code> el estado y la fecha de tus preferencias de consentimiento de cookies.</td>
+            <td style="padding: 10px;">1 año</td>
+            <td style="padding: 10px;"><strong>Técnica</strong></td>
+            <td style="padding: 10px;">Exenta (necesaria)</td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e2e8f0;">
+            <td style="padding: 10px; font-family: monospace; font-weight: bold;">_ga</td>
+            <td style="padding: 10px;">Google Analytics (Google Ireland Ltd.)</td>
+            <td style="padding: 10px;">Registra un identificador seudónimo único para generar datos estadísticos agregados sobre cómo el visitante usa el sitio web.</td>
+            <td style="padding: 10px;">2 años (o 14 meses)</td>
+            <td style="padding: 10px;"><strong>Analítica</strong></td>
+            <td style="padding: 10px;">Requiere consentimiento</td>
+          </tr>
+          <tr style="border-bottom: 1px solid #e2e8f0;">
+            <td style="padding: 10px; font-family: monospace; font-weight: bold;">_ga_WFGJHSJ4</td>
+            <td style="padding: 10px;">Google Analytics (Google Ireland Ltd.)</td>
+            <td style="padding: 10px;">Mantiene el estado de la sesión y recopila métricas técnicas agregadas.</td>
+            <td style="padding: 10px;">2 años</td>
+            <td style="padding: 10px;"><strong>Analítica</strong></td>
+            <td style="padding: 10px;">Requiere consentimiento</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>3. Servicios de Terceros e Incrustaciones de Contenido</h2>
+      <p>El sitio web integra componentes de proveedores externos para mejorar la información turística ofrecida:</p>
+      <ul>
+        <li><strong>Windy.com (Previsión meteorológica):</strong> Se carga mediante un <code>iframe</code> de forma diferida (lazy load). Windy puede gestionar almacenamiento de sesión propio para la interactividad del mapa meteorológico.</li>
+        <li><strong>Google Maps (Localización):</strong> Incrustación técnica para mostrar la ubicación física de la casa y lugares de interés.</li>
+        <li><strong>YouTube (Vídeo de la Cascada de Ézaro):</strong> Se carga utilizando el dominio de privacidad mejorada <code>youtube-nocookie.com</code>, evitando cookies de seguimiento previas a la reproducción del vídeo.</li>
+        <li><strong>Motor de reservas AvaiBook (bookonline.pro):</strong> Al pulsar en «Reservar», el usuario es redirigido de forma segura a la plataforma externa de AvaiBook, la cual aplica su propia política de cookies y seguridad de pagos.</li>
+      </ul>
+
+      <h2>4. Cómo Deshabilitar o Eliminar Cookies desde tu Navegador</h2>
+      <p>Además de utilizar nuestro panel de configuración, puedes permitir, bloquear o eliminar las cookies instaladas en tu equipo configurando las opciones del navegador que utilices:</p>
+      <ul>
+        <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer">Google Chrome</a></li>
+        <li><a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer">Apple Safari</a></li>
+        <li><a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" rel="noopener noreferrer">Mozilla Firefox</a></li>
+        <li><a href="https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer">Microsoft Edge</a></li>
+      </ul>
+
       <p><a href="/">Volver a la página principal</a> | <a href="/aviso-legal">Aviso Legal</a> | <a href="/privacidad">Política de Privacidad</a></p>
     `
   }
