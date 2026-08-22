@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Globe, Menu, X } from 'lucide-react';
-import { Link, useLocation } from 'react-router';
+import { useLocation } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { STATIC_TEXTS } from '../constants/static';
 
@@ -173,14 +173,6 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
             >
               {t('nav.contact')}
             </button>
-            <Link
-              to="/aviso-legal"
-              className={`hover:text-primary transition-colors ${
-                isLightHeader ? 'text-foreground' : 'text-white'
-              }`}
-            >
-              {t('nav.legal')}
-            </Link>
           </nav>
 
           {/* Right Side - Language & Mobile Menu */}
@@ -291,13 +283,6 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
               >
                 {t('nav.contact')}
               </button>
-              <Link
-                to="/aviso-legal"
-                onClick={() => setShowMobileMenu(false)}
-                className="block w-full text-left py-2 hover:text-primary transition-colors text-foreground font-medium"
-              >
-                {t('nav.legal')}
-              </Link>
             </nav>
           </motion.div>
         )}

@@ -183,7 +183,7 @@ export function Booking() {
 
             {/* Información básica de protección de datos (1ª Capa RGPD / LOPDGDD) */}
             <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl text-xs text-muted-foreground space-y-1">
-              <p><strong>Responsable:</strong> César Caamaño Beiro y Hanno Gallinger (Casa da Cuncheira).</p>
+              <p><strong>Responsable:</strong> Hanno Gallinger (Casa da Cuncheira - VUT-CO-002236).</p>
               <p><strong>Finalidad:</strong> Tramitar la solicitud de disponibilidad y atender su consulta de estancia.</p>
               <p><strong>Base jurídica:</strong> Aplicación de medidas precontractuales a petición del interesado (Art. 6.1.b RGPD).</p>
               <p><strong>Destinatarios:</strong> No se ceden datos a terceros salvo obligación legal.</p>

@@ -1,9 +1,10 @@
 export const STATIC_TEXTS = {
     brand: 'Casa da Cuncheira',
     license: 'VUT-CO-002236',
-    owner: 'César Caamaño Beiro (NIF: 53549213S)',
+    owner: 'César Caamaño Beiro (53549213S)',
     ownerEmail: 'casadacuncheira@gmail.com',
-    manager: 'Hanno Gallinger (NIF: X0792551V)',
+    manager: 'Hanno Gallinger (X0792551V)',
+    managerAddress: 'Lariño 318, 15292 Carnota (A Coruña)',
     email: 'faroinsua@gmail.com',
     phone: '+34 607 952 250',
     location: 'Casa Da Cuncheira - Casa Azul, Aldea Carballal, 70, 15292 Lira, Carnota, A Coruña',

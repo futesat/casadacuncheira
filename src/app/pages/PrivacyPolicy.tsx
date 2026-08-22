@@ -41,21 +41,33 @@ export function PrivacyPolicy() {
             </p>
           </header>
 
-          {/* 1. Responsables */}
+          {/* 1. Responsables del Tratamiento */}
           <section className="space-y-4">
             <div className="flex items-center gap-3 text-primary">
               <Lock className="w-6 h-6 shrink-0" />
-              <h2 className="text-xl font-bold text-foreground">1. Responsables del Tratamiento</h2>
+              <h2 className="text-xl font-bold text-foreground">1. Identificación y Responsables del Tratamiento</h2>
             </div>
             <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-              Los responsables del tratamiento de los datos personales tratados a través de este sitio web y durante la prestación del servicio de alojamiento son:
+              A efectos de lo dispuesto en el RGPD, la LOPDGDD y la LSSI-CE, se detallan los responsables de los distintos tratamientos de datos personales que tienen lugar a través del sitio web y de la actividad turística:
             </p>
-            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 space-y-2 text-sm">
-              <p><strong>Titular de la vivienda y de la habilitación turística:</strong> César Caamaño Beiro (NIF: 53549213S)</p>
-              <p><strong>Gestión y Explotación del alojamiento:</strong> Hanno Gallinger (NIF: X0792551V)</p>
-              <p><strong>Registro Turístico:</strong> Vivienda de Uso Turístico VUT-CO-002236 (Xunta de Galicia)</p>
-              <p><strong>Domicilio:</strong> {STATIC_TEXTS.location}</p>
-              <p><strong>Contacto para privacidad y ejercicio de derechos:</strong> <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary hover:underline">{STATIC_TEXTS.email}</a> / <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary hover:underline">{STATIC_TEXTS.ownerEmail}</a></p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {/* Responsable Alojamiento */}
+              <div className="bg-slate-50 rounded-2xl p-5 border border-slate-200/80 space-y-2 text-sm">
+                <h3 className="font-bold text-slate-900 text-sm uppercase tracking-wide text-primary">Alojamiento, Reservas y Huéspedes</h3>
+                <p><strong>Responsable del Tratamiento:</strong> Hanno Gallinger (X0792551V)</p>
+                <p><strong>Ámbito:</strong> Gestión y explotación turística de Casa da Cuncheira (VUT-CO-002236), tramitación de reservas, atención directa, facturación y registro oficial de viajeros (SES.HOSPEDAJES).</p>
+                <p><strong>Domicilio:</strong> {STATIC_TEXTS.managerAddress}</p>
+                <p><strong>Contacto privacidad:</strong> <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary hover:underline">{STATIC_TEXTS.email}</a></p>
+              </div>
+
+              {/* Responsable Web y Cookies */}
+              <div className="bg-slate-50 rounded-2xl p-5 border border-slate-200/80 space-y-2 text-sm">
+                <h3 className="font-bold text-slate-900 text-sm uppercase tracking-wide text-primary">Sitio Web, Analítica y Cookies</h3>
+                <p><strong>Responsable del Tratamiento:</strong> César Caamaño Beiro (53549213S)</p>
+                <p><strong>Ámbito:</strong> Titular del dominio web, del inmueble y de la habilitación turística oficial VUT-CO-002236. Responsable del entorno digital, analítica y gestión del consentimiento de cookies.</p>
+                <p><strong>Domicilio:</strong> {STATIC_TEXTS.location}</p>
+                <p><strong>Contacto privacidad:</strong> <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary hover:underline">{STATIC_TEXTS.ownerEmail}</a></p>
+              </div>
             </div>
           </section>
 
@@ -109,7 +121,8 @@ export function PrivacyPolicy() {
 
               {/* Tratamiento E: Analítica */}
               <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2 text-sm">
-                <h3 className="font-bold text-slate-900 text-base">E. Analítica web y medición estadística agregada</h3>
+                <h3 className="font-bold text-slate-900 text-base">E. Analítica web, cookies y medición estadística agregada</h3>
+                <p><strong>Responsable específico del tratamiento:</strong> César Caamaño Beiro (Titular del sitio web).</p>
                 <p><strong>Datos tratados:</strong> Identificador seudónimo de cliente (`_ga`), dirección IP anonimizada, páginas visitadas y características técnicas de navegación.</p>
                 <p><strong>Finalidad:</strong> Medición agregada de tráfico, rendimiento técnico y optimización del sitio web mediante Google Analytics.</p>
                 <p><strong>Base jurídica:</strong> Consentimiento explícito del usuario (Art. 6.1.a RGPD y Art. 22.2 LSSI-CE), otorgado a través del banner de cookies.</p>
@@ -165,8 +178,12 @@ export function PrivacyPolicy() {
               <li><strong>Retirada del consentimiento:</strong> Retirar en cualquier momento el consentimiento otorgado previamente para cookies analíticas sin afectar a la licitud del tratamiento previo.</li>
             </ul>
             <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-              Para ejercer estos derechos, puede remitir una solicitud por escrito indicando en el asunto "Protección de Datos - Ejercicio de Derechos" a cualquiera de las siguientes direcciones de correo: <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary hover:underline font-medium">{STATIC_TEXTS.email}</a> o <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary hover:underline font-medium">{STATIC_TEXTS.ownerEmail}</a>, acreditando debidamente su identidad.
+              Para ejercer estos derechos, puede remitir una solicitud por escrito indicando en el asunto "Protección de Datos - Ejercicio de Derechos" al canal correspondiente:
             </p>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-1 text-sm sm:text-base">
+              <li><strong>Para consultas, reservas, facturación y estancia:</strong> <a href={`mailto:${STATIC_TEXTS.email}`} className="text-primary hover:underline font-medium">{STATIC_TEXTS.email}</a> (Hanno Gallinger).</li>
+              <li><strong>Para navegación web, analítica y cookies:</strong> <a href={`mailto:${STATIC_TEXTS.ownerEmail}`} className="text-primary hover:underline font-medium">{STATIC_TEXTS.ownerEmail}</a> (César Caamaño Beiro).</li>
+            </ul>
           </section>
 
           {/* 6. Reclamación ante la Autoridad de Control */}
