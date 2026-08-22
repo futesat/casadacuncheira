@@ -12,7 +12,7 @@
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:smoke": "playwright test --grep @smoke",
     "test:e2e:chromium": "playwright test --project=chromium",
-    "test:i18n": "playwright test i18n-parity.spec.ts"
+    "test:i18n": "node scripts/check-i18n.mjs"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
