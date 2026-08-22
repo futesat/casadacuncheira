@@ -1,12 +1,54 @@
-import { Link } from 'react-router';
+import { useMemo } from 'react';
+import { Link, useNavigate, useLocation } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useCookieConsent } from '../contexts/CookieConsentContext';
 import { STATIC_TEXTS } from '../constants/static';
 
 export function Footer() {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
   const { openSettings } = useCookieConsent();
+  const navigate = useNavigate();
+  const location = useLocation();
   const currentYear = new Date().getFullYear();
+
+  const bookingUrl = useMemo(() => {
+    const urlMap: Record<string, string> = {
+      es: 'https://bookonline.pro/es/property/350327',
+      gl: 'https://bookonline.pro/es/property/350327',
+      en: 'https://bookonline.pro/en/property/350327',
+      fr: 'https://bookonline.pro/fr/property/350327',
+      de: 'https://bookonline.pro/de/property/350327',
+      it: 'https://bookonline.pro/it/property/350327',
+      pt: 'https://bookonline.pro/pt/property/350327',
+    };
+    return urlMap[language] || urlMap['es'];
+  }, [language]);
+
+  const scrollToSection = (id: string) => {
+    if (location.pathname !== '/') {
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          const headerHeight = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+          window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+          window.history.pushState(null, '', `#${id}`);
+        }
+      }, 100);
+      return;
+    }
+
+    const element = document.getElementById(id);
+    if (element) {
+      const headerHeight = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+      window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+      window.history.pushState(null, '', `#${id}`);
+    }
+  };
 
   return (
     <footer className="bg-[#1e293b] text-white py-12">
@@ -28,37 +70,35 @@ export function Footer() {
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white/90">{t('footer.linksTitle')}</h4>
             <div className="space-y-2.5 text-sm">
               <button
-                onClick={() => document.getElementById('house')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => scrollToSection('house')}
                 className="block text-white/70 hover:text-white transition-colors cursor-pointer text-left"
               >
                 {t('nav.house')}
               </button>
               <button
-                onClick={() => document.getElementById('location')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => scrollToSection('location')}
                 className="block text-white/70 hover:text-white transition-colors cursor-pointer text-left"
               >
                 {t('nav.location')}
               </button>
               <button
-                onClick={() => document.getElementById('experiences')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => scrollToSection('experiences')}
                 className="block text-white/70 hover:text-white transition-colors cursor-pointer text-left"
               >
                 {t('nav.experiences')}
               </button>
-              <Link
-                to="/gastronomy"
-                className="block text-white/70 hover:text-white transition-colors"
-              >
-                Gastronomía
-              </Link>
-              <a
-                href="https://bookonline.pro/es/property/350327"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block text-primary hover:text-primary/80 transition-colors font-medium"
+              <button
+                onClick={() => window.open(bookingUrl, '_blank', 'noopener,noreferrer')}
+                className="block text-white/70 hover:text-white transition-colors cursor-pointer text-left"
               >
                 {t('nav.book')}
-              </a>
+              </button>
+              <button
+                onClick={() => scrollToSection('contact')}
+                className="block text-white/70 hover:text-white transition-colors cursor-pointer text-left"
+              >
+                {t('nav.contact')}
+              </button>
             </div>
           </div>
 
