@@ -117,7 +117,7 @@ export function CookiePolicy() {
                     <td className="p-3.5 font-semibold text-primary">Requiere consentimiento</td>
                   </tr>
                   <tr className="hover:bg-slate-50/50">
-                    <td className="p-3.5 font-mono text-slate-900 font-semibold">_ga_WFGJHSJ4</td>
+                    <td className="p-3.5 font-mono text-slate-900 font-semibold">_ga_213MC8TBHN</td>
                     <td className="p-3.5">Google Analytics (Google Ireland Ltd.)</td>
                     <td className="p-3.5">Mantiene el estado de la sesión y recopila métricas técnicas agregadas.</td>
                     <td className="p-3.5">2 años</td>

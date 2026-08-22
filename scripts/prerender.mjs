@@ -350,7 +350,7 @@ const routes = [
             <td style="padding: 10px;">Requiere consentimiento</td>
           </tr>
           <tr style="border-bottom: 1px solid #e2e8f0;">
-            <td style="padding: 10px; font-family: monospace; font-weight: bold;">_ga_WFGJHSJ4</td>
+            <td style="padding: 10px; font-family: monospace; font-weight: bold;">_ga_213MC8TBHN</td>
             <td style="padding: 10px;">Google Analytics (Google Ireland Ltd.)</td>
             <td style="padding: 10px;">Mantiene el estado de la sesión y recopila métricas técnicas agregadas.</td>
             <td style="padding: 10px;">2 años</td>
