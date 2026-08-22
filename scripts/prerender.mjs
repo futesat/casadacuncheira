@@ -454,6 +454,30 @@ function prerender() {
       `<meta name="twitter:description" content="${route.description}" />`
     );
 
+    // Technical SEO cleanup for legal pages
+    const isLegalRoute = ['/aviso-legal', '/privacidad', '/cookies'].includes(route.path);
+    if (isLegalRoute) {
+      // 1. Remove meta keywords (irrelevant and commercial)
+      pageHtml = pageHtml.replace(/\s*<meta\s+name="keywords"\s+content=".*?"\s*\/?>/i, '');
+
+      // 2. Remove hero image preload (not used visually above-the-fold on legal pages)
+      pageHtml = pageHtml.replace(/\s*<!-- Preload Hero Image for Core Web Vitals \(LCP\) -->\s*<link\s+rel="preload"\s+as="image"\s+href="\/images\/hero_optimized\.webp"[^>]*\/?>/i, '');
+
+      // 3. Remove FAQPage schema from global JSON-LD graph (FAQs are not visible content on legal pages)
+      pageHtml = pageHtml.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/, (match, jsonContent) => {
+        try {
+          const parsed = JSON.parse(jsonContent);
+          if (parsed && Array.isArray(parsed['@graph'])) {
+            parsed['@graph'] = parsed['@graph'].filter((item) => item['@type'] !== 'FAQPage');
+            return `<script type="application/ld+json">\n${JSON.stringify(parsed, null, 2)}\n  </script>`;
+          }
+        } catch (e) {
+          console.error('Error parsing JSON-LD in prerender:', e);
+        }
+        return match;
+      });
+    }
+
     // Insert Breadcrumb Schema into Head
     const breadcrumbSchema = `
   <script type="application/ld+json">
