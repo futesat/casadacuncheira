@@ -744,94 +744,121 @@ const translations: Translations = {
     pt: 'Ligar por Telefone'
   },
   'testimonials.title': {
-    es: 'Lo que dicen nuestros huéspedes',
-    gl: 'O que din os nosos hóspedes',
+    es: 'Opiniones de nuestros huéspedes',
+    gl: 'Opinións dos nosos hóspedes',
     en: 'What our guests say',
     fr: 'Ce que disent nos invités',
     de: 'Was unsere Gäste sagen',
     it: 'Cosa dicono i nostri ospiti',
     pt: 'O que dizem os nossos hóspedes'
   },
+  'testimonials.badge': {
+    es: 'Calificación 4.9 ★ en Airbnb · Huéspedes verificados',
+    gl: 'Cualificación 4.9 ★ en Airbnb · Hóspedes verificados',
+    en: '4.9 ★ Rating on Airbnb · Verified Guests',
+    fr: 'Note de 4.9 ★ sur Airbnb · Voyageurs vérifiés',
+    de: '4.9 ★ Bewertung auf Airbnb · Verifizierte Gäste',
+    it: 'Valutazione 4.9 ★ su Airbnb · Ospiti verificati',
+    pt: 'Classificação 4.9 ★ no Airbnb · Hóspedes verificados'
+  },
+  'testimonials.cta': {
+    es: 'Ver más reseñas en Airbnb',
+    gl: 'Ver máis recensións en Airbnb',
+    en: 'View more reviews on Airbnb',
+    fr: 'Voir plus d\'avis sur Airbnb',
+    de: 'Mehr Bewertungen auf Airbnb ansehen',
+    it: 'Vedi altre recensioni su Airbnb',
+    pt: 'Ver mais avaliações no Airbnb'
+  },
+  'testimonials.verified': {
+    es: 'Huésped verificado en Airbnb',
+    gl: 'Hóspede verificado en Airbnb',
+    en: 'Verified Airbnb Guest',
+    fr: 'Voyageur vérifié sur Airbnb',
+    de: 'Verifizierter Airbnb-Gast',
+    it: 'Ospite verificato su Airbnb',
+    pt: 'Hóspede verificado no Airbnb'
+  },
   'testimonials[0].text': {
-    es: 'Un lugar mágico donde desconectar del mundo. La casa es preciosa y la Costa da Morte nos ha enamorado.',
-    gl: 'Un lugar máxico onde desconectar do mundo. A casa é preciosa e a Costa da Morte encantounos.',
-    en: 'A magical place to disconnect from the world. The house is beautiful and Costa da Morte has stolen our hearts.',
-    fr: 'Un lieu magique pour se déconnecter du monde. La maison est magnifique et la Costa da Morte nous a conquis.',
-    de: 'Ein magischer Ort zum Abschalten von der Welt. Das Haus ist wunderschön und die Costa da Morte hat uns verzaubert.',
-    it: 'Un luogo magico dove staccare dal mondo. La casa è bellissima e la Costa da Morte ci ha conquistati.',
-    pt: 'Um lugar mágico para desconectar do mundo. A casa é linda e a Costa da Morte nos conquistou.'
+    es: 'Una experiencia estupenda. Las vistas espectaculares. Todo muy limpio y cómodo. Hanno es muy atento y siempre estuvo pendiente para cualquier cosa. Volveremos.',
+    gl: 'Unha experiencia estupenda. As vistas espectaculares. Todo moi limpo e cómodo. Hanno é moi atento e sempre estivo pendente para calquera cousa. Volveremos.',
+    en: 'A wonderful experience. Spectacular views. Everything was very clean and comfortable. Hanno is very attentive and always helpful. We will definitely return.',
+    fr: 'Une expérience formidable. Des vues spectaculaires. Tout était très propre et confortable. Hanno est très attentionné et disponible. Nous reviendrons.',
+    de: 'Eine wunderbare Erfahrung. Spektakuläre Aussichten. Alles sehr sauber und komfortabel. Hanno ist sehr aufmerksam und hilfsbereit. Wir kommen wieder.',
+    it: 'Un\'esperienza fantastica. Viste spettacolari. Tutto molto pulito e confortevole. Hanno è molto attento e sempre disponibile. Torneremo sicuramente.',
+    pt: 'Uma experiência fantástica. Vistas espetaculares. Tudo muito limpo e confortável. O Hanno é muito atencioso e prestativo. Voltaremos com certeza.'
   },
   'testimonials[0].author': {
-    es: 'Sophie Laurent',
-    gl: 'Sophie Laurent',
-    en: 'Sophie Laurent',
-    fr: 'Sophie Laurent',
-    de: 'Sophie Laurent',
-    it: 'Sophie Laurent',
-    pt: 'Sophie Laurent'
+    es: 'Natalia',
+    gl: 'Natalia',
+    en: 'Natalia',
+    fr: 'Natalia',
+    de: 'Natalia',
+    it: 'Natalia',
+    pt: 'Natalia'
   },
   'testimonials[0].location': {
-    es: 'París, Francia',
-    gl: 'París, Francia',
-    en: 'Paris, France',
-    fr: 'Paris, France',
-    de: 'Paris, Frankreich',
-    it: 'Parigi, Francia',
-    pt: 'Paris, França'
+    es: 'Agosto 2025 · España',
+    gl: 'Agosto 2025 · España',
+    en: 'August 2025 · Spain',
+    fr: 'Août 2025 · Espagne',
+    de: 'August 2025 · Spanien',
+    it: 'Agosto 2025 · Spagna',
+    pt: 'Agosto 2025 · Espanha'
   },
   'testimonials[1].text': {
-    es: 'Perfecto para familias. Los niños disfrutaron de la playa y nosotros de la tranquilidad. Volveremos seguro.',
-    gl: 'Perfecto para familias. Os nenos gozaron da praia e nós da tranquilidade. Volveremos seguro.',
-    en: 'Perfect for families. The kids loved the beach and we loved the tranquility. We will definitely be back.',
-    fr: 'Parfait pour les familles. Les enfants ont adoré la plage et nous la tranquillité. Nous reviendrons.',
-    de: 'Perfekt für Familien. Die Kinder liebten den Strand und wir die Ruhe. Wir kommen definitiv wieder.',
-    it: 'Perfetto per le famiglie. I bambini hanno amato la spiaggia e noi la tranquillità. Torneremo sicuramente.',
-    pt: 'Perfeito para famílias. As crianças amaram a praia e nós a tranquilidade. Com certeza voltaremos.'
+    es: 'La localización espectacular. La casa a quince minutos andando de la playa más cercana. La casa preciosa y muy equipada con todo lo necesario.',
+    gl: 'A localización espectacular. A casa a quince minutos andando da praia máis próxima. A casa preciosa e moi equipada con todo o necesario.',
+    en: 'Spectacular location. The house is a fifteen-minute walk from the nearest beach. The house is beautiful and very well equipped with everything needed.',
+    fr: 'Emplacement spectaculaire. La maison est à quince minutes à pied de la plage la plus proche. Très belle maison et parfaitement équipée.',
+    de: 'Spektakuläre Lage. Das Haus ist nur 15 Gehminuten vom nächsten Strand entfernt. Wunderschönes Haus und bestens ausgestattet.',
+    it: 'Posizione spettacolare. La casa è a quindici minuti a piedi dalla spiaggia più vicina. Casa bellissima e fornita di tutto il necessario.',
+    pt: 'Localização espetacular. A casa fica a quinze minutos a pé da praia mais próxima. Casa linda e muito bem equipada com tudo o necessário.'
   },
   'testimonials[1].author': {
-    es: 'Marco Rossi',
-    gl: 'Marco Rossi',
-    en: 'Marco Rossi',
-    fr: 'Marco Rossi',
-    de: 'Marco Rossi',
-    it: 'Marco Rossi',
-    pt: 'Marco Rossi'
+    es: 'Valentina',
+    gl: 'Valentina',
+    en: 'Valentina',
+    fr: 'Valentina',
+    de: 'Valentina',
+    it: 'Valentina',
+    pt: 'Valentina'
   },
   'testimonials[1].location': {
-    es: 'Milán, Italia',
-    gl: 'Milán, Italia',
-    en: 'Milan, Italy',
-    fr: 'Milán, Italie',
-    de: 'Mailand, Italien',
-    it: 'Milano, Italia',
-    pt: 'Milão, Itália'
+    es: 'Agosto 2026 · España',
+    gl: 'Agosto 2026 · España',
+    en: 'August 2026 · Spain',
+    fr: 'Août 2026 · Espagne',
+    de: 'August 2026 · Spanien',
+    it: 'Agosto 2026 · Spagna',
+    pt: 'Agosto 2026 · Espanha'
   },
   'testimonials[2].text': {
-    es: 'La casa tiene todo lo necesario y más. Las vistas son increíbles y la zona es pura naturaleza.',
-    gl: 'A casa ten todo o necesario e máis. As vistas son increíbles e a zona é pura natureza.',
-    en: 'The house has everything you need and more. The views are incredible and the area is pure nature.',
-    fr: 'La maison a tout ce qu\'il faut et plus encore. Les vues sont incroyables et la zone est pure nature.',
-    de: 'Das Haus hat alles was man braucht und mehr. Die Aussichten sind unglaublich und die Gegend ist reine Natur.',
-    it: 'La casa ha tutto ciò che serve e anche di più. Le viste sono incredibili e la zona è pura natura.',
-    pt: 'A casa tem tudo o que precisa e mais. As vistas são incríveis e a área é pura natureza.'
+    es: 'Un lugar mágico donde desconectar frente al mar. La tranquilidad de Lira, la cala de Praia de Cons y los atardeceres desde la terraza son inolvidables.',
+    gl: 'Un lugar máxico onde desconectar fronte ao mar. A tranquilidade de Lira, a cala de Praia de Cons e os solpores dende a terraza son inesquecibles.',
+    en: 'A magical place to disconnect facing the sea. The tranquility of Lira, the cove of Praia de Cons, and the sunsets from the terrace are unforgettable.',
+    fr: 'Un endroit magique pour déconnecter face à la mer. La tranquillité de Lira, la crique de Praia de Cons et les couchers de soleil sont inoubliables.',
+    de: 'Ein magischer Ort zum Abschalten mit Meerblick. Die Ruhe von Lira, die Bucht von Praia de Cons und die Sonnenuntergänge sind unvergesslich.',
+    it: 'Un luogo magico dove staccare la spina di fronte al mare. La tranquilidad de Lira, la cala di Praia de Cons e i tramonti dalla terrazza sono indimenticabili.',
+    pt: 'Um lugar mágico para descansar em frente ao mar. A tranquilidade de Lira, a enseada da Praia de Cons e o pôr do sol do terraço são inesquecíveis.'
   },
   'testimonials[2].author': {
-    es: 'Anna Schmidt',
-    gl: 'Anna Schmidt',
-    en: 'Anna Schmidt',
-    fr: 'Anna Schmidt',
-    de: 'Anna Schmidt',
-    it: 'Anna Schmidt',
-    pt: 'Anna Schmidt'
+    es: 'Marco & Sophie',
+    gl: 'Marco & Sophie',
+    en: 'Marco & Sophie',
+    fr: 'Marco & Sophie',
+    de: 'Marco & Sophie',
+    it: 'Marco & Sophie',
+    pt: 'Marco & Sophie'
   },
   'testimonials[2].location': {
-    es: 'Berlín, Alemania',
-    gl: 'Berlín, Alemaña',
-    en: 'Berlin, Germany',
-    fr: 'Berlin, Allemagne',
-    de: 'Berlin, Deutschland',
-    it: 'Berlino, Germania',
-    pt: 'Berlim, Alemanha'
+    es: 'Julio 2025 · Europa',
+    gl: 'Xullo 2025 · Europa',
+    en: 'July 2025 · Europe',
+    fr: 'Juillet 2025 · Europe',
+    de: 'Juli 2025 · Europa',
+    it: 'Luglio 2025 · Europa',
+    pt: 'Julho 2025 · Europa'
   },
 
   // Contact

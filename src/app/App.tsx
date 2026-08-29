@@ -9,6 +9,7 @@ import { House } from './components/House';
 import { Location } from './components/Location';
 import { Experiences } from './components/Experiences';
 import { WeatherWidget } from './components/WeatherWidget';
+import { Testimonials } from './components/Testimonials';
 import { FAQ } from './components/FAQ';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
@@ -39,6 +40,7 @@ function HomePage() {
       <House />
       <Location />
       <Experiences onNavigateToGastronomy={() => navigate('/gastronomy')} />
+      <Testimonials />
       <FAQ />
       <Contact />
       <WeatherWidget />
