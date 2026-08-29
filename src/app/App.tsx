@@ -20,6 +20,7 @@ import { SEOHead } from './components/SEOHead';
 
 const Gastronomy = lazy(() => import('./pages/Gastronomy').then(m => ({ default: m.Gastronomy })));
 const NatureDetail = lazy(() => import('./pages/NatureDetail').then(m => ({ default: m.NatureDetail })));
+const Booking = lazy(() => import('./pages/Booking').then(m => ({ default: m.Booking })));
 const LegalNotice = lazy(() => import('./pages/LegalNotice').then(m => ({ default: m.LegalNotice })));
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy').then(m => ({ default: m.PrivacyPolicy })));
 const CookiePolicy = lazy(() => import('./pages/CookiePolicy').then(m => ({ default: m.CookiePolicy })));
@@ -78,6 +79,9 @@ function AppContent() {
             <Route path="/" element={<HomePage />} />
             <Route path="/gastronomy" element={<GastronomyPage />} />
             <Route path="/nature/:slug" element={<NaturePage />} />
+            <Route path="/booking" element={<Booking />} />
+            <Route path="/reservas" element={<Navigate to="/booking" replace />} />
+            <Route path="/reservar" element={<Navigate to="/booking" replace />} />
             <Route path="/lira-carnota" element={<Navigate to="/nature/lira-carnota" replace />} />
             <Route path="/que-ver-en-carnota" element={<Navigate to="/nature/que-ver-en-carnota" replace />} />
             <Route path="/praia-carnota" element={<Navigate to="/nature/praia-carnota" replace />} />

@@ -87,12 +87,12 @@ export function Footer() {
               >
                 {t('nav.experiences')}
               </button>
-              <button
-                onClick={() => window.open(bookingUrl, '_blank', 'noopener,noreferrer')}
-                className="block text-white/70 hover:text-white transition-colors cursor-pointer text-left"
+              <Link
+                to="/booking"
+                className="block text-white/70 hover:text-white transition-colors text-left"
               >
                 {t('nav.book')}
-              </button>
+              </Link>
               <button
                 onClick={() => scrollToSection('contact')}
                 className="block text-white/70 hover:text-white transition-colors cursor-pointer text-left"

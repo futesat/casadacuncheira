@@ -13,6 +13,10 @@ export function FAQ() {
       answer: t('faq.a1'),
     },
     {
+      question: t('faq.access.q'),
+      answer: t('faq.access.a'),
+    },
+    {
       question: t('faq.q2'),
       answer: t('faq.a2'),
     },
@@ -87,7 +91,7 @@ export function FAQ() {
                     transition={{ duration: 0.3 }}
                     className="overflow-hidden"
                   >
-                    <div className="px-6 pb-5 text-muted-foreground leading-relaxed">
+                    <div className="px-6 pb-5 text-muted-foreground leading-relaxed whitespace-pre-line">
                       {faq.answer.split(/(\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*)/g).map((part, i) => {
                         if (part.startsWith('[') && part.includes('](') && part.endsWith(')')) {
                           const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);

@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ChevronDown } from 'lucide-react';
+import { Link } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { STATIC_TEXTS } from '../constants/static';
 
@@ -67,16 +68,12 @@ export function Hero({ onDiscover }: HeroProps) {
               >
                 {t('hero.cta')}
               </motion.button>
-              <motion.a
-                href="https://bookonline.pro/es/property/350327"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full sm:w-auto px-8 py-4 bg-primary text-white font-semibold rounded-full hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2"
-                whileHover={{ scale: 1.03 }}
-                whileTap={{ scale: 0.97 }}
+              <Link
+                to="/booking"
+                className="w-full sm:w-auto px-8 py-4 bg-primary text-white font-semibold rounded-full hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2 cursor-pointer active:scale-95"
               >
                 {t('hero.bookDirect')}
-              </motion.a>
+              </Link>
             </div>
           </motion.div>
         </div>

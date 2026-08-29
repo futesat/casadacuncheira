@@ -275,6 +275,24 @@ const translations: Translations = {
     it: 'Guida per visitare il leggendario Capo Finisterre: storia del Finis Terrae, faro del 1853, pietra miliare del Km 0 del Cammino di Santiago e tramonto.',
     pt: 'Guia para visitar o lendário Cabo Finisterra: história do Finis Terrae, farol de 1853, marco do Km 0 do Caminho de Santiago e pôr do sol.'
   },
+  'seo.bookingTitle': {
+    es: 'Reserva Directa en Casa da Cuncheira | Mejor Precio en Lira, Carnota',
+    gl: 'Reserva Directa en Casa da Cuncheira | Mellor Prezo en Lira, Carnota',
+    en: 'Direct Booking at Casa da Cuncheira | Best Rates in Lira, Carnota',
+    fr: 'Réservation Directe à Casa da Cuncheira | Meilleur Tarif à Lira, Carnota',
+    de: 'Direktbuchung bei Casa da Cuncheira | Bester Preis in Lira, Carnota',
+    it: 'Prenotazione Diretta a Casa da Cuncheira | Miglior Prezzo a Lira, Carnota',
+    pt: 'Reserva Direta na Casa da Cuncheira | Melhor Preço em Lira, Carnota'
+  },
+  'seo.bookingDescription': {
+    es: 'Reserva directamente tu estancia en Casa da Cuncheira (Lira, Carnota). Consulta disponibilidad en tiempo real, mejores tarifas sin comisiones y confirmación inmediata.',
+    gl: 'Reserva directamente a túa estancia en Casa da Cuncheira (Lira, Carnota). Consulta dispoñibilidade en tempo real, mellores tarifas sen comisións e confirmación inmediata.',
+    en: 'Book your stay directly at Casa da Cuncheira (Lira, Carnota). Check real-time availability, best rates with no middlemen fees, and instant confirmation.',
+    fr: 'Réservez votre séjour directement à Casa da Cuncheira (Lira, Carnota). Disponibilité en temps réel, meilleurs tarifs sans commission et confirmation immédiate.',
+    de: 'Buchen Sie Ihren Aufenthalt direkt bei Casa da Cuncheira (Lira, Carnota). Echtzeit-Verfügbarkeit, beste Preise ohne Zwischenhändler und sofortige Bestätigung.',
+    it: 'Prenota il tuo soggiorno direttamente a Casa da Cuncheira (Lira, Carnota). Disponibilità in tempo reale, migliori tariffe senza commissioni e conferma immediata.',
+    pt: 'Reserve a sua estadia diretamente na Casa da Cuncheira (Lira, Carnota). Disponibilidade em tempo real, melhores tarifas sem comissões e confirmação imediata.'
+  },
 
   // Hero
   'hero.title': {
@@ -443,6 +461,287 @@ const translations: Translations = {
     de: '+34 600 000 000',
     it: '+34 600 000 000',
     pt: '+34 600 000 000'
+  },
+
+  // Dedicated Booking Page (/reservas)
+  'reservas.hero.badge': {
+    es: 'Reserva Oficial Directa',
+    gl: 'Reserva Oficial Directa',
+    en: 'Official Direct Booking',
+    fr: 'Réservation Directe Officielle',
+    de: 'Offizielle Direktbuchung',
+    it: 'Prenotazione Diretta Ufficiale',
+    pt: 'Reserva Oficial Direta'
+  },
+  'reservas.hero.title': {
+    es: 'Tu Estancia en Casa da Cuncheira',
+    gl: 'A túa Estancia en Casa da Cuncheira',
+    en: 'Your Stay at Casa da Cuncheira',
+    fr: 'Votre Séjour à Casa da Cuncheira',
+    de: 'Ihr Aufenthalt in Casa da Cuncheira',
+    it: 'Il Tuo Soggiorno a Casa da Cuncheira',
+    pt: 'A sua Estadia na Casa da Cuncheira'
+  },
+  'reservas.hero.subtitle': {
+    es: 'Selecciona las fechas de tu viaje y consulta la disponibilidad en tiempo real con el mejor precio garantizado sin comisiones.',
+    gl: 'Selecciona as datas da túa viaxe e consulta a dispoñibilidade en tempo real co mellor prezo garantido sen comisións.',
+    en: 'Select your travel dates and check real-time availability with the best rate guaranteed and no middleman fees.',
+    fr: 'Sélectionnez vos dates de séjour et vérifiez la disponibilité en temps réel au meilleur tarif garanti sans commission.',
+    de: 'Wählen Sie Ihre Reisedaten und prüfen Sie die Echtzeit-Verfügbarkeit mit Bestpreisgarantie ohne Vermittlungsgebühren.',
+    it: 'Seleziona le date del tuo viaggio e verifica la disponibilità in tempo reale con il miglior prezzo garantito senza commissioni.',
+    pt: 'Selecione as datas da sua viagem e consulte a disponibilidade em tempo real com o melhor preço garantido sem comissões.'
+  },
+  'reservas.selector.title': {
+    es: 'Planifica tus fechas',
+    gl: 'Planifica as túas datas',
+    en: 'Plan your dates',
+    fr: 'Planifiez vos dates',
+    de: 'Planen Sie Ihre Daten',
+    it: 'Pianifica le tue date',
+    pt: 'Planeie as suas datas'
+  },
+  'reservas.selector.checkin': {
+    es: 'Fecha de Entrada',
+    gl: 'Data de Entrada',
+    en: 'Check-in Date',
+    fr: 'Date d\'Arrivée',
+    de: 'Anreisedatum',
+    it: 'Data di Arrivo',
+    pt: 'Data de Check-in'
+  },
+  'reservas.selector.checkout': {
+    es: 'Fecha de Salida',
+    gl: 'Data de Saída',
+    en: 'Check-out Date',
+    fr: 'Date de Départ',
+    de: 'Abreisedatum',
+    it: 'Data di Partenza',
+    pt: 'Data de Check-out'
+  },
+  'reservas.selector.guests': {
+    es: 'Huéspedes',
+    gl: 'Hóspedes',
+    en: 'Guests',
+    fr: 'Voyageurs',
+    de: 'Gäste',
+    it: 'Ospiti',
+    pt: 'Hóspedes'
+  },
+  'reservas.selector.guestSingular': {
+    es: 'huésped',
+    gl: 'hóspede',
+    en: 'guest',
+    fr: 'voyageur',
+    de: 'Gast',
+    it: 'ospite',
+    pt: 'hóspede'
+  },
+  'reservas.selector.guestPlural': {
+    es: 'huéspedes',
+    gl: 'hóspedes',
+    en: 'guests',
+    fr: 'voyageurs',
+    de: 'Gäste',
+    it: 'ospiti',
+    pt: 'hóspedes'
+  },
+  'reservas.selector.updateBtn': {
+    es: 'Iniciar reserva',
+    gl: 'Iniciar reserva',
+    en: 'Start Booking',
+    fr: 'Commencer la Réservation',
+    de: 'Buchung Starten',
+    it: 'Inizia Prenotazione',
+    pt: 'Iniciar Reserva'
+  },
+  'reservas.iframe.loading': {
+    es: 'Conectando con el motor seguro de reservas...',
+    gl: 'Conectando co motor seguro de reservas...',
+    en: 'Connecting to secure booking engine...',
+    fr: 'Connexion au moteur de réservation sécurisé...',
+    de: 'Verbindung zur sicheren Buchungsmaschine...',
+    it: 'Connessione al motore di prenotazione sicuro...',
+    pt: 'A ligar ao motor seguro de reservas...'
+  },
+  'reservas.iframe.fullscreenBtn': {
+    es: 'Abrir motor en nueva ventana',
+    gl: 'Abrir motor en nova ventá',
+    en: 'Open engine in new tab',
+    fr: 'Ouvrir le moteur dans un nouvel onglet',
+    de: 'Buchung in neuem Tab öffnen',
+    it: 'Apri motore in una nuova scheda',
+    pt: 'Abrir motor num novo separador'
+  },
+  'reservas.iframe.help': {
+    es: '¿Prefieres completar la reserva en pantalla completa o tu navegador restringe marcos incrustados?',
+    gl: 'Prefires completar a reserva en pantalla completa ou o teu navegador restrinxe marcos incrustados?',
+    en: 'Prefer to complete your booking full screen or is your browser restricting embedded frames?',
+    fr: 'Vous préférez réserver en plein écran ou votre navigateur restreint les cadres intégrés ?',
+    de: 'Bevorzugen Sie die Vollbild-Buchung oder blockiert Ihr Browser eingebettete Frames?',
+    it: 'Preferisci completare la prenotazione a schermo intero o il browser limita i frame incorporati?',
+    pt: 'Prefere concluir a reserva em ecrã inteiro ou o seu navegador restringe molduras incorporadas?'
+  },
+  'reservas.guarantees.bestPrice.title': {
+    es: 'Mejor Precio Garantizado',
+    gl: 'Mellor Prezo Garantido',
+    en: 'Best Price Guaranteed',
+    fr: 'Meilleur Prix Garanti',
+    de: 'Bestpreisgarantie',
+    it: 'Miglior Prezzo Garantito',
+    pt: 'Melhor Preço Garantido'
+  },
+  'reservas.guarantees.bestPrice.desc': {
+    es: 'Sin comisiones de plataformas intermediarias. La tarifa más ventajosa garantizada directamente con la propiedad.',
+    gl: 'Sen comisións de plataformas intermediarias. A tarifa máis vantaxosa garantida directamente coa propiedade.',
+    en: 'No middleman platform commissions. Guaranteed best rates directly with the property.',
+    fr: 'Sans commissions de plateformes intermédiaires. Le tarif le plus avantageux garanti en direct avec la propriété.',
+    de: 'Keine Vermittlungsprovisionen. Der günstigste Tarif direkt beim Eigentümer garantiert.',
+    it: 'Nessuna commissione per le piattaforme intermedie. La tariffa più vantaggiosa garantita direttamente con la struttura.',
+    pt: 'Sem comissões de plataformas intermediárias. A tarifa mais vantajosa garantida diretamente com a propriedade.'
+  },
+  'reservas.guarantees.securePayment.title': {
+    es: 'Pago Seguro Encriptado SSL',
+    gl: 'Pago Seguro Encriptado SSL',
+    en: '100% Secure SSL Payment',
+    fr: 'Paiement 100% Sécurisé SSL',
+    de: '100% sichere SSL-Zahlung',
+    it: 'Pagamento Sicuro Crittografato SSL',
+    pt: 'Pagamento Seguro Encriptado SSL'
+  },
+  'reservas.guarantees.securePayment.desc': {
+    es: 'Pasarela bancaria oficial de AvaiBook certificada con los más altos estándares de seguridad y protección de datos.',
+    gl: 'Pasarela bancaria oficial de AvaiBook certificada cos máis altos estándares de seguridade e protección de datos.',
+    en: 'Official AvaiBook banking gateway certified with top tier security and data privacy standards.',
+    fr: 'Passerelle bancaire officielle AvaiBook certifiée selon les normes de sécurité et de confidentialité les plus strictes.',
+    de: 'Offizielles AvaiBook-Banking-Gateway, zertifiziert nach höchsten Sicherheits- und Datenschutzstandards.',
+    it: 'Gateway bancario ufficiale AvaiBook certificato con i più elevati standard di sicurezza e privacy.',
+    pt: 'Gateway bancário oficial AvaiBook certificado com os mais elevados padrões de segurança e privacidade.'
+  },
+  'reservas.guarantees.directHost.title': {
+    es: 'Atención Directa y Personal',
+    gl: 'Atención Directa e Persoal',
+    en: 'Direct & Personal Attention',
+    fr: 'Accueil Direct et Personnalisé',
+    de: 'Persönliche Betreuung',
+    it: 'Assistenza Diretta e Personale',
+    pt: 'Atendimento Direto e Pessoal'
+  },
+  'reservas.guarantees.directHost.desc': {
+    es: 'Trato cercano con los anfitriones antes y durante tu estancia para que tu viaje a la Costa da Morte sea perfecto.',
+    gl: 'Trato próximo cos anfitrións antes e durante a túa estancia para que a túa viaxe á Costa da Morte sexa perfecta.',
+    en: 'Personal support from the hosts before and during your stay for a memorable Costa da Morte experience.',
+    fr: 'Assistance personnalisée des hôtes avant et pendant votre séjour pour une expérience inoubliable.',
+    de: 'Persönlicher Kontakt mit den Gastgebern vor und während Ihres Aufenthalts für ein unvergessliches Erlebnis.',
+    it: 'Supporto personale dai proprietari prima e durante il soggiorno per un\'esperienza indimenticabile.',
+    pt: 'Acompanhamento pessoal dos anfitriões antes e durante a sua estadia para uma experiência inesquecível.'
+  },
+  'reservas.guarantees.instant.title': {
+    es: 'Confirmación Inmediata',
+    gl: 'Confirmación Inmediata',
+    en: 'Instant Confirmation',
+    fr: 'Confirmation Immédiate',
+    de: 'Sofortige Bestätigung',
+    it: 'Conferma Immediata',
+    pt: 'Confirmação Imediata'
+  },
+  'reservas.guarantees.instant.desc': {
+    es: 'Calendario y tarifas actualizados en tiempo real con recepción instantánea de tu bono de reserva y confirmación.',
+    gl: 'Calendario e tarifas actualizados en tempo real con recepción instantánea do teu bono de reserva e confirmación.',
+    en: 'Real-time updated calendar and rates with instant voucher delivery directly to your inbox.',
+    fr: 'Calendrier et tarifs mis à jour en temps réel avec envoi instantané de votre bon de réservation par e-mail.',
+    de: 'Echtzeit-Kalender und Tarife mit sofortiger Zustellung Ihrer Buchungsbestätigung per E-Mail.',
+    it: 'Calendario e tariffe aggiornati in tempo reale con ricezione istantanea del voucher di conferma via e-mail.',
+    pt: 'Calendário e tarifas atualizados em tempo real com envio instantâneo do comprovativo de reserva para o seu e-mail.'
+  },
+  'reservas.house.title': {
+    es: 'Sobre Casa da Cuncheira',
+    gl: 'Sobre Casa da Cuncheira',
+    en: 'About Casa da Cuncheira',
+    fr: 'À Propos de Casa da Cuncheira',
+    de: 'Über Casa da Cuncheira',
+    it: 'Informazioni su Casa da Cuncheira',
+    pt: 'Sobre a Casa da Cuncheira'
+  },
+  'reservas.house.subtitle': {
+    es: 'Vivienda de Uso Turístico Oficial (VUT-CO-002236) en Lira, Carnota',
+    gl: 'Vivenda de Uso Turístico Oficial (VUT-CO-002236) en Lira, Carnota',
+    en: 'Official Tourist Accommodation (VUT-CO-002236) in Lira, Carnota',
+    fr: 'Hébergement Touristique Officiel (VUT-CO-002236) à Lira, Carnota',
+    de: 'Offizielle Ferienunterkunft (VUT-CO-002236) in Lira, Carnota',
+    it: 'Alloggio Turistico Ufficiale (VUT-CO-002236) a Lira, Carnota',
+    pt: 'Alojamento Turístico Oficial (VUT-CO-002236) em Lira, Carnota'
+  },
+  'reservas.house.featureCapacity': {
+    es: 'Hasta 6 personas • 4 dormitorios amplios',
+    gl: 'Ata 6 persoas • 4 dormitorios amplos',
+    en: 'Up to 6 guests • 4 spacious bedrooms',
+    fr: 'Jusqu\'à 6 personnes • 4 chambres spacieuses',
+    de: 'Bis zu 6 Gäste • 4 geräumige Schlafzimmer',
+    it: 'Fino a 6 ospiti • 4 ampie camere da letto',
+    pt: 'Até 6 pessoas • 4 quartos espaçosos'
+  },
+  'reservas.house.featureLocation': {
+    es: 'A 300m del puerto de Lira y de la playa de Mar de Lira',
+    gl: 'A 300m do porto de Lira e da praia de Mar de Lira',
+    en: '300m from Port of Lira and Mar de Lira beach',
+    fr: 'À 300m du port de Lira et de la plage de Mar de Lira',
+    de: '300 m vom Hafen von Lira und dem Strand Mar de Lira',
+    it: 'A 300m dal porto di Lira e dalla spiaggia di Mar de Lira',
+    pt: 'A 300m do porto de Lira e da praia de Mar de Lira'
+  },
+  'reservas.house.featureGarden': {
+    es: 'Jardín privado con porche, barbacoa y vistas al mar',
+    gl: 'Xardín privado con porche, churrasqueira e vistas ao mar',
+    en: 'Private garden with porch, BBQ, and Atlantic ocean views',
+    fr: 'Jardin privé avec porche, barbecue et vue sur l\'océan',
+    de: 'Privater Garten mit Veranda, Grill und Meerblick',
+    it: 'Giardino privato con portico, barbecue e vista mare',
+    pt: 'Jardim privado com alpendre, churrasqueira e vista mar'
+  },
+  'reservas.house.featureCheckin': {
+    es: 'Entrada flexible desde las 16:00 • Salida hasta las 11:00',
+    gl: 'Entrada flexible dende as 16:00 • Saída ata as 11:00',
+    en: 'Flexible check-in from 16:00 • Check-out until 11:00',
+    fr: 'Arrivée flexible dès 16h00 • Départ jusqu\'à 11h00',
+    de: 'Flexibler Check-in ab 16:00 • Check-out bis 11:00',
+    it: 'Check-in flessibile dalle 16:00 • Check-out entro le 11:00',
+    pt: 'Check-in flexível a partir das 16:00 • Check-out até às 11:00'
+  },
+  'reservas.contact.title': {
+    es: '¿Preguntas sobre tu reserva?',
+    gl: 'Preguntas sobre a túa reserva?',
+    en: 'Questions about your booking?',
+    fr: 'Des questions sur votre réservation ?',
+    de: 'Fragen zu Ihrer Buchung?',
+    it: 'Domande sulla tua prenotazione?',
+    pt: 'Dúvidas sobre a sua reserva?'
+  },
+  'reservas.contact.desc': {
+    es: 'Si necesitas consultar fechas especiales, estancias largas o tienes requerimientos particulares, contáctanos directamente.',
+    gl: 'Se precisas consultar datas especiais, estancias longas ou tes requirimentos particulares, contáctanos directamente.',
+    en: 'If you need special dates, extended stays, or have unique requirements, get in touch with us directly.',
+    fr: 'Pour des dates spéciales, de longs séjours ou des demandes particulières, n\'hésitez pas à nous contacter directement.',
+    de: 'Für spezielle Daten, längere Aufenthalte oder besondere Wünsche kontaktieren Sie uns bitte direkt.',
+    it: 'Per date speciali, soggiorni prolungati o richieste particolari, contattaci direttamente.',
+    pt: 'Se precisar de consultar datas especiais, estadias longas ou tiver requisitos específicos, contacte-nos diretamente.'
+  },
+  'reservas.contact.whatsapp': {
+    es: 'Consultar por WhatsApp',
+    gl: 'Consultar por WhatsApp',
+    en: 'Chat on WhatsApp',
+    fr: 'Discuter sur WhatsApp',
+    de: 'Über WhatsApp anfragen',
+    it: 'Scrivici su WhatsApp',
+    pt: 'Conversar no WhatsApp'
+  },
+  'reservas.contact.call': {
+    es: 'Llamar por Teléfono',
+    gl: 'Chamar por Teléfono',
+    en: 'Call by Phone',
+    fr: 'Appeler par Téléphone',
+    de: 'Telefonisch anrufen',
+    it: 'Chiama al Telefono',
+    pt: 'Ligar por Telefone'
   },
   'testimonials.title': {
     es: 'Lo que dicen nuestros huéspedes',
@@ -1634,6 +1933,24 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     de: 'Alles, was Sie vor der Buchung wissen müssen',
     it: 'Tutto quello che c\'è da sapere prima di prenotare',
     pt: 'Tudo o que precisa de saber antes de reservar'
+  },
+  'faq.access.q': {
+    es: '¿Cómo es el acceso en coche y dónde se puede aparcar?',
+    gl: 'Como é o acceso en coche e onde se pode aparcar?',
+    en: 'How is car access and where can we park?',
+    fr: 'Comment se fait l\'accès en voiture et où peut-on se garer ?',
+    de: 'Wie ist die Zufahrt mit dem Auto und wo kann man parken?',
+    it: 'Com\'è l\'accesso in auto e dove si può parcheggiare?',
+    pt: 'Como é o acesso de carro e onde se pode estacionar?'
+  },
+  'faq.access.a': {
+    es: 'Por las características del acceso, recomendamos dejar el vehículo en la carretera general AC-550 y continuar a pie hasta la casa por un sendero de aproximadamente 120 metros.\n\nEs posible acceder en coche hasta la vivienda, pero el camino es estrecho y cuenta con una curva cerrada, por lo que únicamente resulta adecuado para vehículos pequeños. Como referencia, vehículos de tamaño superior a un Volkswagen Polo pueden tener dificultades para realizar el acceso y las maniobras con comodidad.\n\nPor este motivo, la mayoría de nuestros huéspedes optan por aparcar junto a la carretera general y recorrer a pie el corto trayecto hasta la casa.',
+    gl: 'Polas características do acceso, recomendamos deixar o vehículo na estrada xeral AC-550 e continuar a pé ata a casa por un sendeiro de aproximadamente 120 metros.\n\nÉ posible acceder en coche ata a vivenda, pero o camiño é estreito e conta cunha curva pechada, polo que unicamente resulta adecuado para vehículos pequenos. Como referencia, vehículos de tamaño superior a un Volkswagen Polo poden ter dificultades para realizar o acceso e as maniobras con comodidade.\n\nPor este motivo, a maioría dos nosos hóspedes optan por aparcar xunto á estrada xeral e percorrer a pé o curto traxecto ata a casa.',
+    en: 'Due to the characteristics of the access road, we recommend leaving your vehicle on the main AC-550 road and walking the remaining 120 meters along the footpath to the house.\n\nIt is possible to reach the property by car, but the lane is narrow with a sharp bend, making it suitable only for small vehicles. As a guide, cars larger than a Volkswagen Polo may experience difficulties accessing and maneuvering comfortably.\n\nFor this reason, most of our guests choose to park by the main road and enjoy the short walk to the house.',
+    fr: 'En raison des particularités de l\'accès, nous vous recommandons de garer votre véhicule sur la route principale AC-550 et de continuer à pied jusqu\'à la maison par un sentier d\'environ 120 mètres.\n\nL\'accès en voiture jusqu\'à la maison est possible, mais le chemin est étroit avec un virage serré, convenant uniquement aux petits véhicules. À titre indicatif, les voitures plus grandes qu\'une Volkswagen Polo peuvent rencontrer des difficultés pour manœuvrer facilement.\n\nC\'est pourquoi la plupart de nos clients préfèrent se garer près de la route principale et faire le court trajet à pied.',
+    de: 'Aufgrund der Besonderheiten der Zufahrt empfehlen wir, das Fahrzeug an der Hauptstraße AC-550 abzustellen und die letzten ca. 120 Meter zu Fuß über den Pfad zum Haus zu gehen.\n\nEine Zufahrt mit dem Auto bis zum Haus ist möglich, der Weg ist jedoch eng mit einer scharfen Kurve und nur für Kleinwagen geeignet. Als Richtwert: Fahrzeuge, die größer als ein VW Polo sind, können Schwierigkeiten beim Befahren und Rangieren haben.\n\nAus diesem Grund parken die meisten unserer Gäste an der Hauptstraße und gehen das kurze Stück zu Fuß zum Haus.',
+    it: 'A causa delle caratteristiche dell\'accesso, consigliamo di lasciare l\'auto sulla strada principale AC-550 e proseguire a piedi fino alla casa attraverso un sentiero di circa 120 metri.\n\nÈ possibile arrivare in auto fino all\'abitazione, ma la strada è stretta con una curva a gomito ed è adatta solo a veicoli piccoli. Come riferimento, auto più grandi di una Volkswagen Polo potrebbero avere difficoltà a transitare e manovrare comodamente.\n\nPer questo motivo, la maggior parte dei nostri ospiti preferisce parcheggiare lungo la strada principale e fare a piedi il breve tragitto fino alla casa.',
+    pt: 'Devido às características do acesso, recomendamos deixar o veículo na estrada principal AC-550 e continuar a pé até à casa por um caminho de cerca de 120 metros.\n\nÉ possível aceder de carro até à habitação, mas o caminho é estreito e tem uma curva apertada, sendo apenas adequado para veículos pequenos. Como referência, carros maiores que um Volkswagen Polo podem ter dificuldades de acesso e manobra com comodidade.\n\nPor esta razão, a maioria dos nossos hóspedes prefere estacionar junto à estrada principal e fazer a pé o curto percurso até à casa.'
   },
   'faq.q1': {
     es: '¿Cuál es la política de cancelación?',

@@ -5,6 +5,7 @@ import { seedCookieConsent } from '../helpers/consent';
 test.describe('E2E Automated Accessibility (Axe-core WCAG 2.1 AA)', () => {
   const pagesToTest = [
     '/',
+    '/booking',
     '/gastronomy',
     '/aviso-legal',
     '/privacidad',

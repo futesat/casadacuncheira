@@ -7,6 +7,27 @@ const distDir = path.resolve(__dirname, '../dist');
 
 const routes = [
   {
+    path: '/booking',
+    title: 'Reserva Directa en Casa da Cuncheira | Mejor Precio en Lira, Carnota',
+    description: 'Reserva directamente tu estancia en Casa da Cuncheira (Lira, Carnota). Consulta disponibilidad en tiempo real, mejores tarifas sin comisiones y confirmación inmediata.',
+    h1: 'Reserva Directa Oficial en Casa da Cuncheira (Lira, Carnota)',
+    content: `
+      <h2>Alojamiento vacacional oficial (VUT-CO-002236) en la Costa da Morte</h2>
+      <p>Reserva tu estancia con el mejor precio garantizado y sin gastos de intermediarios ni comisiones de terceros en Casa da Cuncheira.</p>
+      <h3>Ventajas de la reserva directa oficial:</h3>
+      <ul>
+        <li><strong>Mejor tarifa asegurada:</strong> Ahorra entre un 15% y un 20% respecto a plataformas como Booking o Airbnb.</li>
+        <li><strong>Pago seguro y encriptado:</strong> Motor oficial de AvaiBook con protocolos bancarios seguros SSL.</li>
+        <li><strong>Atención directa del anfitrión:</strong> Asistencia personalizada para tu viaje, rutas y recomendaciones gastronómicas locales.</li>
+        <li><strong>Confirmación instantánea:</strong> Calendario sincronizado en tiempo real y recepción inmediata del bono de reserva.</li>
+      </ul>
+      <h3>Características del alojamiento:</h3>
+      <p>Casa completa con capacidad para 8 huéspedes, 4 dormitorios, jardín privado con porche, barbacoa y vistas al Atlántico, situada a solo 300 metros del puerto de Portocubelo y la playa de Mar de Lira.</p>
+      <p><a href="/">Inicio Casa da Cuncheira</a> | <a href="/gastronomy">Restaurantes en Lira y Carnota</a> | <a href="/nature/que-ver-en-carnota">Qué ver en Carnota</a></p>
+    `,
+    image: 'https://www.casadacuncheira.com/images/hero_optimized.webp'
+  },
+  {
     path: '/nature/que-ver-en-carnota',
     title: 'Qué ver en Carnota y Lira: 8 Lugares Imprescindibles | Casa da Cuncheira',
     description: 'Guía esencial con los 8 lugares que ver en Carnota y alrededores: Playa de Carnota, Hórreo de Carnota, Lira, Monte Pindo, Ézaro y Monte Louro.',

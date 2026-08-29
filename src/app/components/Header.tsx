@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Globe, Menu, X } from 'lucide-react';
-import { useLocation } from 'react-router';
+import { useLocation, Link } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { STATIC_TEXTS } from '../constants/static';
 
@@ -18,7 +18,7 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
   const location = useLocation();
 
   // Check if current page has a dark hero background image
-  const hasDarkHero = location.pathname === '/' || location.pathname === '/gastronomy' || location.pathname.startsWith('/nature');
+  const hasDarkHero = location.pathname === '/' || location.pathname === '/gastronomy' || location.pathname === '/booking' || location.pathname === '/reservas' || location.pathname.startsWith('/nature');
   const isLightHeader = isScrolled || !hasDarkHero;
 
   useEffect(() => {
@@ -155,16 +155,14 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
             >
               {t('nav.experiences')}
             </button>
-            <a
-              href={bookingUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`hover:text-primary transition-colors ${
+            <Link
+              to="/booking"
+              className={`hover:text-primary transition-colors font-medium ${
                 isLightHeader ? 'text-foreground' : 'text-white'
               }`}
             >
               {t('nav.book')}
-            </a>
+            </Link>
             <button
               onClick={() => scrollToSection('contact')}
               className={`hover:text-primary transition-colors cursor-pointer ${
@@ -269,14 +267,13 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
               >
                 {t('nav.experiences')}
               </button>
-              <a
-                href={bookingUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full text-left py-2 hover:text-primary transition-colors text-foreground"
+              <Link
+                to="/booking"
+                onClick={() => setShowMobileMenu(false)}
+                className="block w-full text-left py-2 hover:text-primary transition-colors text-foreground font-medium"
               >
                 {t('nav.book')}
-              </a>
+              </Link>
               <button
                 onClick={() => scrollToSection('contact')}
                 className="block w-full text-left py-2 hover:text-primary transition-colors text-foreground"
