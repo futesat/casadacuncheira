@@ -33,19 +33,6 @@ export function NatureDetail() {
     const natureData = getNatureData(t);
     const data = slug ? natureData[slug] : null;
 
-    const bookingUrl = useMemo(() => {
-        const urlMap: Record<string, string> = {
-            es: 'https://bookonline.pro/es/property/350327',
-            gl: 'https://bookonline.pro/es/property/350327',
-            en: 'https://bookonline.pro/en/property/350327',
-            fr: 'https://bookonline.pro/fr/property/350327',
-            de: 'https://bookonline.pro/de/property/350327',
-            it: 'https://bookonline.pro/it/property/350327',
-            pt: 'https://bookonline.pro/pt/property/350327',
-        };
-        return urlMap[language] || urlMap['es'];
-    }, [language]);
-
     if (!data) {
         return (
             <div className="min-h-screen flex items-center justify-center">
@@ -378,15 +365,13 @@ export function NatureDetail() {
                                 >
                                     {t('nature.cta.house')}
                                 </button>
-                                <a
-                                    href={bookingUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                <Link
+                                    to="/booking"
                                     className="w-full sm:w-auto px-8 py-3.5 bg-primary text-white hover:bg-primary/90 rounded-full font-medium transition-all shadow-lg flex items-center justify-center gap-2"
                                 >
                                     <CalendarCheck className="w-4 h-4" />
                                     {t('nature.cta.book')}
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </motion.div>

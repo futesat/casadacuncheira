@@ -39,19 +39,6 @@ export function Header({ onNavigateHome, currentView }: HeaderProps) {
     { code: 'pt', name: 'PT', flag: `${(import.meta as any).env.BASE_URL}images/flags/pt.png` },
   ];
 
-  const bookingUrl = useMemo(() => {
-    const urlMap: Record<string, string> = {
-      es: 'https://bookonline.pro/es/property/350327',
-      gl: 'https://bookonline.pro/es/property/350327',
-      en: 'https://bookonline.pro/en/property/350327',
-      fr: 'https://bookonline.pro/fr/property/350327',
-      de: 'https://bookonline.pro/de/property/350327',
-      it: 'https://bookonline.pro/it/property/350327',
-      pt: 'https://bookonline.pro/pt/property/350327',
-    };
-    return urlMap[language] || urlMap['es'];
-  }, [language]);
-
   const scrollToSection = (id: string) => {
     document.body.style.overflow = '';
     document.documentElement.style.overflow = '';

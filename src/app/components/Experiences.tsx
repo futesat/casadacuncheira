@@ -185,14 +185,12 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
                       <span className="group-hover/btn:translate-x-1 transition-transform">{'->'}</span>
                     </Link>
                   ) : (
-                    <a
-                      href="https://bookonline.pro/es/property/350327"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    <Link
+                      to="/booking"
                       className="text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-1"
                     >
                       {t('experiences.more')} {'->'}
-                    </a>
+                    </Link>
                   )}
                 </div>
               </motion.div>
