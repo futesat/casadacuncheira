@@ -1133,7 +1133,7 @@ El Puerto de Portocubelo y la Reserva Marina
 El pequeño puerto de Portocubelo es el corazón marinero de Lira. Aquí faena una flota de bajura artesanal dedicada a la captura sostenible de pulpo, nécora, percebe y pescados de roca. Lira fue pionera en Galicia al impulsar la creación de la Reserva Marina de Interés Pesquero "Os Miñarzos", un modelo ejemplar de protección marina y pesca responsable.
 
 Las Calas de Lira: Praia de Cons y Praia do Cancelo
-• Praia de Cons: Una joya resguardada de arena dorada y aguas transparentes, protegida del viento y del oleaje del mar abierto. Es el lugar perfecto para bañarse en calma y relajarse a pocos minutos a pie de los alojamientos locales.
+• Praia de Cons: Pequeña playa natural y agreste de arena y rocas («cons»), de carácter atlántico y baja ocupación, ideal para pasear y desconectar en un entorno virgen.
 • Praia do Cancelo: Pequeña cala natural y recogida entre rocas, con aguas cristalinas y un ambiente virgen de gran serenidad.
 
 El Hórreo de Lira
@@ -1147,7 +1147,7 @@ O Porto de Portocubelo e a Reserva Mariña
 Portocubelo é o corazón mariñeiro de Lira, pioneiro na creación da Reserva Mariña de Interese Pesqueiro "Os Miñarzos" para a protección do medio mariño.
 
 As Calas de Lira
-• Praia de Cons: Cala recollida de area dourada e augas calmas, perfecta para o baño.
+• Praia de Cons: Pequena praia natural e agreste de area e rochas («cons»), de carácter atlántico e baixa ocupación, ideal para pasear e desconectar nun entorno virxe.
 • Praia do Cancelo: Pequena cala natural e recollida entre rochas, con augas cristalinas e ambiente virxe de gran serenidade.
 
 O Hórreo de Lira
@@ -1158,7 +1158,7 @@ Portocubelo Harbor & Os Miñarzos Marine Reserve
 Portocubelo is Lira's seafaring heart, pioneering sustainable fishing through the "Os Miñarzos" marine reserve.
 
 The Coves of Lira
-• Praia de Cons: A sheltered golden-sand cove with calm waters, ideal for relaxed swimming.
+• Praia de Cons: Small, rustic Atlantic beach blending fine sand and granite rocks ('cons'), offering an unspoiled, uncrowded natural setting.
 • Praia do Cancelo: Small, sheltered natural cove set among coastal rocks, with crystal-clear waters and an unspoiled peaceful atmosphere.
 
 The Monumental Granary of Lira
@@ -1169,7 +1169,7 @@ Port de Portocubelo et Réserve Marine Os Miñarzos
 Portocubelo est le cœur maritime de Lira, pionnier de la pêche artisanale et durable au poulpe et aux poissons de roche.
 
 Les criques de Lira
-• Praia de Cons : Crique abritée de sable doré aux eaux calmes et cristallines.
+• Praia de Cons : Petite plage naturelle et sauvage de sable et rochers (« cons »), au caractère atlantique et peu fréquentée, idéale pour se ressourcer.
 • Praia do Cancelo : Petite crique naturelle et abritée entre les rochers, aux eaux cristallines et à l'atmosphère sauvage et sereine.
 
 Le Hórreo monumental de Lira
@@ -1180,7 +1180,7 @@ Hafen Portocubelo und Meeresschutzgebiet Os Miñarzos
 Portocubelo ist das Herz von Lira und Vorreiter im nachhaltigen Fischfang für Oktopus und frischen Felsenfisch.
 
 Die Buchten von Lira
-• Praia de Cons: Geschützte Bucht mit feinem Sand und ruhigem Wasser zum Baden.
+• Praia de Cons: Kleine, naturbelassene Bucht aus Sand und Granitfelsen ('cons') mit atlantischem Charakter und herrlicher Ruhe fernab des Trubels.
 • Praia do Cancelo: Kleine, geschützte Naturbucht zwischen Felsen mit kristallklarem Wasser und unberührter Ruhe.
 
 Der monumentale Hórreo von Lira
@@ -1191,7 +1191,7 @@ Porto di Portocubelo e Riserva Marina Os Miñarzos
 Cuore marinaro di Lira, famoso per la pesca artigianale e sostenibile di polpo e pesce di scoglio.
 
 Le Calette di Lira
-• Praia de Cons: Caletta riparata di sabbia dorata con acque calme e limpide.
+• Praia de Cons: Piccola spiaggia naturale e selvaggia di sabbia e scogli («cons»), dal carattere atlantico e poco frequentata, ideale per rilassarsi.
 • Praia do Cancelo: Piccola caletta naturale e riparata tra gli scogli, con acque cristalline e un'atmosfera incontaminata e tranquilla.
 
 Il monumentale Hórreo di Lira
@@ -1202,7 +1202,7 @@ Porto de Portocubelo e Reserva Marinha Os Miñarzos
 Coração marítimo de Lira, pioneiro na pesca artesanal e sustentável de polvo e peixes de rocha.
 
 As Enseadas de Lira
-• Praia de Cons: Enseada abrigada de areia dourada e águas calmas para banhos.
+• Praia de Cons: Pequena praia natural e rústica de areia e rochas («cons»), de carácter atlântico e baixa ocupação, ideal para descansar num ambiente virgem.
 • Praia do Cancelo: Pequena enseada natural e abrigada entre rochas, com águas cristalinas e ambiente virgem de grande tranquilidade.
 
 O Hórreo monumental de Lira
