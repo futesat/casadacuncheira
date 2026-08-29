@@ -1134,7 +1134,7 @@ El pequeño puerto de Portocubelo es el corazón marinero de Lira. Aquí faena u
 
 Las Calas de Lira: Praia de Cons y Praia do Cancelo
 • Praia de Cons: Una joya resguardada de arena dorada y aguas transparentes, protegida del viento y del oleaje del mar abierto. Es el lugar perfecto para bañarse en calma y relajarse a pocos minutos a pie de los alojamientos locales.
-• Praia do Cancelo: Pequeña cala situada junto al puerto, con sabor puramente marinero y barcas tradicionales en la orilla.
+• Praia do Cancelo: Pequeña cala natural y recogida entre rocas, con aguas cristalinas y un ambiente virgen de gran serenidad.
 
 El Hórreo de Lira
 Junto a la iglesia parroquial de Santa María se encuentra el monumental Hórreo de Lira, construido entre 1779 y 1814. Con sus casi 37 metros de longitud y 22 pares de pies de piedra, rivaliza históricamente en tamaño y belleza con el famoso hórreo de Carnota.
@@ -1148,7 +1148,7 @@ Portocubelo é o corazón mariñeiro de Lira, pioneiro na creación da Reserva M
 
 As Calas de Lira
 • Praia de Cons: Cala recollida de area dourada e augas calmas, perfecta para o baño.
-• Praia do Cancelo: Pequena cala mariñeira a carón do porto.
+• Praia do Cancelo: Pequena cala natural e recollida entre rochas, con augas cristalinas e ambiente virxe de gran serenidade.
 
 O Hórreo de Lira
 Monumental hórreo de case 37 metros de lonxitude e 22 pares de pés sobre rocha viva.`,
@@ -1159,7 +1159,7 @@ Portocubelo is Lira's seafaring heart, pioneering sustainable fishing through th
 
 The Coves of Lira
 • Praia de Cons: A sheltered golden-sand cove with calm waters, ideal for relaxed swimming.
-• Praia do Cancelo: Scenic cove right next to the fishing harbor.
+• Praia do Cancelo: Small, sheltered natural cove set among coastal rocks, with crystal-clear waters and an unspoiled peaceful atmosphere.
 
 The Monumental Granary of Lira
 Nearly 37 meters long on 22 pairs of stone pillars, standing proudly alongside Santa María church.`,
@@ -1170,7 +1170,7 @@ Portocubelo est le cœur maritime de Lira, pionnier de la pêche artisanale et d
 
 Les criques de Lira
 • Praia de Cons : Crique abritée de sable doré aux eaux calmes et cristallines.
-• Praia do Cancelo : Crique typique située juste à côté du port.
+• Praia do Cancelo : Petite crique naturelle et abritée entre les rochers, aux eaux cristallines et à l'atmosphère sauvage et sereine.
 
 Le Hórreo monumental de Lira
 Près de 37 mètres de long sur 22 paires de piliers en pierre face à l'église Santa María.`,
@@ -1181,7 +1181,7 @@ Portocubelo ist das Herz von Lira und Vorreiter im nachhaltigen Fischfang für O
 
 Die Buchten von Lira
 • Praia de Cons: Geschützte Bucht mit feinem Sand und ruhigem Wasser zum Baden.
-• Praia do Cancelo: Malerische kleine Bucht direkt am Fischereihafen.
+• Praia do Cancelo: Kleine, geschützte Naturbucht zwischen Felsen mit kristallklarem Wasser und unberührter Ruhe.
 
 Der monumentale Hórreo von Lira
 Fast 37 Meter lang auf 22 Pfeilerpaaren aus Stein neben der Pfarrkirche Santa María.`,
@@ -1192,7 +1192,7 @@ Cuore marinaro di Lira, famoso per la pesca artigianale e sostenibile di polpo e
 
 Le Calette di Lira
 • Praia de Cons: Caletta riparata di sabbia dorata con acque calme e limpide.
-• Praia do Cancelo: Piccola insenatura caratteristica accanto al porticciolo.
+• Praia do Cancelo: Piccola caletta naturale e riparata tra gli scogli, con acque cristalline e un'atmosfera incontaminata e tranquilla.
 
 Il monumentale Hórreo di Lira
 Quasi 37 metri di lunghezza su 22 coppie di pilastri in pietra accanto alla chiesa di Santa María.`,
@@ -1203,7 +1203,7 @@ Coração marítimo de Lira, pioneiro na pesca artesanal e sustentável de polvo
 
 As Enseadas de Lira
 • Praia de Cons: Enseada abrigada de areia dourada e águas calmas para banhos.
-• Praia do Cancelo: Pequena enseada pitoresca junto ao porto de pesca.
+• Praia do Cancelo: Pequena enseada natural e abrigada entre rochas, com águas cristalinas e ambiente virgem de grande tranquilidade.
 
 O Hórreo monumental de Lira
 Quase 37 metros de comprimento sobre 22 pares de pés de pedra junto à igreja de Santa María.`

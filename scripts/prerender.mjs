@@ -64,7 +64,7 @@ const routes = [
       <h3>Puerto de Portocubelo y Reserva Marina Os Miñarzos</h3>
       <p>El puerto de Portocubelo es el corazón marinero de Lira, pionero en la creación de la Reserva Marina de Interés Pesquero "Os Miñarzos" para la protección del pulpo y pescados de roca.</p>
       <h3>Calas de Lira: Praia de Cons y Praia do Cancelo</h3>
-      <p>Praia de Cons ofrece arena dorada y aguas tranquilas protegidas del mar abierto, ideal para el baño y el relax a pocos minutos a pie de los alojamientos locales.</p>
+      <p>Praia de Cons ofrece arena dorada y aguas tranquilas protegidas del viento, mientras que Praia do Cancelo es una cala natural y virgen entre formaciones rocosas, ideal para disfrutar de la serenidad del litoral atlántico.</p>
       <h3>El Hórreo Monumental de Lira</h3>
       <p>Con casi 37 metros de largo y 22 pares de pies de piedra, rivaliza históricamente en tamaño y belleza con el hórreo de Carnota.</p>
       <p><a href="/">Casa da Cuncheira: Tu casa en Lira</a> | <a href="/booking">Reservar online</a></p>
