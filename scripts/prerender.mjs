@@ -39,7 +39,7 @@ const routes = [
         <li><strong><a href="/nature/praia-carnota">Playa de Carnota y Boca do Río:</a></strong> Más de 7 km de arena blanca virgen con lagunas y piscinas naturales que se forman durante la bajamar.</li>
         <li><strong>Hórreo de Carnota:</strong> Monumento Nacional del siglo XVIII con 34.7 metros de longitud sustentado sobre 22 pares de pies.</li>
         <li><strong><a href="/nature/lira-carnota">Hórreo y Parroquia de Lira:</a></strong> Su hórreo monumental de casi 37 metros y el pueblo marinero tradicional.</li>
-        <li><strong><a href="/nature/lira-carnota">Puerto de Portocubelo y Calas de Lira:</a></strong> El puerto pesquero artesanal y las aguas tranquilas de Praia de Cons.</li>
+        <li><strong><a href="/nature/lira-carnota">Puerto de Portocubelo y Calas de Lira:</a></strong> El puerto pesquero artesanal y las calas naturales de Lira (Praia de Cons y Praia do Cancelo).</li>
         <li><strong><a href="/nature/monte-pindo">Monte Pindo y cumbre de A Moa (627 m):</a></strong> El mítico Olimpo Celta de granito rosado con vistas de 360 grados sobre el Atlántico.</li>
         <li><strong><a href="/nature/fervenza-do-ezaro">Fervenza do Ézaro:</a></strong> La única cascada de Europa continental que se precipita directamente al mar.</li>
         <li><strong><a href="/nature/monte-louro">Monte Louro y Playa de Area Maior:</a></strong> Espacio protegido con sistema dunar y la laguna litoral de As Xarfas.</li>
@@ -64,7 +64,7 @@ const routes = [
       <h3>Puerto de Portocubelo y Reserva Marina Os Miñarzos</h3>
       <p>El puerto de Portocubelo es el corazón marinero de Lira, pionero en la creación de la Reserva Marina de Interés Pesquero "Os Miñarzos" para la protección del pulpo y pescados de roca.</p>
       <h3>Calas de Lira: Praia de Cons y Praia do Cancelo</h3>
-      <p>Praia de Cons ofrece arena dorada y aguas tranquilas protegidas del viento, mientras que Praia do Cancelo es una cala natural y virgen entre formaciones rocosas, ideal para disfrutar de la serenidad del litoral atlántico.</p>
+      <p>Praia de Cons y Praia do Cancelo son pequeñas playas naturales y agrestes combinadas con formaciones rocosas («cons») y carácter atlántico, ideales para desconectar en un entorno virgen y tranquilo.</p>
       <h3>El Hórreo Monumental de Lira</h3>
       <p>Con casi 37 metros de largo y 22 pares de pies de piedra, rivaliza históricamente en tamaño y belleza con el hórreo de Carnota.</p>
       <p><a href="/">Casa da Cuncheira: Tu casa en Lira</a> | <a href="/booking">Reservar online</a></p>
