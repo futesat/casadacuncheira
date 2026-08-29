@@ -141,13 +141,13 @@ const translations: Translations = {
     pt: 'Onde comer em Carnota e Lira: Restaurantes e marisqueiras | Casa da Cuncheira'
   },
   'seo.gastronomyDescription': {
-    es: 'Guía gastronómica local de Carnota y Lira: pescados frescos de lonja, marisquerías de Portocubelo, tabernas gallegas y los mejores restaurantes.',
-    gl: 'Guía gastronómica local de Carnota e Lira: peixes frescos de lonxa, marisquerías de Portocubelo, tabernas galegas e os mellores restaurantes.',
-    en: 'Local gastronomy guide for Carnota & Lira: fresh fish from local auctions, Portocubelo seafood taverns, and traditional Galician restaurants.',
-    fr: 'Guide gastronomique local de Carnota et Lira : poissons frais, restaurants de fruits de mer à Portocubelo et cuisine traditionnelle galicienne.',
-    de: 'Lokaler Gastronomieführer für Carnota & Lira: frischer Fisch von der Auktion, Meeresfrüchterestaurants in Portocubelo und galicische Tavernen.',
-    it: 'Guida gastronomica locale di Carnota e Lira: pesce fresco di mercato, ristoranti di frutti di mare a Portocubelo e taverne galiziane.',
-    pt: 'Guia gastronómico local de Carnota e Lira: peixe fresco da lota, marisqueiras de Portocubelo, tabernas galegas e os melhores restaurantes.'
+    es: 'Guía gastronómica local de Carnota y Lira: pescados frescos de lonja, tabernas gallegas y los mejores restaurantes.',
+    gl: 'Guía gastronómica local de Carnota e Lira: peixes frescos de lonxa, tabernas galegas e os mellores restaurantes.',
+    en: 'Local gastronomy guide for Carnota & Lira: fresh fish from local auctions, traditional Galician taverns, and top restaurants.',
+    fr: 'Guide gastronomique local de Carnota et Lira : poissons frais, tavernes galiciennes et les meilleurs restaurants.',
+    de: 'Lokaler Gastronomieführer für Carnota & Lira: frischer Fisch von der Auktion, galicische Tavernen und die besten Restaurants.',
+    it: 'Guida gastronomica locale di Carnota e Lira: pesce fresco di mercato, taverne galiziane e i migliori ristoranti.',
+    pt: 'Guia gastronomico local de Carnota e Lira: peixe fresco da lota, tabernas galegas e os melhores restaurantes.'
   },
   'seo.carnotaTitle': {
     es: 'Playa de Carnota y Boca do Río: Guía, mareas y accesos | Casa da Cuncheira',
@@ -912,7 +912,7 @@ Consejos prácticos para la visita
 • Puestas de sol: Por su orientación atlántica abierta hacia el oeste, los atardeceres en Carnota tiñen de dorado el arenal y el macizo del Monte Pindo a sus espaldas.
 
 Combinación de excursión
-La visita a la Playa de Carnota se combina de forma idónea en una misma jornada con una subida matinal a la cumbre de A Moa en el Monte Pindo, una visita al Hórreo de Carnota o una cena marinera en el puerto de Portocubelo en Lira.`,
+La visita a la Playa de Carnota se combina de forma idónea en una misma jornada con una subida matinal a la cumbre de A Moa en el Monte Pindo, una visita al Hórreo de Carnota o un paseo al atardecer por las calas de Lira.`,
     gl: `Cos seus máis de 7 quilómetros de lonxitude continua en forma de media lúa, a Praia de Carnota é o areal máis extenso de Galicia e un dos espazos litorais virxes máis impresionantes de Europa. Protexida dentro da Rede Natura 2000, combina dunas móbiles, marismas ricas en avifauna e augas transparentes do Atlántico.
 
 Boca do Río e as súas piscinas naturais
