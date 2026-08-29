@@ -76,7 +76,7 @@ const routes = [
       <h2>Restaurantes recomendados en Lira, Carnota y alrededores</h2>
       <p>Descubre la auténtica gastronomía de la Costa da Morte y la Ría de Muros e Noia. Pescados de roca salvajes, pulpo de la reserva marina Os Miñarzos y mariscos de lonja:</p>
       <ul>
-        <li><strong>Mar da Morosa (Portocubelo, Lira):</strong> Cocina creativa gallega con pescados frescos y vistas al puerto de Lira.</li>
+        <li><strong>Mar da Morosa (Lira, Carnota):</strong> Cocina creativa gallega con pescados frescos y vistas al mar.</li>
         <li><strong>A Chalana de Rucho (Lira):</strong> Pescados del día a la brasa y mariscos de la lonja.</li>
         <li><strong>O Cuberto (Carnota):</strong> Gastronomía tradicional gallega y carnes de primera calidad.</li>
         <li><strong>O Moncho Burger (Carnota):</strong> Hamburguesas gourmet y ambiente informal.</li>
