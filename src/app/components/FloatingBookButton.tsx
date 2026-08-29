@@ -6,18 +6,27 @@ import { useLocation, useNavigate } from 'react-router';
 
 export function FloatingBookButton() {
   const { t } = useLanguage();
-  const [isVisible, setIsVisible] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
 
-  const isBookingPage = location.pathname === '/reservas' || location.pathname === '/reservar' || location.pathname === '/booking';
+  const normalizedPath = location.pathname.toLowerCase().replace(/\/+$/, '') || '/';
+  const isBookingPage =
+    normalizedPath === '/booking' ||
+    normalizedPath === '/reservas' ||
+    normalizedPath === '/reservar' ||
+    normalizedPath.startsWith('/booking');
+
+  const [isVisible, setIsVisible] = useState(isBookingPage);
 
   useEffect(() => {
+    if (isBookingPage) {
+      setIsVisible(true);
+      return;
+    }
+
     const handleScroll = () => {
-      // On booking page, show earlier (after 200px scroll); on home page after 400px
-      const threshold = isBookingPage ? 200 : 400;
       const scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
-      setIsVisible(scrollY > threshold);
+      setIsVisible(scrollY > 300);
     };
 
     handleScroll();
@@ -26,7 +35,7 @@ export function FloatingBookButton() {
   }, [isBookingPage]);
 
   return (
-    <AnimatePresence>
+    <AnimatePresence mode="wait">
       {isVisible && (
         isBookingPage ? (
           <motion.a
@@ -39,7 +48,7 @@ export function FloatingBookButton() {
             exit={{ opacity: 0, scale: 0.8, y: 20 }}
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
-            className="fixed bottom-20 right-6 sm:bottom-24 sm:right-8 z-[800] flex items-center gap-2.5 px-5 py-3.5 bg-[#25D366] hover:bg-[#20bd5a] text-white rounded-full shadow-2xl hover:shadow-3xl transition-all cursor-pointer font-semibold text-sm sm:text-base border border-white/20"
+            className="fixed bottom-6 right-5 sm:bottom-8 sm:right-8 z-[800] flex items-center gap-2.5 px-5 py-3.5 bg-[#25D366] hover:bg-[#20bd5a] text-white rounded-full shadow-2xl hover:shadow-3xl transition-all cursor-pointer font-semibold text-sm sm:text-base border border-white/20"
             aria-label={t('float.whatsapp')}
           >
             <MessageCircle className="w-5 h-5 fill-current" />
@@ -54,7 +63,7 @@ export function FloatingBookButton() {
             exit={{ opacity: 0, scale: 0.8, y: 20 }}
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
-            className="fixed bottom-20 right-6 sm:bottom-24 sm:right-8 z-[800] flex items-center gap-3 px-6 py-4 bg-primary text-white rounded-full shadow-2xl hover:shadow-3xl transition-all cursor-pointer font-medium"
+            className="fixed bottom-6 right-5 sm:bottom-8 sm:right-8 z-[800] flex items-center gap-3 px-6 py-4 bg-primary text-white rounded-full shadow-2xl hover:shadow-3xl transition-all cursor-pointer font-medium"
             aria-label={t('float.book')}
           >
             <Calendar className="w-5 h-5" />
