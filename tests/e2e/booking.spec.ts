@@ -21,7 +21,10 @@ test.describe('E2E Dedicated Booking Page & AvaiBook Integration', () => {
     await page.goto('/');
 
     // Scroll down to trigger floating booking CTA
-    await page.evaluate(() => window.scrollTo(0, 1000));
+    await page.evaluate(() => {
+      window.scrollTo(0, 1000);
+      window.dispatchEvent(new Event('scroll'));
+    });
     await page.waitForTimeout(500);
 
     const floatingBtn = page.locator('button[aria-label*="Reservar"], button:has-text("Reservar")').first();

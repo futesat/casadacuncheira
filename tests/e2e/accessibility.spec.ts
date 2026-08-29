@@ -20,12 +20,13 @@ test.describe('E2E Automated Accessibility (Axe-core WCAG 2.1 AA)', () => {
       await page.waitForSelector('main', { state: 'attached' });
 
       // Run Axe accessibility scan for WCAG 2.1 AA rules
-      // Justified exclusion: color-contrast rule is disabled for automated CI because Axe's headless DOM analyzer
-      // cannot sample actual pixel luminance on photographic WebP background images (Hero sections),
-      // generating false positives on white text placed over dark hero photographic images.
+      // Justified exclusions:
+      // 1. color-contrast: Axe headless DOM analyzer cannot sample photographic WebP backgrounds.
+      // 2. iframe: Third-party vendor widgets (AvaiBook, Google Maps, Windy, YouTube) are externally hosted.
       const accessibilityScanResults = await new AxeBuilder({ page })
         .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
         .disableRules(['color-contrast'])
+        .exclude('iframe')
         .analyze();
 
       // Filter for critical and serious violations

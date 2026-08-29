@@ -14,13 +14,14 @@ export function FloatingBookButton() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // On booking page, show earlier (after 200px scroll); on home page after 600px
-      const threshold = isBookingPage ? 200 : 600;
-      setIsVisible(window.scrollY > threshold);
+      // On booking page, show earlier (after 200px scroll); on home page after 400px
+      const threshold = isBookingPage ? 200 : 400;
+      const scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0;
+      setIsVisible(scrollY > threshold);
     };
 
     handleScroll();
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, [isBookingPage]);
 
