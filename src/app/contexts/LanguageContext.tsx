@@ -1990,13 +1990,13 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     pt: 'Qual é a política de cancelamento?'
   },
   'faq.a1': {
-    es: 'Para consultar nuestra política de cancelación, revisa las condiciones disponibles en nuestra página de reservas: [Consultar condiciones y reservar](https://bookonline.pro/es/property/350327).',
-    gl: 'Para consultar a nosa política de cancelación, revisa as condicións dispoñibles na nosa páxina de reservas: [Consultar condicións e reservar](https://bookonline.pro/es/property/350327).',
-    en: 'To view our cancellation policy, please check the terms and conditions on our booking page: [View terms & book online](https://bookonline.pro/en/property/350327).',
-    fr: 'Pour consulter notre politique d\'annulation, veuillez vérifier les conditions disponibles sur notre page de réservation : [Consulter les conditions et réserver](https://bookonline.pro/fr/property/350327).',
-    de: 'Unsere Stornierungsbedingungen finden Sie direkt auf unserer Buchungsseite: [Bedingungen einsehen & buchen](https://bookonline.pro/de/property/350327).',
-    it: 'Per consultare la nostra politica di cancellazione, verifica i termini disponibili sulla nostra pagina di prenotazione: [Consulta le condizioni e prenota](https://bookonline.pro/it/property/350327).',
-    pt: 'Para consultar a nossa política de cancelamento, consulte as condições disponíveis na nossa página de reservas: [Consultar condições e reservar](https://bookonline.pro/pt/property/350327).'
+    es: 'Para consultar nuestra política de cancelación, revisa las condiciones disponibles en nuestra página de reservas: [Consultar condiciones y reservar](/booking).',
+    gl: 'Para consultar a nosa política de cancelación, revisa as condicións dispoñibles na nosa páxina de reservas: [Consultar condicións e reservar](/booking).',
+    en: 'To view our cancellation policy, please check the terms and conditions on our booking page: [View terms & book online](/booking).',
+    fr: 'Pour consulter notre politique d\'annulation, veuillez vérifier les conditions disponibles sur notre page de réservation : [Consulter les conditions et réserver](/booking).',
+    de: 'Unsere Stornierungsbedingungen finden Sie direkt auf unserer Buchungsseite: [Bedingungen einsehen & buchen](/booking).',
+    it: 'Per consultare la nostra politica di cancellazione, verifica i termini disponibili sulla nostra pagina di prenotazione: [Consulta le condizioni e prenota](/booking).',
+    pt: 'Para consultar a nossa política de cancelamento, consulte as condições disponíveis na nossa página de reservas: [Consultar condições e reservar](/booking).'
   },
   'faq.q2': {
     es: '¿Se admiten mascotas?',

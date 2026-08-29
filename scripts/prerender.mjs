@@ -45,7 +45,11 @@ const routes = [
         <li><strong><a href="/nature/monte-louro">Monte Louro y Playa de Area Maior:</a></strong> Espacio protegido con sistema dunar y la laguna litoral de As Xarfas.</li>
         <li><strong>Casco histórico de Muros:</strong> Villa marinera medieval con calles porticadas de piedra y tabernas tradicionales.</li>
       </ol>
-      <p><a href="/">Alojamiento en Casa da Cuncheira (Lira, Carnota)</a> | <a href="https://bookonline.pro/es/property/350327">Consultar disponibilidad y reserva directa</a></p>
+      <h3>Vídeo: El Legado de Carnota (Concello de Carnota)</h3>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 16px; margin: 25px 0;">
+        <iframe src="https://www.youtube-nocookie.com/embed/e0uLM1qa0qk" title="Vídeo O Legado - Concello de Carnota" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p><a href="/">Alojamiento en Casa da Cuncheira (Lira, Carnota)</a> | <a href="/booking">Consultar disponibilidad y reserva directa</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/carnota_horreo.webp'
   },
@@ -63,7 +67,7 @@ const routes = [
       <p>Praia de Cons ofrece arena dorada y aguas tranquilas protegidas del mar abierto, ideal para el baño y el relax a pocos minutos a pie de los alojamientos locales.</p>
       <h3>El Hórreo Monumental de Lira</h3>
       <p>Con casi 37 metros de largo y 22 pares de pies de piedra, rivaliza históricamente en tamaño y belleza con el hórreo de Carnota.</p>
-      <p><a href="/">Casa da Cuncheira: Tu casa en Lira</a> | <a href="https://bookonline.pro/es/property/350327">Reservar online</a></p>
+      <p><a href="/">Casa da Cuncheira: Tu casa en Lira</a> | <a href="/booking">Reservar online</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/house/moa_beach.webp'
   },
@@ -83,7 +87,7 @@ const routes = [
         <li><strong>A Xouba (Muros):</strong> Taberna marinera en el casco histórico de Muros.</li>
         <li><strong>Restaurante San Francisco (Louro, Muros):</strong> Arroces marineros y mariscos junto a la playa.</li>
       </ul>
-      <p><a href="/">Volver a Casa da Cuncheira</a> | <a href="https://bookonline.pro/es/property/350327">Reservar estancia</a></p>
+      <p><a href="/">Volver a Casa da Cuncheira</a> | <a href="/booking">Reservar estancia</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/gastronomy_hero.png'
   },
@@ -99,7 +103,11 @@ const routes = [
       <p>En la desembocadura del río Valdebois (Boca do Río), las mareas bajas forman lagunas y piscinas naturales de agua templada y arena finísima, perfectas para el baño.</p>
       <h3>Sectores y accesos</h3>
       <p>Accesos acondicionados desde Caldebarcos (norte), Boca do Río (centro) con pasarelas de madera y aparcamiento, y Cancelo / Lira (sur).</p>
-      <p><a href="/">Alojamiento en Casa da Cuncheira</a> | <a href="https://bookonline.pro/es/property/350327">Consultar disponibilidad</a></p>
+      <h3>Vídeo: Playa y Entorno Natural de Carnota</h3>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 16px; margin: 25px 0;">
+        <iframe src="https://www.youtube-nocookie.com/embed/e0uLM1qa0qk" title="Vídeo O Legado - Concello de Carnota" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p><a href="/">Alojamiento en Casa da Cuncheira</a> | <a href="/booking">Consultar disponibilidad</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/carnota_beach_optimized.webp'
   },
@@ -115,7 +123,7 @@ const routes = [
       <p>Desde O Fieiro (4.5 km ida/vuelta, 300 m desnivel, 2-2.5 h) o desde el pueblo costero de O Pindo (9.5 km, 600 m desnivel, 4-4.5 h). Vistas panorámicas de 360 grados sobre toda la Playa de Carnota y Fisterra.</p>
       <h3>Consejos de seguridad</h3>
       <p>Calzado de montaña con buen agarre, agua suficiente (no hay fuentes en la cumbre) y evitar días de niebla cerrada o lluvia sobre la roca resbaladiza.</p>
-      <p><a href="/">Descubre Casa da Cuncheira</a> | <a href="https://bookonline.pro/es/property/350327">Reservar alojamiento</a></p>
+      <p><a href="/">Descubre Casa da Cuncheira</a> | <a href="/booking">Reservar alojamiento</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/moa_view_optimized.webp'
   },
@@ -127,7 +135,7 @@ const routes = [
     content: `
       <h2>Un enclave paisajístico excepcional en la ría de Muros</h2>
       <p>Monte Louro (241 m) es una pirámide granítica que custodia la entrada de la ría de Muros. A sus pies se extienden la salvaje playa de Area Maior y el ecosistema dunar-lacustre protegido de As Xarfas.</p>
-      <p><a href="/">Alojarse en Casa da Cuncheira</a> | <a href="https://bookonline.pro/es/property/350327">Reservar estancia</a></p>
+      <p><a href="/">Alojarse en Casa da Cuncheira</a> | <a href="/booking">Reservar estancia</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/monte_louro_optimized.webp'
   },
@@ -141,7 +149,11 @@ const routes = [
       <p>El río Xallas se precipita en una espectacular caída de más de 40 metros directamente al mar en la ensenada de Ézaro, a solo 15 minutos de Casa da Cuncheira.</p>
       <h3>Fervenza a nivel del mar vs Mirador do Ézaro</h3>
       <p>Pasarelas de madera llanas junto al puerto para ver la caída del agua y subida al Mirador do Ézaro para disfrutar de vistas panorámicas a toda la ría.</p>
-      <p><a href="/">Volver a Casa da Cuncheira</a> | <a href="https://bookonline.pro/es/property/350327">Reservar casa vacacional</a></p>
+      <h3>Vídeo: Cascada de Ézaro al Mar</h3>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 16px; margin: 25px 0;">
+        <iframe src="https://www.youtube-nocookie.com/embed/zNO89I471V4" title="Vídeo Cascada de Ézaro" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <p><a href="/">Volver a Casa da Cuncheira</a> | <a href="/booking">Reservar casa vacacional</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/ezaro.webp'
   },
@@ -155,7 +167,7 @@ const routes = [
       <p>Durante siglos, Cabo Fisterra fue considerado el fin del mundo conocido ("Finis Terrae") y continúa siendo uno de los lugares más magnéticos de Galicia.</p>
       <h3>El Faro de 1853 y el Kilómetro Cero</h3>
       <p>Erigido sobre un acantilado a 143 metros de altitud, alberga el mojón del Km 0 donde los peregrinos concluyen la prolongación jacobea mirando al Atlántico.</p>
-      <p><a href="/">Casa da Cuncheira en Lira, Carnota</a> | <a href="https://bookonline.pro/es/property/350327">Reservar online</a></p>
+      <p><a href="/">Casa da Cuncheira en Lira, Carnota</a> | <a href="/booking">Reservar online</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/fisterra_optimized.webp'
   },
@@ -167,7 +179,7 @@ const routes = [
     content: `
       <h2>Las mejores puestas de sol de Galicia</h2>
       <p>Desde la terraza de Casa da Cuncheira o desde las playas de Lira y Carnota, los atardeceres sobre el Atlántico tiñen de dorado las rocas y el mar.</p>
-      <p><a href="/">Casa da Cuncheira</a> | <a href="https://bookonline.pro/es/property/350327">Reservar</a></p>
+      <p><a href="/">Casa da Cuncheira</a> | <a href="/booking">Reservar</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/fisterra_sunset_optimized.webp'
   },
@@ -179,7 +191,7 @@ const routes = [
     content: `
       <h2>Arquitectura tradicional y ambiente marinero</h2>
       <p>Calles empedradas, soportales, casas marineras y lonjas donde el pescado llega fresco cada tarde.</p>
-      <p><a href="/">Casa da Cuncheira</a> | <a href="https://bookonline.pro/es/property/350327">Reservar</a></p>
+      <p><a href="/">Casa da Cuncheira</a> | <a href="/booking">Reservar</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/muros_villages_optimized.webp'
   },
@@ -535,7 +547,7 @@ function prerender() {
         <a href="/gastronomy" style="color: #ffffff; text-decoration: none; margin: 0 10px;">Gastronomía</a>
         <a href="/#house" style="color: #ffffff; text-decoration: none; margin: 0 10px;">La Casa</a>
         <a href="/#contact" style="color: #ffffff; text-decoration: none; margin: 0 10px;">Contacto</a>
-        <a href="https://bookonline.pro/es/property/350327" rel="noopener noreferrer" style="color: #ffffff; text-decoration: underline; margin-left: 15px;">Reservar</a>
+        <a href="/booking" style="color: #ffffff; text-decoration: underline; margin-left: 15px;">Reservar</a>
       </nav>
     </header>
 
