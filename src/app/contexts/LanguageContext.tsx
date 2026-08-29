@@ -681,22 +681,22 @@ const translations: Translations = {
     pt: 'Até 6 pessoas • 4 quartos espaçosos'
   },
   'reservas.house.featureLocation': {
-    es: 'A 300m del puerto de Lira y de la playa de Mar de Lira',
-    gl: 'A 300m do porto de Lira e da praia de Mar de Lira',
-    en: '300m from Port of Lira and Mar de Lira beach',
-    fr: 'À 300m du port de Lira et de la plage de Mar de Lira',
-    de: '300 m vom Hafen von Lira und dem Strand Mar de Lira',
-    it: 'A 300m dal porto di Lira e dalla spiaggia di Mar de Lira',
-    pt: 'A 300m do porto de Lira e da praia de Mar de Lira'
+    es: 'A 500m de la playa de Mar de Lira',
+    gl: 'A 500m da praia de Mar de Lira',
+    en: '500m from Mar de Lira beach',
+    fr: 'À 500m de la plage de Mar de Lira',
+    de: '500 m vom Strand Mar de Lira',
+    it: 'A 500m dalla spiaggia di Mar de Lira',
+    pt: 'A 500m da praia de Mar de Lira'
   },
   'reservas.house.featureGarden': {
-    es: 'Jardín privado con porche, barbacoa y vistas al mar',
-    gl: 'Xardín privado con porche, churrasqueira e vistas ao mar',
-    en: 'Private garden with porch, BBQ, and Atlantic ocean views',
-    fr: 'Jardin privé avec porche, barbecue et vue sur l\'océan',
-    de: 'Privater Garten mit Veranda, Grill und Meerblick',
-    it: 'Giardino privato con portico, barbecue e vista mare',
-    pt: 'Jardim privado com alpendre, churrasqueira e vista mar'
+    es: 'Jardín privado con barbacoa y vistas al mar',
+    gl: 'Xardín privado con churrasqueira e vistas ao mar',
+    en: 'Private garden with BBQ and Atlantic ocean views',
+    fr: 'Jardin privé avec barbecue et vue sur l\'océan',
+    de: 'Privater Garten mit Grill und Meerblick',
+    it: 'Giardino privato con barbecue e vista mare',
+    pt: 'Jardim privado com churrasqueira e vista mar'
   },
   'reservas.house.featureCheckin': {
     es: 'Entrada flexible desde las 16:00 • Salida hasta las 11:00',
