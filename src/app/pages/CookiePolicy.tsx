@@ -141,7 +141,7 @@ export function CookiePolicy() {
             <ul className="list-disc pl-6 text-muted-foreground space-y-2 text-sm sm:text-base">
               <li><strong>Windy.com (Previsión meteorológica):</strong> Se carga mediante un <code>iframe</code> de forma diferida (lazy load). Windy puede gestionar almacenamiento de sesión propio para la interactividad del mapa meteorológico.</li>
               <li><strong>Google Maps (Localización):</strong> Incrustación técnica para mostrar la ubicación física de la casa y lugares de interés.</li>
-              <li><strong>YouTube (Vídeo de la Cascada de Ézaro):</strong> Se carga utilizando el dominio de privacidad mejorada <code>youtube-nocookie.com</code>, evitando cookies de seguimiento previas a la reproducción del vídeo.</li>
+              <li><strong>YouTube (Vídeos turísticos de Ézaro y Carnota):</strong> Se carga utilizando el dominio de privacidad mejorada <code>youtube-nocookie.com</code>, evitando cookies de seguimiento previas a la reproducción del vídeo.</li>
               <li><strong>Motor de reservas AvaiBook (bookonline.pro):</strong> Al pulsar en «Reservar», el usuario es redirigido de forma segura a la plataforma externa de AvaiBook, la cual aplica su propia política de cookies y seguridad de pagos.</li>
             </ul>
           </section>

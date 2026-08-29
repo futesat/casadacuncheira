@@ -28,6 +28,7 @@ export const getNatureData = (t: (key: string) => any): Record<string, NatureLoc
             t('nature.carnota.h2'),
             t('nature.carnota.h3')
         ],
+        youtubeId: 'e0uLM1qa0qk',
         relatedSlugs: ['monte-pindo', 'lira-carnota', 'que-ver-en-carnota']
     },
     'monte-pindo': {
@@ -77,6 +78,7 @@ export const getNatureData = (t: (key: string) => any): Record<string, NatureLoc
             t('nature.carnota_guide.h2'),
             t('nature.carnota_guide.h3')
         ],
+        youtubeId: 'e0uLM1qa0qk',
         relatedSlugs: ['praia-carnota', 'monte-pindo', 'lira-carnota', 'fervenza-do-ezaro']
     },
     'monte-louro': {
