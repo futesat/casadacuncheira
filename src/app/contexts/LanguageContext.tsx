@@ -863,6 +863,7 @@ const translations: Translations = {
 
   // Floating button
   'float.book': { es: 'Reservar ahora', gl: 'Reservar agora', en: 'Book now', fr: 'Réserver maintenant', de: 'Jetzt buchen', it: 'Prenota ora', pt: 'Reservar agora' },
+  'float.whatsapp': { es: '¿Dudas? WhatsApp', gl: 'Dúbidas? WhatsApp', en: 'Questions? WhatsApp', fr: 'Des questions ? WhatsApp', de: 'Fragen? WhatsApp', it: 'Domande? WhatsApp', pt: 'Dúvidas? WhatsApp' },
 
   // Locations & Plans
   'location.carnota.title': { es: 'Playa de Carnota y Boca do Río', gl: 'Praia de Carnota e Boca do Río', en: 'Carnota Beach & Boca do Río', fr: 'Plage de Carnota & Boca do Río', de: 'Strand von Carnota & Boca do Río', it: 'Spiaggia di Carnota e Boca do Río', pt: 'Praia de Carnota e Boca do Río' },

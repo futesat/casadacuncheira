@@ -80,4 +80,17 @@ test.describe('E2E Dedicated Booking Page & AvaiBook Integration', () => {
     await page.waitForURL('**/booking');
     await expect(page.locator('h1')).toBeVisible();
   });
+
+  test('floating WhatsApp button is visible on /booking page on scroll', async ({ page }) => {
+    await page.goto('/booking');
+
+    // Scroll down to trigger floating WhatsApp CTA
+    await page.evaluate(() => window.scrollTo(0, 500));
+    await page.waitForTimeout(500);
+
+    const waBtn = page.locator('a[href*="wa.me"]').first();
+    await expect(waBtn).toBeVisible();
+    const href = await waBtn.getAttribute('href');
+    expect(href).toContain('34607952250');
+  });
 });
