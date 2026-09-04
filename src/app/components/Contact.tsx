@@ -23,7 +23,8 @@ export function Contact() {
       icon: MapPin,
       label: t('contact.location'),
       value: STATIC_TEXTS.location,
-      href: '#',
+      href: STATIC_TEXTS.mapsLocationUrl,
+      isExternal: true,
     },
   ];
 
@@ -57,6 +58,8 @@ export function Contact() {
             <motion.a
               key={index}
               href={info.href}
+              {...(info.isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+              aria-label={`${info.label}: ${info.value}`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

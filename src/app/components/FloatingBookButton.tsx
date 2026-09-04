@@ -3,11 +3,15 @@ import { Calendar, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router';
+import { STATIC_TEXTS } from '../constants/static';
 
 export function FloatingBookButton() {
   const { t } = useLanguage();
   const location = useLocation();
   const navigate = useNavigate();
+
+  const whatsappPhone = STATIC_TEXTS.phone.replace(/\D/g, '');
+  const whatsappUrl = `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(t('float.whatsapp_msg'))}`;
 
   const normalizedPath = location.pathname.toLowerCase().replace(/\/+$/, '') || '/';
   const isBookingPage =
@@ -40,7 +44,7 @@ export function FloatingBookButton() {
         isBookingPage ? (
           <motion.a
             key="float-whatsapp"
-            href={`https://wa.me/34607952250?text=${encodeURIComponent('Hola! Tengo una duda sobre la reserva en Casa da Cuncheira.')}`}
+            href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.8, y: 20 }}

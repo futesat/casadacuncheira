@@ -891,6 +891,15 @@ const translations: Translations = {
   // Floating button
   'float.book': { es: 'Reservar ahora', gl: 'Reservar agora', en: 'Book now', fr: 'Réserver maintenant', de: 'Jetzt buchen', it: 'Prenota ora', pt: 'Reservar agora' },
   'float.whatsapp': { es: '¿Dudas? WhatsApp', gl: 'Dúbidas? WhatsApp', en: 'Questions? WhatsApp', fr: 'Des questions ? WhatsApp', de: 'Fragen? WhatsApp', it: 'Domande? WhatsApp', pt: 'Dúvidas? WhatsApp' },
+  'float.whatsapp_msg': {
+    es: '¡Hola! Tengo una duda sobre la reserva en Casa da Cuncheira.',
+    gl: 'Ola! Teño unha dúbida sobre a reserva en Casa da Cuncheira.',
+    en: 'Hello! I have a question about booking Casa da Cuncheira.',
+    fr: 'Bonjour ! J’ai une question concernant la réservation à Casa da Cuncheira.',
+    de: 'Hallo! Ich habe eine Frage zur Buchung im Casa da Cuncheira.',
+    it: 'Ciao! Ho una domanda sulla prenotazione a Casa da Cuncheira.',
+    pt: 'Olá! Tenho uma dúvida sobre a reserva na Casa da Cuncheira.'
+  },
 
   // Locations & Plans
   'location.carnota.title': { es: 'Playa de Carnota y Boca do Río', gl: 'Praia de Carnota e Boca do Río', en: 'Carnota Beach & Boca do Río', fr: 'Plage de Carnota & Boca do Río', de: 'Strand von Carnota & Boca do Río', it: 'Spiaggia di Carnota e Boca do Río', pt: 'Praia de Carnota e Boca do Río' },

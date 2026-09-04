@@ -104,4 +104,13 @@ test.describe('E2E Real Navigation & Anchors', () => {
     await page.waitForURL('**/cookies');
     await expect(page.locator('h1')).toContainText('Política de Cookies');
   });
+
+  test('contact location card links to Google Maps externally with secure attributes', async ({ page }) => {
+    await page.goto('/');
+    const locationCard = page.locator('#contact a[href*="google.com/maps"]').first();
+    await locationCard.scrollIntoViewIfNeeded();
+    await expect(locationCard).toBeVisible();
+    await expect(locationCard).toHaveAttribute('target', '_blank');
+    await expect(locationCard).toHaveAttribute('rel', 'noopener noreferrer');
+  });
 });

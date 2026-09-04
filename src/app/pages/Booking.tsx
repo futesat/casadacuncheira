@@ -21,19 +21,12 @@ import { Link } from 'react-router';
 import { useLanguage } from '../contexts/LanguageContext';
 import { SEOHead } from '../components/SEOHead';
 import { STATIC_TEXTS } from '../constants/static';
+import { getDefaultBookingDates, calculateCheckoutDate } from '../utils/date';
 
 const AVAIBOOK_CHECKOUT_URL = 'https://www.avaibook.com/reservas/nueva_reserva.php';
 const BASE_ENGINE_URL = 'https://bookonline.pro';
 const PROPERTY_ID = '350327';
 const UNIT_ID = '426498';
-
-// Utility helper to format Date as YYYY-MM-DD
-function formatDate(date: Date): string {
-  const y = date.getFullYear();
-  const m = String(date.getMonth() + 1).padStart(2, '0');
-  const d = String(date.getDate()).padStart(2, '0');
-  return `${y}-${m}-${d}`;
-}
 
 export function Booking() {
   const { language, t } = useLanguage();
@@ -52,23 +45,7 @@ export function Booking() {
   }, []);
 
   // Calculate default dates (+3 days for checkin, +10 days for checkout)
-  const defaultDates = useMemo(() => {
-    const today = new Date();
-    const checkinDate = new Date(today);
-    checkinDate.setDate(today.getDate() + 3);
-
-    const checkoutDate = new Date(today);
-    checkoutDate.setDate(today.getDate() + 10);
-
-    const minDate = new Date(today);
-    minDate.setDate(today.getDate() + 1);
-
-    return {
-      checkin: formatDate(checkinDate),
-      checkout: formatDate(checkoutDate),
-      minCheckin: formatDate(minDate),
-    };
-  }, []);
+  const defaultDates = useMemo(() => getDefaultBookingDates(), []);
 
   const [checkin, setCheckin] = useState(defaultDates.checkin);
   const [checkout, setCheckout] = useState(defaultDates.checkout);
@@ -97,9 +74,7 @@ export function Booking() {
 
     // If new checkin is after or same as current checkout, push checkout ahead by 3 days
     if (newCheckin >= checkout) {
-      const parts = newCheckin.split('-').map(Number);
-      const nextDate = new Date(parts[0], parts[1] - 1, parts[2] + 3);
-      setCheckout(formatDate(nextDate));
+      setCheckout(calculateCheckoutDate(newCheckin, 3));
     }
     scrollToIframeBlock();
   };
