@@ -22,7 +22,7 @@ const routes = [
         <li><strong>Confirmación instantánea:</strong> Calendario sincronizado en tiempo real y recepción inmediata del bono de reserva.</li>
       </ul>
       <h3>Características del alojamiento:</h3>
-      <p>Casa completa con capacidad para 8 huéspedes, 4 dormitorios, jardín privado con barbacoa y vistas al Atlántico, situada a solo 500 metros de la playa de Mar de Lira.</p>
+      <p>Casa completa con capacidad para 6 huéspedes, 4 dormitorios, jardín privado con barbacoa y vistas al Atlántico, situada a solo 500 metros de la playa de Mar de Lira.</p>
       <p><a href="/">Inicio Casa da Cuncheira</a> | <a href="/gastronomy">Restaurantes en Lira y Carnota</a> | <a href="/nature/que-ver-en-carnota">Qué ver en Carnota</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/hero_optimized.webp'

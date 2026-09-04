@@ -699,13 +699,13 @@ const translations: Translations = {
     pt: 'Jardim privado com churrasqueira e vista mar'
   },
   'reservas.house.featureCheckin': {
-    es: 'Entrada flexible desde las 16:00 • Salida hasta las 11:00',
-    gl: 'Entrada flexible dende as 16:00 • Saída ata as 11:00',
-    en: 'Flexible check-in from 16:00 • Check-out until 11:00',
-    fr: 'Arrivée flexible dès 16h00 • Départ jusqu\'à 11h00',
-    de: 'Flexibler Check-in ab 16:00 • Check-out bis 11:00',
-    it: 'Check-in flessibile dalle 16:00 • Check-out entro le 11:00',
-    pt: 'Check-in flexível a partir das 16:00 • Check-out até às 11:00'
+    es: 'Entrada flexible desde las 17:00 • Salida hasta las 11:00',
+    gl: 'Entrada flexible dende as 17:00 • Saída ata as 11:00',
+    en: 'Flexible check-in from 17:00 • Check-out until 11:00',
+    fr: 'Arrivée flexible dès 17h00 • Départ jusqu\'à 11h00',
+    de: 'Flexibler Check-in ab 17:00 • Check-out bis 11:00',
+    it: 'Check-in flessibile dalle 17:00 • Check-out entro le 11:00',
+    pt: 'Check-in flexível a partir das 17:00 • Check-out até às 11:00'
   },
   'reservas.contact.title': {
     es: '¿Preguntas sobre tu reserva?',
@@ -2026,13 +2026,13 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     pt: 'Existe WiFi e qual é a velocidade?'
   },
   'faq.a3': {
-    es: 'Sí, la casa tiene WiFi mediante conexión 5G, perfecta para trabajar en remoto o disfrutar de entretenimiento.',
-    gl: 'Si, a casa ten WiFi mediante conexión 5G, perfecta para traballar en remoto ou gozar de entretemento.',
-    en: 'Yes, the house has WiFi with a 5G connection, perfect for remote work or enjoying entertainment.',
-    fr: 'Oui, la maison dispose d\'une connexion WiFi 5G, parfaite pour le télétravail ou les loisirs.',
-    de: 'Ja, das Haus verfügt über WLAN mit 5G-Verbindung, perfekt für mobiles Arbeiten oder Streaming.',
-    it: 'Sì, la casa dispone di WiFi con connessione 5G, perfetta per il lavoro a distanza o per il tempo libero.',
-    pt: 'Sim, a casa dispõe de WiFi mediante ligação 5G, perfeita para trabalho remoto ou lazer.'
+    es: 'Sí, la casa tiene WiFi mediante conexión por antena de telefonía 5G, perfecta para trabajar en remoto o disfrutar de entretenimiento.',
+    gl: 'Si, a casa ten WiFi mediante conexión por antena de telefonía 5G, perfecta para traballar en remoto ou gozar de entretemento.',
+    en: 'Yes, the house has WiFi via a 5G cellular antenna connection, perfect for remote work or enjoying entertainment.',
+    fr: 'Oui, la maison dispose d\'une connexion WiFi via antenne de téléphonie 5G, parfaite pour le télétravail ou les loisirs.',
+    de: 'Ja, das Haus verfügt über WLAN über eine 5G-Mobilfunkantenne, perfekt für mobiles Arbeiten oder Streaming.',
+    it: 'Sì, la casa dispone di WiFi tramite connessione con antenna di telefonia 5G, perfetta per il lavoro a distanza o per il tempo libero.',
+    pt: 'Sim, a casa dispõe de WiFi mediante ligação por antena de telefonia 5G, perfeita para trabalho remoto ou lazer.'
   },
   'faq.q4': {
     es: '¿A qué distancia está la playa?',

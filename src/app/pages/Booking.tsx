@@ -188,7 +188,7 @@ export function Booking() {
           longitude: -9.1235535,
         },
         priceRange: '€€',
-        maximumAttendeeCapacity: 8,
+        maximumAttendeeCapacity: 6,
       },
     ],
   };
