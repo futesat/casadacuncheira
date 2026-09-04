@@ -249,13 +249,13 @@ const translations: Translations = {
     pt: 'Cascata do Ézaro: Queda do rio Xallas e miradouro | Casa da Cuncheira'
   },
   'seo.ezaroDescription': {
-    es: 'Visita la Fervenza do Ézaro, la única cascada de Europa continental que desemboca en el océano Atlántico. Información sobre pasarelas, mirador y aparcamiento.',
-    gl: 'Visita a Fervenza do Ézaro, a única fervenza da Europa continental que desemboca no océano Atlántico. Información de pasarelas, miradoiro e aparcadoiro.',
-    en: 'Visit the Ézaro Waterfall, the only waterfall in continental Europe cascading directly into the Atlantic Ocean. Boardwalk access, viewpoint, and parking info.',
-    fr: 'Visitez la cascade d\'Ézaro, la seule cascade d\'Europe continentale se jetant directement dans l\'océan Atlantique. Accès, passerelles et belvédère.',
-    de: 'Besuchen Sie den Ézaro-Wasserfall, den einzigen Wasserfall Kontinentaleuropas, der direkt in den Atlantik mündet. Holzstege, Aussichtspunkt und Parktipps.',
-    it: 'Visita la cascata dell\'Ézaro, l\'unica cascata dell\'Europa continentale che sfocia direttamente nell\'oceano Atlantico. Passerelle e punto panoramico.',
-    pt: 'Visite a Cascata do Ézaro, a única cascata da Europa continental que desagua diretamente no Oceano Atlântico. Informação de passadiços e miradouro.'
+    es: 'Visita la Fervenza do Ézaro, la única cascada de la Península Ibérica que desemboca en el océano Atlántico. Información sobre pasarelas, mirador y aparcamiento.',
+    gl: 'Visita a Fervenza do Ézaro, a única fervenza da Península Ibérica que desemboca no océano Atlántico. Información de pasarelas, miradoiro e aparcadoiro.',
+    en: 'Visit the Ézaro Waterfall, the only waterfall in the Iberian Peninsula cascading directly into the Atlantic Ocean. Boardwalk access, viewpoint, and parking info.',
+    fr: 'Visitez la cascade d\'Ézaro, la seule cascade de la péninsule Ibérique se jetant directement dans l\'océan Atlantique. Accès, passerelles et belvédère.',
+    de: 'Besuchen Sie den Ézaro-Wasserfall, den einzigen Wasserfall der Iberischen Halbinsel, der direkt in den Atlantik mündet. Holzstege, Aussichtspunkt und Parktipps.',
+    it: 'Visita la cascata dell\'Ézaro, l\'unica cascata della penisola iberica che sfocia direttamente nell\'oceano Atlantico. Passerelle e punto panoramico.',
+    pt: 'Visite a Cascata do Ézaro, a única cascata da Península Ibérica que desagua diretamente no Oceano Atlântico. Informação de passadiços e miradouro.'
   },
   'seo.fisterraTitle': {
     es: 'Cabo Fisterra (Finisterre): Faro, historia y atardecer | Casa da Cuncheira',
@@ -681,13 +681,13 @@ const translations: Translations = {
     pt: 'Até 6 pessoas • 4 quartos espaçosos'
   },
   'reservas.house.featureLocation': {
-    es: 'A 500m de la playa de Mar de Lira',
-    gl: 'A 500m da praia de Mar de Lira',
-    en: '500m from Mar de Lira beach',
-    fr: 'À 500m de la plage de Mar de Lira',
-    de: '500 m vom Strand Mar de Lira',
-    it: 'A 500m dalla spiaggia di Mar de Lira',
-    pt: 'A 500m da praia de Mar de Lira'
+    es: 'A 10-12 min a pie de la playa de Mar de Lira (~1 km)',
+    gl: 'A 10-12 min a pé da praia de Mar de Lira (~1 km)',
+    en: '10-12 min walk to Mar de Lira beach (~1 km)',
+    fr: 'À 10-12 min à pied de la plage de Mar de Lira (~1 km)',
+    de: '10-12 Gehminuten zum Strand Mar de Lira (~1 km)',
+    it: 'A 10-12 min a piedi dalla spiaggia di Mar de Lira (~1 km)',
+    pt: 'A 10-12 min a pé da praia de Mar de Lira (~1 km)'
   },
   'reservas.house.featureGarden': {
     es: 'Jardín privado con barbacoa y vistas al mar',
@@ -904,7 +904,7 @@ En la zona central de la playa, la desembocadura del río Valdebois (Boca do Rí
 Zonas y accesos de la playa
 • Sector Norte (Caldebarcos): Zona con ambiente marinero y excelentes restaurantes donde probar marisco fresco de la ría. Ideal para iniciar largos paseos hacia el sur.
 • Sector Central (Boca do Río): El acceso más popular y fotogénico, equipado con pasarelas de madera elevadas sobre el sistema dunar para proteger la vegetación autóctona. Dispone de zona de aparcamiento señalizado.
-• Sector Sur (Praia de Cancelo y Lira): Zona más recogida y tranquila, próxima a las calas de Lira.
+• Sector Sur (As Maceiras y Lira): Zona más recogida y tranquila, en el extremo sur del arenal.
 
 Consejos prácticos para la visita
 • Mareas: Para disfrutar al máximo de las piscinas naturales de Boca do Río, es muy recomendable planificar la visita coincidiendo con la marea baja (bajamar) o las horas previas.
@@ -921,7 +921,7 @@ Na zona central da praia, a desembocadura do río Valdebois (Boca do Río) crea 
 Zonas e accesos da praia
 • Sector Norte (Caldebarcos): Zona con ambiente mariñeiro e excelentes restaurantes onde probar marisco fresco.
 • Sector Central (Boca do Río): O acceso máis popular, equipado con pasarelas de madeira elevadas sobre o sistema dunar e aparcadoiro.
-• Sector Sur (Praia de Cancelo e Lira): Zona máis recollida e tranquila, próxima ás calas de Lira.
+• Sector Sur (As Maceiras e Lira): Zona máis recollida e tranquila, no extremo sur do areal.
 
 Consellos prácticos para a visita
 • Mareas: Para gozar ao máximo das piscinas naturais de Boca do Río, é moi recomendable planificar a visita coincidindo coa baixamar.
@@ -934,7 +934,7 @@ In the central area of the beach, the mouth of the Valdebois River (Boca do Río
 Beach sectors and access
 • North Sector (Caldebarcos): Traditional fishing atmosphere and excellent seafood restaurants.
 • Central Sector (Boca do Río): The most famous and scenic access, featuring elevated wooden boardwalks across the dune system and parking.
-• South Sector (Cancelo & Lira): Peaceful and sheltered area close to the coves of Lira.
+• South Sector (As Maceiras & Lira): Peaceful and sheltered area at the southern end of the beach.
 
 Practical visitor tips
 • Tides: To fully enjoy the natural swimming pools at Boca do Río, plan your visit during low tide.
@@ -947,7 +947,7 @@ Au centre de la plage, l'embouchure du fleuve Valdebois (Boca do Río) crée l'u
 Secteurs et accès à la plage
 • Secteur Nord (Caldebarcos) : Ambiance de pêcheurs et excellents restaurants de fruits de mer.
 • Secteur Central (Boca do Río) : L'accès le plus spectaculaire, avec passerelles en bois sur les dunes et parking.
-• Secteur Sud (Praia de Cancelo et Lira) : Zone abritée et paisible, à deux pas des criques de Lira.
+• Secteur Sud (As Maceiras et Lira) : Zone abritée et paisible à l'extrémité sud de la plage.
 
 Conseils pratiques pour la visite
 • Marées : Pour profiter des piscines naturelles de Boca do Río, planifiez votre visite à marée basse.
@@ -960,7 +960,7 @@ Im mittleren Strandabschnitt bildet die Mündung des Valdebois (Boca do Río) ei
 Strandabschnitte und Zugänge
 • Nordabschnitt (Caldebarcos): Maritimes Flair und hervorragende Fischrestaurants.
 • Mittelabschnitt (Boca do Río): Der beliebteste Zugang mit Holzstegen über das Dünensystem und Parkplatz.
-• Südabschnitt (Cancelo & Lira): Ruhig und geschützt, nahe den Buchten von Lira.
+• Südabschnitt (As Maceiras & Lira): Ruhiger, geschützter Bereich am südlichen Ende des Strandes.
 
 Praktische Besuchertipps
 • Gezeiten: Besuchen Sie Boca do Río am besten bei Niedrigwasser (Ebbe), um die natürlichen Pools optimal zu nutzen.
@@ -973,7 +973,7 @@ Al centro della spiaggia, la foce del fiume Valdebois (Boca do Río) crea lagune
 Settori e accessi
 • Settore Nord (Caldebarcos): Atmosfera marinara e ottimi ristoranti di pesce fresco.
 • Settore Centrale (Boca do Río): Accesso panoramico con passerelle in legno sulle dune e parcheggio.
-• Settore Sud (Cancelo e Lira): Area raccolta e tranquilla vicina alle calette di Lira.
+• Settore Sud (As Maceiras e Lira): Area raccolta e tranquilla all'estremità sud della spiaggia.
 
 Consigli pratici
 • Maree: Pianifica la visita durante la bassa marea per goderti appieno le piscine naturali.
@@ -986,7 +986,7 @@ Na zona central da praia, a foz do rio Valdebois (Boca do Río) cria lagoas e pi
 Setores e acessos
 • Setor Norte (Caldebarcos): Ambiente piscatório e excelentes marisqueiras.
 • Setor Central (Boca do Río): Acesso mais emblemático com passadiços de madeira sobre as dunas e estacionamento.
-• Setor Sul (Cancelo e Lira): Zona recolhida e serena junto às enseadas de Lira.
+• Setor Sul (As Maceiras e Lira): Zona recolhida e serena no extremo sul do areal.
 
 Conselhos práticos
 • Marés: Visite durante a maré baixa para aproveitar as piscinas naturais de Boca do Río.
@@ -1223,7 +1223,7 @@ Los 8 lugares imprescindibles en Carnota y alrededores
 3. Hórreo de Lira: El gemelo monumental de Carnota, con casi 37 metros de largo sustentado sobre 22 pares de pies de piedra.
 4. Lira y el Puerto de Portocubelo: Pueblo marinero tradicional con la Reserva Marina Os Miñarzos, calas tranquilas como Praia de Cons y gastronomía de lonja.
 5. Monte Pindo y cumbre de A Moa (627 m): El mítico Olimpo Celta, mole de granito rosado con rutas de senderismo y vistas panorámicas de 360°.
-6. Fervenza do Ézaro: La única cascada de Europa continental que desemboca directamente en el mar, a 15 minutos en Dumbría.
+6. Fervenza do Ézaro: La única cascada de la Península Ibérica que desemboca directamente en el mar, a unos 20 minutos en Dumbría.
 7. Monte Louro y Playa de Area Maior: Espacio protegido en la bocana de la Ría de Muros con laguna litoral y faro panorámico.
 8. Casco histórico de Muros: Villa marinera medieval con calles porticadas de piedra y tabernas tradicionales.
 
@@ -1260,7 +1260,7 @@ Les 8 incontournables à Carnota et ses environs
 3. Hórreo de Lira : Près de 37 mètres de long sur 22 paires de piliers.
 4. Lira et le port de Portocubelo : Village de pêcheurs authentique, réserve marine et calanques calmes.
 5. Mont Pindo et sommet d'A Moa (627 m) : Panorama grandiose à 360° sur l'Atlantique.
-6. Cascade d'Ézaro : L'unique cascade d'Europe continentale qui plonge dans l'océan.
+6. Cascade d'Ézaro : L'unique cascade de la péninsule Ibérique qui plonge dans l'océan.
 7. Mont Louro et plage d'Area Maior : Espace dunaire protégé et lagune côtière.
 8. Centre historique de Muros : Cité médiévale de pêcheurs aux ruelles pavées.`,
     de: `Carnota vereint die spektakulärsten Landschaften und Kulturdenkmäler Galiciens.
@@ -1271,7 +1271,7 @@ Die 8 Top-Highlights in Carnota & Umgebung
 3. Hórreo von Lira: Fast 37 Meter lang auf 22 Pfeilerpaaren aus Stein.
 4. Lira & Hafen Portocubelo: Authentisches Fischerdorf mit Meeresschutzgebiet und ruhigen Buchten.
 5. Monte Pindo & Gipfel A Moa (627 m): Der keltische Olymp mit 360°-Panoramablick.
-6. Ézaro-Wasserfall: Einziger Wasserfall Kontinentaleuropas, der direkt ins Meer stürzt.
+6. Ézaro-Wasserfall: Einziger Wasserfall der Iberischen Halbinsel, der direkt ins Meer stürzt.
 7. Monte Louro & Strand Area Maior: Geschützte Dünenlandschaft und Küstenlagune.
 8. Historischer Ortskern von Muros: Mittelalterliches Fischerdorf mit Arkadenstraßen.`,
     it: `Carnota racchiude alcuni dei paesaggi costieri e monumenti più spettacolari della Galizia.
@@ -1282,7 +1282,7 @@ Gli 8 luoghi imperdibili a Carnota e dintorni
 3. Hórreo di Lira: Quasi 37 metri su 22 coppie di pilastri in granito.
 4. Lira e porto di Portocubelo: Borgo marinaro autentico, riserva marina e calette riparate.
 5. Monte Pindo e cima di A Moa (627 m): L'Olimpo celtico con vista a 360° sull'Atlantico.
-6. Cascata dell'Ézaro: L'unica cascata in Europa continentale che si getta direttamente nel mare.
+6. Cascata dell'Ézaro: L'unica cascata nella penisola iberica che si getta direttamente nel mare.
 7. Monte Louro e spiaggia di Area Maior: Parco protetto con laguna costiera e dune.
 8. Centro storico di Muros: Borgo medievale marinaro con tipici portici in pietra.`,
     pt: `Carnota reúne algumas das paisagens costeiras e monumentos mais espetaculares da Galiza.
@@ -1293,7 +1293,7 @@ Os 8 locais imperdíveis em Carnota e arredores
 3. Hórreo de Lira: Quase 37 metros de comprimento sobre 22 pares de pés.
 4. Lira e porto de Portocubelo: Vila piscatória autêntica, reserva marinha e enseadas tranquilas.
 5. Monte Pindo e cume da Moa (627 m): O Olimpo Celta com vista de 360° sobre o Atlântico.
-6. Cascata do Ézaro: Única cascata da Europa continental que desagua diretamente no mar.
+6. Cascata do Ézaro: Única cascata da Península Ibérica que desagua diretamente no mar.
 7. Monte Louro e praia de Area Maior: Espaço dunar protegido e lagoa costeira.
 8. Centro histórico de Muros: Vila medieval marinheira com ruas de arcadas em pedra.`
   },
@@ -1388,9 +1388,9 @@ A apenas 10 minutos de carro do centro histórico de Muros, famoso pelas suas ru
   'nature.louro.h3': { es: 'Faro y Ría de Muros', gl: 'Faro e Ría de Muros', en: 'Lighthouse & Estuary', fr: 'Phare et Estuaire', de: 'Leuchtturm & Mündung', it: 'Faro ed Estuario', pt: 'Farol e Ria de Muros' },
 
   'location.ezaro.title': { es: 'Fervenza do Ézaro y Mirador', gl: 'Fervenza do Ézaro e Miradoiro', en: 'Ézaro Waterfall & Viewpoint', fr: 'Cascade d\'Ézaro et Belvédère', de: 'Ézaro-Wasserfall & Aussichtspunkt', it: 'Cascata dell\'Ézaro e Belvedere', pt: 'Cascata do Ézaro e Miradouro' },
-  'location.ezaro.desc': { es: 'Única cascada de Europa continental que desemboca en el océano Atlántico y su mirador panorámico', gl: 'Única fervenza da Europa continental que desemboca no océano Atlántico e o seu miradoiro panorámico', en: 'The only waterfall in continental Europe cascading directly into the Atlantic Ocean, plus its panoramic viewpoint', fr: 'Seule cascade d\'Europe continentale se jetant directement dans l\'océan Atlantique et son belvédère', de: 'Der einzige Wasserfall Kontinentaleuropas, der direkt ins Meer stürzt, und sein Aussichtspunkt', it: 'L\'unica cascata dell\'Europa continentale che si getta nell\'oceano Atlantico e il suo punto panoramico', pt: 'A única cascata da Europa continental que desagua no oceano Atlântico e o seu miradouro' },
+  'location.ezaro.desc': { es: 'Única cascada de la Península Ibérica que desemboca en el océano Atlántico y su mirador panorámico', gl: 'Única fervenza da Península Ibérica que desemboca no océano Atlántico e o seu miradoiro panorámico', en: 'The only waterfall in the Iberian Peninsula cascading directly into the Atlantic Ocean, plus its panoramic viewpoint', fr: 'Seule cascade de la péninsule Ibérique se jetant directement dans l\'océan Atlantique et son belvédère', de: 'Der einzige Wasserfall der Iberischen Halbinsel, der direkt ins Meer stürzt, und sein Aussichtspunkt', it: 'L\'unica cascata della penisola iberica che si getta nell\'oceano Atlantico e il suo punto panoramico', pt: 'A única cascata da Península Ibérica que desagua no oceano Atlântico e o seu miradouro' },
   'location.ezaro.longDesc': {
-    es: `Situada en el municipio de Dumbría, a solo 15 minutos de Carnota, la Fervenza do Ézaro es un fenómeno natural único en Europa: es la única cascada de Europa continental donde un río (el Xallas) se precipita en caída libre directamente al océano Atlántico.
+    es: `Situada en el municipio de Dumbría, a unos 20 minutos de Carnota, la Fervenza do Ézaro es un fenómeno natural único: es la única cascada de la Península Ibérica donde un río (el Xallas) se precipita en caída libre directamente al océano Atlántico.
 
 El salto del río Xallas
 Tras encajonarse entre las moles de granito del Monte Pindo, el río Xallas salva un desnivel de más de 40 metros en forma de atronadora cascada sobre la ensenada marina de Ézaro, creando una nube constante de agua pulverizada.
@@ -1402,7 +1402,7 @@ Acceso y pasarelas
 Diferencia clave: Fervenza vs. Mirador do Ézaro
 • Fervenza do Ézaro: Situada a nivel del mar junto al puerto, con acceso directo y llano a la cascada.
 • Miradoiro do Ézaro: Situado en lo alto de la montaña (acceso por carretera de 1.8 km con rampas del 28% famosas en la Vuelta a España). Desde arriba se disfruta de una vista panorámica sublime de la ría, la desembocadura y el cañón granítico del Monte Pindo.`,
-    gl: `A Fervenza do Ézaro (Dumbría) é a única fervenza da Europa continental que desemboca directamente no océano Atlántico.
+    gl: `A Fervenza do Ézaro (Dumbría), a uns 20 minutos de Carnota, é a única fervenza da Península Ibérica que desemboca directamente no océano Atlántico.
 
 O salto do río Xallas
 Unha caída de máis de 40 metros de altura que golpea as paredes graníticas do Monte Pindo antes de mesturarse coa auga salgada da ría.
@@ -1410,7 +1410,7 @@ Unha caída de máis de 40 metros de altura que golpea as paredes graníticas do
 Diferenza clave: Fervenza vs. Miradoiro
 • Fervenza: A nivel do mar xunto ao porto, con pasarelas de madeira llanas.
 • Miradoiro: No alto da montaña (rampas do 28%), con vistas panorámicas sobre a ría e o Monte Pindo.`,
-    en: `The Ézaro Waterfall in Dumbría is the only waterfall in continental Europe plunging directly into the open Atlantic Ocean.
+    en: `The Ézaro Waterfall in Dumbría, about 20 minutes from Carnota, is the only waterfall in the Iberian Peninsula plunging directly into the open Atlantic Ocean.
 
 The River Xallas Cascade
 A thunderous 40-meter cascade where freshwater crashes against the granite walls of Mount Pindo into the sea.
@@ -1418,7 +1418,7 @@ A thunderous 40-meter cascade where freshwater crashes against the granite walls
 Waterfall vs. Panoramic Viewpoint
 • The Waterfall: Located at sea level with flat wooden boardwalks accessible to all.
 • The Viewpoint (Miradoiro): High on the mountain ridge (via a steep road with 28% gradients), offering sweeping views of the coastline.`,
-    fr: `Située à 15 minutes de Carnota, la cascade d'Ézaro est l'unique chute d'eau d'Europe continentale où un fleuve (le Xallas) se jette directement dans l'océan Atlantique.
+    fr: `Située à environ 20 minutes de Carnota, la cascade d'Ézaro est l'unique chute d'eau de la péninsule Ibérique où un fleuve (le Xallas) se jette directement dans l'océan Atlantique.
 
 La chute du fleuve Xallas
 Le fleuve franchit un dénivelé spectaculaire de plus de 40 mètres sur les parois granitiques du mont Pindo avant de plonger dans l'eau de mer.
@@ -1426,17 +1426,17 @@ Le fleuve franchit un dénivelé spectaculaire de plus de 40 mètres sur les par
 Cascade vs Belvédère d'Ézaro
 • La Cascade : Située au niveau de la mer avec une passerelle en bois accessible de 300 mètres.
 • Le Belvédère (Mirador) : Perché sur les hauteurs (célèbre rampe à 28% du Tour d'Espagne) offrant un panorama saisissant sur l'estuaire.`,
-    de: `Nur 15 Minuten von Carnota entfernt stürzt der Fluss Xallas beim Ézaro-Wasserfall über 40 Meter tief direkt in den Atlantik – ein in Kontinentaleuropa einzigartiges Naturschauspiel.
+    de: `Rund 20 Minuten von Carnota entfernt stürzt der Fluss Xallas beim Ézaro-Wasserfall über 40 Meter tief direkt in den Atlantik – ein auf der Iberischen Halbinsel einzigartiges Naturschauspiel.
 
 Wasserfall und Aussichtspunkt
 • Der Wasserfall: Auf Meereshöhe über einen 300 Meter langen, barrierefreien Holzsteg bequem erreichbar.
 • Der Aussichtspunkt (Mirador): Hoch über der Bucht (bekannt für 28%-Steigungen der Vuelta a España) mit atemberaubendem Weitblick über den Granit-Canyon.`,
-    it: `A soli 15 minuti da Carnota, la Cascata dell'Ézaro è l'unica cascata nell'Europa continentale in cui un fiume (lo Xallas) si getta direttamente nell'oceano Atlantico.
+    it: `A circa 20 minuti da Carnota, la Cascata dell'Ézaro è l'unica cascata nella penisola iberica in cui un fiume (lo Xallas) si getta direttamente nell'oceano Atlantico.
 
 Cascata vs Belvedere
 • La Cascata: A livello del mare, raggiungibile con una comoda passerella in legno di 300 metri adatta a tutti.
 • Il Belvedere (Miradoiro): Situato in quota (salita con pendenze del 28% celebre alla Vuelta) con vista mozzafiato sulla ría e sul Monte Pindo.`,
-    pt: `Situada a 15 minutos de Carnota, a Cascata do Ézaro é a única cascata da Europa continental onde um rio (o Xallas) desagua em queda livre diretamente no Oceano Atlântico.
+    pt: `Situada a cerca de 20 minutos de Carnota, a Cascata do Ézaro é a única cascata da Península Ibérica onde um rio (o Xallas) desagua em queda livre diretamente no Oceano Atlântico.
 
 Cascata vs Miradouro
 • A Cascata: Ao nível do mar com um passadiço de madeira plano de 300 metros acessível a todos.
@@ -1505,7 +1505,7 @@ Cascata vs Miradouro
   'nature.sunset.title': { es: 'Atardeceres Mágicos', gl: 'Atardeceres Máxicos', en: 'Magical Sunsets', fr: 'Couchers de soleil Magiques', de: 'Magische Sonnenuntergänge', it: 'Tramonti Magici', pt: 'Pôr do sol Mágico' },
   'nature.sunset.summary': { es: 'Descubre por qué esta costa fue considerada el fin del mundo conocido.', gl: 'Descobre por que esta costa foi considerada o fin do mundo coñecido.', en: 'Discover why this coast was considered the end of the known world.', fr: 'Découvrez pourquoi cette côte était considérée comme la fin du monde connu.', de: 'Entdecken Sie, warum diese Küste als das Ende der bekannten Welt galt.', it: 'Scopri perché questa costa era considerata la fine del mundo conosciuto.', pt: 'Descubra por que esta costa foi considerada o fim do mundo conhecido.' },
   'nature.sunset.h1': { es: 'Cabo Fisterra', gl: 'Cabo Fisterra', en: 'Cape Finisterre', fr: 'Cap Finisterre', de: 'Kap Finisterre', it: 'Capo Finisterre', pt: 'Cabo Finisterra' },
-  'nature.sunset.h2': { es: 'Faro de Lira', gl: 'Faro de Lira', en: 'Lira Lighthouse', fr: 'Phare de Lira', de: 'Lira Leuchtturm', it: 'Faro di Lira', pt: 'Farol de Lira' },
+  'nature.sunset.h2': { es: 'Faro de Lariño', gl: 'Faro de Lariño', en: 'Lariño Lighthouse', fr: 'Phare de Lariño', de: 'Lariño Leuchtturm', it: 'Faro di Lariño', pt: 'Farol de Lariño' },
   'nature.sunset.h3': { es: 'Paz Absoluta', gl: 'Paz Absoluta', en: 'Absolute Peace', fr: 'Paix Absolue', de: 'Absoluter Frieden', it: 'Pace Assoluta', pt: 'Paix Absoluta' },
   'nature.sunset.longDesc': {
     es: `Contemplar el atardecer en A Costa da Morte es una experiencia que trasciende lo visual. Para los antiguos, este era el "Finis Terrae", el lugar donde el sol moría cada día en el océano, marcando el límite del mundo conocido.
@@ -1514,7 +1514,7 @@ Lugares mágicos
 No existe un solo punto para disfrutar de este espectáculo, sino toda una geografía de luz y color:
 • Cabo Fisterra: El lugar más emblemático. Sentarse en las rocas junto al faro mientras el disco solar se sumerge en el Atlántico es un rito compartido por miles de viajeros y peregrinos.
 • Praia de Carnota: Con sus 7 kilómetros de arena, la puesta de sol aquí es un despliegue de reflejos dorados sobre la orilla infinita.
-• Faro de Lira: Mucho más tranquilo y cercano a Casa da Cuncheira, ofrece un entorno íntimo con el sonido de las olas rompiendo contra el granito.
+• Faro de Lariño (Punta da Ínsua): Mucho más tranquilo y cercano a Casa da Cuncheira, ofrece un entorno íntimo con el sonido de las olas rompiendo contra el granito.
 
 El ritual
 El momento del "rayo verde", la gama de púrpuras y naranjas que tiñen el cielo, y el silencio que se adopera de la costa cuando el sol desaparece, hacen de este momento el cierre perfecto para cualquier día de exploración. Se recomienda llegar al menos 30 minutos antes de la hora prevista para disfrutar de toda la transición lumínica.`,
@@ -1524,7 +1524,7 @@ Lugares máxicos
 Non existe un só punto para gozar deste espectáculo, senón toda unha xeografía de luz e cor:
 • Cabo Fisterra: O lugar máis emblemático. Sentarse nas rochas xuntas ao faro mentres o disco solar se somerxe no Atlántico é un rito compartido por miles de viaxeiros e peregrinos.
 • Praia de Carnota: Cos seus 7 quilómetros de area, a posta de sol aquí é un despregue de reflexos dourados sobre a orilla infinita.
-• Faro de Lira: Moito máis tranquilo e próximo a Casa da Cuncheira, ofrece un contorno íntimo co son das ondas rompendo contra o granito.
+• Faro de Lariño (Punta da Ínsua): Moito máis tranquilo e próximo a Casa da Cuncheira, ofrece un contorno íntimo co son das ondas rompendo contra o granito.
 
 O ritual
 O momento do "raio verde", a gama de púrpuras e laranxas que tinguen o ceo, e o silencio que se apodera da costa cando o sol desaparece, fan deste momento o peche perfecto para calquera día de exploración. Recoméndase chegar polo menos 30 minutos antes da hora prevista para gozar de toda a transición lumínica.`,
@@ -1534,7 +1534,7 @@ Magical places
 There isn't just one spot to enjoy this spectacle, but an entire geography of light and color:
 • Cape Finisterre: The most emblematic place. Sitting on the rocks next to the lighthouse while the solar disk sinks into the Atlantic is a ritual shared by thousands of travelers and pilgrims.
 • Carnota Beach: With its 7 kilometers of sand, the sunset here is a display of golden reflections over the infinite shore.
-• Lira Lighthouse: Much quieter and closer to Casa da Cuncheira, it offers an intimate setting with the sound of the waves breaking against the granite.
+• Lariño Lighthouse (Punta da Ínsua): Much quieter and closer to Casa da Cuncheira, it offers an intimate setting with the sound of the waves breaking against the granite.
 
 The ritual
 The moment of the "green flash," the range of purples and oranges that tint the sky, and the silence that takes over the coast when the sun disappears, make this moment the perfect closure for any day of exploration. It is recommended to arrive at least 30 minutes before the scheduled time to enjoy the entire lighting transition.`,
@@ -1544,7 +1544,7 @@ Lieux magiques
 Il n'existe pas un seul point pour profiter de ce spectacle, mais toute une géographie de lumière et de couleurs :
 • Cap Finisterre : Le lieu le plus emblématique. S'asseoir sur les rochers près du phare pendant que le disque solaire s'immerge dans l'Atlantique est un rite partagé par des milliers de voyageurs et de pèlerins.
 • Plage de Carnota : Avec ses 7 kilomètres de sable, le coucher de soleil est ici un déploiement de reflets dorés sur le rivage infini.
-• Phare de Lira : Beaucoup plus calme et proche de Casa da Cuncheira, il offre un cadre intime avec le son des vagues s'écrasant contre le granit.
+• Phare de Lariño (Punta da Ínsua) : Beaucoup plus calme et proche de Casa da Cuncheira, il offre un cadre intime avec le son des vagues s'écrasant contre le granit.
 
 Le rituel
 Le moment du "rayon vert", la gamme de pourpres et d'oranges qui teintent le ciel, et le silence qui s'empare de la côte lorsque le soleil disparaît, font de ce moment la clôture parfaite de toute journée d'exploration. Il est recommandé d'arriver au moins 30 minutes à l'avance pour profiter de toute la transition lumineuse.`,
@@ -1554,7 +1554,7 @@ Magische Orte
 Es gibt nicht nur einen einzigen Ort, um dieses Spektakel zu genießen, sondern eine ganze Geografie aus Licht und Farbe:
 • Kap Finisterre: Der emblematischste Ort. Auf den Felsen neben dem Leuchtturm zu sitzen, während die Sonnenscheibe im Atlantik versinkt, ist ein Ritual, das von Tausenden von Reisenden und Pilgern geteilt wird.
 • Strand von Carnota: Mit seinen 7 Kilometern Sand ist der Sonnenuntergang hier ein Schauspiel aus goldenen Reflexen am unendlichen Ufer.
-• Leuchtturm von Lira: Viel ruhiger und näher an der Casa da Cuncheira gelegen, bietet er einen intimen Rahmen mit dem Rauschen der Wellen, die gegen den Granit brechen.
+• Leuchtturm von Lariño (Punta da Ínsua): Viel ruhiger und näher an der Casa da Cuncheira gelegen, bietet er einen intimen Rahmen mit dem Rauschen der Wellen, die gegen den Granit brechen.
 
 Das Ritual
 Der Moment des "grünen Blitzes", die Palette von Purpur und Orange, die den Himmel färbt, und die Stille, die sich über die Küste legt, wenn die Sonne verschwindet, machen diesen Moment zum perfekten Abschluss eines jeden Erkundungstages. Es wird empfohlen, mindestens 30 Minuten vor der geplanten Zeit einzutreffen, um den gesamten Lichtübergang zu genießen.`,
@@ -1564,7 +1564,7 @@ Luoghi magici
 Non esiste un solo punto per godere di questo spettacolo, ma un'intera geografia di luce e colore:
 • Capo Finisterre: Il luogo più emblematico. Sedersi sulle rocce vicino al faro mentre il disco solare si immerge nell'Atlantico è un rito condiviso da migliaia di viaggiatori e pellegrini.
 • Spiaggia di Carnota: Con i suoi 7 chilometri di sabbia, il tramonto qui è un'esposizione di riflessi dorati sulla riva infinita.
-• Faro di Lira: Molto più tranquillo e vicino a Casa da Cuncheira, offre un ambiente intimo con il suono delle onde che si infrangono contro il granito.
+• Faro di Lariño (Punta da Ínsua): Molto più tranquillo e vicino a Casa da Cuncheira, offre un ambiente intimo con il suono delle onde che si infrangono contro il granito.
 
 Il rituale
 Il momento del "raggio verde", la gamma di viola e arancioni che tingono il cielo e il silenzio che si impossessa della costa quando il sole scompare, rendono questo momento la chiusura perfetta per ogni giornata di esplorazione. Si consiglia di arrivare almeno 30 minuti prima dell'ora prevista per godersi l'intera transizione luminosa.`,
@@ -1574,7 +1574,7 @@ Lugares mágicos
 Não existe apenas um ponto para desfrutar deste espectáculo, mas toda uma geografia de luz e cor:
 • Cabo Finisterra: O lugar mais emblemático. Sentar-se nas rochas junto ao farol enquanto o disco solar mergulha no Atlântico é um rito partilhado por milhares de viajantes e peregrinos.
 • Praia de Carnota: Com os seus 7 quilómetros de areia, o pôr do sol aqui é um desfile de reflexos dourados sobre a margem infinita.
-• Farol de Lira: Muito mais tranquilo e próximo da Casa da Cuncheira, oferece um ambiente íntimo com o som das ondas a quebrar contra o granito.
+• Farol de Lariño (Punta da Ínsua): Muito mais tranquilo e próximo da Casa da Cuncheira, oferece um ambiente íntimo com o som das ondas a quebrar contra o granito.
 
 O ritual
 O momento do "raio verde", a gama de púrpuras e laranjas que tingem o céu, e o silêncio que se apodera da costa quando o sol desaparece, fazem deste momento o encerramento perfeito para qualquer dia de exploração. Recomenda-se chegar pelo menos 30 minutos antes da hora prevista para desfrutar de toda a transição lumínica.`
@@ -1744,13 +1744,13 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
 
   'gastronomy.morosa.desc': { es: 'Cocina creativa gallega con productos locales de primera calidad. Un restaurante con encanto y vistas espectaculares.', gl: 'Cociña creativa galega con produtos locais de primeira calidade. Un restaurante con encanto e vistas espectaculares.', en: 'Creative Galician cuisine with top-quality local products. A charming restaurant with spectacular views.', fr: 'Cuisine galicienne créative avec des produits locaux de première qualité. Un restaurant charmant avec des vues spectaculaires.', de: 'Kreative galicische Küche mit erstklassigen lokalen Produkten. Ein charmantes Restaurant mit spektakulärem Ausblick.', it: 'Cucina galiziana creativa con prodotti locali di prima qualità. Un ristorante affascinante con viste spettacolari.', pt: 'Cozinha galega criativa com produtos locais de primeira qualidade. Um restaurante encantador com vistas espectaculares.' },
   'gastronomy.chalana.desc': {
-    es: 'Auténtica taberna marinera famosa por su pulpo y marisco fresco. Tradición pura a 3 minutos de Casa da Cuncheira',
-    gl: 'Auténtica taberna mariñeira famosa polo seu polbo e marisco fresco. Tradición pura a 3 minutos de Casa da Cuncheira',
-    en: 'Authentic seafood tavern famous for its octopus and fresh shellfish. Pure tradition just 3 minutes from Casa da Cuncheira',
-    fr: 'Authentique taverne de fruits de mer célèbre pour son poulpe et ses fruits de mer frais. Pure tradition à 3 minutes de Casa da Cuncheira',
-    de: 'Authentische Meeresfrüchte-Taverne, berühmt für ihren Oktopus und frische Meeresfrüchte. Pure Tradition nur 3 Minuten vom Casa da Cuncheira entfernt',
-    it: 'Autentica taverna di mare famosa per il polpo e i frutti di mare freschi. Pura tradizione a soli 3 minuti da Casa da Cuncheira',
-    pt: 'Autêntica taberna marítima famosa pelo seu polvo e marisco fresco. Tradição pura a 3 minutos da Casa da Cuncheira'
+    es: 'Auténtica taberna marinera famosa por su pulpo y marisco fresco. Tradición pura a escasos pasos de Casa da Cuncheira',
+    gl: 'Auténtica taberna mariñeira famosa polo seu polbo e marisco fresco. Tradición pura a escasos pasos de Casa da Cuncheira',
+    en: 'Authentic seafood tavern famous for its octopus and fresh shellfish. Pure tradition just steps from Casa da Cuncheira',
+    fr: 'Authentique taverne de fruits de mer célèbre pour son poulpe et ses fruits de mer frais. Pure tradition à quelques pas de Casa da Cuncheira',
+    de: 'Authentische Meeresfrüchte-Taverne, berühmt für ihren Oktopus und frische Meeresfrüchte. Pure Tradition nur wenige Schritte vom Casa da Cuncheira entfernt',
+    it: 'Autentica taverna di mare famosa per il polpo e i frutti di mare freschi. Pura tradizione a pochi passi da Casa da Cuncheira',
+    pt: 'Autêntica taberna marítima famosa pelo seu polvo e marisco fresco. Tradição pura a escassos passos da Casa da Cuncheira'
   },
 
   'gastronomy.ocuberto.desc': {
@@ -2062,13 +2062,13 @@ Assistir ao pôr do sol nas rochas de granito do cabo sobre o vasto Atlântico �
     pt: 'Existen supermercados por perto?'
   },
   'faq.a5': {
-    es: 'Sí, en Carnota y Muros, a unos 10 minutos en coche, encontrarás supermercados, farmacias y todo lo necesario para tu estancia. Además, en Lira hay varias tiendas de comestibles y panaderías locales con productos frescos y de proximidad. Para compras más grandes, en Cee encontrarás también hipermercados y una amplia variedad de comercios y servicios.',
-    gl: 'Si, en Carnota e Muros, a uns 10 minutos en coche, atoparás supermercados, farmacias e todo o necesario para a túa estancia. Ademais, en Lira hai varias tendas de comestibles e panadarías locais con produtos frescos e de proximidade. Para compras máis grandes, en Cee atoparás tamén hipermercados e unha ampla variedade de comercios e servizos.',
-    en: 'Yes, in Carnota and Muros, about 10 minutes away by car, you will find supermarkets, pharmacies, and everything you need for your stay. In addition, in Lira there are several local grocery shops and bakeries with fresh, local produce. For larger shopping trips, in Cee you will also find hypermarkets and a wide range of shops and services.',
-    fr: 'Oui, à Carnota et Muros, à environ 10 minutes en voiture, vous trouverez des supermarchés, des pharmacies et tout le nécessaire pour votre séjour. De plus, à Lira, il y a plusieurs épiceries et boulangeries locales avec des produits frais de proximité. Pour les achats plus importants, vous trouverez également des hypermarchés et de nombreux commerces à Cee.',
-    de: 'Ja, in Carnota und Muros, etwa 10 Autominuten entfernt, finden Sie Supermärkte, Apotheken und alles, was Sie für Ihren Aufenthalt benötigen. Außerdem gibt es in Lira mehrere örtliche Lebensmittelgeschäfte und Bäckereien mit frischen regionalen Produkten. Für größere Einkäufe finden Sie in Cee auch Hypermärkte und vielfältige Geschäfte.',
-    it: 'Sì, a Carnota e Muros, a circa 10 minuti di auto, troverai supermercati, farmacie e tutto il necessario per il tuo soggiorno. Inoltre, a Lira ci sono diversi negozi di alimentari e panetterie locali con prodotti freschi e a km 0. Per acquisti più grandi, a Cee troverai anche ipermercati e un\'ampia scelta di negozi e servizi.',
-    pt: 'Sim, em Carnota e Muros, a cerca de 10 minutos de carro, encontrará supermercados, farmácias e tudo o que é necessário para a sua estadia. Além disso, em Lira existem várias mercearias e padarias locais com produtos frescos e de proximidade. Para compras maiores, em Cee encontrará também hipermercados e uma grande variedade de comércio e serviços.'
+    es: 'Sí, en Carnota (a menos de 10 minutos en coche) y en Muros (a unos 15-20 minutos), encontrarás supermercados, farmacias y todo lo necesario para tu estancia. Además, en Lira hay varias tiendas de comestibles y panaderías locales con productos frescos y de proximidad. Para compras más grandes, en Cee encontrarás también hipermercados y una amplia variedad de comercios y servicios.',
+    gl: 'Si, en Carnota (a menos de 10 minutos en coche) e en Muros (a uns 15-20 minutos), atoparás supermercados, farmacias e todo o necesario para a túa estancia. Ademais, en Lira hai varias tendas de comestibles e panadarías locais con produtos frescos e de proximidade. Para compras máis grandes, en Cee atoparás tamén hipermercados e unha ampla variedade de comercios e servizos.',
+    en: 'Yes, in Carnota (under 10 minutes by car) and Muros (about 15–20 minutes), you will find supermarkets, pharmacies, and everything you need for your stay. In addition, in Lira there are several local grocery shops and bakeries with fresh, local produce. For larger shopping trips, in Cee you will also find hypermarkets and a wide range of shops and services.',
+    fr: 'Oui, à Carnota (à moins de 10 minutes en voiture) et à Muros (à environ 15-20 minutes), vous trouverez des supermarchés, des pharmacies et tout le nécessaire pour votre séjour. De plus, à Lira, il y a plusieurs épiceries et boulangeries locales avec des produits frais de proximité. Pour les achats plus importants, vous trouverez également des hypermarchés et de nombreux commerces à Cee.',
+    de: 'Ja, in Carnota (unter 10 Autominuten) und in Muros (ca. 15–20 Minuten) finden Sie Supermärkte, Apotheken und alles, was Sie für Ihren Aufenthalt benötigen. Außerdem gibt es in Lira mehrere örtliche Lebensmittelgeschäfte und Bäckereien mit frischen regionalen Produkten. Für größere Einkäufe finden Sie in Cee auch Hypermärkte und vielfältige Geschäfte.',
+    it: 'Sì, a Carnota (a meno di 10 minuti di auto) e a Muros (a circa 15-20 minuti), troverai supermercati, farmacie e tutto il necessario per il tuo soggiorno. Inoltre, a Lira ci sono diversi negozi di alimentari e panetterie locali con prodotti freschi e a km 0. Per acquisti più grandi, a Cee troverai anche ipermercati e un\'ampia scelta di negozi e servizi.',
+    pt: 'Sim, em Carnota (a menos de 10 minutos de carro) e em Muros (a cerca de 15-20 minutos), encontrará supermercados, farmácias e tudo o que é necessário para a sua estadia. Além disso, em Lira existem várias mercearias e padarias locais com produtos frescos e de proximidade. Para compras maiores, em Cee encontrará também hipermercados e uma grande variedade de comércio e serviços.'
   },
   'faq.q6': {
     es: '¿Es necesario coche?',

@@ -22,7 +22,7 @@ const routes = [
         <li><strong>Confirmación instantánea:</strong> Calendario sincronizado en tiempo real y recepción inmediata del bono de reserva.</li>
       </ul>
       <h3>Características del alojamiento:</h3>
-      <p>Casa completa con capacidad para 6 huéspedes, 4 dormitorios, jardín privado con barbacoa y vistas al Atlántico, situada a solo 500 metros de la playa de Mar de Lira.</p>
+      <p>Casa completa con capacidad para 6 huéspedes, 4 dormitorios, jardín privado con barbacoa y vistas al Atlántico, situada a 10-12 minutos a pie de la playa de Mar de Lira (aprox. 1 km).</p>
       <p><a href="/">Inicio Casa da Cuncheira</a> | <a href="/gastronomy">Restaurantes en Lira y Carnota</a> | <a href="/nature/que-ver-en-carnota">Qué ver en Carnota</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/hero_optimized.webp'
@@ -31,7 +31,7 @@ const routes = [
     path: '/nature/que-ver-en-carnota',
     title: 'Qué ver en Carnota y Lira: 8 Lugares Imprescindibles | Casa da Cuncheira',
     description: 'Guía esencial con los 8 lugares que ver en Carnota y alrededores: Playa de Carnota, Hórreo de Carnota, Lira, Monte Pindo, Ézaro y Monte Louro.',
-    h1: 'Qué ver en Carnota y Costa da Morte: Los 8 imprescindibles',
+    h1: 'Qué ver en Carnota y alrededores: Los 8 imprescindibles',
     content: `
       <h2>Los 8 mejores lugares para visitar en Carnota y sus alrededores</h2>
       <p>El municipio de Carnota y su comarca concentran algunos de los parajes naturales y monumentos etnográficos más espectaculares de Galicia:</p>
@@ -41,7 +41,7 @@ const routes = [
         <li><strong><a href="/nature/lira-carnota">Hórreo y Parroquia de Lira:</a></strong> Su hórreo monumental de casi 37 metros y el pueblo marinero tradicional.</li>
         <li><strong><a href="/nature/lira-carnota">Puerto de Portocubelo y Calas de Lira:</a></strong> El puerto pesquero artesanal y las calas naturales de Lira (Praia de Cons y Praia do Cancelo).</li>
         <li><strong><a href="/nature/monte-pindo">Monte Pindo y cumbre de A Moa (627 m):</a></strong> El mítico Olimpo Celta de granito rosado con vistas de 360 grados sobre el Atlántico.</li>
-        <li><strong><a href="/nature/fervenza-do-ezaro">Fervenza do Ézaro:</a></strong> La única cascada de Europa continental que se precipita directamente al mar.</li>
+        <li><strong><a href="/nature/fervenza-do-ezaro">Fervenza do Ézaro:</a></strong> La única cascada de la Península Ibérica que se precipita directamente al mar.</li>
         <li><strong><a href="/nature/monte-louro">Monte Louro y Playa de Area Maior:</a></strong> Espacio protegido con sistema dunar y la laguna litoral de As Xarfas.</li>
         <li><strong>Casco histórico de Muros:</strong> Villa marinera medieval con calles porticadas de piedra y tabernas tradicionales.</li>
       </ol>
@@ -64,7 +64,7 @@ const routes = [
       <h3>Puerto de Portocubelo y Reserva Marina Os Miñarzos</h3>
       <p>El puerto de Portocubelo es el corazón marinero de Lira, pionero en la creación de la Reserva Marina de Interés Pesquero "Os Miñarzos" para la protección del pulpo y pescados de roca.</p>
       <h3>Calas de Lira: Praia de Cons y Praia do Cancelo</h3>
-      <p>Praia de Cons y Praia do Cancelo son pequeñas playas naturales y agrestes combinadas con formaciones rocosas («cons») y carácter atlántico, ideales para desconectar en un entorno virgen y tranquilo.</p>
+      <p>Las calas de Lira combinan la pequeña cala recogida de Praia do Cancelo, junto al puerto de Portocubelo, con la belleza agreste y atlántica de Praia de Cons entre formaciones de granito («cons»).</p>
       <h3>El Hórreo Monumental de Lira</h3>
       <p>Con casi 37 metros de largo y 22 pares de pies de piedra, rivaliza históricamente en tamaño y belleza con el hórreo de Carnota.</p>
       <p><a href="/">Casa da Cuncheira: Tu casa en Lira</a> | <a href="/booking">Reservar online</a></p>
@@ -80,11 +80,11 @@ const routes = [
       <h2>Restaurantes recomendados en Lira, Carnota y alrededores</h2>
       <p>Descubre la auténtica gastronomía de la Costa da Morte y la Ría de Muros e Noia. Pescados de roca salvajes, pulpo de la reserva marina Os Miñarzos y mariscos de lonja:</p>
       <ul>
-        <li><strong>Mar da Morosa (Lira, Carnota):</strong> Cocina creativa gallega con pescados frescos y vistas al mar.</li>
+        <li><strong>Mar da Morosa (Mallou, Carnota):</strong> Cocina creativa gallega con pescados frescos y vistas al mar.</li>
         <li><strong>A Chalana de Rucho (Lira):</strong> Pescados del día a la brasa y mariscos de la lonja.</li>
         <li><strong>O Cuberto (Carnota):</strong> Gastronomía tradicional gallega y carnes de primera calidad.</li>
         <li><strong>O Moncho Burger (Carnota):</strong> Hamburguesas gourmet y ambiente informal.</li>
-        <li><strong>A Xouba (Muros):</strong> Taberna marinera en el casco histórico de Muros.</li>
+        <li><strong>Bar Xouba (Lira, Carnota):</strong> Cocina gallega casera con producto fresco, pescados y raciones de la zona.</li>
         <li><strong>Restaurante San Francisco (Louro, Muros):</strong> Arroces marineros y mariscos junto a la playa.</li>
       </ul>
       <p><a href="/">Volver a Casa da Cuncheira</a> | <a href="/booking">Reservar estancia</a></p>
@@ -102,7 +102,7 @@ const routes = [
       <h3>Boca do Río: Piscinas naturales</h3>
       <p>En la desembocadura del río Valdebois (Boca do Río), las mareas bajas forman lagunas y piscinas naturales de agua templada y arena finísima, perfectas para el baño.</p>
       <h3>Sectores y accesos</h3>
-      <p>Accesos acondicionados desde Caldebarcos (norte), Boca do Río (centro) con pasarelas de madera y aparcamiento, y Cancelo / Lira (sur).</p>
+      <p>Accesos acondicionados desde Caldebarcos (norte), Boca do Río (centro) con pasarelas de madera y aparcamiento, y As Maceiras / Lira (sur).</p>
       <h3>Vídeo: Playa y Entorno Natural de Carnota</h3>
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 16px; margin: 25px 0;">
         <iframe src="https://www.youtube-nocookie.com/embed/e0uLM1qa0qk" title="Vídeo O Legado - Concello de Carnota" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -142,11 +142,11 @@ const routes = [
   {
     path: '/nature/fervenza-do-ezaro',
     title: 'Fervenza do Ézaro y Mirador: Cascada al Mar | Casa da Cuncheira',
-    description: 'Descubre la Fervenza do Ézaro en Dumbría, la única cascada de Europa continental que desemboca directamente en el océano Atlántico, y su mirador.',
+    description: 'Descubre la Fervenza do Ézaro en Dumbría, la única cascada de la Península Ibérica que desemboca directamente en el océano Atlántico, y su mirador.',
     h1: 'Fervenza do Ézaro: La cascada que desemboca en el océano',
     content: `
-      <h2>Espectáculo natural único en Europa</h2>
-      <p>El río Xallas se precipita en una espectacular caída de más de 40 metros directamente al mar en la ensenada de Ézaro, a solo 15 minutos de Casa da Cuncheira.</p>
+      <h2>Espectáculo natural único en la Península Ibérica</h2>
+      <p>El río Xallas se precipita en una espectacular caída de más de 40 metros directamente al mar en la ensenada de Ézaro, a unos 20-25 minutos de Casa da Cuncheira.</p>
       <h3>Fervenza a nivel del mar vs Mirador do Ézaro</h3>
       <p>Pasarelas de madera llanas junto al puerto para ver la caída del agua y subida al Mirador do Ézaro para disfrutar de vistas panorámicas a toda la ría.</p>
       <h3>Vídeo: Cascada de Ézaro al Mar</h3>
@@ -185,12 +185,12 @@ const routes = [
   },
   {
     path: '/nature/pueblos-marineros',
-    title: 'Pueblos Marineros de la Ría de Muros y Carnota | Casa da Cuncheira',
-    description: 'Descubre el encanto de las villas marineras gallegas: Lira, Portocubelo, Muros y Corcubión con su arquitectura tradicional y puertos pesqueros.',
-    h1: 'Pueblos marineros con encanto: Lira, Muros y la ría',
+    title: 'Pueblos Marineros de la Costa da Morte y Ría de Muros | Casa da Cuncheira',
+    description: 'Descubre el encanto de las villas marineras gallegas: Lira y Portocubelo, el casco histórico de Muros y la comarca con su arquitectura tradicional y puertos pesqueros.',
+    h1: 'Pueblos marineros con encanto: Lira, Carnota y la ría de Muros',
     content: `
       <h2>Arquitectura tradicional y ambiente marinero</h2>
-      <p>Calles empedradas, soportales, casas marineras y lonjas donde el pescado llega fresco cada tarde.</p>
+      <p>Puertos pesqueros tradicionales como Portocubelo en Lira, y el casco histórico de Muros con sus emblemáticos soportales marineros y calles empedradas.</p>
       <p><a href="/">Casa da Cuncheira</a> | <a href="/booking">Reservar</a></p>
     `,
     image: 'https://www.casadacuncheira.com/images/muros_villages_optimized.webp'
