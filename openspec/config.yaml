@@ -1,30 +1,49 @@
 schema: spec-driven
 
 context: |
-  Tech stack: React 18 + Vite 6 + TypeScript + Tailwind CSS 4 + MUI 7 + Radix UI
-  Architecture: Component-based SPA with lazy-loaded routes, LanguageContext for i18n, constants for data
-  Testing: No test runner installed (no vitest, jest, or playwright)
+  Tech stack: React 18, Vite 6, TypeScript 7, Tailwind CSS 4, MUI 7, Radix UI, Motion, Leaflet
+  Architecture: Component-based SPA (src/app/) with i18n LanguageContext, SSG prerendering
+  Testing: Playwright 1.62 (E2E & a11y), typecheck (tsc --noEmit), check-i18n
   Style: src/app/ with components/, pages/, contexts/, constants/, ui/ primitives
+
+strict_tdd: false
+
+testing:
+  runner:
+    framework: Playwright (@playwright/test)
+    command: "npx playwright test"
+  layers:
+    unit: false
+    integration: false
+    e2e: true
+  typecheck: "npm run typecheck"
+  i18n: "npm run test:i18n"
 
 rules:
   proposal:
     - Include rollback plan for risky changes
+    - Identify affected modules/packages
   specs:
-    - Use Given/When/Then for scenarios
+    - Use Given/When/Then format for scenarios
     - Use RFC 2119 keywords (MUST, SHALL, SHOULD, MAY)
   design:
     - Include sequence diagrams for complex flows
     - Document architecture decisions with rationale
   tasks:
-    - Group by phase, use hierarchical numbering
-    - Keep tasks completable in one session
+    - Group tasks by phase (infrastructure, implementation, testing)
+    - Use hierarchical numbering (1.1, 1.2, etc.)
+    - Keep tasks small enough to complete in one session
   apply:
-    - Follow existing code patterns
+    - Follow existing code patterns and conventions
+    - Load relevant coding skills for the project stack
     tdd: false
-    test_command: ""
+    test_command: "npx playwright test"
   verify:
-    test_command: ""
+    - Run typecheck and i18n checks; run Playwright for E2E changes
+    - Compare implementation against every spec scenario
+    test_command: "npx playwright test"
     build_command: "npm run build"
+    typecheck_command: "npm run typecheck"
     coverage_threshold: 0
   archive:
-    - Warn before merging destructive deltas
+    - Warn before merging destructive deltas (large removals)
