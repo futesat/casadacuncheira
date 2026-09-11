@@ -42,6 +42,14 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
       externalLink: 'https://abellago.com/alquiler',
     },
     {
+      title: t('experiences.aerodrome.title'),
+      description: t('experiences.aerodrome.desc'),
+      image: `${(import.meta as any).env.BASE_URL}images/aerodromo_fervenza.webp`,
+      category: 'adventure' as Category,
+      duration: t('experiences.aerodrome.duration'),
+      externalLink: 'https://airfervenza.com/',
+    },
+    {
       title: t('experiences.gastro.title'),
       description: t('experiences.gastro.desc'),
       image: `${(import.meta as any).env.BASE_URL}images/gastronomy_hero.png`,
@@ -161,6 +169,7 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
                       href={experience.externalLink}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label={`${t('experiences.more')}: ${experience.title}`}
                       className="text-primary font-medium hover:gap-2 transition-all flex items-center gap-1 group/btn"
                     >
                       {t('experiences.more')}

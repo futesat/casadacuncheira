@@ -1507,7 +1507,34 @@ Cascata vs Miradouro
     it: 'Noleggio attrezzatura da Surf, Kitesurf, Paddle Surf e Kayak.',
     pt: 'Aluguel de equipamento de Surf, Kitesurf, Paddle Surf e Kayak.'
   },
-  'experiences.rentals.duration': { es: '1h - Full day', gl: '1h - Día completo', en: '1h - Full day', fr: '1h - Journée complète', de: '1h - Ganztägig', it: '1h - Giorno intero', pt: '1h - Dia completo' },
+  'experiences.rentals.duration': { es: '1h - Día completo', gl: '1h - Día completo', en: '1h - Full day', fr: '1h - Journée complète', de: '1h - Ganztägig', it: '1h - Giorno intero', pt: '1h - Dia completo' },
+  'experiences.aerodrome.title': {
+    es: 'Aeródromo y vuelos en A Fervenza',
+    gl: 'Aeródromo e voos na Fervenza',
+    en: 'A Fervenza Aerodrome & Flights',
+    fr: 'Aérodrome et vols à A Fervenza',
+    de: 'Flugplatz & Flüge in A Fervenza',
+    it: 'Aviosuperficie e voli ad A Fervenza',
+    pt: 'Aeródromo e voos em A Fervenza'
+  },
+  'experiences.aerodrome.desc': {
+    es: 'Vuelos de iniciación en avioneta y ultraligero sobre el embalse y la Costa da Morte, paracaidismo y multiaventura con Air Fervenza (Mazaricos).',
+    gl: 'Voos de iniciación en avioneta e ultralixeiro sobre o encoro e a Costa da Morte, paracaidismo e multiaventura con Air Fervenza (Mazaricos).',
+    en: 'Introductory light aircraft and microlight flights over the reservoir and Costa da Morte, skydiving and adventure activities with Air Fervenza (Mazaricos).',
+    fr: 'Vols d\'initiation en avion léger et ULM au-dessus du lac et de la Costa da Morte, parachutisme et activités d\'aventure avec Air Fervenza (Mazaricos).',
+    de: 'Schnupperflüge im Ultraleichtflugzeug über den Stausee und die Costa da Morte, Fallschirmspringen und Abenteueraktivitäten mit Air Fervenza (Mazaricos).',
+    it: 'Voli introduttivi in aereo leggero e ultraleggero sul lago artificiale e la Costa da Morte, paracadutismo e avventura con Air Fervenza (Mazaricos).',
+    pt: 'Voos de iniciação em aeronave ligeira e ultraleve sobre a albufeira e a Costa da Morte, paraquedismo e aventura com Air Fervenza (Mazaricos).'
+  },
+  'experiences.aerodrome.duration': {
+    es: '30m - 2h',
+    gl: '30m - 2h',
+    en: '30m - 2h',
+    fr: '30m - 2h',
+    de: '30m - 2h',
+    it: '30m - 2h',
+    pt: '30m - 2h'
+  },
   'experiences.sunset.title': { es: 'Atardeceres Mágicos', gl: 'Atardeceres Máxicos', en: 'Magical Sunsets', fr: 'Couchers de soleil Magiques', de: 'Magische Sonnenuntergänge', it: 'Tramonti Magici', pt: 'Pôr do sol Mágico' },
   'experiences.sunset.desc': { es: 'Observa las mejores puestas de sol de Galicia', gl: 'Observa as mellores postas de sol de Galicia', en: 'Watch the best sunsets in Galicia', fr: 'Observez les meilleurs couchers de soleil de Galice', de: 'Beobachten Sie die besten Sonnenuntergänge in Galizien', it: 'Guarda i migliori tramonti della Galizia', pt: 'Veja os melhores pores do sol da Galiza' },
   'experiences.sunset.duration': { es: '1h', gl: '1h', en: '1h', fr: '1h', de: '1h', it: '1h', pt: '1h' },
