@@ -72,6 +72,22 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
       duration: t('experiences.villages.duration'),
       slug: 'pueblos-marineros',
     },
+    {
+      title: t('experiences.andaraomar.title'),
+      description: t('experiences.andaraomar.desc'),
+      image: `${(import.meta as any).env.BASE_URL}images/andar_ao_mar.webp`,
+      category: 'culture' as Category,
+      duration: t('experiences.andaraomar.duration'),
+      externalLink: 'https://andaraomar.gal/',
+    },
+    {
+      title: t('experiences.viamitica.title'),
+      description: t('experiences.viamitica.desc'),
+      image: `${(import.meta as any).env.BASE_URL}images/via_mitica.webp`,
+      category: 'nature' as Category,
+      duration: t('experiences.viamitica.duration'),
+      externalLink: 'https://voltadegloria.gal/la-via-mitica-fisterra-carnota-muros/',
+    },
   ];
 
   const filters = [

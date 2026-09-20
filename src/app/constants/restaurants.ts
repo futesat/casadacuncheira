@@ -12,6 +12,17 @@ export interface Restaurant {
 
 export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
     {
+        name: 'Restaurante Landua',
+        description: t('gastronomy.landua.desc'),
+        image: `${(import.meta as any).env.BASE_URL}images/landua.webp`,
+        location: 'O Fieiro s/n, 15258 Mazaricos, A Coruña',
+        type: t('gastronomy.type.hauteCuisine'),
+        rating: 4.9,
+        website: 'https://www.restaurantelandua.com',
+        phone: '+34 667 617 479',
+        googleMaps: 'https://maps.app.goo.gl/DGEDUPKUNub6RyvTA'
+    },
+    {
         name: 'Mar da\'morosa',
         description: t('gastronomy.morosa.desc'),
         image: `${(import.meta as any).env.BASE_URL}images/mar_da_morosa.webp`,
@@ -21,6 +32,27 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
         website: 'https://amorosarestaurante.com',
         phone: '+34 981 857 463',
         googleMaps: 'https://www.google.com/maps/place/Mar+da+Morosa/@42.8149197,-9.1037103,631m/data=!3m3!1e3!4b1!5s0xd2ed6007edb3cfb:0x5fa64f6c604b794!4m6!3m5!1s0xd2ed7940011d765:0x4d515bb16e57e3fb!8m2!3d42.8149158!4d-9.1011354!16s%2Fg%2F11ghf_wsbv?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D'
+    },
+    {
+        name: 'Restaurante Fontevella',
+        description: t('gastronomy.fontevella.desc'),
+        image: `${(import.meta as any).env.BASE_URL}images/restaurante_fontevella.webp`,
+        location: 'Lugar Caldebarcos, S/N, 15295 Carnota, A Coruña',
+        type: t('gastronomy.type.seafood'),
+        rating: 4.5,
+        website: 'https://restaurantefontevella.com',
+        phone: '+34 981 760 304',
+        googleMaps: 'https://maps.app.goo.gl/QZaxoaQ4WRZEnuXx9'
+    },
+    {
+        name: 'Restaurante Casa da Crega',
+        description: t('gastronomy.crega.desc'),
+        image: `${(import.meta as any).env.BASE_URL}images/casa_da_crega.webp`,
+        location: 'Caldebarcos, 155, 15293 Carnota, A Coruña',
+        type: t('gastronomy.type.seafood'),
+        rating: 4.6,
+        phone: '+34 981 762 543',
+        googleMaps: 'https://maps.app.goo.gl/unx5Ju6p3kS5xyhc9'
     },
     {
         name: 'A Chalana de Rucho',

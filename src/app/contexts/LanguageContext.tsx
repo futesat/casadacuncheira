@@ -1773,6 +1773,60 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
     it: 'Giorno intero',
     pt: 'Dia completo'
   },
+  'experiences.andaraomar.title': {
+    es: 'Camiños de Andar ao Mar',
+    gl: 'Camiños de Andar ao Mar',
+    en: 'Camiños de Andar ao Mar',
+    fr: 'Camiños de Andar ao Mar',
+    de: 'Camiños de Andar ao Mar',
+    it: 'Camiños de Andar ao Mar',
+    pt: 'Camiños de Andar ao Mar'
+  },
+  'experiences.andaraomar.desc': {
+    es: 'Ruta costera por el litoral de Carnota y museo interactivo en la Caseta de Pepe do Cuco (Portocubelo).',
+    gl: 'Ruta costeira polo litoral de Carnota e museo interactivo na Caseta de Pepe do Cuco (Portocubelo).',
+    en: 'Coastal trail along Carnota\'s shore and interactive museum at Caseta de Pepe do Cuco (Portocubelo).',
+    fr: 'Sentier côtier le long du littoral de Carnota et musée interactif à la Caseta de Pepe do Cuco (Portocubelo).',
+    de: 'Küstenwanderweg entlang der Küste von Carnota und interaktives Museum in der Caseta de Pepe do Cuco (Portocubelo).',
+    it: 'Percorso costiero lungo il litorale di Carnota e museo interattivo presso la Caseta de Pepe do Cuco (Portocubelo).',
+    pt: 'Percurso costeiro pelo litoral de Carnota e museu interativo na Caseta de Pepe do Cuco (Portocubelo).'
+  },
+  'experiences.andaraomar.duration': {
+    es: '1 - 2h',
+    gl: '1 - 2h',
+    en: '1 - 2h',
+    fr: '1 - 2h',
+    de: '1 - 2h',
+    it: '1 - 2h',
+    pt: '1 - 2h'
+  },
+  'experiences.viamitica.title': {
+    es: 'La Vía Mítica: Fisterra – Carnota – Muros',
+    gl: 'A Vía Mítica: Fisterra – Carnota – Muros',
+    en: 'The Mythical Way: Fisterra – Carnota – Muros',
+    fr: 'La Voie Mythique : Fisterra – Carnota – Muros',
+    de: 'Der Mythische Weg: Fisterra – Carnota – Muros',
+    it: 'La Via Mitica: Fisterra – Carnota – Muros',
+    pt: 'A Via Mítica: Fisterra – Carnota – Muros'
+  },
+  'experiences.viamitica.desc': {
+    es: 'Gran travesía costera de Volta de Gloria entre acantilados salvajes, la playa de Carnota y villas marineras.',
+    gl: 'Gran travesía costeira de Volta de Gloria entre cantís salvaxes, a praia de Carnota e vilas mariñeiras.',
+    en: 'Scenic coastal route of Volta de Gloria across wild cliffs, Carnota beach, and seafaring villages.',
+    fr: 'Grande traversée côtière de Volta de Gloria entre falaises sauvages, la plage de Carnota et villages de pêcheurs.',
+    de: 'Spektakuläre Küstenroute von Volta de Gloria entlang wilder Klippen, des Strandes von Carnota und Fischerdörfern.',
+    it: 'Grande traversata costiera di Volta de Gloria tra scogliere selvagge, la spiaggia di Carnota e borghi marinari.',
+    pt: 'Grande travessia costeira de Volta de Gloria entre falésias selvagens, a praia de Carnota e vilas marinheiras.'
+  },
+  'experiences.viamitica.duration': {
+    es: '3 etapas (67 km)',
+    gl: '3 etapas (67 km)',
+    en: '3 stages (67 km)',
+    fr: '3 étapes (67 km)',
+    de: '3 Etappen (67 km)',
+    it: '3 tappe (67 km)',
+    pt: '3 etapas (67 km)'
+  },
   'experiences.more': { es: 'Conocer más', gl: 'Coñecer máis', en: 'Learn more', fr: 'En savoir plus', de: 'Mehr erfahren', it: 'Saperne di più', pt: 'Saiba mais' },
 
   'gastronomy.pageTitle': { es: 'Recomendaciones Gastronómicas', gl: 'Recomendacións Gastronómicas', en: 'Gastronomic Recommendations', fr: 'Recommandations Gastronomiques', de: 'Gastronomische Empfehlungen', it: 'Raccomandazioni Gastronomiche', pt: 'Recomendações Gastronómicas' },
@@ -1825,11 +1879,39 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
     it: 'Gastrobar sul mare con piatti creativi e curati da condividere in un ambiente moderno.',
     pt: 'Gastrobar à beira-mar com pratos originais e cuidados para partilhar num ambiente moderno.'
   },
+  'gastronomy.fontevella.desc': {
+    es: 'Pescados salvajes a la brasa, marisco fresco de la ría y arroces marineros en una terraza privilegiada frente a la playa de Carnota.',
+    gl: 'Peixes salvaxes á brasa, marisco fresco da ría e arroces mariñeiros nunha terraza privilexiada fronte á praia de Carnota.',
+    en: 'Wild grilled fish, fresh local seafood, and savory coastal rice dishes on a privileged terrace overlooking Carnota beach.',
+    fr: 'Poissons sauvages grillés, fruits de mer frais de la ria et riz mariniers sur une terrasse privilégiée face à la plage de Carnota.',
+    de: 'Wilder Grillfisch, fangfrische Meeresfrüchte und maritime Reisgerichte auf einer herrlichen Terrasse mit Blick auf den Strand von Carnota.',
+    it: 'Pesce selvaggio alla griglia, frutti di mare freschi e risotti marinari su una terrazza panoramica affacciata sulla spiaggia di Carnota.',
+    pt: 'Peixes selvagens na grelha, marisco fresco da ria e arrozes marítimos num terraço privilegiado frente à praia de Carnota.'
+  },
+  'gastronomy.crega.desc': {
+    es: 'Cocina tradicional gallega con más de 35 años de historia. Famoso por su arroz con bogavante, pulpo con almejas y pescados de lonja en Caldebarcos.',
+    gl: 'Cociña tradicional galega con máis de 35 anos de historia. Famoso polo seu arroz con lumbrigante, polbo con ameixas e peixes de lonxa en Caldebarcos.',
+    en: 'Traditional Galician cuisine with over 35 years of history. Renowned for its lobster rice, octopus with clams, and fresh daily catches in Caldebarcos.',
+    fr: 'Cuisine galicienne traditionnelle avec plus de 35 ans d\'histoire. Réputé pour son riz au homard, son poulpe aux palourdes et ses poissons de criée à Caldebarcos.',
+    de: 'Traditionelle galicische Küche mit über 35 Jahren Geschichte. Berühmt für Hummerreis, Oktopus mit Muscheln und tagesfrischen Fisch in Caldebarcos.',
+    it: 'Cucina tradizionale galiziana con oltre 35 anni di storia. Famoso per il riso all\'astice, il polpo alle vongole e il pescato fresco a Caldebarcos.',
+    pt: 'Cozinha tradicional galega com mais de 35 anos de história. Famoso pelo arroz de lavagante, polvo com amêijoas e peixe fresco em Caldebarcos.'
+  },
+  'gastronomy.landua.desc': {
+    es: 'Referencia indiscutible de la alta cocina en la zona, galardonado con 1 Sol Repsol y recomendado en la Guía Michelin. Menú degustación de autor, íntimo y de temporada al pie del Monte Pindo.',
+    gl: 'Referencia indiscutible da alta cociña na zona, galardoado con 1 Sol Repsol e recomendado na Guía Michelin. Menú degustación de autor, íntimo e de tempada ao pé do Monte Pindo.',
+    en: 'The benchmark of haute cuisine in the area, awarded 1 Repsol Sun and recommended in the Michelin Guide. Intimate, seasonal signature tasting menu at the foot of Mount Pindo.',
+    fr: 'Référence incontournable de la haute gastronomie dans la région, récompensé d\'un Sol Repsol et recommandé au Guide Michelin. Menu dégustation d\'auteur, intime et de saison au pied du Mont Pindo.',
+    de: 'Spitzenreiter der Haute Cuisine in der Region, ausgezeichnet mit 1 Repsol-Sonne und im Guide Michelin empfohlen. Intimes, saisonales Autoren-Degustationsmenü am Fuße des Monte Pindo.',
+    it: 'Punto di riferimento dell\'alta cucina nella zona, premiato con 1 Sole Repsol e raccomandato dalla Guida Michelin. Menu degustazione d\'autore intimo e stagionale ai piedi del Monte Pindo.',
+    pt: 'Referência incontornável da alta cozinha na região, premiado com 1 Sol Repsol e recomendado no Guia Michelin. Menu de degustação de autor, íntimo e de época ao pé do Monte Pindo.'
+  },
 
   'gastronomy.type.seafood': { es: 'Marisco y pescado fresco', gl: 'Marisco e peixe fresco', en: 'Fresh seafood and fish', fr: 'Fruits de mer et poisson frais', de: 'Frische Meeresfrüchte und Fisch', it: 'Frutti di mare e pesce fresco', pt: 'Marisco e peixe fresco' },
   'gastronomy.type.tapas': { es: 'Tapas / Tradicional Gallega', gl: 'Tapas / Tradicional Galega', en: 'Tapas / Traditional Galician', fr: 'Tapas / Traditionnel galicien', de: 'Tapas / Traditionell galizisch', it: 'Tapas / Tradizionale galiziano', pt: 'Tapas / Tradicional galega' },
   'gastronomy.type.burger': { es: 'Hamburguesería', gl: 'Hamburguería', en: 'Burger restaurant', fr: 'Restaurant de burgers', de: 'Burger-Restaurant', it: 'Hamburgeria', pt: 'Hamburguesaria' },
   'gastronomy.type.gastrobar': { es: 'Gastrobar / Tapas de autor', gl: 'Gastrobar / Tapas de autor', en: 'Gastrobar / Signature Tapas', fr: 'Gastrobar / Tapas d\'auteur', de: 'Gastrobar / Signature Tapas', it: 'Gastrobar / Tapas d\'autore', pt: 'Gastrobar / Tapas de autor' },
+  'gastronomy.type.hauteCuisine': { es: 'Alta Cocina / De Autor', gl: 'Alta Cociña / De Autor', en: 'Haute Cuisine / Signature', fr: 'Haute Cuisine / D\'auteur', de: 'Haute Cuisine / Autorenküche', it: 'Alta Cucina / D\'autore', pt: 'Alta Cozinha / De Autor' },
 
   'gastronomy.website': { es: 'Sitio Web', gl: 'Sitio Web', en: 'Website', fr: 'Site Web', de: 'Webseite', it: 'Sito Web', pt: 'Site' },
   'gastronomy.googleMaps': { es: 'Ver en Google Maps', gl: 'Ver en Google Maps', en: 'View on Google Maps', fr: 'Voir sur Google Maps', de: 'Auf Google Maps ansehen', it: 'Vedi su Google Maps', pt: 'Ver no Google Maps' },
