@@ -34,6 +34,17 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
         googleMaps: 'https://www.google.com/maps/place/Mar+da+Morosa/@42.8149197,-9.1037103,631m/data=!3m3!1e3!4b1!5s0xd2ed6007edb3cfb:0x5fa64f6c604b794!4m6!3m5!1s0xd2ed7940011d765:0x4d515bb16e57e3fb!8m2!3d42.8149158!4d-9.1011354!16s%2Fg%2F11ghf_wsbv?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D'
     },
     {
+        name: 'A Chalana de Rucho',
+        description: t('gastronomy.chalana.desc'),
+        image: `${(import.meta as any).env.BASE_URL}images/chalana_de_rucho.webp`,
+        location: 'Aldea Carballal - Lira, 72, 15292 Carnota, A Coruña',
+        type: t('gastronomy.type.tapas'),
+        rating: 4.3,
+        website: 'https://achalanaderucho.es',
+        phone: '+34 981 761 314',
+        googleMaps: 'https://www.google.com/maps/place/A+Chalana+de+Rucho/@42.8027754,-9.12331,631m/data=!3m2!1e3!4b1!4m9!3m8!1s0xd2f2a0d0aedf16d:0x7ffa9556780b43de!5m2!4m1!1i2!8m2!3d42.8027715!4d-9.1207351!16s%2Fg%2F11df0fy80k?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D'
+    },
+    {
         name: 'Restaurante Fontevella',
         description: t('gastronomy.fontevella.desc'),
         image: `${(import.meta as any).env.BASE_URL}images/restaurante_fontevella.webp`,
@@ -53,17 +64,6 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
         rating: 4.6,
         phone: '+34 981 762 543',
         googleMaps: 'https://maps.app.goo.gl/unx5Ju6p3kS5xyhc9'
-    },
-    {
-        name: 'A Chalana de Rucho',
-        description: t('gastronomy.chalana.desc'),
-        image: `${(import.meta as any).env.BASE_URL}images/chalana_de_rucho.webp`,
-        location: 'Aldea Carballal - Lira, 72, 15292 Carnota, A Coruña',
-        type: t('gastronomy.type.tapas'),
-        rating: 4.3,
-        website: 'https://achalanaderucho.es',
-        phone: '+34 981 761 314',
-        googleMaps: 'https://www.google.com/maps/place/A+Chalana+de+Rucho/@42.8027754,-9.12331,631m/data=!3m2!1e3!4b1!4m9!3m8!1s0xd2f2a0d0aedf16d:0x7ffa9556780b43de!5m2!4m1!1i2!8m2!3d42.8027715!4d-9.1207351!16s%2Fg%2F11df0fy80k?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D'
     },
     {
         name: 'O Cuberto',
