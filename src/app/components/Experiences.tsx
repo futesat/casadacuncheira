@@ -97,6 +97,22 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
       duration: t('experiences.carnotaActivities.duration'),
       externalLink: `https://www.carnota.gal/${currentYear}/`,
     },
+    {
+      title: t('experiences.larinoLighthouse.title'),
+      description: t('experiences.larinoLighthouse.desc'),
+      image: `${(import.meta as any).env.BASE_URL}images/ruta_faro_larino.webp`,
+      category: 'nature' as Category,
+      duration: t('experiences.larinoLighthouse.duration'),
+      externalLink: 'https://www.carnota.gal/turismo/roteiros/ruta-do-faro/',
+    },
+    {
+      title: t('experiences.correndocostadamorte.title'),
+      description: t('experiences.correndocostadamorte.desc'),
+      image: `${(import.meta as any).env.BASE_URL}images/correndo_costa_da_morte.webp`,
+      category: 'adventure' as Category,
+      duration: t('experiences.correndocostadamorte.duration'),
+      externalLink: 'https://correndopolacostadamorte.com/',
+    },
   ];
 
   const filters = [

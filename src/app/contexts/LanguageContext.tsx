@@ -1854,6 +1854,60 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
     it: 'Tutto l\'anno',
     pt: 'Todo o ano'
   },
+  'experiences.larinoLighthouse.title': {
+    es: 'Ruta do Faro de Lariño',
+    gl: 'Ruta do Faro de Lariño',
+    en: 'Lariño Lighthouse Route',
+    fr: 'Route du Phare de Lariño',
+    de: 'Leuchtturm-Route von Lariño',
+    it: 'Percorso del Faro di Lariño',
+    pt: 'Rota do Farol de Lariño'
+  },
+  'experiences.larinoLighthouse.desc': {
+    es: 'Sendero costero de 3 km desde el Faro de Lariño (s. XIX) junto al mar y dunas salvajes hasta la playa de Ximprón.',
+    gl: 'Sendeiro costeiro de 3 km dende o Faro de Lariño (s. XIX) a carón do mar e dunas salvaxes ata a praia de Ximprón.',
+    en: 'A 3 km coastal walk from the 19th-century Lariño Lighthouse along the sea and wild dunes to Ximprón beach.',
+    fr: 'Sentier côtier de 3 km depuis le phare de Lariño (XIXe s.) en bord de mer et dunes sauvages jusqu\'à la plage de Ximprón.',
+    de: 'Ein 3 km langer Küstenwanderweg vom Leuchtturm Lariño (19. Jh.) entlang des Meeres und wilder Dünen zum Strand Ximprón.',
+    it: 'Sentiero costiero di 3 km dal Faro di Lariño (XIX sec.) in riva al mare e dune selvagge fino alla spiaggia di Ximprón.',
+    pt: 'Trilho costeiro de 3 km desde o Farol de Lariño (séc. XIX) junto ao mar e dunas selvagens até à praia de Ximprón.'
+  },
+  'experiences.larinoLighthouse.duration': {
+    es: '45 min (3 km)',
+    gl: '45 min (3 km)',
+    en: '45 min (3 km)',
+    fr: '45 min (3 km)',
+    de: '45 Min. (3 km)',
+    it: '45 min (3 km)',
+    pt: '45 min (3 km)'
+  },
+  'experiences.correndocostadamorte.title': {
+    es: 'Correndo pola Costa da Morte',
+    gl: 'Correndo pola Costa da Morte',
+    en: 'Correndo pola Costa da Morte',
+    fr: 'Correndo pola Costa da Morte',
+    de: 'Correndo pola Costa da Morte',
+    it: 'Correndo pola Costa da Morte',
+    pt: 'Correndo pola Costa da Morte'
+  },
+  'experiences.correndocostadamorte.desc': {
+    es: 'Circuito oficial de carreras populares por los paisajes más emblemáticos de la Costa da Morte, incluyendo la histórica Carreira das Areas en Carnota.',
+    gl: 'Circuíto oficial de carreiras populares polas paisaxes máis emblemáticas da Costa da Morte, incluíndo a histórica Carreira das Areas en Carnota.',
+    en: 'Official running circuit through the most iconic landscapes of Costa da Morte, including the historic Carreira das Areas in Carnota.',
+    fr: 'Circuit officiel de courses populaires à travers les paysages les plus emblématiques de la Costa da Morte, dont l\'historique Carreira das Areas à Carnota.',
+    de: 'Offizielle Volkslaufserie durch die eindrucksvollsten Landschaften der Costa da Morte, inklusive des traditionsreichen Laufs Carreira das Areas in Carnota.',
+    it: 'Circuito ufficiale di corse podistiche attraverso i paesaggi più emblematici della Costa da Morte, inclusa la storica Carreira das Areas a Carnota.',
+    pt: 'Circuito oficial de corridas populares pelas paisagens mais emblemáticas da Costa da Morte, incluindo a histórica Carreira das Areas em Carnota.'
+  },
+  'experiences.correndocostadamorte.duration': {
+    es: 'Marzo a Octubre (10 carreras)',
+    gl: 'Marzo a Outubro (10 carreiras)',
+    en: 'March to October (10 races)',
+    fr: 'Mars à Octobre (10 courses)',
+    de: 'März bis Oktober (10 Läufe)',
+    it: 'Da marzo a ottobre (10 gare)',
+    pt: 'Março a Outubro (10 corridas)'
+  },
   'experiences.more': { es: 'Conocer más', gl: 'Coñecer máis', en: 'Learn more', fr: 'En savoir plus', de: 'Mehr erfahren', it: 'Saperne di più', pt: 'Saiba mais' },
 
   'gastronomy.pageTitle': { es: 'Recomendaciones Gastronómicas', gl: 'Recomendacións Gastronómicas', en: 'Gastronomic Recommendations', fr: 'Recommandations Gastronomiques', de: 'Gastronomische Empfehlungen', it: 'Raccomandazioni Gastronomiche', pt: 'Recomendações Gastronómicas' },
