@@ -98,6 +98,16 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
         googleMaps: 'https://maps.app.goo.gl/fUCSVZuJUSXW6F1w9'
     },
     {
+        name: 'Bar Pedra Pas',
+        description: t('gastronomy.pedrapas.desc'),
+        image: `${(import.meta as any).env.BASE_URL}images/pedra_pas.webp`,
+        location: 'Aldea Portocubelo, 7, 15292 Carnota, A Coruña',
+        type: t('gastronomy.type.tapas'),
+        rating: 4.7,
+        phone: '+34 606 735 296',
+        googleMaps: 'https://maps.app.goo.gl/jLbfXnJydqMsUdxr5'
+    },
+    {
         name: 'Café Bar San Francisco',
         description: t('gastronomy.sanfrancisco.desc'),
         image: `${(import.meta as any).env.BASE_URL}images/san_francisco.webp`,

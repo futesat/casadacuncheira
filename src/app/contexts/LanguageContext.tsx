@@ -1987,6 +1987,15 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
     it: 'Punto di riferimento dell\'alta cucina nella zona, premiato con 1 Sole Repsol e raccomandato dalla Guida Michelin. Menu degustazione d\'autore intimo e stagionale ai piedi del Monte Pindo.',
     pt: 'Referência incontornável da alta cozinha na região, premiado com 1 Sol Repsol e recomendado no Guia Michelin. Menu de degustação de autor, íntimo e de época ao pé do Monte Pindo.'
   },
+  'gastronomy.pedrapas.desc': {
+    es: 'Auténtico bar marinero en Portocubelo con ambiente familiar y música en directo. Abierto en temporada de verano, ideal para saborear sus famosas sardinas frescas y tapas caseras.',
+    gl: 'Auténtico bar mariñeiro en Portocubelo con ambiente familiar e música en directo. Aberto en tempada de verán, ideal para saborear as súas famosas sardiñas frescas e tapas caseiras.',
+    en: 'Authentic fisherman\'s bar in Portocubelo with a friendly vibe and live music. Open during the summer season, ideal for enjoying fresh sardines and homemade tapas.',
+    fr: 'Authentique bar marin à Portocubelo à l\'ambiance familiale avec concerts en direct. Ouvert pendant la saison estivale, idéal pour déguster des sardines fraîches et des tapas maison.',
+    de: 'Authentische Fischerbar in Portocubelo mit familiärer Atmosphäre und Live-Musik. In der Sommersaison geöffnet, ideal für frische Sardinen und hausgemachte Tapas.',
+    it: 'Autentico bar di marinai a Portocubelo dall\'atmosfera familiare e musica dal vivo. Aperto nella stagione estiva, ideale per gustare le sue famose sardine fresche e tapas fatte in casa.',
+    pt: 'Autêntico bar marítimo em Portocubelo com ambiente familiar e música ao vivo. Aberto na época de verão, ideal para saborear as suas famosas sardinhas frescas e petiscos caseiros.'
+  },
 
   'gastronomy.type.seafood': { es: 'Marisco y pescado fresco', gl: 'Marisco e peixe fresco', en: 'Fresh seafood and fish', fr: 'Fruits de mer et poisson frais', de: 'Frische Meeresfrüchte und Fisch', it: 'Frutti di mare e pesce fresco', pt: 'Marisco e peixe fresco' },
   'gastronomy.type.tapas': { es: 'Tapas / Tradicional Gallega', gl: 'Tapas / Tradicional Galega', en: 'Tapas / Traditional Galician', fr: 'Tapas / Traditionnel galicien', de: 'Tapas / Traditionell galizisch', it: 'Tapas / Tradizionale galiziano', pt: 'Tapas / Tradicional galega' },
