@@ -15,6 +15,7 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
   const { t } = useLanguage();
   const navigate = useNavigate();
   const [activeFilter, setActiveFilter] = useState<Category>('all');
+  const currentYear = new Date().getFullYear();
 
   const experiences = [
     {
@@ -87,6 +88,14 @@ export function Experiences({ onNavigateToGastronomy }: ExperiencesProps) {
       category: 'nature' as Category,
       duration: t('experiences.viamitica.duration'),
       externalLink: 'https://voltadegloria.gal/la-via-mitica-fisterra-carnota-muros/',
+    },
+    {
+      title: t('experiences.carnotaActivities.title'),
+      description: t('experiences.carnotaActivities.desc'),
+      image: `${(import.meta as any).env.BASE_URL}images/carnota_actividades.webp`,
+      category: 'culture' as Category,
+      duration: t('experiences.carnotaActivities.duration'),
+      externalLink: `https://www.carnota.gal/${currentYear}/`,
     },
   ];
 

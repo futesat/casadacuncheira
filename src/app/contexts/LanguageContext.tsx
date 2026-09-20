@@ -1827,6 +1827,33 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
     it: '3 tappe (67 km)',
     pt: '3 etapas (67 km)'
   },
+  'experiences.carnotaActivities.title': {
+    es: 'Actividades y Agenda de Carnota',
+    gl: 'Actividades e Axenda de Carnota',
+    en: 'Carnota Activities & Events',
+    fr: 'Activités et Agenda de Carnota',
+    de: 'Aktivitäten & Veranstaltungen in Carnota',
+    it: 'Attività ed Eventi a Carnota',
+    pt: 'Atividades e Agenda de Carnota'
+  },
+  'experiences.carnotaActivities.desc': {
+    es: 'Blog y agenda oficial del Concello de Carnota con fiestas populares, eventos culturales, deportes y actividades locales.',
+    gl: 'Blog e axenda oficial do Concello de Carnota con festas populares, eventos culturais, deportes e actividades locais.',
+    en: 'Official blog and event calendar of Concello de Carnota featuring local festivals, cultural events, sports, and activities.',
+    fr: 'Blog et agenda officiel du Concello de Carnota avec fêtes locales, événements culturels, sports et activités.',
+    de: 'Offizieller Blog und Veranstaltungskalender des Concello de Carnota mit Festen, Kulturveranstaltungen, Sport und Aktivitäten.',
+    it: 'Blog e calendario ufficiale del Concello de Carnota con feste tradizionali, eventi culturali, sport e attività locali.',
+    pt: 'Blog e agenda oficial do Concello de Carnota com festas populares, eventos culturais, desporto e atividades locais.'
+  },
+  'experiences.carnotaActivities.duration': {
+    es: 'Todo el año',
+    gl: 'Todo o ano',
+    en: 'Year-round',
+    fr: 'Toute l\'année',
+    de: 'Ganzjährig',
+    it: 'Tutto l\'anno',
+    pt: 'Todo o ano'
+  },
   'experiences.more': { es: 'Conocer más', gl: 'Coñecer máis', en: 'Learn more', fr: 'En savoir plus', de: 'Mehr erfahren', it: 'Saperne di più', pt: 'Saiba mais' },
 
   'gastronomy.pageTitle': { es: 'Recomendaciones Gastronómicas', gl: 'Recomendacións Gastronómicas', en: 'Gastronomic Recommendations', fr: 'Recommandations Gastronomiques', de: 'Gastronomische Empfehlungen', it: 'Raccomandazioni Gastronomiche', pt: 'Recomendações Gastronómicas' },
