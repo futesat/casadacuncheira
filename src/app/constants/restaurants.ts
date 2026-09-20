@@ -102,7 +102,7 @@ export const getRestaurants = (t: (key: string) => any): Restaurant[] => [
         description: t('gastronomy.pedrapas.desc'),
         image: `${(import.meta as any).env.BASE_URL}images/pedra_pas.webp`,
         location: 'Aldea Portocubelo, 7, 15292 Carnota, A Coruña',
-        type: t('gastronomy.type.tapas'),
+        type: t('gastronomy.type.bar'),
         rating: 4.7,
         phone: '+34 606 735 296',
         googleMaps: 'https://maps.app.goo.gl/jLbfXnJydqMsUdxr5'

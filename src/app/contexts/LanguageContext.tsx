@@ -1988,13 +1988,13 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
     pt: 'Referência incontornável da alta cozinha na região, premiado com 1 Sol Repsol e recomendado no Guia Michelin. Menu de degustação de autor, íntimo e de época ao pé do Monte Pindo.'
   },
   'gastronomy.pedrapas.desc': {
-    es: 'Auténtico bar marinero en Portocubelo con ambiente familiar y música en directo. Abierto en temporada de verano, ideal para saborear sus famosas sardinas frescas y tapas caseras.',
-    gl: 'Auténtico bar mariñeiro en Portocubelo con ambiente familiar e música en directo. Aberto en tempada de verán, ideal para saborear as súas famosas sardiñas frescas e tapas caseiras.',
-    en: 'Authentic fisherman\'s bar in Portocubelo with a friendly vibe and live music. Open during the summer season, ideal for enjoying fresh sardines and homemade tapas.',
-    fr: 'Authentique bar marin à Portocubelo à l\'ambiance familiale avec concerts en direct. Ouvert pendant la saison estivale, idéal pour déguster des sardines fraîches et des tapas maison.',
-    de: 'Authentische Fischerbar in Portocubelo mit familiärer Atmosphäre und Live-Musik. In der Sommersaison geöffnet, ideal für frische Sardinen und hausgemachte Tapas.',
-    it: 'Autentico bar di marinai a Portocubelo dall\'atmosfera familiare e musica dal vivo. Aperto nella stagione estiva, ideale per gustare le sue famose sardine fresche e tapas fatte in casa.',
-    pt: 'Autêntico bar marítimo em Portocubelo com ambiente familiar e música ao vivo. Aberto na época de verão, ideal para saborear as suas famosas sardinhas frescas e petiscos caseiros.'
+    es: 'La esencia marinera de Portocubelo en su versión más viva. Animado refugio estival con música en directo para disfrutar de un buen vino o cerveza al caer la tarde, siempre con su clásica tapa y, en ocasiones señaladas, sardinas recién hechas. Un rincón con magia pensado para tomar algo y disfrutar de su autenticidad sin prisas.',
+    gl: 'A esencia mariñeira de Portocubelo na súa versión máis viva. Animado refuxio estival con música en directo para gozar dun bo viño ou cervexa ao caer a tarde, sempre coa súa clásica tapa e, en ocasións sinaladas, sardiñas acabadas de facer. Un curruncho con maxia pensado para tomar algo e gozar da súa autenticidade sen présas.',
+    en: 'The maritime essence of Portocubelo in its liveliest form. A vibrant summer haven with live music to enjoy wine or beer as dusk falls, always served with classic tapas and, on special occasions, freshly made sardines. A magical spot crafted for having a drink and soaking up its authentic charm at an unhurried pace.',
+    fr: 'L\'essence maritime de Portocubelo dans sa version la plus vivante. Un repaire estival animé avec musique en direct pour savourer un bon vin ou une bière en fin de journée, toujours servi avec ses tapas classiques et, certains soirs, des sardines fraîches. Un coin magique pensé pour boire un verre et savourer toute son authenticité sans se presser.',
+    de: 'Die maritime Essenz von Portocubelo in ihrer lebendigsten Form. Ein stimmungsvoller Sommertreffpunkt mit Live-Musik für ein Glas Wein oder Bier in den Abendstunden, immer serviert mit klassischen Tapas und gelegentlich frisch zubereiteten Sardinen. Ein magischer Ort, um entspannt etwas zu trinken und pure Authentizität zu genießen.',
+    it: 'L\'essenza marinara di Portocubelo nella sua forma più viva. Un vivace rifugio estivo con musica dal vivo per gustare un buon vino o una birra al tramonto, sempre accompagnati da tapas classiche e, in occasioni speciali, sardine fresche. Un angolo magico pensato per bere qualcosa e assaporare tutta la sua autenticità senza fretta.',
+    pt: 'A essência marítima de Portocubelo na sua versão mais viva. Um animado refúgio de verão com música ao vivo para desfrutar de um bom vinho ou cerveja ao fim da tarde, sempre acompanhado do clássico petisco e, em ocasiões especiais, sardinhas acabadas de assar. Um recanto com magia pensado para beber algo e desfrutar da sua autenticidade sem pressas.'
   },
 
   'gastronomy.type.seafood': { es: 'Marisco y pescado fresco', gl: 'Marisco e peixe fresco', en: 'Fresh seafood and fish', fr: 'Fruits de mer et poisson frais', de: 'Frische Meeresfrüchte und Fisch', it: 'Frutti di mare e pesce fresco', pt: 'Marisco e peixe fresco' },
@@ -2002,6 +2002,7 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
   'gastronomy.type.burger': { es: 'Hamburguesería', gl: 'Hamburguería', en: 'Burger restaurant', fr: 'Restaurant de burgers', de: 'Burger-Restaurant', it: 'Hamburgeria', pt: 'Hamburguesaria' },
   'gastronomy.type.gastrobar': { es: 'Gastrobar / Tapas de autor', gl: 'Gastrobar / Tapas de autor', en: 'Gastrobar / Signature Tapas', fr: 'Gastrobar / Tapas d\'auteur', de: 'Gastrobar / Signature Tapas', it: 'Gastrobar / Tapas d\'autore', pt: 'Gastrobar / Tapas de autor' },
   'gastronomy.type.hauteCuisine': { es: 'Alta Cocina / De Autor', gl: 'Alta Cociña / De Autor', en: 'Haute Cuisine / Signature', fr: 'Haute Cuisine / D\'auteur', de: 'Haute Cuisine / Autorenküche', it: 'Alta Cucina / D\'autore', pt: 'Alta Cozinha / De Autor' },
+  'gastronomy.type.bar': { es: 'Bar / Para tomar algo', gl: 'Bar / Para tomar algo', en: 'Bar / Drinks', fr: 'Bar / Boissons', de: 'Bar / Drinks', it: 'Bar / Drink', pt: 'Bar / Para beber' },
 
   'gastronomy.website': { es: 'Sitio Web', gl: 'Sitio Web', en: 'Website', fr: 'Site Web', de: 'Webseite', it: 'Sito Web', pt: 'Site' },
   'gastronomy.googleMaps': { es: 'Ver en Google Maps', gl: 'Ver en Google Maps', en: 'View on Google Maps', fr: 'Voir sur Google Maps', de: 'Auf Google Maps ansehen', it: 'Vedi su Google Maps', pt: 'Ver no Google Maps' },
