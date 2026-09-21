@@ -145,7 +145,7 @@ export function Gastronomy({ onBack }: GastronomyProps) {
                                             <MapPin className="w-4 h-4 flex-shrink-0 text-primary" />
                                             <span className="line-clamp-1">{rest.location}</span>
                                         </div>
-                                        <p className="text-muted-foreground leading-relaxed mb-6 line-clamp-3 font-light text-sm sm:text-base">
+                                        <p className="text-muted-foreground leading-relaxed mb-6 font-light text-sm sm:text-base">
                                             {rest.description}
                                         </p>
                                     </div>

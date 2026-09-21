@@ -1943,13 +1943,13 @@ A Serra de O Barbanza ergue-se a quase 700 metros sobre o mar, oferecendo varand
     pt: 'Hambúrgueres artesanais com ingredientes frescos e de qualidade. O melhor sabor de Lira em cada dentada.'
   },
   'gastronomy.xouba.desc': {
-    es: 'Cocina gallega casera con producto fresco y de calidad. Pescados, mariscos y sabor auténtico de Carnota.',
-    gl: 'Cociña galega caseira con produto fresco e de calidade. Peixes, mariscos e sabor auténtico de Carnota.',
-    en: 'Homemade Galician cuisine with fresh, quality produce. Fish, seafood, and the authentic flavor of Carnota.',
-    fr: 'Cuisine galicienne maison avec des produits frais et de qualité. Poissons, fruits de mer et saveur authentique de Carnota.',
-    de: 'Hausgemachte galicische Küche mit frischen Qualitätsprodukten. Fisch, Meeresfrüchte und der authentische Geschmack von Carnota.',
-    it: 'Cucina casalinga galiziana con prodotti freschi e di qualità. Pesce, frutti di mare e il sapore autentico di Carnota.',
-    pt: 'Cozinha caseira galega com produtos frescos e de qualidade. Peixes, mariscos e o sabor autêntico de Carnota.'
+    es: 'Cocina gallega casera con producto fresco y de calidad. Sabor auténtico de Carnota.',
+    gl: 'Cociña galega caseira con produto fresco e de calidade. Sabor auténtico de Carnota.',
+    en: 'Homemade Galician cuisine with fresh, quality produce. Authentic flavor of Carnota.',
+    fr: 'Cuisine galicienne maison avec des produits frais et de qualité. Saveur authentique de Carnota.',
+    de: 'Hausgemachte galizische Küche mit frischen Qualitätsprodukten. Authentischer Geschmack von Carnota.',
+    it: 'Cucina casalinga galiziana con prodotti freschi e di qualità. Sapore autentico di Carnota.',
+    pt: 'Cozinha caseira galega com produtos frescos e de qualidade. Sabor autêntico de Carnota.'
   },
   'gastronomy.sanfrancisco.desc': {
     es: 'Gastrobar junto al mar con platos originales y cuidados para compartir en un ambiente moderno.',
